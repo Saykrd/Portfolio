@@ -1,0 +1,732 @@
+{
+	"images" : [
+		{"name": "skybg001", "image" : "AlphaBG01"},
+		{"name": "citybg001", "image" : "AlphaBG02"},
+		{"name": "obstacle01", "image" : "Obstacle01"},
+		{"name": "obstacle02", "image" : "Obstacle02"},
+		{"name": "obstacle03", "image" : "Obstacle03"},
+		{"name": "boost", "image" : "BoostPad01"},
+		{"name": "ice", "image" : "IceTexture01"},
+		{"name": "rough", "image" : "RoughTexture01"},
+		{"name": "racemarker", "image" : "RaceMarker01"},
+		{"name": "racebanner", "image" : "RaceBanner"},
+		{"name": "rock01", "image" : "Rock01"},
+		{"name": "rock02", "image" : "Rock02"},
+		{"name": "rock03", "image" : "Rock03"},
+		{"name": "rock04", "image" : "Rock04"},
+		{"name": "rock05", "image" : "Rock05"},
+		{"name": "rock06", "image" : "Rock06"},
+		{"name": "cactus01", "image" : "Cactus01"},
+		{"name": "cactus02", "image" : "Cactus02"},
+
+		{"name": "cone", "image" : "Cone01"},
+		{"name": "barrel", "image" : "Barrel01"},
+
+		{"name": "building01", "image" : "Building01"},
+		{"name": "building02", "image" : "Building02"},
+		{"name": "building03", "image" : "Building03"},
+		{"name": "building04", "image" : "Building04"},
+		{"name": "building05", "image" : "Building05"},
+		{"name": "building06", "image" : "Building06"},
+		{"name": "building07", "image" : "Building07"},
+		{"name": "building08", "image" : "Building08"},
+		{"name": "building09", "image" : "Building09"},
+		{"name": "building10", "image" : "Building10"},
+		{"name": "building11", "image" : "Building11"},
+		{"name": "building12", "image" : "Building12"}
+
+
+	],
+
+	"spritesheets" : [
+		{"name": "HSF_BBooster1",  "image" : "HS_Fiesta_BBooster1Image", "json": "HS_Fiesta_BBooster1Data"},
+		{"name": "HSF_BBooster2",  "image" : "HS_Fiesta_BBooster2Image", "json": "HS_Fiesta_BBooster2Data"},
+		{"name": "HSF_BBroiler1", "image" : "HS_Fiesta_BBroiler1Image", "json": "HS_Fiesta_BBroiler1Data"},
+		{"name": "HSF_BBroiler2", "image" : "HS_Fiesta_BBroiler2Image", "json": "HS_Fiesta_BBroiler2Data"},
+		{"name": "HSF_VVents1",    "image" : "HS_Fiesta_VVents1Image", "json": "HS_Fiesta_VVents1Data"},
+		{"name": "HSF_VVents2",    "image" : "HS_Fiesta_VVents2Image", "json": "HS_Fiesta_VVents2Data"},
+		{"name": "HSF_WFlares1",   "image" : "HS_Fiesta_WFlares1Image", "json": "HS_Fiesta_WFlares1Data"},
+		{"name": "HSF_WFlares2",   "image" : "HS_Fiesta_WFlares2Image", "json": "HS_Fiesta_WFlares2Data"},
+
+
+		{"name": "HSSF_BBooster1",  "image" : "HS_Spitfire_BBooster1Image", "json": "HS_Spitfire_BBooster1Data"},
+		{"name": "HSSF_BBooster2",  "image" : "HS_Spitfire_BBooster2Image", "json": "HS_Spitfire_BBooster2Data"},
+		{"name": "HSSF_BBroiler1", "image" : "HS_Spitfire_BBroiler1Image", "json": "HS_Spitfire_BBroiler1Data"},
+		{"name": "HSSF_BBroiler2", "image" : "HS_Spitfire_BBroiler2Image", "json": "HS_Spitfire_BBroiler2Data"},
+		{"name": "HSSF_VVents1",    "image" : "HS_Spitfire_VVents1Image", "json": "HS_Spitfire_VVents1Data"},
+		{"name": "HSSF_VVents2",    "image" : "HS_Spitfire_VVents2Image", "json": "HS_Spitfire_VVents2Data"},
+		{"name": "HSSF_WFlares1",   "image" : "HS_Spitfire_WFlares1Image", "json": "HS_Spitfire_WFlares1Data"},
+		{"name": "HSSF_WFlares2",   "image" : "HS_Spitfire_WFlares2Image", "json": "HS_Spitfire_WFlares2Data"},
+		
+		
+		{"name": "CCF_GRaiser1", "image" : "CC_Fiesta_GRaiser1Image", "json": "CC_Fiesta_GRaiser1Data"},
+		{"name": "CCF_GRaiser2", "image" : "CC_Fiesta_GRaiser2Image", "json": "CC_Fiesta_GRaiser2Data"},
+		{"name": "CCF_MSpindle1", "image" : "CC_Fiesta_MSpindle1Image", "json": "CC_Fiesta_MSpindle1Data"},
+		{"name": "CCF_MSpindle2", "image" : "CC_Fiesta_MSpindle2Image", "json": "CC_Fiesta_MSpindle2Data"},
+		{"name": "CCF_PPusher1", "image" : "CC_Fiesta_PPusher1Image", "json": "CC_Fiesta_PPusher1Data"},
+		{"name": "CCF_PPusher2", "image" : "CC_Fiesta_PPusher2Image", "json": "CC_Fiesta_PPusher2Data"},
+		{"name": "CCF_SCCruiser1", "image" : "CC_Fiesta_SCCruiser1Image", "json": "CC_Fiesta_SCCruiser1Data"},
+		{"name": "CCF_SCCruiser2", "image" : "CC_Fiesta_SCCruiser2Image", "json": "CC_Fiesta_SCCruiser2Data"},
+
+		
+		{"name": "CCSF_GRaiser1", "image" : "CC_Spitfire_GRaiser1Image", "json": "CC_Spitfire_GRaiser1Data"},
+		{"name": "CCSF_MSpindle1", "image" : "CC_Spitfire_MSpindle1Image", "json": "CC_Spitfire_MSpindle1Data"},
+		{"name": "CCSF_MSpindle2", "image" : "CC_Spitfire_MSpindle2Image", "json": "CC_Spitfire_MSpindle2Data"},
+		{"name": "CCSF_PPusher1", "image" : "CC_Spitfire_PPusher1Image", "json": "CC_Spitfire_PPusher1Data"},
+		{"name": "CCSF_SCCruiser1", "image" : "CC_Spitfire_SCCruiser1Image", "json": "CC_Spitfire_SCCruiser1Data"},
+		{"name": "CCSF_SCCruiser2", "image" : "CC_Spitfire_SCCruiser2Image", "json": "CC_Spitfire_SCCruiser2Data"},
+
+
+		{"name": "HSFX", "image" : "HSFXImage", "json": "HSFXData"},
+		{"name": "CCFX", "image" : "CCFXImage", "json": "CCFXData"},
+
+		{"name": "PowerPod", "image" : "PowerPodImage", "json": "PowerPodData"},
+		{"name": "Gearbit", "image" : "GearbitImage", "json": "GearbitData"},
+
+		{"name": "BonusPrizeBox",   "image" : "BonusFXPrizeBoxImage", "json": "BonusFXPrizeBoxData"},
+		{"name": "BonusElixir",     "image" : "BonusFXElixirImage", "json": "BonusFXElixirData"},
+		{"name": "BonusHourGlass",  "image" : "BonusFXHourGlassImage", "json": "BonusFXHourGlassData"},
+		{"name": "BonusJukebox",    "image" : "BonusFXJukeboxImage", "json": "BonusFXJukeboxData"},
+		{"name": "BonusPowerPods",  "image" : "BonusFXPowerPodsImage", "json": "BonusFXPowerPodsData"},
+		{"name": "BonusShield",     "image" : "BonusFXShieldImage", "json": "BonusFXShieldData"},
+		{"name": "BonusShoe",       "image" : "BonusFXShoeImage", "json": "BonusFXShoeData"},
+		{"name": "BonusSpeedBoost", "image" : "BonusFXSpeedBoostImage", "json": "BonusFXSpeedBoostData"},
+
+		{"name": "Chompy", "image" : "ChompyImage", "json": "ChompyData"},
+		{"name": "Greeble", "image" : "GreebleImage", "json": "GreebleData"},
+		{"name": "Troll", "image" : "TrollImage", "json": "TrollData"},
+
+		{"name": "SuperChargeFX", "image" : "SuperchargeFXImage", "json": "SuperchargeFXData"}
+ 
+
+	],
+
+	"frames" : [
+	],
+
+	"animations" : [
+		{"name": "hsf_bbs_bf_straight", "spritesheet":"HSF_BBooster1", "framePrefix" : "HS_blazeboosters_bluefiretires_straight", "loop" : true, "duration" : 100},		
+		{"name": "hsf_bbs_bf_left",     "spritesheet":"HSF_BBooster1", "framePrefix" : "HS_blazeboosters_bluefiretires_left", "loop" : true, "duration" : 100},		
+		{"name": "hsf_bbs_bf_right",    "spritesheet":"HSF_BBooster1", "framePrefix" : "HS_blazeboosters_bluefiretires_right", "loop" : true, "duration" : 100},
+		{"name": "hsf_bbs_bf_idle",    "spritesheet":"HSF_BBooster2", "framePrefix" : "HS_blazeboosters_bluefiretires_idle", "loop" : true, "duration" : 100},
+
+		{"name": "hsf_bbs_rb_straight", "spritesheet":"HSF_BBooster1", "framePrefix" : "HS_blazeboosters_roadburners_straight", "loop" : true, "duration" : 100},		
+		{"name": "hsf_bbs_rb_left",     "spritesheet":"HSF_BBooster1", "framePrefix" : "HS_blazeboosters_roadburners_left", "loop" : true, "duration" : 100},		
+		{"name": "hsf_bbs_rb_right",    "spritesheet":"HSF_BBooster1", "framePrefix" : "HS_blazeboosters_roadburners_right", "loop" : true, "duration" : 100},
+		{"name": "hsf_bbs_rb_idle",    "spritesheet":"HSF_BBooster2", "framePrefix" : "HS_blazeboosters_roadburners_idle", "loop" : true, "duration" : 100},
+
+		{"name": "hsf_bbs_sd_straight", "spritesheet":"HSF_BBooster1", "framePrefix" : "HS_blazeboosters_speeddemon_straight", "loop" : true, "duration" : 100},		
+		{"name": "hsf_bbs_sd_left",     "spritesheet":"HSF_BBooster1", "framePrefix" : "HS_blazeboosters_speeddemon_left", "loop" : true, "duration" : 100},		
+		{"name": "hsf_bbs_sd_right",    "spritesheet":"HSF_BBooster1", "framePrefix" : "HS_blazeboosters_speeddemon_right", "loop" : true, "duration" : 100},
+		{"name": "hsf_bbs_sd_idle",    "spritesheet":"HSF_BBooster2", "framePrefix" : "HS_blazeboosters_speeddemon_idle", "loop" : true, "duration" : 100},
+
+		{"name": "hsf_bbs_cs_straight", "spritesheet":"HSF_BBooster1", "framePrefix" : "HS_blazeboosters_coalshooters_straight", "loop" : true, "duration" : 100},		
+		{"name": "hsf_bbs_cs_left",     "spritesheet":"HSF_BBooster1", "framePrefix" : "HS_blazeboosters_coalshooters_left", "loop" : true, "duration" : 100},		
+		{"name": "hsf_bbs_cs_right",    "spritesheet":"HSF_BBooster1", "framePrefix" : "HS_blazeboosters_coalshooters_right", "loop" : true, "duration" : 100},
+		{"name": "hsf_bbs_cs_idle",    "spritesheet":"HSF_BBooster2", "framePrefix" : "HS_blazeboosters_coalshooters_idle", "loop" : true, "duration" : 100},
+
+
+
+		{"name": "hssf_bbs_bf_straight", "spritesheet":"HSSF_BBooster1", "framePrefix" : "HS_blazeboosters_bluefiretires_straight", "loop" : true, "duration" : 100},		
+		{"name": "hssf_bbs_bf_left",     "spritesheet":"HSSF_BBooster1", "framePrefix" : "HS_blazeboosters_bluefiretires_left", "loop" : true, "duration" : 100},		
+		{"name": "hssf_bbs_bf_right",    "spritesheet":"HSSF_BBooster1", "framePrefix" : "HS_blazeboosters_bluefiretires_right", "loop" : true, "duration" : 100},
+		{"name": "hssf_bbs_bf_idle",    "spritesheet":"HSSF_BBooster2", "framePrefix" : "HS_blazeboosters_bluefiretires_idle", "loop" : true, "duration" : 100},
+
+		{"name": "hssf_bbs_rb_straight", "spritesheet":"HSSF_BBooster1", "framePrefix" : "HS_blazeboosters_roadburners_straight", "loop" : true, "duration" : 100},		
+		{"name": "hssf_bbs_rb_left",     "spritesheet":"HSSF_BBooster1", "framePrefix" : "HS_blazeboosters_roadburners_left", "loop" : true, "duration" : 100},		
+		{"name": "hssf_bbs_rb_right",    "spritesheet":"HSSF_BBooster1", "framePrefix" : "HS_blazeboosters_roadburners_right", "loop" : true, "duration" : 100},
+		{"name": "hssf_bbs_rb_idle",    "spritesheet":"HSSF_BBooster2", "framePrefix" : "HS_blazeboosters_roadburners_idle", "loop" : true, "duration" : 100},
+
+		{"name": "hssf_bbs_sd_straight", "spritesheet":"HSSF_BBooster1", "framePrefix" : "HS_blazeboosters_speeddemon_straight", "loop" : true, "duration" : 100},		
+		{"name": "hssf_bbs_sd_left",     "spritesheet":"HSSF_BBooster1", "framePrefix" : "HS_blazeboosters_speeddemon_left", "loop" : true, "duration" : 100},		
+		{"name": "hssf_bbs_sd_right",    "spritesheet":"HSSF_BBooster1", "framePrefix" : "HS_blazeboosters_speeddemon_right", "loop" : true, "duration" : 100},
+		{"name": "hssf_bbs_sd_idle",    "spritesheet":"HSSF_BBooster2", "framePrefix" : "HS_blazeboosters_speeddemon_idle", "loop" : true, "duration" : 100},
+
+		{"name": "hssf_bbs_cs_straight", "spritesheet":"HSSF_BBooster1", "framePrefix" : "HS_blazeboosters_coalshooters_straight", "loop" : true, "duration" : 100},		
+		{"name": "hssf_bbs_cs_left",     "spritesheet":"HSSF_BBooster1", "framePrefix" : "HS_blazeboosters_coalshooters_left", "loop" : true, "duration" : 100},		
+		{"name": "hssf_bbs_cs_right",    "spritesheet":"HSSF_BBooster1", "framePrefix" : "HS_blazeboosters_coalshooters_right", "loop" : true, "duration" : 100},
+		{"name": "hssf_bbs_cs_idle",    "spritesheet":"HSSF_BBooster2", "framePrefix" : "HS_blazeboosters_coalshooters_idle", "loop" : true, "duration" : 100},
+	
+
+
+
+		{"name": "hsf_bbl_bf_straight", "spritesheet":"HSF_BBroiler1", "framePrefix" : "HS_blockbroiler_bluefiretires_straight", "loop" : true, "duration" : 100},		
+		{"name": "hsf_bbl_bf_left",     "spritesheet":"HSF_BBroiler1", "framePrefix" : "HS_blockbroiler_bluefiretires_left", "loop" : true, "duration" : 100},		
+		{"name": "hsf_bbl_bf_right",    "spritesheet":"HSF_BBroiler1", "framePrefix" : "HS_blockbroiler_bluefiretires_right", "loop" : true, "duration" : 100},
+	 	{"name": "hsf_bbl_bf_idle",    "spritesheet":"HSF_BBroiler2", "framePrefix" : "HS_blockbroiler_bluefiretires_idle", "loop" : true, "duration" : 100},
+
+		{"name": "hsf_bbl_rb_straight", "spritesheet":"HSF_BBroiler2", "framePrefix" : "HS_blockbroiler_roadburners_straight", "loop" : true, "duration" : 100},		
+		{"name": "hsf_bbl_rb_left",     "spritesheet":"HSF_BBroiler2", "framePrefix" : "HS_blockbroiler_roadburners_left", "loop" : true, "duration" : 100},		
+		{"name": "hsf_bbl_rb_right",    "spritesheet":"HSF_BBroiler2", "framePrefix" : "HS_blockbroiler_roadburners_right", "loop" : true, "duration" : 100},
+	 	{"name": "hsf_bbl_rb_idle",    "spritesheet":"HSF_BBroiler2", "framePrefix" : "HS_blockbroiler_roadburners_idle", "loop" : true, "duration" : 100},
+
+		{"name": "hsf_bbl_sd_straight", "spritesheet":"HSF_BBroiler1", "framePrefix" : "HS_blockbroiler_speeddemon_straight", "loop" : true, "duration" : 100},		
+		{"name": "hsf_bbl_sd_left",     "spritesheet":"HSF_BBroiler1", "framePrefix" : "HS_blockbroiler_speeddemon_left", "loop" : true, "duration" : 100},		
+		{"name": "hsf_bbl_sd_right",    "spritesheet":"HSF_BBroiler2", "framePrefix" : "HS_blockbroiler_speeddemon_right", "loop" : true, "duration" : 100},
+		{"name": "hsf_bbl_sd_idle",    "spritesheet":"HSF_BBroiler2", "framePrefix" : "HS_blockbroiler_speeddemon_idle", "loop" : true, "duration" : 100},
+
+		{"name": "hsf_bbl_cs_straight", "spritesheet":"HSF_BBroiler1", "framePrefix" : "HS_blockbroiler_coalshooters_straight", "loop" : true, "duration" : 100},		
+		{"name": "hsf_bbl_cs_left",     "spritesheet":"HSF_BBroiler1", "framePrefix" : "HS_blockbroiler_coalshooters_left", "loop" : true, "duration" : 100},		
+		{"name": "hsf_bbl_cs_right",    "spritesheet":"HSF_BBroiler1", "framePrefix" : "HS_blockbroiler_coalshooters_right", "loop" : true, "duration" : 100},
+		{"name": "hsf_bbl_cs_idle",    "spritesheet":"HSF_BBroiler2", "framePrefix" : "HS_blockbroiler_coalshooters_idle", "loop" : true, "duration" : 100},
+ 
+
+		{"name": "hssf_bbl_bf_straight", "spritesheet":"HSSF_BBroiler1", "framePrefix" : "HS_blockbroiler_bluefiretires_straight", "loop" : true, "duration" : 100},		
+		{"name": "hssf_bbl_bf_left",     "spritesheet":"HSSF_BBroiler1", "framePrefix" : "HS_blockbroiler_bluefiretires_left", "loop" : true, "duration" : 100},		
+		{"name": "hssf_bbl_bf_right",    "spritesheet":"HSSF_BBroiler1", "framePrefix" : "HS_blockbroiler_bluefiretires_right", "loop" : true, "duration" : 100},
+	 	{"name": "hssf_bbl_bf_idle",    "spritesheet":"HSSF_BBroiler2", "framePrefix" : "HS_blockbroiler_bluefiretires_idle", "loop" : true, "duration" : 100},
+
+		{"name": "hssf_bbl_rb_straight", "spritesheet":"HSSF_BBroiler2", "framePrefix" : "HS_blockbroiler_roadburners_straight", "loop" : true, "duration" : 100},		
+		{"name": "hssf_bbl_rb_left",     "spritesheet":"HSSF_BBroiler2", "framePrefix" : "HS_blockbroiler_roadburners_left", "loop" : true, "duration" : 100},		
+		{"name": "hssf_bbl_rb_right",    "spritesheet":"HSSF_BBroiler2", "framePrefix" : "HS_blockbroiler_roadburners_right", "loop" : true, "duration" : 100},
+	 	{"name": "hssf_bbl_rb_idle",    "spritesheet":"HSSF_BBroiler2", "framePrefix" : "HS_blockbroiler_roadburners_idle", "loop" : true, "duration" : 100},
+
+		{"name": "hssf_bbl_sd_straight", "spritesheet":"HSSF_BBroiler1", "framePrefix" : "HS_blockbroiler_speeddemon_straight", "loop" : true, "duration" : 100},		
+		{"name": "hssf_bbl_sd_left",     "spritesheet":"HSSF_BBroiler1", "framePrefix" : "HS_blockbroiler_speeddemon_left", "loop" : true, "duration" : 100},		
+		{"name": "hssf_bbl_sd_right",    "spritesheet":"HSSF_BBroiler1", "framePrefix" : "HS_blockbroiler_speeddemon_right", "loop" : true, "duration" : 100},
+	 	{"name": "hssf_bbl_sd_idle",    "spritesheet":"HSSF_BBroiler2", "framePrefix" : "HS_blockbroiler_speeddemon_idle", "loop" : true, "duration" : 100},
+
+		{"name": "hssf_bbl_cs_straight", "spritesheet":"HSSF_BBroiler1", "framePrefix" : "HS_blockbroiler_coalshooters_straight", "loop" : true, "duration" : 100},		
+		{"name": "hssf_bbl_cs_left",     "spritesheet":"HSSF_BBroiler1", "framePrefix" : "HS_blockbroiler_coalshooters_left", "loop" : true, "duration" : 100},		
+		{"name": "hssf_bbl_cs_right",    "spritesheet":"HSSF_BBroiler1", "framePrefix" : "HS_blockbroiler_coalshooters_right", "loop" : true, "duration" : 100},
+		{"name": "hssf_bbl_cs_idle",    "spritesheet":"HSSF_BBroiler2", "framePrefix" : "HS_blockbroiler_coalshooters_idle", "loop" : true, "duration" : 100},
+ 
+
+
+
+
+
+		{"name": "hsf_vv_bf_straight", "spritesheet":"HSF_VVents1", "framePrefix" : "HS_volcanicvents_bluefiretires_straight", "loop" : true, "duration" : 100},		
+		{"name": "hsf_vv_bf_left",     "spritesheet":"HSF_VVents1", "framePrefix" : "HS_volcanicvents_bluefiretires_left", "loop" : true, "duration" : 100},		
+		{"name": "hsf_vv_bf_right",    "spritesheet":"HSF_VVents1", "framePrefix" : "HS_volcanicvents_bluefiretires_right", "loop" : true, "duration" : 100},
+		{"name": "hsf_vv_bf_idle",    "spritesheet":"HSF_VVents2", "framePrefix" : "HS_volcanicvents_bluefiretires_idle", "loop" : true, "duration" : 100},
+ 
+		{"name": "hsf_vv_rb_straight", "spritesheet":"HSF_VVents1", "framePrefix" : "HS_volcanicvents_roadburners_straight", "loop" : true, "duration" : 100},		
+		{"name": "hsf_vv_rb_left",     "spritesheet":"HSF_VVents1", "framePrefix" : "HS_volcanicvents_roadburners_left", "loop" : true, "duration" : 100},		
+		{"name": "hsf_vv_rb_right",    "spritesheet":"HSF_VVents1", "framePrefix" : "HS_volcanicvents_roadburners_right", "loop" : true, "duration" : 100},
+		{"name": "hsf_vv_rb_idle",    "spritesheet":"HSF_VVents2", "framePrefix" : "HS_volcanicvents_roadburners_idle", "loop" : true, "duration" : 100},
+ 
+		{"name": "hsf_vv_sd_straight", "spritesheet":"HSF_VVents1", "framePrefix" : "HS_volcanicvents_speeddemon_straight", "loop" : true, "duration" : 100},		
+		{"name": "hsf_vv_sd_left",     "spritesheet":"HSF_VVents1", "framePrefix" : "HS_volcanicvents_speeddemon_left", "loop" : true, "duration" : 100},		
+		{"name": "hsf_vv_sd_right",    "spritesheet":"HSF_VVents1", "framePrefix" : "HS_volcanicvents_speeddemon_right", "loop" : true, "duration" : 100},
+		{"name": "hsf_vv_sd_idle",    "spritesheet":"HSF_VVents2", "framePrefix" : "HS_volcanicvents_speeddemon_idle", "loop" : true, "duration" : 100},
+ 
+		{"name": "hsf_vv_cs_straight", "spritesheet":"HSF_VVents1", "framePrefix" : "HS_volcanicvents_coalshooters_straight", "loop" : true, "duration" : 100},		
+		{"name": "hsf_vv_cs_left",     "spritesheet":"HSF_VVents1", "framePrefix" : "HS_volcanicvents_coalshooters_left", "loop" : true, "duration" : 100},		
+		{"name": "hsf_vv_cs_right",    "spritesheet":"HSF_VVents1", "framePrefix" : "HS_volcanicvents_coalshooters_right", "loop" : true, "duration" : 100},
+		{"name": "hsf_vv_cs_idle",    "spritesheet":"HSF_VVents2", "framePrefix" : "HS_volcanicvents_coalshooters_idle", "loop" : true, "duration" : 100},
+ 
+
+		{"name": "hssf_vv_bf_straight", "spritesheet":"HSSF_VVents1", "framePrefix" : "HS_volcanicvents_bluefiretires_straight", "loop" : true, "duration" : 100},		
+		{"name": "hssf_vv_bf_left",     "spritesheet":"HSSF_VVents1", "framePrefix" : "HS_volcanicvents_bluefiretires_left", "loop" : true, "duration" : 100},		
+		{"name": "hssf_vv_bf_right",    "spritesheet":"HSSF_VVents1", "framePrefix" : "HS_volcanicvents_bluefiretires_right", "loop" : true, "duration" : 100},
+		{"name": "hssf_vv_bf_idle",    "spritesheet":"HSSF_VVents2", "framePrefix" : "HS_volcanicvents_bluefiretires_idle", "loop" : true, "duration" : 100},
+ 
+		{"name": "hssf_vv_rb_straight", "spritesheet":"HSSF_VVents1", "framePrefix" : "HS_volcanicvents_roadburners_straight", "loop" : true, "duration" : 100},		
+		{"name": "hssf_vv_rb_left",     "spritesheet":"HSSF_VVents1", "framePrefix" : "HS_volcanicvents_roadburners_left", "loop" : true, "duration" : 100},		
+		{"name": "hssf_vv_rb_right",    "spritesheet":"HSSF_VVents1", "framePrefix" : "HS_volcanicvents_roadburners_right", "loop" : true, "duration" : 100},
+		{"name": "hssf_vv_rb_idle",    "spritesheet":"HSSF_VVents2", "framePrefix" : "HS_volcanicvents_roadburners_idle", "loop" : true, "duration" : 100},
+ 
+		{"name": "hssf_vv_sd_straight", "spritesheet":"HSSF_VVents1", "framePrefix" : "HS_volcanicvents_speeddemon_straight", "loop" : true, "duration" : 100},		
+		{"name": "hssf_vv_sd_left",     "spritesheet":"HSSF_VVents1", "framePrefix" : "HS_volcanicvents_speeddemon_left", "loop" : true, "duration" : 100},		
+		{"name": "hssf_vv_sd_right",    "spritesheet":"HSSF_VVents1", "framePrefix" : "HS_volcanicvents_speeddemon_right", "loop" : true, "duration" : 100},
+		{"name": "hssf_vv_sd_idle",    "spritesheet":"HSSF_VVents2", "framePrefix" : "HS_volcanicvents_speeddemon_idle", "loop" : true, "duration" : 100},
+ 
+		{"name": "hssf_vv_cs_straight", "spritesheet":"HSSF_VVents1", "framePrefix" : "HS_volcanicvents_coalshooters_straight", "loop" : true, "duration" : 100},		
+		{"name": "hssf_vv_cs_left",     "spritesheet":"HSSF_VVents1", "framePrefix" : "HS_volcanicvents_coalshooters_left", "loop" : true, "duration" : 100},		
+		{"name": "hssf_vv_cs_right",    "spritesheet":"HSSF_VVents1", "framePrefix" : "HS_volcanicvents_coalshooters_right", "loop" : true, "duration" : 100},
+		{"name": "hssf_vv_cs_idle",    "spritesheet":"HSSF_VVents2", "framePrefix" : "HS_volcanicvents_coalshooters_idle", "loop" : true, "duration" : 100},
+ 
+
+
+
+
+		{"name": "hsf_wf_bf_straight", "spritesheet":"HSF_WFlares1", "framePrefix" : "HS_windflares_bluefiretires_straight", "loop" : true, "duration" : 100},		
+		{"name": "hsf_wf_bf_left",     "spritesheet":"HSF_WFlares1", "framePrefix" : "HS_windflares_bluefiretires_left", "loop" : true, "duration" : 100},		
+		{"name": "hsf_wf_bf_right",    "spritesheet":"HSF_WFlares1", "framePrefix" : "HS_windflares_bluefiretires_right", "loop" : true, "duration" : 100},
+		{"name": "hsf_wf_bf_idle",    "spritesheet":"HSF_WFlares2", "framePrefix" : "HS_windflares_bluefiretires_idle", "loop" : true, "duration" : 100},
+ 
+		{"name": "hsf_wf_rb_straight", "spritesheet":"HSF_WFlares1", "framePrefix" : "HS_windflares_roadburners_straight", "loop" : true, "duration" : 100},		
+		{"name": "hsf_wf_rb_left",     "spritesheet":"HSF_WFlares1", "framePrefix" : "HS_windflares_roadburners_left", "loop" : true, "duration" : 100},		
+		{"name": "hsf_wf_rb_right",    "spritesheet":"HSF_WFlares1", "framePrefix" : "HS_windflares_roadburners_right", "loop" : true, "duration" : 100},
+		{"name": "hsf_wf_rb_idle",    "spritesheet":"HSF_WFlares2", "framePrefix" : "HS_windflares_roadburners_idle", "loop" : true, "duration" : 100},
+ 
+		{"name": "hsf_wf_sd_straight", "spritesheet":"HSF_WFlares1", "framePrefix" : "HS_windflares_speeddemon_straight", "loop" : true, "duration" : 100},		
+		{"name": "hsf_wf_sd_left",     "spritesheet":"HSF_WFlares1", "framePrefix" : "HS_windflares_speeddemon_left", "loop" : true, "duration" : 100},		
+		{"name": "hsf_wf_sd_right",    "spritesheet":"HSF_WFlares1", "framePrefix" : "HS_windflares_speeddemon_right", "loop" : true, "duration" : 100},
+		{"name": "hsf_wf_sd_idle",    "spritesheet":"HSF_WFlares2", "framePrefix" : "HS_windflares_speeddemon_idle", "loop" : true, "duration" : 100},
+ 
+		{"name": "hsf_wf_cs_straight", "spritesheet":"HSF_WFlares1", "framePrefix" : "HS_windflares_coalshooters_straight", "loop" : true, "duration" : 100},		
+		{"name": "hsf_wf_cs_left",     "spritesheet":"HSF_WFlares1", "framePrefix" : "HS_windflares_coalshooters_left", "loop" : true, "duration" : 100},		
+		{"name": "hsf_wf_cs_right",    "spritesheet":"HSF_WFlares1", "framePrefix" : "HS_windflares_coalshooters_right", "loop" : true, "duration" : 100},
+		{"name": "hsf_wf_cs_idle",    "spritesheet":"HSF_WFlares2", "framePrefix" : "HS_windflares_coalshooters_idle", "loop" : true, "duration" : 100},
+ 
+
+		{"name": "hssf_wf_bf_straight", "spritesheet":"HSSF_WFlares1", "framePrefix" : "HS_windflares_bluefiretires_straight", "loop" : true, "duration" : 100},		
+		{"name": "hssf_wf_bf_left",     "spritesheet":"HSSF_WFlares1", "framePrefix" : "HS_windflares_bluefiretires_left", "loop" : true, "duration" : 100},		
+		{"name": "hssf_wf_bf_right",    "spritesheet":"HSSF_WFlares1", "framePrefix" : "HS_windflares_bluefiretires_right", "loop" : true, "duration" : 100},
+		{"name": "hssf_wf_bf_idle",    "spritesheet":"HSSF_WFlares2", "framePrefix" : "HS_windflares_bluefiretires_idle", "loop" : true, "duration" : 100},
+ 
+		{"name": "hssf_wf_rb_straight", "spritesheet":"HSSF_WFlares1", "framePrefix" : "HS_windflares_roadburners_straight", "loop" : true, "duration" : 100},		
+		{"name": "hssf_wf_rb_left",     "spritesheet":"HSSF_WFlares1", "framePrefix" : "HS_windflares_roadburners_left", "loop" : true, "duration" : 100},		
+		{"name": "hssf_wf_rb_right",    "spritesheet":"HSSF_WFlares1", "framePrefix" : "HS_windflares_roadburners_right", "loop" : true, "duration" : 100},
+		{"name": "hssf_wf_rb_idle",    "spritesheet":"HSSF_WFlares2", "framePrefix" : "HS_windflares_roadburners_idle", "loop" : true, "duration" : 100},
+ 
+		{"name": "hssf_wf_sd_straight", "spritesheet":"HSSF_WFlares1", "framePrefix" : "HS_windflares_speeddemon_straight", "loop" : true, "duration" : 100},		
+		{"name": "hssf_wf_sd_left",     "spritesheet":"HSSF_WFlares1", "framePrefix" : "HS_windflares_speeddemon_left", "loop" : true, "duration" : 100},		
+		{"name": "hssf_wf_sd_right",    "spritesheet":"HSSF_WFlares1", "framePrefix" : "HS_windflares_speeddemon_right", "loop" : true, "duration" : 100},
+		{"name": "hssf_wf_sd_idle",    "spritesheet":"HSSF_WFlares2", "framePrefix" : "HS_windflares_speeddemon_idle", "loop" : true, "duration" : 100},
+ 
+		{"name": "hssf_wf_cs_straight", "spritesheet":"HSSF_WFlares1", "framePrefix" : "HS_windflares_coalshooters_straight", "loop" : true, "duration" : 100},		
+		{"name": "hssf_wf_cs_left",     "spritesheet":"HSSF_WFlares1", "framePrefix" : "HS_windflares_coalshooters_left", "loop" : true, "duration" : 100},		
+		{"name": "hssf_wf_cs_right",    "spritesheet":"HSSF_WFlares1", "framePrefix" : "HS_windflares_coalshooters_right", "loop" : true, "duration" : 100},
+		{"name": "hssf_wf_cs_idle",    "spritesheet":"HSSF_WFlares2", "framePrefix" : "HS_windflares_coalshooters_idle", "loop" : true, "duration" : 100},
+ 
+
+
+
+
+		{"name": "ccf_gr_ffe_straight", "spritesheet":"CCF_GRaiser1", "framePrefix" : "CC_graveraiser_FFengine_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccf_gr_ffe_left",     "spritesheet":"CCF_GRaiser1", "framePrefix" : "CC_graveraiser_FFengine_left", "loop" : true, "duration" : 100},		
+		{"name": "ccf_gr_ffe_right",    "spritesheet":"CCF_GRaiser1", "framePrefix" : "CC_graveraiser_FFengine_right", "loop" : true, "duration" : 100},
+		{"name": "ccf_gr_ffe_idle",    "spritesheet":"CCF_GRaiser2", "framePrefix" : "CC_graveraiser_FFengine_idle", "loop" : true, "duration" : 100},
+
+
+		{"name": "ccf_gr_ccl_straight", "spritesheet":"CCF_GRaiser1", "framePrefix" : "CC_graveraiser_coffinclapper_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccf_gr_ccl_left",     "spritesheet":"CCF_GRaiser1", "framePrefix" : "CC_graveraiser_coffinclapper_left", "loop" : true, "duration" : 100},		
+		{"name": "ccf_gr_ccl_right",    "spritesheet":"CCF_GRaiser1", "framePrefix" : "CC_graveraiser_coffinclapper_right", "loop" : true, "duration" : 100},
+		{"name": "ccf_gr_ccl_idle",    "spritesheet":"CCF_GRaiser2", "framePrefix" : "CC_graveraiser_coffinclapper_idle", "loop" : true, "duration" : 100},
+
+
+		{"name": "ccf_gr_mm_straight", "spritesheet":"CCF_GRaiser1", "framePrefix" : "CC_graveraiser_mummymotif_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccf_gr_mm_left",     "spritesheet":"CCF_GRaiser1", "framePrefix" : "CC_graveraiser_mummymotif_left", "loop" : true, "duration" : 100},		
+		{"name": "ccf_gr_mm_right",    "spritesheet":"CCF_GRaiser1", "framePrefix" : "CC_graveraiser_mummymotif_right", "loop" : true, "duration" : 100},
+		{"name": "ccf_gr_mm_idle",    "spritesheet":"CCF_GRaiser2", "framePrefix" : "CC_graveraiser_mummymotif_idle", "loop" : true, "duration" : 100},
+
+
+		{"name": "ccf_gr_wg_straight", "spritesheet":"CCF_GRaiser1", "framePrefix" : "CC_graveraiser_woodgeist_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccf_gr_wg_left",     "spritesheet":"CCF_GRaiser1", "framePrefix" : "CC_graveraiser_woodgeist_left", "loop" : true, "duration" : 100},		
+		{"name": "ccf_gr_wg_right",    "spritesheet":"CCF_GRaiser1", "framePrefix" : "CC_graveraiser_woodgeist_right", "loop" : true, "duration" : 100},
+		{"name": "ccf_gr_wg_idle",    "spritesheet":"CCF_GRaiser2", "framePrefix" : "CC_graveraiser_woodgeist_idle", "loop" : true, "duration" : 100},
+
+
+
+
+		{"name": "ccsf_gr_ffe_straight", "spritesheet":"CCSF_GRaiser1", "framePrefix" : "CC_graveraiser_FFengine_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_gr_ffe_left",     "spritesheet":"CCSF_GRaiser1", "framePrefix" : "CC_graveraiser_FFengine_left", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_gr_ffe_right",    "spritesheet":"CCSF_GRaiser1", "framePrefix" : "CC_graveraiser_FFengine_right", "loop" : true, "duration" : 100},
+
+
+		{"name": "ccsf_gr_ccl_straight", "spritesheet":"CCSF_GRaiser1", "framePrefix" : "CC_graveraiser_coffinclapper_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_gr_ccl_left",     "spritesheet":"CCSF_GRaiser1", "framePrefix" : "CC_graveraiser_coffinclapper_left", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_gr_ccl_right",    "spritesheet":"CCSF_GRaiser1", "framePrefix" : "CC_graveraiser_coffinclapper_right", "loop" : true, "duration" : 100},
+
+
+		{"name": "ccsf_gr_mm_straight", "spritesheet":"CCSF_GRaiser1", "framePrefix" : "CC_graveraiser_mummymotif_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_gr_mm_left",     "spritesheet":"CCSF_GRaiser1", "framePrefix" : "CC_graveraiser_mummymotif_left", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_gr_mm_right",    "spritesheet":"CCSF_GRaiser1", "framePrefix" : "CC_graveraiser_mummymotif_right", "loop" : true, "duration" : 100},
+
+
+		{"name": "ccsf_gr_wg_straight", "spritesheet":"CCSF_GRaiser1", "framePrefix" : "CC_graveraiser_woodgeist_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_gr_wg_left",     "spritesheet":"CCSF_GRaiser1", "framePrefix" : "CC_graveraiser_woodgeist_left", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_gr_wg_right",    "spritesheet":"CCSF_GRaiser1", "framePrefix" : "CC_graveraiser_woodgeist_right", "loop" : true, "duration" : 100},
+
+
+
+
+
+		{"name": "ccf_scc_ffe_straight", "spritesheet":"CCF_SCCruiser1", "framePrefix" : "CC_stagecoachcruiser_FFengine_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccf_scc_ffe_left",     "spritesheet":"CCF_SCCruiser1", "framePrefix" : "CC_stagecoachcruiser_FFengine_left", "loop" : true, "duration" : 100},		
+		{"name": "ccf_scc_ffe_right",    "spritesheet":"CCF_SCCruiser1", "framePrefix" : "CC_stagecoachcruiser_FFengine_right", "loop" : true, "duration" : 100},
+		{"name": "ccf_scc_ffe_idle",    "spritesheet":"CCF_SCCruiser2", "framePrefix" : "CC_stagecoachcruiser_FFengine_idle", "loop" : true, "duration" : 100},
+   
+		{"name": "ccf_scc_ccl_straight", "spritesheet":"CCF_SCCruiser1", "framePrefix" : "CC_stagecoachcruiser_coffinclapper_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccf_scc_ccl_left",     "spritesheet":"CCF_SCCruiser1", "framePrefix" : "CC_stagecoachcruiser_coffinclapper_left", "loop" : true, "duration" : 100},		
+		{"name": "ccf_scc_ccl_right",    "spritesheet":"CCF_SCCruiser1", "framePrefix" : "CC_stagecoachcruiser_coffinclapper_right", "loop" : true, "duration" : 100},
+		{"name": "ccf_scc_ccl_idle",    "spritesheet":"CCF_SCCruiser2", "framePrefix" : "CC_stagecoachcruiser_coffinclapper_idle", "loop" : true, "duration" : 100},
+   
+		{"name": "ccf_scc_mm_straight", "spritesheet":"CCF_SCCruiser1", "framePrefix" : "CC_stagecoachcruiser_mummymotif_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccf_scc_mm_left",     "spritesheet":"CCF_SCCruiser1", "framePrefix" : "CC_stagecoachcruiser_mummymotif_left", "loop" : true, "duration" : 100},		
+		{"name": "ccf_scc_mm_right",    "spritesheet":"CCF_SCCruiser1", "framePrefix" : "CC_stagecoachcruiser_mummymotif_right", "loop" : true, "duration" : 100},
+		{"name": "ccf_scc_mm_idle",    "spritesheet":"CCF_SCCruiser2", "framePrefix" : "CC_stagecoachcruiser_mummymotif_idle", "loop" : true, "duration" : 100},
+   
+		{"name": "ccf_scc_wg_straight", "spritesheet":"CCF_SCCruiser1", "framePrefix" : "CC_stagecoachcruiser_woodgeist_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccf_scc_wg_left",     "spritesheet":"CCF_SCCruiser1", "framePrefix" : "CC_stagecoachcruiser_woodgeist_left", "loop" : true, "duration" : 100},		
+		{"name": "ccf_scc_wg_right",    "spritesheet":"CCF_SCCruiser1", "framePrefix" : "CC_stagecoachcruiser_woodgeist_right", "loop" : true, "duration" : 100},
+		{"name": "ccf_scc_wg_idle",    "spritesheet":"CCF_SCCruiser2", "framePrefix" : "CC_stagecoachcruiser_woodgeist_idle", "loop" : true, "duration" : 100},
+   
+
+		{"name": "ccsf_scc_ffe_straight", "spritesheet":"CCSF_SCCruiser1", "framePrefix" : "CC_stagecoachcruiser_FFengine_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_scc_ffe_left",     "spritesheet":"CCSF_SCCruiser1", "framePrefix" : "CC_stagecoachcruiser_FFengine_left", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_scc_ffe_right",    "spritesheet":"CCSF_SCCruiser1", "framePrefix" : "CC_stagecoachcruiser_FFengine_right", "loop" : true, "duration" : 100},
+		{"name": "ccsf_scc_ffe_idle",    "spritesheet":"CCSF_SCCruiser2", "framePrefix" : "CC_stagecoachcruiser_FFengine_idle", "loop" : true, "duration" : 100},
+   
+		{"name": "ccsf_scc_ccl_straight", "spritesheet":"CCSF_SCCruiser1", "framePrefix" : "CC_stagecoachcruiser_coffinclapper_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_scc_ccl_left",     "spritesheet":"CCSF_SCCruiser1", "framePrefix" : "CC_stagecoachcruiser_coffinclapper_left", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_scc_ccl_right",    "spritesheet":"CCSF_SCCruiser1", "framePrefix" : "CC_stagecoachcruiser_coffinclapper_right", "loop" : true, "duration" : 100},
+		{"name": "ccsf_scc_ccl_idle",    "spritesheet":"CCSF_SCCruiser2", "framePrefix" : "CC_stagecoachcruiser_coffinclapper_idle", "loop" : true, "duration" : 100},
+   
+		{"name": "ccsf_scc_mm_straight", "spritesheet":"CCSF_SCCruiser1", "framePrefix" : "CC_stagecoachcruiser_mummymotif_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_scc_mm_left",     "spritesheet":"CCSF_SCCruiser1", "framePrefix" : "CC_stagecoachcruiser_mummymotif_left", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_scc_mm_right",    "spritesheet":"CCSF_SCCruiser1", "framePrefix" : "CC_stagecoachcruiser_mummymotif_right", "loop" : true, "duration" : 100},
+		{"name": "ccsf_scc_mm_idle",    "spritesheet":"CCSF_SCCruiser2", "framePrefix" : "CC_stagecoachcruiser_mummymotif_idle", "loop" : true, "duration" : 100},
+   
+		{"name": "ccsf_scc_wg_straight", "spritesheet":"CCF_SCCruiser1", "framePrefix" : "CC_stagecoachcruiser_woodgeist_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_scc_wg_left",     "spritesheet":"CCF_SCCruiser1", "framePrefix" : "CC_stagecoachcruiser_woodgeist_left", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_scc_wg_right",    "spritesheet":"CCF_SCCruiser1", "framePrefix" : "CC_stagecoachcruiser_woodgeist_right", "loop" : true, "duration" : 100},
+		{"name": "ccsf_scc_wg_idle",    "spritesheet":"CCF_SCCruiser2", "framePrefix" : "CC_stagecoachcruiser_woodgeist_idle", "loop" : true, "duration" : 100},
+   
+
+
+
+
+		{"name": "ccf_pp_ffe_straight", "spritesheet":"CCF_PPusher1", "framePrefix" : "CC_pp_FFengine_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccf_pp_ffe_left",     "spritesheet":"CCF_PPusher1", "framePrefix" : "CC_pp_FFengine_left", "loop" : true, "duration" : 100},		
+		{"name": "ccf_pp_ffe_right",    "spritesheet":"CCF_PPusher1", "framePrefix" : "CC_pp_FFengine_right", "loop" : true, "duration" : 100},
+		{"name": "ccf_pp_ffe_idle",    "spritesheet":"CCF_PPusher2", "framePrefix" : "CC_pp_FFengine_idle", "loop" : true, "duration" : 100},
+  
+		{"name": "ccf_pp_ccl_straight", "spritesheet":"CCF_PPusher1", "framePrefix" : "CC_pp_coffinclapper_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccf_pp_ccl_left",     "spritesheet":"CCF_PPusher1", "framePrefix" : "CC_pp_coffinclapper_left", "loop" : true, "duration" : 100},		
+		{"name": "ccf_pp_ccl_right",    "spritesheet":"CCF_PPusher1", "framePrefix" : "CC_pp_coffinclapper_right", "loop" : true, "duration" : 100},
+		{"name": "ccf_pp_ccl_idle",    "spritesheet":"CCF_PPusher2", "framePrefix" : "CC_pp_coffinclapper_idle", "loop" : true, "duration" : 100},
+  
+		{"name": "ccf_pp_mm_straight", "spritesheet":"CCF_PPusher1", "framePrefix" : "CC_pp_mummymotif_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccf_pp_mm_left",     "spritesheet":"CCF_PPusher1", "framePrefix" : "CC_pp_mummymotif_left", "loop" : true, "duration" : 100},		
+		{"name": "ccf_pp_mm_right",    "spritesheet":"CCF_PPusher1", "framePrefix" : "CC_pp_mummymotif_right", "loop" : true, "duration" : 100},
+		{"name": "ccf_pp_mm_idle",    "spritesheet":"CCF_PPusher2", "framePrefix" : "CC_pp_mummymotif_idle", "loop" : true, "duration" : 100},
+  
+		{"name": "ccf_pp_wg_straight", "spritesheet":"CCF_PPusher1", "framePrefix" : "CC_pp_woodgeist_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccf_pp_wg_left",     "spritesheet":"CCF_PPusher1", "framePrefix" : "CC_pp_woodgeist_left", "loop" : true, "duration" : 100},		
+		{"name": "ccf_pp_wg_right",    "spritesheet":"CCF_PPusher1", "framePrefix" : "CC_pp_woodgeist_right", "loop" : true, "duration" : 100},
+		{"name": "ccf_pp_wg_idle",    "spritesheet":"CCF_PPusher2", "framePrefix" : "CC_pp_woodgeist_idle", "loop" : true, "duration" : 100},
+  
+
+
+		{"name": "ccsf_pp_ffe_straight", "spritesheet":"CCSF_PPusher1", "framePrefix" : "CC_pp_FFengine_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_pp_ffe_left",     "spritesheet":"CCSF_PPusher1", "framePrefix" : "CC_pp_FFengine_left", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_pp_ffe_right",    "spritesheet":"CCSF_PPusher1", "framePrefix" : "CC_pp_FFengine_right", "loop" : true, "duration" : 100},
+		
+  
+		{"name": "ccsf_pp_ccl_straight", "spritesheet":"CCSF_PPusher1", "framePrefix" : "CC_pp_coffinclapper_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_pp_ccl_left",     "spritesheet":"CCSF_PPusher1", "framePrefix" : "CC_pp_coffinclapper_left", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_pp_ccl_right",    "spritesheet":"CCSF_PPusher1", "framePrefix" : "CC_pp_coffinclapper_right", "loop" : true, "duration" : 100},
+		
+  
+		{"name": "ccsf_pp_mm_straight", "spritesheet":"CCSF_PPusher1", "framePrefix" : "CC_pp_mummymotif_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_pp_mm_left",     "spritesheet":"CCSF_PPusher1", "framePrefix" : "CC_pp_mummymotif_left", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_pp_mm_right",    "spritesheet":"CCSF_PPusher1", "framePrefix" : "CC_pp_mummymotif_right", "loop" : true, "duration" : 100},
+		
+ 
+		{"name": "ccsf_pp_wg_straight", "spritesheet":"CCSF_PPusher1", "framePrefix" : "CC_pp_woodgeist_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_pp_wg_left",     "spritesheet":"CCSF_PPusher1", "framePrefix" : "CC_pp_woodgeist_left", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_pp_wg_right",    "spritesheet":"CCSF_PPusher1", "framePrefix" : "CC_pp_woodgeist_right", "loop" : true, "duration" : 100},
+		
+  
+
+
+
+		{"name": "ccf_ms_ffe_straight", "spritesheet":"CCF_MSpindle1", "framePrefix" : "CC_mumspindle_FFengine_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccf_ms_ffe_left",     "spritesheet":"CCF_MSpindle1", "framePrefix" : "CC_mumspindle_FFengine_left", "loop" : true, "duration" : 100},		
+		{"name": "ccf_ms_ffe_right",    "spritesheet":"CCF_MSpindle1", "framePrefix" : "CC_mumspindle_FFengine_right", "loop" : true, "duration" : 100},
+		{"name": "ccf_ms_ffe_idle",    "spritesheet":"CCF_MSpindle2", "framePrefix" : "CC_mumspindle_FFengine_idle", "loop" : true, "duration" : 100},
+
+
+		{"name": "ccf_ms_ccl_straight", "spritesheet":"CCF_MSpindle1", "framePrefix" : "CC_mumspindle_coffinclapper_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccf_ms_ccl_left",     "spritesheet":"CCF_MSpindle1", "framePrefix" : "CC_mumspindle_coffinclapper_left", "loop" : true, "duration" : 100},		
+		{"name": "ccf_ms_ccl_right",    "spritesheet":"CCF_MSpindle1", "framePrefix" : "CC_mumspindle_coffinclapper_right", "loop" : true, "duration" : 100},
+		{"name": "ccf_ms_ccl_idle",    "spritesheet":"CCF_MSpindle2", "framePrefix" : "CC_mumspindle_coffinclapper_idle", "loop" : true, "duration" : 100},
+
+
+		{"name": "ccf_ms_mm_straight", "spritesheet":"CCF_MSpindle1", "framePrefix" : "CC_mumspindle_mummymotif_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccf_ms_mm_left",     "spritesheet":"CCF_MSpindle1", "framePrefix" : "CC_mumspindle_mummymotif_left", "loop" : true, "duration" : 100},		
+		{"name": "ccf_ms_mm_right",    "spritesheet":"CCF_MSpindle1", "framePrefix" : "CC_mumspindle_mummymotif_right", "loop" : true, "duration" : 100},
+		{"name": "ccf_ms_mm_idle",    "spritesheet":"CCF_MSpindle2", "framePrefix" : "CC_mumspindle_mummymotif_idle", "loop" : true, "duration" : 100},
+
+
+		{"name": "ccf_ms_wg_straight", "spritesheet":"CCF_MSpindle1", "framePrefix" : "CC_mumspindle_woodgeist_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccf_ms_wg_left",     "spritesheet":"CCF_MSpindle1", "framePrefix" : "CC_mumspindle_woodgeist_left", "loop" : true, "duration" : 100},		
+		{"name": "ccf_ms_wg_right",    "spritesheet":"CCF_MSpindle1", "framePrefix" : "CC_mumspindle_woodgeist_right", "loop" : true, "duration" : 100},
+		{"name": "ccf_ms_wg_idle",    "spritesheet":"CCF_MSpindle2", "framePrefix" : "CC_mumspindle_woodgeist_idle", "loop" : true, "duration" : 100},
+
+
+
+
+		{"name": "ccsf_ms_ffe_straight", "spritesheet":"CCSF_MSpindle1", "framePrefix" : "CC_mumspindle_FFengine_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_ms_ffe_left",     "spritesheet":"CCSF_MSpindle1", "framePrefix" : "CC_mumspindle_FFengine_left", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_ms_ffe_right",    "spritesheet":"CCSF_MSpindle1", "framePrefix" : "CC_mumspindle_FFengine_right", "loop" : true, "duration" : 100},
+		{"name": "ccsf_ms_ffe_idle",    "spritesheet":"CCSF_MSpindle2", "framePrefix" : "CC_mumspindle_FFengine_idle", "loop" : true, "duration" : 100},
+
+
+		{"name": "ccsf_ms_ccl_straight", "spritesheet":"CCSF_MSpindle1", "framePrefix" : "CC_mumspindle_coffinclapper_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_ms_ccl_left",     "spritesheet":"CCSF_MSpindle1", "framePrefix" : "CC_mumspindle_coffinclapper_left", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_ms_ccl_right",    "spritesheet":"CCSF_MSpindle1", "framePrefix" : "CC_mumspindle_coffinclapper_right", "loop" : true, "duration" : 100},
+		{"name": "ccsf_ms_ccl_idle",    "spritesheet":"CCSF_MSpindle2", "framePrefix" : "CC_mumspindle_coffinclapper_idle", "loop" : true, "duration" : 100},
+
+
+		{"name": "ccsf_ms_mm_straight", "spritesheet":"CCSF_MSpindle1", "framePrefix" : "CC_mumspindle_mummymotif_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_ms_mm_left",     "spritesheet":"CCSF_MSpindle1", "framePrefix" : "CC_mumspindle_mummymotif_left", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_ms_mm_right",    "spritesheet":"CCSF_MSpindle1", "framePrefix" : "CC_mumspindle_mummymotif_right", "loop" : true, "duration" : 100},
+		{"name": "ccsf_ms_mm_idle",    "spritesheet":"CCSF_MSpindle2", "framePrefix" : "CC_mumspindle_mummymotif_idle", "loop" : true, "duration" : 100},
+
+
+		{"name": "ccsf_ms_wg_straight", "spritesheet":"CCSF_MSpindle1", "framePrefix" : "CC_mumspindle_woodgeist_straight", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_ms_wg_left",     "spritesheet":"CCSF_MSpindle1", "framePrefix" : "CC_mumspindle_woodgeist_left", "loop" : true, "duration" : 100},		
+		{"name": "ccsf_ms_wg_right",    "spritesheet":"CCSF_MSpindle1", "framePrefix" : "CC_mumspindle_woodgeist_right", "loop" : true, "duration" : 100},
+		{"name": "ccsf_ms_wg_idle",    "spritesheet":"CCSF_MSpindle2", "framePrefix" : "CC_mumspindle_woodgeist_idle", "loop" : true, "duration" : 100},
+
+
+	
+
+
+		{"name": "supercharge_fx_straight", "spritesheet":"SuperChargeFX", "framePrefix" : "supercharge_fx_straight", "loop" : false, "duration" : 466},		
+		{"name": "supercharge_fx_left",     "spritesheet":"SuperChargeFX", "framePrefix" : "supercharge_fx_left", "loop" : false, "duration" : 466},		
+		{"name": "supercharge_fx_right",    "spritesheet":"SuperChargeFX", "framePrefix" : "supercharge_fx_right", "loop" : false, "duration" : 466},
+
+		{"name": "hs_atk1",    "spritesheet":"HSFX", "framePrefix" : "HS_atk1_fx", "loop" : false, "duration" : 1000},
+		{"name": "hs_atk1_hit",    "spritesheet":"HSFX", "framePrefix" : "HS_atk1_hit_fx", "loop" : false, "duration" : 500},		
+		{"name": "hs_atk2",    "spritesheet":"HSFX", "framePrefix" : "HS_atk2_fx_dome", "loop" : true, "duration" : 1000},		
+
+		{"name": "cc_atk1",    "spritesheet":"CCFX", "framePrefix" : "CC_atk1_notes_merge", "loop" : false, "duration" : 550},
+		{"name": "cc_atk1fx",    "spritesheet":"CCFX", "framePrefix" : "CC_atk1_streaks_merge", "loop" : false, "duration" : 550},
+
+		{"name": "cc_atk2_2",    "spritesheet":"CCFX", "framePrefix" : "CC_atk2_fx1", "loop" : false, "duration" : 550},
+		{"name": "cc_atk2_1",    "spritesheet":"CCFX", "framePrefix" : "CC_atk2_fx2", "loop" : false, "duration" : 550},
+		{"name": "cc_atk2_hit",    "spritesheet":"CCFX", "framePrefix" : "CC_atk2_hit_fx", "loop" : false, "duration" : 550},
+
+
+
+		{"name": "gearbit_get",  "spritesheet":"Gearbit", "framePrefix" : "gearbit_get", "loop" : false, "duration" : 200},
+		{"name": "gearbit_idle",  "spritesheet":"Gearbit", "framePrefix" : "gearbit_idle", "loop" : true, "duration" : 1000},
+		
+		{"name": "gearbit2_get",  "spritesheet":"Gearbit", "framePrefix" : "gearbit_orange_get", "loop" : false, "duration" : 200},
+		{"name": "gearbit2_idle",  "spritesheet":"Gearbit", "framePrefix" : "gearbit_orange_idle", "loop" : true, "duration" : 1000},
+		
+
+
+		{"name": "powerpod_get",  "spritesheet":"PowerPod", "framePrefix" : "powerpod_get", "loop" : false, "duration" : 200},
+		{"name": "powerpod_idle",  "spritesheet":"PowerPod", "framePrefix" : "powerpod_idle", "loop" : true, "duration" : 1000},
+		{"name": "powerpods_get_fx",  "spritesheet":"BonusPowerPods", "framePrefix" : "bonus_powerpods_get_fx", "loop" : false, "duration" : 550},
+		
+		{"name": "prize_get",  "spritesheet":"BonusPrizeBox", "framePrefix" : "bonus_prizebox_get_fx", "loop" : false, "duration" : 200},
+		{"name": "prize_idle",  "spritesheet":"BonusPrizeBox", "framePrefix" : "bonus_prizebox_idle", "loop" : true, "duration" : 1000},
+		
+		{"name": "elixir_get",  "spritesheet":"BonusElixir", "framePrefix" : "bonus_elixir_get_fx", "loop" : false, "duration" : 550},
+		{"name": "elixir_overlay",  "spritesheet":"BonusElixir", "framePrefix" : "bonus_elixir_overlay_fx", "loop" : true, "duration" : 550},
+
+		{"name": "hourglass_get",  "spritesheet":"BonusHourGlass", "framePrefix" : "bonus_hourglass_get_fx", "loop" : false, "duration" : 550},
+		{"name": "hourglass_overlay",  "spritesheet":"BonusHourGlass", "framePrefix" : "bonus_hourglass_overlay_fx", "loop" : true, "duration" : 550},
+
+		{"name": "jukebox_get",  "spritesheet":"BonusJukebox", "framePrefix" : "bonus_jukebox_get_fx", "loop" : false, "duration" : 550},
+		{"name": "jukebox_overlay",  "spritesheet":"BonusJukebox", "framePrefix" : "bonus_jukebox_overlay_fx", "loop" : true, "duration" : 550},
+
+				
+		{"name": "chompycar_drive",  "spritesheet":"Chompy", "framePrefix" : "chompycar_drive", "loop" : true, "duration" : 550},
+		{"name": "chompy_walk",  "spritesheet":"Chompy", "framePrefix" : "chompy_walk", "loop" : true, "duration" : 550},
+
+		{"name": "troll_walk",  "spritesheet":"Troll", "framePrefix" : "troll_walk", "loop" : true, "duration" : 550},
+		{"name": "troll_hit",  "spritesheet":"Troll", "framePrefix" : "troll_hit", "loop" : true, "duration" : 550},
+
+		{"name": "greeble_walk",  "spritesheet":"Greeble", "framePrefix" : "greeble_walk", "loop" : true, "duration" : 550},
+		{"name": "greeble_hit",  "spritesheet":"Greeble", "framePrefix" : "greeble_hit", "loop" : true, "duration" : 550},
+
+
+		{"name": "shield_get",  "spritesheet":"BonusShield", "framePrefix" : "bonus_shield_get_fx", "loop" : false, "duration" : 550},
+		{"name": "shield_overlay",  "spritesheet":"BonusShield", "framePrefix" : "bonus_shield_overlay_fx", "loop" : true, "duration" : 550},
+
+		{"name": "shoe_get",  "spritesheet":"BonusShoe", "framePrefix" : "bonus_shoe_get_fx", "loop" : false, "duration" : 450},
+		{"name": "shoe_overlay",  "spritesheet":"BonusShoe", "framePrefix" : "bonus_shoe_overlay_fx", "loop" : true, "duration" : 200},
+
+		{"name": "speedboost_get",  "spritesheet":"BonusSpeedBoost", "framePrefix" : "bonus_speedboost_fx", "loop" : false, "duration" : 300}
+
+
+	],
+
+	"textures": [
+		{"name": "boostpad", "imageID":"boost"},
+		{"name": "icefloor", "imageID":"ice"},
+		{"name": "roughfloor", "imageID":"rough"},
+		{"name": "racemarker", "imageID":"racemarker"}
+	],
+
+	"displayDefinitions" : {
+		"default": {"type" : "image", "data" : "structure"},
+
+		"hsf_bbs_bf" : {"type" : "anim", "data" : ["hsf_bbs_bf_straight", "hsf_bbs_bf_left", "hsf_bbs_bf_right", "hsf_bbs_bf_idle"], "behavior" : "car"},
+		"hsf_bbs_rb" : {"type" : "anim", "data" : ["hsf_bbs_rb_straight", "hsf_bbs_rb_left", "hsf_bbs_rb_right", "hsf_bbs_rb_idle"], "behavior" : "car"},
+		"hsf_bbs_sd" : {"type" : "anim", "data" : ["hsf_bbs_sd_straight", "hsf_bbs_sd_left", "hsf_bbs_sd_right", "hsf_bbs_sd_idle"], "behavior" : "car"},
+		"hsf_bbs_cs" : {"type" : "anim", "data" : ["hsf_bbs_cs_straight", "hsf_bbs_cs_left", "hsf_bbs_cs_right", "hsf_bbs_cs_idle"], "behavior" : "car"},
+
+		"hsf_bbl_bf" : {"type" : "anim", "data" : ["hsf_bbl_bf_straight", "hsf_bbl_bf_left", "hsf_bbl_bf_right", "hsf_bbl_bf_idle"], "behavior" : "car"},
+		"hsf_bbl_rb" : {"type" : "anim", "data" : ["hsf_bbl_rb_straight", "hsf_bbl_rb_left", "hsf_bbl_rb_right", "hsf_bbl_rb_idle"], "behavior" : "car"},
+		"hsf_bbl_sd" : {"type" : "anim", "data" : ["hsf_bbl_sd_straight", "hsf_bbl_sd_left", "hsf_bbl_sd_right", "hsf_bbl_sd_idle"], "behavior" : "car"},
+		"hsf_bbl_cs" : {"type" : "anim", "data" : ["hsf_bbl_cs_straight", "hsf_bbl_cs_left", "hsf_bbl_cs_right", "hsf_bbl_cs_idle"], "behavior" : "car"},
+
+		"hsf_vv_bf" : {"type" : "anim", "data" : ["hsf_vv_bf_straight", "hsf_vv_bf_left", "hsf_vv_bf_right", "hsf_vv_bf_idle"], "behavior" : "car"},
+		"hsf_vv_rb" : {"type" : "anim", "data" : ["hsf_vv_rb_straight", "hsf_vv_rb_left", "hsf_vv_rb_right", "hsf_vv_rb_idle"], "behavior" : "car"},
+		"hsf_vv_sd" : {"type" : "anim", "data" : ["hsf_vv_sd_straight", "hsf_vv_sd_left", "hsf_vv_sd_right", "hsf_vv_sd_idle"], "behavior" : "car"},
+		"hsf_vv_cs" : {"type" : "anim", "data" : ["hsf_vv_cs_straight", "hsf_vv_cs_left", "hsf_vv_cs_right", "hsf_vv_cs_idle"], "behavior" : "car"},
+
+		"hsf_wf_bf" : {"type" : "anim", "data" : ["hsf_wf_bf_straight", "hsf_wf_bf_left", "hsf_wf_bf_right", "hsf_wf_bf_idle"], "behavior" : "car"},
+		"hsf_wf_rb" : {"type" : "anim", "data" : ["hsf_wf_rb_straight", "hsf_wf_rb_left", "hsf_wf_rb_right", "hsf_wf_rb_idle"], "behavior" : "car"},
+		"hsf_wf_sd" : {"type" : "anim", "data" : ["hsf_wf_sd_straight", "hsf_wf_sd_left", "hsf_wf_sd_right", "hsf_wf_sd_idle"], "behavior" : "car"},
+		"hsf_wf_cs" : {"type" : "anim", "data" : ["hsf_wf_cs_straight", "hsf_wf_cs_left", "hsf_wf_cs_right", "hsf_wf_cs_idle"], "behavior" : "car"},
+
+
+		"hssf_bbs_bf" : {"type" : "anim", "data" : ["hssf_bbs_bf_straight", "hssf_bbs_bf_left", "hssf_bbs_bf_right", "hssf_bbs_bf_idle"], "behavior" : "car"},
+		"hssf_bbs_rb" : {"type" : "anim", "data" : ["hssf_bbs_rb_straight", "hssf_bbs_rb_left", "hssf_bbs_rb_right", "hssf_bbs_rb_idle"], "behavior" : "car"},
+		"hssf_bbs_sd" : {"type" : "anim", "data" : ["hssf_bbs_sd_straight", "hssf_bbs_sd_left", "hssf_bbs_sd_right", "hssf_bbs_sd_idle"], "behavior" : "car"},
+		"hssf_bbs_cs" : {"type" : "anim", "data" : ["hssf_bbs_cs_straight", "hssf_bbs_cs_left", "hssf_bbs_cs_right", "hssf_bbs_cs_idle"], "behavior" : "car"},
+
+		"hssf_bbl_bf" : {"type" : "anim", "data" : ["hssf_bbl_bf_straight", "hssf_bbl_bf_left", "hssf_bbl_bf_right", "hssf_bbl_bf_idle"], "behavior" : "car"},
+		"hssf_bbl_rb" : {"type" : "anim", "data" : ["hssf_bbl_rb_straight", "hssf_bbl_rb_left", "hssf_bbl_rb_right", "hssf_bbl_rb_idle"], "behavior" : "car"},
+		"hssf_bbl_sd" : {"type" : "anim", "data" : ["hssf_bbl_sd_straight", "hssf_bbl_sd_left", "hssf_bbl_sd_right", "hssf_bbl_sd_idle"], "behavior" : "car"},
+		"hssf_bbl_cs" : {"type" : "anim", "data" : ["hssf_bbl_cs_straight", "hssf_bbl_cs_left", "hssf_bbl_cs_right", "hssf_bbl_cs_idle"], "behavior" : "car"},
+
+		"hssf_vv_bf" : {"type" : "anim", "data" : ["hssf_vv_bf_straight", "hssf_vv_bf_left", "hssf_vv_bf_right", "hssf_vv_bf_idle"], "behavior" : "car"},
+		"hssf_vv_rb" : {"type" : "anim", "data" : ["hssf_vv_rb_straight", "hssf_vv_rb_left", "hssf_vv_rb_right", "hssf_vv_rb_idle"], "behavior" : "car"},
+		"hssf_vv_sd" : {"type" : "anim", "data" : ["hssf_vv_sd_straight", "hssf_vv_sd_left", "hssf_vv_sd_right", "hssf_vv_sd_idle"], "behavior" : "car"},
+		"hssf_vv_cs" : {"type" : "anim", "data" : ["hssf_vv_cs_straight", "hssf_vv_cs_left", "hssf_vv_cs_right", "hssf_vv_cs_idle"], "behavior" : "car"},
+
+		"hssf_wf_bf" : {"type" : "anim", "data" : ["hssf_wf_bf_straight", "hssf_wf_bf_left", "hssf_wf_bf_right", "hssf_wf_bf_idle"], "behavior" : "car"},
+		"hssf_wf_rb" : {"type" : "anim", "data" : ["hssf_wf_rb_straight", "hssf_wf_rb_left", "hssf_wf_rb_right", "hssf_wf_rb_idle"], "behavior" : "car"},
+		"hssf_wf_sd" : {"type" : "anim", "data" : ["hssf_wf_sd_straight", "hssf_wf_sd_left", "hssf_wf_sd_right", "hssf_wf_sd_idle"], "behavior" : "car"},
+		"hssf_wf_cs" : {"type" : "anim", "data" : ["hssf_wf_cs_straight", "hssf_wf_cs_left", "hssf_wf_cs_right", "hssf_wf_cs_idle"], "behavior" : "car"},
+
+
+
+
+		"ccf_gr_ffe" : {"type" : "anim", "data" : ["ccf_gr_ffe_straight", "ccf_gr_ffe_left", "ccf_gr_ffe_right", "ccf_gr_ffe_idle"], "behavior" : "car"},
+		"ccf_gr_ccl" : {"type" : "anim", "data" : ["ccf_gr_ccl_straight", "ccf_gr_ccl_left", "ccf_gr_ccl_right", "ccf_gr_ccl_idle"], "behavior" : "car"},
+		"ccf_gr_mm" : {"type" : "anim", "data" : ["ccf_gr_mm_straight", "ccf_gr_mm_left", "ccf_gr_mm_right", "ccf_gr_mm_idle"], "behavior" : "car"},
+		"ccf_gr_wg" : {"type" : "anim", "data" : ["ccf_gr_wg_straight", "ccf_gr_wg_left", "ccf_gr_wg_right", "ccf_gr_wg_idle"], "behavior" : "car"},
+
+		"ccsf_gr_ffe" : {"type" : "anim", "data" : ["ccsf_gr_ffe_straight", "ccsf_gr_ffe_left", "ccsf_gr_ffe_right", "ccf_gr_ffe_idle"], "behavior" : "car"},
+		"ccsf_gr_ccl" : {"type" : "anim", "data" : ["ccsf_gr_ccl_straight", "ccsf_gr_ccl_left", "ccsf_gr_ccl_right", "ccf_gr_ccl_idle"], "behavior" : "car"},
+		"ccsf_gr_mm" : {"type" : "anim", "data" : ["ccsf_gr_mm_straight", "ccsf_gr_mm_left", "ccsf_gr_mm_right", "ccf_gr_mm_idle"], "behavior" : "car"},
+		"ccsf_gr_wg" : {"type" : "anim", "data" : ["ccsf_gr_wg_straight", "ccsf_gr_wg_left", "ccsf_gr_wg_right", "ccf_gr_wg_idle"], "behavior" : "car"},
+
+
+
+		"ccf_scc_ffe" : {"type" : "anim", "data" : ["ccf_scc_ffe_straight", "ccf_scc_ffe_left", "ccf_scc_ffe_right", "ccf_scc_ffe_idle"], "behavior" : "car"},
+		"ccf_scc_ccl" : {"type" : "anim", "data" : ["ccf_scc_ccl_straight", "ccf_scc_ccl_left", "ccf_scc_ccl_right", "ccf_scc_ccl_idle"], "behavior" : "car"},
+		"ccf_scc_mm" : {"type" : "anim", "data" : ["ccf_scc_mm_straight", "ccf_scc_mm_left", "ccf_scc_mm_right", "ccf_scc_mm_idle"], "behavior" : "car"},
+		"ccf_scc_wg" : {"type" : "anim", "data" : ["ccf_scc_wg_straight", "ccf_scc_wg_left", "ccf_scc_wg_right", "ccf_scc_wg_idle"], "behavior" : "car"},
+
+		"ccsf_scc_ffe" : {"type" : "anim", "data" : ["ccsf_scc_ffe_straight", "ccsf_scc_ffe_left", "ccsf_scc_ffe_right", "ccsf_scc_ffe_idle"], "behavior" : "car"},
+		"ccsf_scc_ccl" : {"type" : "anim", "data" : ["ccsf_scc_ccl_straight", "ccsf_scc_ccl_left", "ccsf_scc_ccl_right", "ccsf_scc_ccl_idle"], "behavior" : "car"},
+		"ccsf_scc_mm" : {"type" : "anim", "data" : ["ccsf_scc_mm_straight", "ccsf_scc_mm_left", "ccsf_scc_mm_right", "ccsf_scc_mm_idle"], "behavior" : "car"},
+		"ccsf_scc_wg" : {"type" : "anim", "data" : ["ccsf_scc_wg_straight", "ccsf_scc_wg_left", "ccsf_scc_wg_right", "ccsf_scc_wg_idle"], "behavior" : "car"},
+
+
+		"ccf_ms_ffe" : {"type" : "anim", "data" : ["ccf_ms_ffe_straight", "ccf_ms_ffe_left", "ccf_ms_ffe_right", "ccf_ms_ffe_idle"], "behavior" : "car"},
+		"ccf_ms_ccl" : {"type" : "anim", "data" : ["ccf_ms_ccl_straight", "ccf_ms_ccl_left", "ccf_ms_ccl_right", "ccf_ms_ccl_idle"], "behavior" : "car"},
+		"ccf_ms_mm" : {"type" : "anim", "data" : ["ccf_ms_mm_straight", "ccf_ms_mm_left", "ccf_ms_mm_right", "ccf_ms_mm_idle"], "behavior" : "car"},
+		"ccf_ms_wg" : {"type" : "anim", "data" : ["ccf_ms_wg_straight", "ccf_ms_wg_left", "ccf_ms_wg_right", "ccf_ms_wg_idle"], "behavior" : "car"},
+
+		"ccsf_ms_ffe" : {"type" : "anim", "data" : ["ccsf_ms_ffe_straight", "ccsf_ms_ffe_left", "ccsf_ms_ffe_right", "ccsf_ms_ffe_idle"], "behavior" : "car"},
+		"ccsf_ms_ccl" : {"type" : "anim", "data" : ["ccsf_ms_ccl_straight", "ccsf_ms_ccl_left", "ccsf_ms_ccl_right", "ccsf_ms_ccl_idle"], "behavior" : "car"},
+		"ccsf_ms_mm" : {"type" : "anim", "data" : ["ccsf_ms_mm_straight", "ccsf_ms_mm_left", "ccsf_ms_mm_right", "ccsf_ms_mm_idle"], "behavior" : "car"},
+		"ccsf_ms_wg" : {"type" : "anim", "data" : ["ccsf_ms_wg_straight", "ccsf_ms_wg_left", "ccsf_ms_wg_right", "ccsf_ms_wg_idle"], "behavior" : "car"},
+
+
+		"ccf_pp_ffe" : {"type" : "anim", "data" : ["ccf_pp_ffe_straight", "ccf_pp_ffe_left", "ccf_pp_ffe_right", "ccf_pp_ffe_idle"], "behavior" : "car"},
+		"ccf_pp_ccl" : {"type" : "anim", "data" : ["ccf_pp_ccl_straight", "ccf_pp_ccl_left", "ccf_pp_ccl_right", "ccf_pp_ccl_idle"], "behavior" : "car"},
+		"ccf_pp_mm" : {"type" : "anim", "data" : ["ccf_pp_mm_straight", "ccf_pp_mm_left", "ccf_pp_mm_right", "ccf_pp_mm_idle"], "behavior" : "car"},
+		"ccf_pp_wg" : {"type" : "anim", "data" : ["ccf_pp_wg_straight", "ccf_pp_wg_left", "ccf_pp_wg_right", "ccf_pp_wg_idle"], "behavior" : "car"},
+
+		"ccsf_pp_ffe" : {"type" : "anim", "data" : ["ccsf_pp_ffe_straight", "ccsf_pp_ffe_left", "ccsf_pp_ffe_right", "ccf_pp_ffe_idle"], "behavior" : "car"},
+		"ccsf_pp_ccl" : {"type" : "anim", "data" : ["ccsf_pp_ccl_straight", "ccsf_pp_ccl_left", "ccsf_pp_ccl_right", "ccf_pp_ccl_idle"], "behavior" : "car"},
+		"ccsf_pp_mm" : {"type" : "anim", "data" : ["ccsf_pp_mm_straight", "ccsf_pp_mm_left", "ccsf_pp_mm_right", "ccf_pp_mm_idle"], "behavior" : "car"},
+		"ccsf_pp_wg" : {"type" : "anim", "data" : ["ccsf_pp_wg_straight", "ccsf_pp_wg_left", "ccsf_pp_wg_right", "ccf_pp_wg_idle"], "behavior" : "car"},
+
+		
+
+		"chompycar":  {"type" : "anim", "data" : "chompycar_drive", "behavior" : "car", "scale" : 1.5},
+		"supercharge" : {"type" : "anim", "data" : ["supercharge_fx_straight", "supercharge_fx_left", "supercharge_fx_right"], "behavior" : "superchargeFX"},
+		"hs_shoot":  {"type" : "anim", "data" : "hs_atk1", "behavior" : "hs_fireball", "scale" : 2.5},
+		"hs_shoot_hit":  {"type" : "anim", "data" : "hs_atk1_hit", "behavior" : "remove_on_end", "scale" : 3},
+		"hs_charge": {"type" : "anim", "data" : "hs_atk2", "behavior" : "", "ignoreClip" : true},
+
+		"cc_shoot":  {"type" : "anim", "data" : "cc_atk1", "behavior" : "cc_fire1", "scale" : 2},
+		"cc_shootfx":  {"type" : "anim", "data" : "cc_atk1fx", "behavior" : "", "scale" : 2},
+		"cc_shoot2":  {"type" : "anim", "data" : ["cc_atk2_1", "cc_atk2_2"], "behavior" : "cc_fire2", "scale" : 2},
+		"cc_shoot2fx":  {"type" : "anim", "data" : ["cc_atk2_1", "cc_atk2_2"], "behavior" : "", "scale" : 2},
+		"cc_shoot2_hit":  {"type" : "anim", "data" : "cc_atk2_hit", "behavior" : "", "scale" : 5},
+
+		"speedboost_get":  {"type" : "anim", "data" : "speedboost_get", "behavior" : "remove_on_end", "scale" : 1},
+		"powerpods_get_fx":  {"type" : "anim", "data" : "powerpods_get_fx", "behavior" : "remove_on_end", "scale" : 1},
+		"prize_get":  {"type" : "anim", "data" : "prize_get", "behavior" : "remove_on_end", "scale" : 1},
+
+
+
+		"bonus_elixir":  {"type" : "anim", "data" : ["elixir_get", "elixir_overlay"], "behavior" : "bonus", "scale" : 1},
+		"bonus_shield":  {"type" : "anim", "data" : ["shield_get", "shield_overlay"], "behavior" : "bonus", "scale" : 1},
+		
+		"bonus_hourglass":  {"type" : "anim", "data" : "hourglass_get", "behavior" : "remove_on_end", "scale" : 1},
+		"bonus_hourglass_effect":  {"type" : "anim", "data" : ["hourglass_get", "hourglass_overlay"], "behavior" : "bonus", "scale" : 1},
+		"bonus_jukebox":  {"type" : "anim", "data" : ["jukebox_get", "jukebox_overlay"], "behavior" : "bonus", "scale" : 1},
+
+		"bonus_shoe":  {"type" : "anim", "data" : ["shoe_get", "shoe_overlay"], "behavior" : "bonus", "scale" : 1},
+
+		
+
+		"car" : {"type" : "anim", "data" : ["car_default", "car_left", "car_right"], "behavior" : "car"},
+		"tree": {"type" : "frame", "data" : "tree"},
+		"mysterybox": {"type" : "anim", "data" : "prize_idle", "scale" :3, "behavior" : "collectable"},
+		
+		"obstacle01": {"type" : "image", "data" : "obstacle01", "scale" : 4, "behavior" : "destructable"},
+		"obstacle02": {"type" : "image", "data" : "obstacle02", "scale" : 4, "behavior" : "destructable"},
+		"obstacle03": {"type" : "image", "data" : "obstacle03", "scale" : 4, "behavior" : "destructable"},
+		
+		"gearbit": {"type" : "anim", "data" :  ["gearbit_idle", "gearbit_get"], "scale" : 2, "behavior" : "collectable"},
+		"gearbit2": {"type" : "anim", "data" :  ["gearbit2_idle", "gearbit2_get"], "scale" : 2, "behavior" : "collectable"},
+		"powerpod": {"type" : "anim", "data" : ["powerpod_idle", "powerpod_get"], "scale" : 2, "behavior" : "collectable"},
+		"fireball": {"type" : "image", "data" : "fireball", "behavior" : "fireball"},
+		"boostpad" : {"type": "texture", "data" : "boostpad"},
+		"icefloor" : {"type": "texture", "data" : "icefloor"},
+		"roughfloor" : {"type": "texture", "data" : "roughfloor"},
+		"racemarker" : {"type": "texture", "data" : "racemarker"},
+		"racebanner" : {"type": "image", "data" : "racebanner", "scale" : 4},
+		"rock01" : {"type": "image", "data" : "rock01", "scale" : 3},
+		"rock02" : {"type": "image", "data" : "rock02", "scale" : 3},
+		"rock03" : {"type": "image", "data" : "rock03", "scale" : 3},
+		"rock04" : {"type": "image", "data" : "rock04", "scale" : 3},
+		"rock05" : {"type": "image", "data" : "rock05", "scale" : 7},
+		"rock06" : {"type": "image", "data" : "rock06", "scale" : 10},
+		"rock01_1" : {"type": "image", "data" : "rock01", "scale" : 5},
+		"rock02_1" : {"type": "image", "data" : "rock02", "scale" : 5},
+		"rock03_1" : {"type": "image", "data" : "rock03", "scale" : 5},
+		"rock04_1" : {"type": "image", "data" : "rock04", "scale" : 5},
+
+		"cone01" : {"type": "image", "data" : "cone", "scale" : 3, "behavior" : "destructable"},
+		"barrel01" : {"type": "image", "data" : "barrel", "scale" : 3, "behavior" : "destructable"},
+
+		"cactus01" : {"type": "image", "data" : "cactus01", "scale" : 3},
+		"cactus02" : {"type": "image", "data" : "cactus02", "scale" : 3},
+
+		"chompy" : {"type": "anim", "data" : "chompy_walk", "scale" : 1, "behavior" : "destructable"},
+		"greeble" : {"type": "anim", "data" : "greeble_walk", "scale" : 1.2, "behavior" : "destructable"},
+		"troll" : {"type": "anim", "data" : "troll_walk", "scale" : 3, "behavior" : "destructable"},
+
+		"building01" : {"type": "image", "data" : "building01", "scale" : 3},
+		"building01_2" : {"type": "image", "data" : "building01", "scale" : 5},
+		"building01_3" : {"type": "image", "data" : "building01", "scale" : 4},
+		"building02" : {"type": "image", "data" : "building02", "scale" : 3},
+		"building02_2" : {"type": "image", "data" : "building02", "scale" : 4},
+		"building02_3" : {"type": "image", "data" : "building02", "scale" : 5},
+		"building03" : {"type": "image", "data" : "building03", "scale" : 3},
+		"building03_1" : {"type": "image", "data" : "building03", "scale" : 3},
+		"building03_2" : {"type": "image", "data" : "building03", "scale" : 4},
+		"building03_3" : {"type": "image", "data" : "building03", "scale" : 5},
+		"building04" : {"type": "image", "data" : "building04", "scale" : 3},
+		"building05" : {"type": "image", "data" : "building05", "scale" : 3},
+		"building06" : {"type": "image", "data" : "building06", "scale" : 3},
+		"building07" : {"type": "image", "data" : "building07", "scale" : 3},
+		"building08" : {"type": "image", "data" : "building08", "scale" : 3},
+		"building09" : {"type": "image", "data" : "building09", "scale" : 3},
+		"building10" : {"type": "image", "data" : "building10", "scale" : 3},
+		"building11" : {"type": "image", "data" : "building11", "scale" : 3},
+		"building12" : {"type": "image", "data" : "building12", "scale" : 3}
+	}
+	
+}

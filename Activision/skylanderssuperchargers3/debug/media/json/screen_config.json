@@ -1,0 +1,1075 @@
+{
+	"startScreen" : "TitleScreen",
+	"loadingScreen" : "MenuLoadScreen",
+	"showGrid" : false,
+
+	"menus" : {
+		"GameMenu" : [
+			{"name" :"BGNormal", "type": "image", "asset" : "ScreenBG", "params": {"x" : 0, "y" : 0, "zIndex" : 1} },
+			{"name" :"BGBlur", "type": "image", "asset" : "StoryBG", "params": {"x" : 0, "y" : 0, "zIndex" : 0} }
+		],
+
+		"GameMenuOverlay" : [
+
+			{"name" :"MenuShade", "type": "rect", "color" : "#000000", "width" : 960, "height" : 640, "params" : {"zIndex":500, "alpha":0.6}}
+			
+		]
+	},
+
+	"screens" : {
+
+		"":[
+		],
+
+		"EndScreen":[
+			{"name" :"EndScreenGroup", "type": "group", "params": {"x" : 0, "y" : 0, "zIndex" : 4} },	
+			{"name" :"EndScreenTitle", "group" : "EndScreenGroup", "type": "text", "params": {"left" :30, "top" : 10, "zIndex" : 7, "lineWidth" : 900, "gradient": [{"position":0, "color":"#FFFFFF"}, {"position":0.75, "color":"#EDD389"}, {"position":1, "color":"#FFFFFF"}],
+			 "shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3, "registrationX" : 0, "registrationY" : 35 }},		
+			{"name" :"EndScreenCopy", "group" : "EndScreenGroup", "type": "text", "params": {"left" :230, "top" : 70, "lineWidth" : 500, "zIndex" : 8}},
+
+			{"name" :"EndScreenBanner1", "group" : "EndScreenGroup", "type": "image", "asset" : "EndScreenBannerTop", "params": {"x" : 0, "y" : 0, "zIndex" : 2} },
+			{"name" :"EndScreenBanner2", "group" : "EndScreenGroup", "type": "image", "asset" : "EndScreenBannerBottom", "params": {"x" : 0, "y" : 480, "zIndex" : 6} },
+			{"name" :"EndScreenQueen", "group" : "EndScreenGroup", "type": "image", "asset" : "EndScreenQueen", "params": {"x" : 289, "y" : 369, "zIndex" : 7} },
+
+			{"name" :"EndCharacterGroup", "group" : "EndScreenGroup", "type": "group", "params": {"x" : 0, "y" : 0, "zIndex" : 4} },	
+
+			{"name" :"EndPlaceGroup1",  "group" : "EndScreenGroup", "type": "group", "params": {"x" : 560, "y" : 195, "zIndex" : 4, "registrationX" : 180, "registrationY" : 30} },	
+				{"name" :"EndscreenBar1", "group" : "EndPlaceGroup1",   "type": "image", "asset" : "EndscreenBar", "params": {"x" : 0, "y" : 0, "zIndex" : 6} },
+				{"name" :"EndPlaceText1", "group" : "EndPlaceGroup1",   "type": "text", "params": {"left" :40, "top" : -12, "zIndex" : 8, "style": ".endScreenPlace", "text" : "1"}},
+				{"name" :"EndPlaceSuffix1", "group" : "EndPlaceGroup1", "type": "text", "params": {"left" :83, "top" : -2, "zIndex" : 8, "style": ".endScreenSuffix", "text":"st"}},
+				{"name" :"EndScreenVehicleGroup1", "group" : "EndPlaceGroup1", "type": "group", "params": {"x" : 120, "y" : -95, "zIndex" : 4, "registrationX" : 50, "registrationY" : 60} },	
+					{"name" :"EndScreenGlow1", "group" : "EndScreenVehicleGroup1",   "type": "image", "asset" : "EndScreenGlow", "params": {"x" : 0, "y" : -10, "zIndex" : 7, "alpha" : 0} },
+
+			{"name" :"EndPlaceGroup2", "group" : "EndScreenGroup", "type": "group", "params": {"x" : 465, "y" : 290, "zIndex" : 4, "registrationX" : 180, "registrationY" : 30} },	
+				{"name" :"EndscreenBar2", "group" : "EndPlaceGroup2",   "type": "image", "asset" : "EndscreenBar", "params": {"x" : 0, "y" : 0, "zIndex" : 6} },
+				{"name" :"EndPlaceText2", "group" : "EndPlaceGroup2",   "type": "text", "params": {"left" :240, "top" : -12, "zIndex" : 8, "style": ".endScreenPlace", "text" : "2"}},
+				{"name" :"EndPlaceSuffix2", "group" : "EndPlaceGroup2", "type": "text", "params": {"left" :283, "top" : -2, "zIndex" : 8, "style": ".endScreenSuffix", "text":"nd"}},
+				{"name" :"EndScreenVehicleGroup2", "group" : "EndPlaceGroup2", "type": "group", "params": {"x" : -30, "y" : -95, "zIndex" : 4, "registrationX" : 50, "registrationY" : 60} },	
+					{"name" :"EndScreenGlow2", "group" : "EndScreenVehicleGroup2",   "type": "image", "asset" : "EndScreenGlow", "params": {"x" : 0, "y" : 0, "zIndex" : 7, "alpha" : 0} },
+
+			{"name" :"EndPlaceGroup3",  "group" : "EndScreenGroup", "type": "group", "params": {"x" : 580, "y" : 385, "zIndex" : 4, "registrationX" : 180, "registrationY" : 30} },	
+				{"name" :"EndscreenBar3", "group" : "EndPlaceGroup3",   "type": "image", "asset" : "EndscreenBar", "params": {"x" : 0, "y" : 0, "zIndex" : 6} },
+				{"name" :"EndPlaceText3", "group" : "EndPlaceGroup3",   "type": "text", "params": {"left" :40, "top" : -12, "zIndex" : 8, "style": ".endScreenPlace", "text" : "3"}},
+				{"name" :"EndPlaceSuffix3", "group" : "EndPlaceGroup3", "type": "text", "params": {"left" :83, "top" : -2, "zIndex" : 8, "style": ".endScreenSuffix", "text":"rd"}},
+				{"name" :"EndScreenVehicleGroup3", "group" : "EndPlaceGroup3", "type": "group", "params": {"x" : 120, "y" : -95, "zIndex" : 4, "registrationX" : 50, "registrationY" : 60} },	
+					{"name" :"EndScreenGlow3", "group" : "EndScreenVehicleGroup3",   "type": "image", "asset" : "EndScreenGlow", "params": {"x" : 0, "y" : 0, "zIndex" : 7, "alpha" : 0} },
+
+			{"name" :"PlayAgainButtonES",  "group" : "EndScreenGroup", "type": "button", "spritesheetID" : "Buttons", "prefix" : "button_generic", "params": {"x" :600, "y" :520, "zIndex" : 14}}
+		],
+
+		"MenuLoadScreen":[
+			{"name" :"LoadBGRect", "type": "rect", "width" : 960, "height" : 640, "color" : "#000000", "params": {"x" : 0,  "y" :0, "zIndex" : 13, "alpha" : 1} },
+			{"name" :"MenuLoading",  "type": "text", "params": {"left" :470, "top" : 580, "zIndex" : 15, "lineWidth" : 550}}
+		],
+
+
+
+		"TitleScreen" : [
+			{"name" :"GameTitle", "type": "text", "params": {"left" :300, "top" : 65, "zIndex" : 7, "lineWidth" : 660, "gradient": [{"position":0, "color":"#FFFFFF"}, {"position":0.15, "color":"#EDD389"}, {"position":1, "color":"#FFFFFF"}],
+			 "shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3 }},
+			{"name" :"SShadowTitle", "type": "image", "asset" : "SShadowTitle", "params": {"x" : 260, "y" : 150, "zIndex" : 4} },
+			{"name" :"DBomberTitle", "type": "image", "asset" : "DBomberTitle", "params": {"x" : 0, "y" : 200, "zIndex" : 3} },
+			{"name" :"RRipperTitle", "type": "image", "asset" : "RRipperTitle", "params": {"x" : 0, "y" : 40, "zIndex" : 2} },
+			{"name" :"PlayButtonTS", "type": "button", "spritesheetID" : "Buttons", "prefix" : "button_generic", "params": {"x" :600, "y" :520, "zIndex" : 14}}
+		],
+
+
+
+		"WelcomeScreen" : [
+			{"name" :"WelcomeTitle", "type": "text", "params": {"left" :175, "top" : 10, "zIndex" : 7, "lineWidth" : 600, "gradient": [{"position":0, "color":"#FFFFFF"}, {"position":0.75, "color":"#EDD389"}, {"position":1, "color":"#FFFFFF"}],
+			 "shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3 }},
+			{"name" :"CharacterWelcome", "type": "image", "asset" : "CharacterWelcome", "params": {"x" : 0, "y" : 100, "zIndex" : 5} },
+			
+			{"name" :"WelcomeGroup", "type": "group", "params": {"x" : 0, "y" : 0, "zIndex" : 4} },	
+				{"name" :"TextBoxWelcome", "group" : "WelcomeGroup", "type": "image", "asset" : "TextBoxWelcome", "params": {"x" : 375, "y" : 115, "zIndex" : 3} },
+				{"name" :"WelcomeCopy1", "group" : "WelcomeGroup", "type": "text", "params": {"left" :500, "top" : 210, "zIndex" : 4, "lineWidth" : 390}},
+				{"name" :"WelcomeCopy2", "group" : "WelcomeGroup", "type": "text", "params": {"left" :500, "top" : 300, "zIndex" : 4, "lineWidth" : 380}},
+				{"name" :"WelcomeCopy3","group" : "WelcomeGroup",  "type": "text", "params": {"left" :500, "top" : 390, "zIndex" : 4, "lineWidth" : 390}},
+			
+			{"name" :"NextButtonWS", "type": "button", "spritesheetID" : "Buttons", "prefix" : "button_generic", "params": {"x" :580, "y" :550, "zIndex" : 14}}
+		],
+
+
+		"VehicleSelectScreen" : [
+			{"name" :"VSScreenGroup", "type": "group", "params": {"x" : 0, "y" : 0, "zIndex" : 1} },	
+			{"name" :"SelectTitle", "group": "VSScreenGroup", "type": "text", "params": {"left" :30, "top" : 30, "zIndex" : 7, "lineWidth" : 900, "gradient": [{"position":0, "color":"#FFFFFF"}, {"position":0.75, "color":"#EDD389"}, {"position":1, "color":"#FFFFFF"}],
+			 "shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3 }},
+			{"name" :"IconGroupChar1", "type": "group", "group": "VSScreenGroup", "params": {"x" : 110, "y" : 110, "zIndex" : 3, "registrationX" : 20, "registrationY" : 20} },
+			{"name" :"IconGroupChar2", "type": "group", "group": "VSScreenGroup", "params": {"x" : 380,  "y" :110, "zIndex" : 3, "registrationX" : 20, "registrationY" : 20} },
+
+
+			{"name" :"IconGroupVehicle1", "type": "group", "group": "VSScreenGroup", "params": {"x" : 520, "y" : 110, "zIndex" : 3, "registrationX" : 20, "registrationY" : 20} },
+			{"name" :"IconGroupVehicle2", "type": "group", "group": "VSScreenGroup", "params": {"x" : 835,  "y" :110, "zIndex" : 3, "registrationX" : 20, "registrationY" : 20} },
+
+			
+
+			{"name" :"CharGroup", "type": "group", "group": "VSScreenGroup", "params": {"x" : 140, "y" : 160, "zIndex" : 4} },	
+				{"name" :"CSpriteGroup", "type": "group", "group": "CharGroup", "params": {"x" : -15, "y" : -15, "zIndex" : 4} },
+				{"name" :"SelectGlowChar", "type": "image", "group": "CharGroup","asset" : "SelectGlow", "params": {"x" : -170, "y" : -190, "zIndex" : 2} },
+				{"name" :"SuperChargedAnim1", "type": "anim", "spritesheetID" : "SuperchargeFX", "animations" : [{"name" : "SCharge", "spritesheet" : "SuperchargeFX", "frame" : "supercharge_fx_straight", "duration" :  553, "loop" : true}], 
+				 "params": {"x" :-100, "y" :-30, "zIndex" : 14}, "group" : "CharGroup"},
+
+			{"name" :"VehclGroup", "type": "group", "group": "VSScreenGroup", "params": {"x" : 580, "y" : 140, "zIndex" : 4} },
+				{"name" :"VSpriteGroup", "type": "group", "group": "VehclGroup", "params": {"x" : -70, "y" : -30, "zIndex" : 4} },
+				{"name" :"SelectGlowVehcl", "type": "image","group": "VehclGroup", "asset" : "SelectGlow", "params": {"x" :-150, "y" : -190, "zIndex" : 2} },
+				{"name" :"SuperChargedAnim2", "type": "anim", "spritesheetID" : "SuperchargeFX", "animations" : [{"name" : "SCharge", "spritesheet" : "SuperchargeFX", "frame" : "supercharge_fx_straight", "duration" :  483, "loop" : true}], 
+				 "params": {"x" :-30, "y" :-30, "zIndex" : 14}, "group" : "VehclGroup"},
+			
+			{"name" :"CharName", "type": "text", "group": "VSScreenGroup", "params": {"left" :150, "top" : 120, "zIndex" : 16, "lineWidth" : 220, "style" : ".selectNameChar",
+			 "shadow" : true, "shadowColor":  "#000000", "shadowStrength" : 1, "shadowOffsetX" : 3, "shadowOffsetY" : 3, "text" : "CHARNAME" }},
+			{"name" :"VSTextBehind1", "type": "anim", "spritesheetID" : "TextBehindFX", "animations" : [{"name" : "idle", "spritesheet" : "TextBehindFX", "frame" : "text_behind_fx", "duration" :  833, "loop" : true}], 
+				 "params": {"x" :20, "y" :60, "zIndex" : 5, "alpha" :  0.6}},
+			{"name" :"VehclName", "type": "text","group": "VSScreenGroup", "params": {"left" :585, "top" : 120, "zIndex" : 16, "lineWidth" : 225, "style" : ".selectName",
+			 "shadow" : true, "shadowColor":  "#000000", "shadowStrength" : 1, "shadowOffsetX" : 3, "shadowOffsetY" : 3, "text" : "CHARNAME"}},
+		 	{"name" :"VSTextBehind2", "type": "anim", "spritesheetID" : "TextBehindFX", "animations" : [{"name" : "idle", "spritesheet" : "TextBehindFX", "frame" : "text_behind_fx", "duration" :  833, "loop" : true}], 
+				 "params": {"x" :455, "y" :60, "zIndex" : 5, "alpha" :  0.6}},
+
+			{"name" :"ArrowLeftChar",     "type": "button","group": "VSScreenGroup", "spritesheetID" : "Buttons", "prefix" : "button_arrow_left",  "params": {"x" : 70,  "y" :260, "zIndex" : 15} },
+			{"name" :"ArrowRightChar",    "type": "button","group": "VSScreenGroup", "spritesheetID" : "Buttons", "prefix" : "button_arrow_right", "params": {"x" : 400,  "y" :260, "zIndex" : 15} },
+			{"name" :"ArrowLeftVehicle",  "type": "button","group": "VSScreenGroup", "spritesheetID" : "Buttons", "prefix" : "button_arrow_left", "params": {"x" : 530,  "y" :260, "zIndex" : 15} },
+			{"name" :"ArrowRightVehicle", "type": "button","group": "VSScreenGroup", "spritesheetID" : "Buttons", "prefix" : "button_arrow_right", "params": {"x" : 860,  "y" :260, "zIndex" : 15} },
+
+			{"name" :"StarBanner", "type": "image","group": "VSScreenGroup", "asset" : "StarBanner", "params": {"x" :380,  "y" :270, "zIndex" : 5} },
+			{"name" :"StarBannerGlow", "type": "image", "group": "VSScreenGroup","asset" : "StarBanner", "params": {"x" :380,  "y" :270, "zIndex" : 5} },
+			{"name" :"ComboText", "type": "text","group": "VSScreenGroup", "params": {"left" :420, "top" : 440, "zIndex" : 6, "lineWidth" : 138}},
+			
+
+			{"name" :"TextBoxSelectChar", "type": "image","group": "VSScreenGroup", "asset" : "TextBoxSelect", "params": {"x" : 80,  "y" :380, "zIndex" : 3} },
+			{"name" :"TextBoxSelectVehicle", "type": "image","group": "VSScreenGroup", "asset" : "TextBoxSelect", "params": {"x" : 540,  "y" :380, "zIndex" : 3} },			
+			{"name" :"CharDesc", "type": "text","group": "VSScreenGroup", "params": {"left" :150, "top" : 430, "zIndex" : 6, "lineWidth" : 200, "style" : ".paragraph2"}},
+			{"name" :"VehicleDesc", "type": "text","group": "VSScreenGroup", "params": {"left" :620, "top" : 430, "zIndex" : 6, "lineWidth" : 200, "style" : ".paragraph3"}},
+
+			{"name" :"NextButtonVSS", "type": "button", "group": "VSScreenGroup", "spritesheetID" : "Buttons", "prefix" : "button_generic", "params": {"x" :580, "y" :560, "zIndex" : 14}},
+			{"name" :"ShopButtonVSS", "type": "button", "group": "VSScreenGroup", "spritesheetID" : "Buttons", "prefix" : "button_generic", "params": {"x" :95, "y" :560, "zIndex" : 14}}
+		],
+
+
+		"TrackSelectScreen" : [
+			{"name" :"TrackSelectTitle", "type": "text", "params": {"left" :30, "top" : 30, "zIndex" : 7, "lineWidth" : 900, "gradient": [{"position":0, "color":"#FFFFFF"}, {"position":0.75, "color":"#EDD389"}, {"position":1, "color":"#FFFFFF"}],
+			 "shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3 }},		
+			{"name" :"TrackSelectHitArea1", "type": "rect", "width" : 300, "height" : 400, "color" : "#FF0000", "params": {"x" : 20,  "y" :80, "zIndex" : 2, "alpha" : 0} },	
+			{"name" :"LevelGroup1", "type": "group", "params": {"x" : 20, "y" : 0, "zIndex" : 4, "registrationX" : 150, "registrationY" : 300} },
+				{"name" :"Track1Image", "type": "image",      "group": "LevelGroup1", "asset" : "TrackSelectTrack1", "params": {"x" :50,  "y" :80, "zIndex" : 4} },
+				{"name" :"TrackSelectCheck1", "type": "image", "group": "LevelGroup1", "asset" : "TrackSelectCheck", "params": {"x" :30,  "y" :140, "zIndex" : 5} },
+				{"name" :"TrackSelectGlow1", "type": "image", "group": "LevelGroup1", "asset" : "TrackSelectGlow", "params": {"x" :0,  "y" :0, "zIndex" : 3} },
+				{"name" :"TrackSelectBox1", "type": "image",  "group": "LevelGroup1", "asset" : "TrackSelectBox", "params": {"x" : 0,  "y" :290, "zIndex" : 2} },
+				{"name" :"TrackSelectWatch1", "type": "image","group": "LevelGroup1", "asset" : "TrackSelectWatch", "params": {"x" : 75,  "y" :425, "zIndex" : 6} },
+				{"name" :"TrackSelectLock1", "type": "image", "group": "LevelGroup1", "asset" : "TrackSelectLock", "params": {"x" : 50,  "y" :130, "zIndex" : 6} },
+				{"name" :"TrackScore1", "type": "text",       "group": "LevelGroup1", "params": {"left" :60, "top" : 390, "zIndex" : 6, "lineWidth" : 200, "style" : ".trackSelectScore", "text" :"0,000,000"}},
+				{"name" :"TrackTime1",  "type": "text",       "group": "LevelGroup1", "params": {"left" :120, "top" : 430, "zIndex" : 6, "lineWidth" : 200, "style" : ".trackSelectTime", "text" :"00:00"}},
+				{"name" :"ClearProgressB1", "type": "button", "group": "LevelGroup1", "spritesheetID" : "Buttons", "prefix" : "button_clear_progress", "params": {"x" :50, "y" :450, "zIndex" : 6, "labelOffsetX" : 0, "labelOffsetY" : -2}},
+				{"name" :"StarGroup1", "type": "group",       "group": "LevelGroup1", "params": {"x" : 50, "y" : 330, "zIndex" : 5} },
+					{"name" :"StarGroup1Black1", "type": "image", "group": "StarGroup1", "asset" : "TrackSelectStarBlack", "params": {"x" :0,    "y" :0, "zIndex" : 5} },
+					{"name" :"StarGroup1White1", "type": "image", "group": "StarGroup1", "asset" : "TrackSelectStarWhite", "params": {"x" :0,    "y" :0, "zIndex" : 6} },
+					{"name" :"StarGroup1Black2", "type": "image", "group": "StarGroup1", "asset" : "TrackSelectStarBlack", "params": {"x" :70,   "y" :0, "zIndex" : 5} },
+					{"name" :"StarGroup1White2", "type": "image", "group": "StarGroup1", "asset" : "TrackSelectStarWhite", "params": {"x" :70,   "y" :0, "zIndex" : 6} },
+					{"name" :"StarGroup1Black3", "type": "image", "group": "StarGroup1", "asset" : "TrackSelectStarBlack", "params": {"x" :140,  "y" :0, "zIndex" : 5} },
+					{"name" :"StarGroup1White3", "type": "image", "group": "StarGroup1", "asset" : "TrackSelectStarWhite", "params": {"x" :140,  "y" :0, "zIndex" : 6} },
+
+			{"name" :"TrackSelectHitArea2", "type": "rect", "width" : 300, "height" : 400, "color" : "#FF0000", "params": {"x" : 335,  "y" :100, "zIndex" : 2, "alpha" : 0} },
+			{"name" :"LevelGroup2", "type": "group", "params": {"x" : 335, "y" : 20, "zIndex" : 4, "registrationX" : 150, "registrationY" : 300} },
+				{"name" :"Track2Image", "type": "image",      "group": "LevelGroup2", "asset" : "TrackSelectTrack2", "params": {"x" :25,  "y" :70, "zIndex" : 4} },
+				{"name" :"TrackSelectCheck2", "type": "image","group": "LevelGroup2", "asset" : "TrackSelectCheck", "params": {"x" :30,  "y" :140, "zIndex" : 5} },
+				{"name" :"TrackSelectGlow2", "type": "image", "group": "LevelGroup2", "asset" : "TrackSelectGlow", "params": {"x" :0,  "y" :0, "zIndex" : 3} },
+				{"name" :"TrackSelectBox2", "type": "image",  "group": "LevelGroup2", "asset" : "TrackSelectBox", "params": {"x" : 0,  "y" :290, "zIndex" : 2} },
+				{"name" :"TrackSelectWatch2", "type": "image","group": "LevelGroup2", "asset" : "TrackSelectWatch", "params": {"x" : 75,  "y" :425, "zIndex" : 6} },
+				{"name" :"TrackSelectLock2", "type": "image", "group": "LevelGroup2", "asset" : "TrackSelectLock", "params": {"x" : 50,  "y" :130, "zIndex" : 6} },
+				{"name" :"TrackScore2", "type": "text",       "group": "LevelGroup2", "params": {"left" :60, "top" : 390, "zIndex" : 6, "lineWidth" : 200, "style" : ".trackSelectScore", "text" :"0,000,000"}},
+				{"name" :"TrackTime2",  "type": "text",       "group": "LevelGroup2", "params": {"left" :120, "top" : 430, "zIndex" : 6, "lineWidth" : 200, "style" : ".trackSelectTime", "text" :"00:00"}},
+				{"name" :"ClearProgressB2", "type": "button", "group": "LevelGroup2", "spritesheetID" : "Buttons", "prefix" : "button_clear_progress", "params": {"x" :50, "y" :450, "zIndex" : 6, "labelOffsetX" : 0, "labelOffsetY" : -2}},
+				{"name" :"StarGroup2", "type": "group",       "group": "LevelGroup2", "params": {"x" : 50, "y" : 330, "zIndex" : 5} },
+					{"name" :"StarGroup2Black1", "type": "image", "group": "StarGroup2", "asset" : "TrackSelectStarBlack", "params": {"x" :0,    "y" :0, "zIndex" : 5} },
+					{"name" :"StarGroup2White1", "type": "image", "group": "StarGroup2", "asset" : "TrackSelectStarWhite", "params": {"x" :0,    "y" :0, "zIndex" : 6} },
+					{"name" :"StarGroup2Black2", "type": "image", "group": "StarGroup2", "asset" : "TrackSelectStarBlack", "params": {"x" :70,   "y" :0, "zIndex" : 5} },
+					{"name" :"StarGroup2White2", "type": "image", "group": "StarGroup2", "asset" : "TrackSelectStarWhite", "params": {"x" :70,   "y" :0, "zIndex" : 6} },
+					{"name" :"StarGroup2Black3", "type": "image", "group": "StarGroup2", "asset" : "TrackSelectStarBlack", "params": {"x" :140,  "y" :0, "zIndex" : 5} },
+					{"name" :"StarGroup2White3", "type": "image", "group": "StarGroup2", "asset" : "TrackSelectStarWhite", "params": {"x" :140,  "y" :0, "zIndex" : 6} },
+
+			{"name" :"TrackSelectHitArea3", "type": "rect", "width" : 300, "height" : 400, "color" : "#FF0000", "params": {"x" : 640,  "y" :80, "zIndex" : 2, "alpha" : 0} },
+			{"name" :"LevelGroup3", "type": "group", "params": {"x" : 640, "y" : -10, "zIndex" : 4, "registrationX" : 150, "registrationY" : 300} },				
+				{"name" :"Track3Image", "type": "image",      "group": "LevelGroup3", "asset" : "TrackSelectTrack3", "params": {"x" :25,  "y" :70, "zIndex" : 4} },
+				{"name" :"TrackSelectCheck3", "type": "image", "group": "LevelGroup3", "asset" : "TrackSelectCheck", "params": {"x" :30,  "y" :140, "zIndex" : 5} },
+				{"name" :"TrackSelectGlow3", "type": "image", "group": "LevelGroup3", "asset" : "TrackSelectGlow", "params": {"x" :0,  "y" :0, "zIndex" : 3} },
+				{"name" :"TrackSelectBox3", "type": "image",  "group": "LevelGroup3", "asset" : "TrackSelectBox", "params": {"x" : 0,  "y" :290, "zIndex" : 2} },
+				{"name" :"TrackSelectWatch3", "type": "image","group": "LevelGroup3", "asset" : "TrackSelectWatch", "params": {"x" : 75,  "y" :425, "zIndex" : 6} },
+				{"name" :"TrackSelectLock3", "type": "image", "group": "LevelGroup3", "asset" : "TrackSelectLock", "params": {"x" : 50,  "y" :130, "zIndex" : 6} },
+				{"name" :"TrackScore3", "type": "text",       "group": "LevelGroup3", "params": {"left" :60, "top" : 390, "zIndex" : 6, "lineWidth" : 200, "style" : ".trackSelectScore", "text" :"0,000,000"}},
+				{"name" :"TrackTime3",  "type": "text",       "group": "LevelGroup3", "params": {"left" :120, "top" : 430, "zIndex" : 6, "lineWidth" : 200, "style" : ".trackSelectTime", "text" :"00:00"}},
+				{"name" :"ClearProgressB3", "type": "button", "group": "LevelGroup3", "spritesheetID" : "Buttons", "prefix" : "button_clear_progress", "params": {"x" :50, "y" :450, "zIndex" : 6, "labelOffsetX" : 0, "labelOffsetY" : -2}},
+				{"name" :"StarGroup3", "type": "group",       "group": "LevelGroup3", "params": {"x" : 50, "y" : 330, "zIndex" : 5} },
+					{"name" :"StarGroup3Black1", "type": "image", "group": "StarGroup3", "asset" : "TrackSelectStarBlack", "params": {"x" :0,    "y" :0, "zIndex" : 5} },
+					{"name" :"StarGroup3White1", "type": "image", "group": "StarGroup3", "asset" : "TrackSelectStarWhite", "params": {"x" :0,    "y" :0, "zIndex" : 6} },
+					{"name" :"StarGroup3Black2", "type": "image", "group": "StarGroup3", "asset" : "TrackSelectStarBlack", "params": {"x" :70,   "y" :0, "zIndex" : 5} },
+					{"name" :"StarGroup3White2", "type": "image", "group": "StarGroup3", "asset" : "TrackSelectStarWhite", "params": {"x" :70,   "y" :0, "zIndex" : 6} },
+					{"name" :"StarGroup3Black3", "type": "image", "group": "StarGroup3", "asset" : "TrackSelectStarBlack", "params": {"x" :140,  "y" :0, "zIndex" : 5} },
+					{"name" :"StarGroup3White3", "type": "image", "group": "StarGroup3", "asset" : "TrackSelectStarWhite", "params": {"x" :140,  "y" :0, "zIndex" : 6} },
+
+				
+
+
+			{"name" :"BackButtonTSS", "type": "button", "spritesheetID" : "Buttons", "prefix" : "button_generic", "params": {"x" :95, "y" :560, "zIndex" : 14}},
+			{"name" :"NextButtonTSS", "type": "button", "spritesheetID" : "Buttons", "prefix" : "button_generic", "params": {"x" :580, "y" :560, "zIndex" : 14}}
+		],
+
+		"HowToPlayScreen" : [
+			{"name" :"HTPTitle", "type": "text", "params": {"left" :30, "top" : 30, "zIndex" : 7, "lineWidth" : 900, "gradient": [{"position":0, "color":"#FFFFFF"}, {"position":0.75, "color":"#EDD389"}, {"position":1, "color":"#FFFFFF"}],
+			 "shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3 }},
+			{"name" :"InstructionGroup1", "env": "", "type": "group", "params": {"x" : 10, "y" : 160, "zIndex" : 4} },
+				{"name" :"HTPBoxSmall1",      "type": "image", "env": "", "group": "InstructionGroup1", "asset" : "HTPBoxSmall",       "params": {"x" : 0, "y" : 0, "zIndex" : 2} },
+				{"name" :"HTPArrowKeysLarge", "type": "image", "env": "desktop", "group": "InstructionGroup1", "asset" : "HTPArrowKeysLarge", "params": {"x" : 80, "y" : 75, "zIndex" : 3} },
+				{"name" :"HTPDPadLarge", "type": "image", "env": "mobile", "group": "InstructionGroup1", "asset" : "HTPDPadLarge", "params": {"x" : 95, "y" : 70, "zIndex" : 3} },				
+				{"name" :"PressText1",        "type": "text",  "env": "", "group": "InstructionGroup1", "params": {"left" :45, "top" : 40, "zIndex" : 6, "lineWidth" : 200}},
+				{"name" :"MovementText",      "type": "text",  "env": "", "group": "InstructionGroup1", "params": {"left" :45, "top" : 170, "zIndex" : 6, "lineWidth" : 200}},
+
+			{"name" :"InstructionGroup2", "type": "group", "params": {"x" :330, "y" : 215, "zIndex" : 4} },
+				{"name" :"HTPBoxSmall2",      "type": "image", "group": "InstructionGroup2", "asset" : "HTPBoxSmall",       "params": {"x" : 0, "y" : 0, "zIndex" : 2} },
+				{"name" :"HTPSpacebar",       "type": "image", "env": "desktop", "group": "InstructionGroup2", "asset" : "HTPSpacebar", "params": {"x" : 60, "y" : 105, "zIndex" : 200} },
+				{"name" :"Fire2Button","type": "button", "env" : "mobile","group": "InstructionGroup2", "spritesheetID" : "Buttons", "prefix" : "mobile_btns_attack", "params": {"x" :100, "y" :70 , "scale" : 0.7, "zIndex" : 201}},
+				{"name" :"SpacebarCopy",      "type": "text",  "env": "desktop", "group": "InstructionGroup2", "params": {"left" :87, "top" : 112, "zIndex" : 206, "lineWidth" : 200}},
+				{"name" :"PressText2",        "type": "text",  "env": "", "group": "InstructionGroup2", "params": {"left" :45, "top" : 60, "zIndex" : 6, "lineWidth" : 200}},
+				{"name" :"AttackText",        "type": "text",  "env": "", "group": "InstructionGroup2", "params": {"left" :45, "top" : 155, "zIndex" : 6, "lineWidth" : 200}},
+
+			{"name" :"InstructionGroup3",  "env": "",   "type": "group", "params": {"x" :642, "y" : 143, "zIndex" : 4} },
+				{"name" :"HTPBoxSmall3",      "type": "image", "group": "InstructionGroup3", "asset" : "HTPBoxSmall",       "params": {"x" : 0, "y" : 0, "zIndex" : 2} },
+				{"name" :"HTPEKey",           "type": "image", "env": "desktop", "group": "InstructionGroup3", "asset" : "HTPEKey", "params": {"x" :122, "y" : 90, "zIndex" : 3} },
+				{"name" :"Fire1Button","type": "button", "env" : "mobile", "group": "InstructionGroup3", "spritesheetID" : "Buttons", "prefix" : "mobile_btns_super", "params": {"x" :100, "y" :70, "scale" : 0.7, "zIndex" : 114}},
+				{"name" :"PressText3",        "type": "text",  "env": "", "group": "InstructionGroup3", "params": {"left" :50, "top" : 50, "zIndex" : 6, "lineWidth" : 200}},
+				{"name" :"SAttackText",        "type": "text", "env": "", "group": "InstructionGroup3", "params": {"left" :55, "top" : 155, "zIndex" : 6, "lineWidth" : 200}},
+
+			{"name" :"BackButtonHTPS", "type": "button", "spritesheetID" : "Buttons", "prefix" : "button_generic", "params": {"x" :95, "y" :560, "zIndex" : 14}},
+			{"name" :"NextButtonHTPS", "type": "button", "spritesheetID" : "Buttons", "prefix" : "button_generic", "params": {"x" :580, "y" :560, "zIndex" : 14}}
+		],
+
+		"HowToPlayScreen2" : [
+			{"name" :"HTPTitle2", "type": "text", "params": {"left" :30, "top" : 30, "zIndex" : 7, "lineWidth" : 900, "gradient": [{"position":0, "color":"#FFFFFF"}, {"position":0.75, "color":"#EDD389"}, {"position":1, "color":"#FFFFFF"}],
+			 "shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3 }},
+			{"name" :"InstructionGroupLarge", "type": "group", "params": {"x" : 0, "y" : 0, "zIndex" : 1} },
+				{"name" :"HTPBox",            "type": "image", "group": "InstructionGroupLarge", "asset" : "HTPBox",            "params": {"x" : 20, "y" : 20, "zIndex" : 1} },
+				{"name" :"InstructionLine1",   "type": "group","group": "InstructionGroupLarge", "params": {"x" : 158, "y" : 150, "zIndex" : 3}},
+					{"name" :"HTPIcons1", "type": "image", "env": "desktop", "group": "InstructionLine1", "asset" : "HTPIcons1", "params": {"x" : 7, "y" : 10, "zIndex" : 3} },
+					{"name" :"HTPDPadSmall", "type": "image", "env": "mobile", "group": "InstructionLine1", "asset" : "HTPDPadSmall", "params": {"x" : 7, "y" : 10, "zIndex" : 3} },
+					{"name" :"InstructionText1",  "type": "text",  "group": "InstructionLine1", "params": {"left" :100, "top" : 20, "zIndex" : 6, "lineWidth" : 550}},
+				
+				{"name" :"InstructionLine2",   "type": "group", "group": "InstructionGroupLarge", "params": {"x" : 158, "y" : 230, "zIndex" : 3}},
+					{"name" :"HTPIcons2",      "type": "image", "group": "InstructionLine2", "asset" : "HTPIcons2",      "params": {"x" : -30, "y" : 0, "zIndex" : 3} },
+					{"name" :"InstructionText2",  "type": "text",  "group": "InstructionLine2", "params": {"left" :100, "top" : 10, "zIndex" : 6, "lineWidth" : 550}},
+
+				{"name" :"InstructionLine3",   "type": "group", "group": "InstructionGroupLarge", "params": {"x" : 158, "y" : 300, "zIndex" : 3}},
+					{"name" :"HTPIcons3",        "type": "image", "group": "InstructionLine3", "asset" : "HTPIcons3",        "params": {"x" : -30, "y" : -15, "zIndex" : 3} },
+					{"name" :"InstructionText3",  "type": "text",  "group": "InstructionLine3", "params": {"left" :100, "top" : 10, "zIndex" : 6, "lineWidth" : 550}},
+
+				{"name" :"InstructionLine4",   "type": "group", "group": "InstructionGroupLarge", "params": {"x" : 158, "y" : 360, "zIndex" : 3}},
+					{"name" :"HTPIcons4",     "type": "image", "group": "InstructionLine4", "asset" : "HTPIcons4",     "params": {"x" : -40, "y" : 0, "zIndex" : 3} },
+					{"name" :"InstructionText4",  "type": "text",  "group": "InstructionLine4", "params": {"left" :100, "top" : 10, "zIndex" : 6, "lineWidth" : 550}},
+
+				{"name" :"InstructionLine5",   "type": "group", "group": "InstructionGroupLarge", "params": {"x" : 158, "y" : 420, "zIndex" : 3}},
+					{"name" :"HTPIcons5",       "type": "image", "group": "InstructionLine5", "asset" : "HTPIcons5",       "params": {"x" : 10, "y" : 0, "zIndex" : 3} },
+					{"name" :"InstructionText5",  "type": "text",  "group": "InstructionLine5", "params": {"left" :100, "top" : 10, "zIndex" : 6, "lineWidth" : 550}},
+
+			{"name" :"BackButtonHTPS2", "type": "button", "spritesheetID" : "Buttons", "prefix" : "button_generic", "params": {"x" :95, "y" :560, "zIndex" : 14}},
+			{"name" :"NextButtonHTPS2", "type": "button", "spritesheetID" : "Buttons", "prefix" : "button_generic", "params": {"x" :580, "y" :560, "zIndex" : 14}}
+		],
+
+		"ReadyScreen" : [
+			{"name" :"ReadyScreenTitle", "type": "text", "params": {"left" :30, "top" : 30, "zIndex" : 7, "lineWidth" : 900, "gradient": [{"position":0, "color":"#FFFFFF"}, {"position":0.75, "color":"#EDD389"}, {"position":1, "color":"#FFFFFF"}],
+			 "shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3 }},
+			{"name" :"ReadyBoxGroup", "type": "group", "params": {"x" : 20, "y" : 20, "zIndex" : 1} },
+				{"name" :"ReadyScreenBox",        "type": "image", "group": "ReadyBoxGroup", "asset" : "ReadyScreenBox",       "params": {"x" : 0, "y" : 0, "zIndex" : 2} },
+				{"name" :"ReadyScreenCopy",       "type": "text",  "group": "ReadyBoxGroup", "params": {"left" :160, "top" : 135, "zIndex" : 6, "lineWidth" : 600}},
+				{"name" :"GoalScore",             "type": "text",  "group": "ReadyBoxGroup", "params": {"left" :160, "top" : 240, "zIndex" : 6, "lineWidth" : 600}},
+				{"name" :"ReadyScreenStarBlack1", "type": "image", "group": "ReadyBoxGroup", "asset" : "ReadyScreenStarBlack", "params": {"x" : 175, "y" : 285, "zIndex" : 3} },
+				{"name" :"ReadyScreenStarBlack2", "type": "image", "group": "ReadyBoxGroup", "asset" : "ReadyScreenStarBlack", "params": {"x" : 380, "y" : 285, "zIndex" : 3} },
+				{"name" :"ReadyScreenStarBlack3", "type": "image", "group": "ReadyBoxGroup", "asset" : "ReadyScreenStarBlack", "params": {"x" : 585, "y" : 285, "zIndex" : 3} },
+				{"name" :"ReadyScreenStarWhite1", "type": "image", "group": "ReadyBoxGroup", "asset" : "ReadyScreenStarWhite", "params": {"x" : 175, "y" : 285, "zIndex" : 4} },
+				{"name" :"ReadyScreenStarWhite2", "type": "image", "group": "ReadyBoxGroup", "asset" : "ReadyScreenStarWhite", "params": {"x" : 380, "y" : 285, "zIndex" : 4} },
+				{"name" :"ReadyScreenStarWhite3", "type": "image", "group": "ReadyBoxGroup", "asset" : "ReadyScreenStarWhite", "params": {"x" : 585, "y" : 285, "zIndex" : 4} },
+				{"name" :"GoalScore1",            "type": "text",  "group": "ReadyBoxGroup", "params": {"left" :190, "top" : 430, "zIndex" : 6, "style" : ".readyGoalScore", "text":"000,000"}},
+				{"name" :"GoalScore2",            "type": "text",  "group": "ReadyBoxGroup", "params": {"left" :395, "top" : 430, "zIndex" : 6, "style" : ".readyGoalScore", "text":"000,000"}},
+				{"name" :"GoalScore3",            "type": "text",  "group": "ReadyBoxGroup", "params": {"left" :600, "top" : 430, "zIndex" : 6, "style" : ".readyGoalScore", "text":"000,000"}},
+
+			{"name" :"ReadyScreenLoading",  "type": "text", "params": {"left" :470, "top" : 580, "zIndex" : 15, "lineWidth" : 550}},
+			{"name" :"ReadyScoreGroup", "type": "group", "params": {"x" : 90, "y" : 511, "zIndex" : 1} },
+				{"name" :"ReadyScreenScoreBG",        "type": "image", "group": "ReadyScoreGroup", "asset" : "ReadyScreenScoreBG",       "params": {"x" : 0, "y" : 0, "zIndex" : 3} },			
+				{"name" :"ResultsStarScore","group": "ReadyScoreGroup", "type": "image", "asset" : "ResultsStarTime", "params": {"x" : -65, "y" :-50, "zIndex" : 41} },
+				{"name" :"HighScoreGlow", "type": "image", "group": "ReadyScoreGroup","asset" : "SelectGlow", "params": {"x" : -295, "y" : -300, "zIndex" : 10, "scale":0.4} },
+				{"name" :"HighScore",        "type": "text",  "group": "ReadyScoreGroup", "params": {"left" :80, "top" : 35, "zIndex" : 6, "style" : ".readyHighScore", "text":"000,000",
+					"shadow" : true, "shadowColor":  "#000000", "shadowStrength" : 1, "shadowOffsetX" : 3, "shadowOffsetY" : 3 }},
+				{"name" :"HighScoreCopy",        "type": "text",  "group": "ReadyScoreGroup", "params": {"left" :85, "top" :15, "zIndex" : 6,
+					"shadow" : true, "shadowColor":  "#000000", "shadowStrength" : 1, "shadowOffsetX" : 2, "shadowOffsetY" : 2 }},
+
+			{"name" :"PlayButtonRS", "type": "button", "spritesheetID" : "Buttons", "prefix" : "button_generic", "params": {"x" :580, "y" :560, "zIndex" : 14}}
+		],
+
+
+
+
+
+
+		"UpgradeScreen":[
+			{"name" :"UpgradeScreenTitle", "type": "text", "params": {"left" :30, "top" : 20, "zIndex" : 7, "lineWidth" : 900, "gradient": [{"position":0, "color":"#FFFFFF"}, {"position":0.75, "color":"#EDD389"}, {"position":1, "color":"#FFFFFF"}],
+			 "shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3 }},
+			
+			{"name" :"UpgradeVehicleGroup", "type": "group", "params": {"x" : 480, "y" : 105, "zIndex" : 1} },
+			{"name" :"IconGroupUVehicle1", "type": "group", "params": {"x" : 520, "y" : 130, "zIndex" : 3, "registrationX" : 20, "registrationY" : 20, "scale" : 1} },
+			{"name" :"IconGroupUVehicle2", "type": "group", "params": {"x" : 835,  "y" :130, "zIndex" : 3, "registrationX" : 20, "registrationY" : 20, "scale" : 1} },
+			{"name" :"UpgradeVehclName", "type": "text", "params": {"left" :585, "top" : 140, "zIndex" : 10, "lineWidth" : 225, "style" : ".selectName",
+			 "shadow" : true, "shadowColor":  "#000000", "shadowStrength" : 1, "shadowOffsetX" : 3, "shadowOffsetY" : 3}},
+			{"name" :"USTextBehind", "type": "anim", "spritesheetID" : "TextBehindFX", "animations" : [{"name" : "idle", "spritesheet" : "TextBehindFX", "frame" : "text_behind_fx", "duration" :  833, "loop" : true}], 
+				 "params": {"x" :455, "y" :100, "zIndex" : 5, "alpha" :  0.6}},
+
+
+			{"name" :"PerformanceCopy", "type": "text", "params": {"left" :30, "top" : 365, "zIndex" : 6, "lineWidth" : 300,
+				"shadow" : true, "shadowColor":  "#000000", "shadowStrength" : 1, "shadowOffsetX" : 3, "shadowOffsetY" : 3}},
+			{"name" :"SpecialtyCopy", "type": "text",   "params": {"left" :30, "top" : 190, "zIndex" : 6, "lineWidth" : 300,
+				"shadow" : true, "shadowColor":  "#000000", "shadowStrength" : 1, "shadowOffsetX" : 3, "shadowOffsetY" : 3}},
+
+			{"name" :"UpgradeBoxGroup", "type": "group", "params": {"x" : 535, "y" : 375, "zIndex" : 8} },
+				{"name" :"UpgradeScreenBox", "group" : "UpgradeBoxGroup", "type": "image", "asset" : "UpgradeScreenBox", "params": {"x" : 0,  "y" :0, "zIndex" : 2, "scale":1.15} },
+				{"name" :"UpgradeScreenStatsBar1", "group" : "UpgradeBoxGroup", "type": "image", "asset" : "UpgradeScreenStatsBar", "params": {"x" : 35,  "y" :25, "zIndex" : 10} },
+				{"name" :"UpgradeScreenStatsAmount1", "group" : "UpgradeBoxGroup", "type": "image", "asset" : "UpgradeScreenStatsAmount", "params": {"x" : 35,  "y" :25, "zIndex" : 12, "scaleX" : 0.1, "registrationX" : 5, "registrationY" : 17} },
+				{"name" :"UpgradeScreenStatsPreview1", "group" : "UpgradeBoxGroup", "type": "rect", "width" : 136, "height" : 17,"color" : "#FEF7A4", "params": {"x" : 42,  "y" :33, "zIndex" : 11, "registrationX" : 0, "registrationY" : 17, "alpha" : 0.75} },
+				{"name" :"ArmorCopy",  "type": "text","group" : "UpgradeBoxGroup", "params": {"left" :197, "top" : 30, "zIndex" : 9}},
+				{"name" :"UpgradeScreenStatsBar2", "group" : "UpgradeBoxGroup", "type": "image", "asset" : "UpgradeScreenStatsBar", "params": {"x" : 35,  "y" :55, "zIndex" : 10} },
+				{"name" :"UpgradeScreenStatsAmount2", "group" : "UpgradeBoxGroup", "type": "image", "asset" : "UpgradeScreenStatsAmount", "params": {"x" : 35,  "y" :55, "zIndex" : 12, "scaleX" : 0.1, "registrationX" : 5, "registrationY" : 17} },
+				{"name" :"UpgradeScreenStatsPreview2", "group" : "UpgradeBoxGroup", "type": "rect", "width" : 136, "height" : 17,"color" : "#FEF7A4", "params": {"x" : 42,  "y" :63, "zIndex" : 11, "registrationX" : 0, "registrationY" : 17, "alpha" : 0.75} },
+				{"name" :"TopSpeedCopy",  "type": "text","group" : "UpgradeBoxGroup", "params": {"left" :197, "top" : 60, "zIndex" : 9}},
+				{"name" :"UpgradeScreenStatsBar3", "group" : "UpgradeBoxGroup", "type": "image", "asset" : "UpgradeScreenStatsBar", "params": {"x" : 35,  "y" :85, "zIndex" : 10} },
+				{"name" :"UpgradeScreenStatsAmount3", "group" : "UpgradeBoxGroup", "type": "image", "asset" : "UpgradeScreenStatsAmount", "params": {"x" : 35,  "y" :85, "zIndex" : 12, "scaleX" : 0.1, "registrationX" : 5, "registrationY" : 17} },
+				{"name" :"UpgradeScreenStatsPreview3", "group" : "UpgradeBoxGroup", "type": "rect", "width" : 136, "height" : 17,"color" : "#FEF7A4", "params": {"x" : 42,  "y" :93, "zIndex" : 11, "registrationX" : 0, "registrationY" : 17, "alpha" : 0.75} },
+				{"name" :"AccelerationCopy",  "type": "text","group" : "UpgradeBoxGroup", "params": {"left" :197, "top" : 90, "zIndex" : 9}},
+				{"name" :"UpgradeScreenStatsBar4", "group" : "UpgradeBoxGroup", "type": "image", "asset" : "UpgradeScreenStatsBar", "params": {"x" : 35,  "y" :115, "zIndex" : 10} },
+				{"name" :"UpgradeScreenStatsAmount4", "group" : "UpgradeBoxGroup", "type": "image", "asset" : "UpgradeScreenStatsAmount", "params": {"x" : 35,  "y" :115, "zIndex" : 12, "scaleX" : 0.1, "registrationX" : 5, "registrationY" : 17} },
+				{"name" :"UpgradeScreenStatsPreview4", "group" : "UpgradeBoxGroup", "type": "rect", "width" : 136, "height" : 17,"color" : "#FEF7A4", "params": {"x" : 42,  "y" :123, "zIndex" : 11, "registrationX" : 0, "registrationY" : 17, "alpha" : 0.75} },
+				{"name" :"HandlingCopy",  "type": "text","group" : "UpgradeBoxGroup", "params": {"left" :197, "top" : 120, "zIndex" : 9}},
+				{"name" :"UpgradeScreenStatsBar5", "group" : "UpgradeBoxGroup", "type": "image", "asset" : "UpgradeScreenStatsBar", "params": {"x" : 35,  "y" :145, "zIndex" : 10} },
+				{"name" :"UpgradeScreenStatsAmount5", "group" : "UpgradeBoxGroup", "type": "image", "asset" : "UpgradeScreenStatsAmount", "params": {"x" : 35,  "y" :145, "zIndex" : 12, "scaleX" : 0.1, "registrationX" : 5, "registrationY" : 17} },
+				{"name" :"UpgradeScreenStatsPreview5", "group" : "UpgradeBoxGroup", "type": "rect", "width" : 136, "height" : 17,"color" : "#FEF7A4", "params": {"x" : 42,  "y" :153, "zIndex" : 11, "registrationX" : 0, "registrationY" : 17, "alpha" : 0.75} },
+				{"name" :"WeightCopy",  "type": "text","group" : "UpgradeBoxGroup", "params": {"left" :197, "top" : 150, "zIndex" : 9}},
+
+
+
+
+			{"name" :"UpgradeCurrencyGroup", "type": "group", "params": {"x" : 0, "y" : 0, "zIndex" : 8} },
+				{"name" :"UpgradeScreenGearbitTop", "group" : "UpgradeCurrencyGroup", "type": "image", "asset" : "UpgradeScreenGearbitTop", "params": {"x" : 460,  "y" :70, "zIndex" : 2} },
+				{"name" :"CurrencyCopy",   "group" : "UpgradeCurrencyGroup", "type": "text",   "params": {"left" :250, "top" : 90, "zIndex" : 6, "lineWidth" : 300,
+					"shadow" : true, "shadowColor":  "#000000", "shadowStrength" : 1, "shadowOffsetX" : 3, "shadowOffsetY" : 3}},
+				{"name" :"CurrencyAmount", "group" : "UpgradeCurrencyGroup", "type": "text",   "params": {"left" :530, "top" : 90, "zIndex" : 6, "lineWidth" : 300, "style": ".upgradeHeader",
+					"shadow" : true, "shadowColor":  "#000000", "shadowStrength" : 1, "shadowOffsetX" : 3, "shadowOffsetY" : 3, "text" : "00,000"}},
+
+			{"name" :"ItemHit1", "type": "rect", "width" : 371, "height" : 28, "color" : "#FF0000", "params": {"x" : 65,  "y" :225, "zIndex" : 10, "alpha" : 0} },
+			{"name" :"ItemHit2", "type": "rect", "width" : 371, "height" : 28, "color" : "#FF0000", "params": {"x" : 65,  "y" :255, "zIndex" : 10, "alpha" : 0} },	
+			{"name" :"ItemHit3", "type": "rect", "width" : 371, "height" : 28, "color" : "#FF0000", "params": {"x" : 65,  "y" :285, "zIndex" : 10, "alpha" : 0} },	
+			{"name" :"ItemHit4", "type": "rect", "width" : 371, "height" : 28, "color" : "#FF0000", "params": {"x" : 65,  "y" :315, "zIndex" : 10, "alpha" : 0} },	
+			{"name" :"ItemHit5", "type": "rect", "width" : 371, "height" : 28, "color" : "#FF0000", "params": {"x" : 65,  "y" :395, "zIndex" : 10, "alpha" : 0} },	
+			{"name" :"ItemHit6", "type": "rect", "width" : 371, "height" : 28, "color" : "#FF0000", "params": {"x" : 65,  "y" :425, "zIndex" : 10, "alpha" : 0} },	
+			{"name" :"ItemHit7", "type": "rect", "width" : 371, "height" : 28, "color" : "#FF0000", "params": {"x" : 65,  "y" :455, "zIndex" : 10, "alpha" : 0} },	
+			{"name" :"ItemHit8", "type": "rect", "width" : 371, "height" : 28, "color" : "#FF0000", "params": {"x" : 65,  "y" :485, "zIndex" : 10, "alpha" : 0} },		
+
+
+			{"name" :"ItemGroup1", "type": "group", "params": {"x" : 65, "y" : 225, "zIndex" : 8, "registrationX" : 188, "registrationY" : 15} },
+				{"name" :"IconNodeItem1",             "group" : "ItemGroup1", "type": "group", "params": {"x" : 0,  "y" :-7, "zIndex" : 9} },
+				{"name" :"UpgradeScreenBarInactive1", "group" : "ItemGroup1", "type": "image", "asset" : "UpgradeScreenBarInactive", "params": {"x" : 0,  "y" :0, "zIndex" : 7} },
+				{"name" :"UpgradeScreenBarActive1",   "group" : "ItemGroup1", "type": "image", "asset" : "UpgradeScreenBarActive",   "params": {"x" : 0,  "y" :0, "zIndex" : 8} },				
+				{"name" :"UpgradeScreenGearbitSmall1","group" : "ItemGroup1", "type": "image", "asset" : "UpgradeScreenGearbitSmall","params": {"x" :250,  "y" :0, "zIndex" : 9} },
+				{"name" :"UpgradeScreenLock1",        "group" : "ItemGroup1", "type": "image", "asset" : "UpgradeScreenLock",        "params": {"x" :345,  "y" :2, "zIndex" : 9} },
+				{"name" :"UpgradeScreenCheck1",       "group" : "ItemGroup1", "type": "image", "asset" : "UpgradeScreenCheck",       "params": {"x" :330,  "y" :-30, "zIndex" : 9} },
+				{"name" :"UPriceText1", "type": "text","group" : "ItemGroup1", "params": {"left" :285, "top" : 0, "zIndex" : 9, "style" : ".upgradeCost", "text":"0000"}},
+				{"name" :"UNameText1",  "type": "text","group" : "ItemGroup1", "params": {"left" :45, "top" : 2, "zIndex" : 9, "style" : ".upgradeName", "text":"Upgrade Name Here"}},
+
+			{"name" :"ItemGroup2", "type": "group", "params": {"x" : 65, "y" : 255, "zIndex" : 8, "registrationX" : 188, "registrationY" : 15} },
+				{"name" :"IconNodeItem2",             "group" : "ItemGroup2", "type": "group", "params": {"x" : 0,  "y" :-7, "zIndex" : 9} },
+				{"name" :"UpgradeScreenBarInactive2", "group" : "ItemGroup2", "type": "image", "asset" : "UpgradeScreenBarInactive", "params": {"x" : 0,  "y" :0, "zIndex" : 7} },
+				{"name" :"UpgradeScreenBarActive2",   "group" : "ItemGroup2", "type": "image", "asset" : "UpgradeScreenBarActive",   "params": {"x" : 0,  "y" :0, "zIndex" : 8} },				
+				{"name" :"UpgradeScreenGearbitSmall2","group" : "ItemGroup2", "type": "image", "asset" : "UpgradeScreenGearbitSmall","params": {"x" :250,  "y" :0, "zIndex" : 9} },
+				{"name" :"UpgradeScreenLock2",        "group" : "ItemGroup2", "type": "image", "asset" : "UpgradeScreenLock",        "params": {"x" :345,  "y" :2, "zIndex" : 9} },
+				{"name" :"UpgradeScreenCheck2",       "group" : "ItemGroup2", "type": "image", "asset" : "UpgradeScreenCheck",       "params": {"x" :330,  "y" :-30, "zIndex" : 9} },
+				{"name" :"UPriceText2", "type": "text","group" : "ItemGroup2", "params": {"left" :285, "top" : 0, "zIndex" : 9, "style" : ".upgradeCost", "text":"0000"}},
+				{"name" :"UNameText2",  "type": "text","group" : "ItemGroup2", "params": {"left" :45, "top" : 2, "zIndex" : 9, "style" : ".upgradeName", "text":"Upgrade Name Here"}},
+
+
+			{"name" :"ItemGroup3", "type": "group", "params": {"x" : 65, "y" : 285, "zIndex" : 8, "registrationX" : 188, "registrationY" : 15} },
+				{"name" :"IconNodeItem3",             "group" : "ItemGroup3", "type": "group", "params": {"x" : 0,  "y" :-7, "zIndex" : 9} },
+				{"name" :"UpgradeScreenBarInactive3", "group" : "ItemGroup3", "type": "image", "asset" : "UpgradeScreenBarInactive", "params": {"x" : 0,  "y" :0, "zIndex" : 7} },
+				{"name" :"UpgradeScreenBarActive3",   "group" : "ItemGroup3", "type": "image", "asset" : "UpgradeScreenBarActive",   "params": {"x" : 0,  "y" :0, "zIndex" : 8} },				
+				{"name" :"UpgradeScreenGearbitSmall3","group" : "ItemGroup3", "type": "image", "asset" : "UpgradeScreenGearbitSmall","params": {"x" :250,  "y" :0, "zIndex" : 9} },
+				{"name" :"UpgradeScreenLock3",        "group" : "ItemGroup3", "type": "image", "asset" : "UpgradeScreenLock",        "params": {"x" :345,  "y" :2, "zIndex" : 9} },
+				{"name" :"UpgradeScreenCheck3",       "group" : "ItemGroup3", "type": "image", "asset" : "UpgradeScreenCheck",       "params": {"x" :330,  "y" :-30, "zIndex" : 9} },
+				{"name" :"UPriceText3", "type": "text","group" : "ItemGroup3", "params": {"left" :285, "top" : 0, "zIndex" : 9, "style" : ".upgradeCost", "text":"0000"}},
+				{"name" :"UNameText3",  "type": "text","group" : "ItemGroup3", "params": {"left" :45, "top" : 2, "zIndex" : 9, "style" : ".upgradeName", "text":"Upgrade Name Here"}},
+
+			{"name" :"ItemGroup4", "type": "group", "params": {"x" : 65, "y" : 315, "zIndex" : 8, "registrationX" : 188, "registrationY" : 15} },
+				{"name" :"IconNodeItem4",             "group" : "ItemGroup4", "type": "group", "params": {"x" : 0,  "y" :-7, "zIndex" : 9} },
+				{"name" :"UpgradeScreenBarInactive4", "group" : "ItemGroup4", "type": "image", "asset" : "UpgradeScreenBarInactive", "params": {"x" : 0,  "y" :0, "zIndex" : 7} },
+				{"name" :"UpgradeScreenBarActive4",   "group" : "ItemGroup4", "type": "image", "asset" : "UpgradeScreenBarActive",   "params": {"x" : 0,  "y" :0, "zIndex" : 8} },				
+				{"name" :"UpgradeScreenGearbitSmall4","group" : "ItemGroup4", "type": "image", "asset" : "UpgradeScreenGearbitSmall","params": {"x" :250,  "y" :0, "zIndex" : 9} },
+				{"name" :"UpgradeScreenLock4",        "group" : "ItemGroup4", "type": "image", "asset" : "UpgradeScreenLock",        "params": {"x" :345,  "y" :2, "zIndex" : 9} },
+				{"name" :"UpgradeScreenCheck4",       "group" : "ItemGroup4", "type": "image", "asset" : "UpgradeScreenCheck",       "params": {"x" :330,  "y" :-30, "zIndex" : 9} },
+				{"name" :"UPriceText4", "type": "text","group" : "ItemGroup4", "params": {"left" :285, "top" : 0, "zIndex" : 9, "style" : ".upgradeCost", "text":"0000"}},
+				{"name" :"UNameText4",  "type": "text","group" : "ItemGroup4", "params": {"left" :45, "top" : 2, "zIndex" : 9, "style" : ".upgradeName", "text":"Upgrade Name Here"}},
+
+
+
+			{"name" :"ItemGroup5", "type": "group", "params": {"x" : 65, "y" : 395, "zIndex" : 8, "registrationX" : 188, "registrationY" : 15} },
+				{"name" :"IconNodeItem5",             "group" : "ItemGroup5", "type": "group", "params": {"x" : 0,  "y" :-7, "zIndex" : 9} },
+				{"name" :"UpgradeScreenBarInactive5", "group" : "ItemGroup5", "type": "image", "asset" : "UpgradeScreenBarInactive", "params": {"x" : 0,  "y" :0, "zIndex" : 7} },
+				{"name" :"UpgradeScreenBarActive5",   "group" : "ItemGroup5", "type": "image", "asset" : "UpgradeScreenBarActive",   "params": {"x" : 0,  "y" :0, "zIndex" : 8} },				
+				{"name" :"UpgradeScreenGearbitSmall5","group" : "ItemGroup5", "type": "image", "asset" : "UpgradeScreenGearbitSmall","params": {"x" :250,  "y" :0, "zIndex" : 9} },
+				{"name" :"UpgradeScreenLock5",        "group" : "ItemGroup5", "type": "image", "asset" : "UpgradeScreenLock",        "params": {"x" :345,  "y" :2, "zIndex" : 9} },
+				{"name" :"UpgradeScreenCheck5",       "group" : "ItemGroup5", "type": "image", "asset" : "UpgradeScreenCheck",       "params": {"x" :330,  "y" :-30, "zIndex" : 9} },
+				{"name" :"UPriceText5", "type": "text","group" : "ItemGroup5", "params": {"left" :285, "top" : 0, "zIndex" : 9, "style" : ".upgradeCost", "text":"0000"}},
+				{"name" :"UNameText5",  "type": "text","group" : "ItemGroup5", "params": {"left" :45, "top" : 2, "zIndex" : 9, "style" : ".upgradeName", "text":"Upgrade Name Here"}},
+
+			{"name" :"ItemGroup6", "type": "group", "params": {"x" : 65, "y" : 425, "zIndex" : 8, "registrationX" : 188, "registrationY" : 15} },
+				{"name" :"IconNodeItem6",             "group" : "ItemGroup6", "type": "group", "params": {"x" : 0,  "y" :-7, "zIndex" : 9} },
+				{"name" :"UpgradeScreenBarInactive6", "group" : "ItemGroup6", "type": "image", "asset" : "UpgradeScreenBarInactive", "params": {"x" : 0,  "y" :0, "zIndex" : 7} },
+				{"name" :"UpgradeScreenBarActive6",   "group" : "ItemGroup6", "type": "image", "asset" : "UpgradeScreenBarActive",   "params": {"x" : 0,  "y" :0, "zIndex" : 8} },				
+				{"name" :"UpgradeScreenGearbitSmall6","group" : "ItemGroup6", "type": "image", "asset" : "UpgradeScreenGearbitSmall","params": {"x" :250,  "y" :0, "zIndex" : 9} },
+				{"name" :"UpgradeScreenLock6",        "group" : "ItemGroup6", "type": "image", "asset" : "UpgradeScreenLock",        "params": {"x" :345,  "y" :2, "zIndex" : 9} },
+				{"name" :"UpgradeScreenCheck6",       "group" : "ItemGroup6", "type": "image", "asset" : "UpgradeScreenCheck",       "params": {"x" :330,  "y" :-30, "zIndex" : 9} },
+				{"name" :"UPriceText6", "type": "text","group" : "ItemGroup6", "params": {"left" :285, "top" : 0, "zIndex" : 9, "style" : ".upgradeCost", "text":"0000"}},
+				{"name" :"UNameText6",  "type": "text","group" : "ItemGroup6", "params": {"left" :45, "top" : 2, "zIndex" : 9, "style" : ".upgradeName", "text":"Upgrade Name Here"}},
+
+
+			{"name" :"ItemGroup7", "type": "group", "params": {"x" : 65, "y" : 455, "zIndex" : 8, "registrationX" : 188, "registrationY" : 15} },
+				{"name" :"IconNodeItem7",             "group" : "ItemGroup7", "type": "group", "params": {"x" : 0,  "y" :-7, "zIndex" : 9} },
+				{"name" :"UpgradeScreenBarInactive7", "group" : "ItemGroup7", "type": "image", "asset" : "UpgradeScreenBarInactive", "params": {"x" : 0,  "y" :0, "zIndex" : 7} },
+				{"name" :"UpgradeScreenBarActive7",   "group" : "ItemGroup7", "type": "image", "asset" : "UpgradeScreenBarActive",   "params": {"x" : 0,  "y" :0, "zIndex" : 8} },				
+				{"name" :"UpgradeScreenGearbitSmall7","group" : "ItemGroup7", "type": "image", "asset" : "UpgradeScreenGearbitSmall","params": {"x" :250,  "y" :0, "zIndex" : 9} },
+				{"name" :"UpgradeScreenLock7",        "group" : "ItemGroup7", "type": "image", "asset" : "UpgradeScreenLock",        "params": {"x" :345,  "y" :2, "zIndex" : 9} },
+				{"name" :"UpgradeScreenCheck7",       "group" : "ItemGroup7", "type": "image", "asset" : "UpgradeScreenCheck",       "params": {"x" :330,  "y" :-30, "zIndex" : 9} },
+				{"name" :"UPriceText7", "type": "text","group" : "ItemGroup7", "params": {"left" :285, "top" : 0, "zIndex" : 9, "style" : ".upgradeCost", "text":"0000"}},
+				{"name" :"UNameText7",  "type": "text","group" : "ItemGroup7", "params": {"left" :45, "top" : 2, "zIndex" : 9, "style" : ".upgradeName", "text":"Upgrade Name Here"}},
+
+			{"name" :"ItemGroup8", "type": "group", "params": {"x" : 65, "y" : 485, "zIndex" : 8, "registrationX" : 188, "registrationY" : 15} },
+				{"name" :"IconNodeItem8",             "group" : "ItemGroup8", "type": "group", "params": {"x" : 0,  "y" :-7, "zIndex" : 9} },
+				{"name" :"UpgradeScreenBarInactive8", "group" : "ItemGroup8", "type": "image", "asset" : "UpgradeScreenBarInactive", "params": {"x" : 0,  "y" :0, "zIndex" : 7} },
+				{"name" :"UpgradeScreenBarActive8",   "group" : "ItemGroup8", "type": "image", "asset" : "UpgradeScreenBarActive",   "params": {"x" : 0,  "y" :0, "zIndex" : 8} },				
+				{"name" :"UpgradeScreenGearbitSmall8","group" : "ItemGroup8", "type": "image", "asset" : "UpgradeScreenGearbitSmall","params": {"x" :250,  "y" :0, "zIndex" : 9} },
+				{"name" :"UpgradeScreenLock8",        "group" : "ItemGroup8", "type": "image", "asset" : "UpgradeScreenLock",        "params": {"x" :345,  "y" :2, "zIndex" : 9} },
+				{"name" :"UpgradeScreenCheck8",       "group" : "ItemGroup8", "type": "image", "asset" : "UpgradeScreenCheck",       "params": {"x" :330,  "y" :-30, "zIndex" : 9} },
+				{"name" :"UPriceText8", "type": "text","group" : "ItemGroup8", "params": {"left" :285, "top" : 0, "zIndex" : 9, "style" : ".upgradeCost", "text":"0000"}},
+				{"name" :"UNameText8",  "type": "text","group" : "ItemGroup8", "params": {"left" :45, "top" : 2, "zIndex" : 9, "style" : ".upgradeName", "text":"Upgrade Name Here"}},
+
+			{"name" :"NextButtonUS", "type": "button", "spritesheetID" : "Buttons", "prefix" : "button_generic", "params": {"x" :580, "y" :560, "zIndex" : 14}}
+		]
+
+	},
+
+
+	"ui":{
+		"GUI" : [
+			{"name" :"HUDCharGroup", "type": "group", "params": {"x" :13, "y" : 3, "zIndex" : 104} },
+				{"name" :"HUDMeterBack", "type": "image", "group": "HUDCharGroup", "asset" : "HUDMeterBack", "params": {"x" : 5, "y" : 4, "zIndex" : 102} },
+				{"name" :"HUDMeterBase", "type": "image", "group": "HUDCharGroup", "asset" : "HUDMeterBase", "params": {"x" :0, "y" : 0, "zIndex" : 106} },
+				{"name" :"HUDPortraitGroup", "type": "group", "group": "HUDCharGroup", "params": {"x" :30, "y" : 28, "zIndex" : 105} },
+				{"name" :"HUDScoreText", "type": "text",  "group": "HUDCharGroup", "params": {"left" :67, "top" :109, "zIndex" : 108, "text" : "000000", "style": ".hudScore"}},
+				{"name" :"HUDCurrencyText", "type": "text",  "group": "HUDCharGroup", "params": {"left" :63, "top" : 128, "zIndex" : 108, "text" : "00000", "style": ".hudCurrency"}},
+
+
+			{"name" :"SoundButton", "type": "button", "spritesheetID" : "Buttons", "prefix" : "sound_button", "params": {"x" :890, "y" :10, "zIndex" : 104}},
+			{"name" :"PauseButton", "type": "button", "spritesheetID" : "Buttons", "prefix" : "pause_button", "params": {"x" :830, "y" :10, "zIndex" : 104}},
+
+			{"name" :"HUDProgressGroup", "type": "group", "params": {"x" : 160, "y" : 9, "zIndex" : 108} },
+				{"name" :"HUDProgressGroup1", "type": "group", "group": "HUDProgressGroup", "params": {"x" :0,  "y" : 0, "zIndex" : 105, "scale" : 1, "registrationX" : 50, "registrationY" : 50} },
+					{"name" :"HUDProgressBox1", "type": "image", "group": "HUDProgressGroup1","asset" : "HUDProgressBox", "params": {"x" :0, "y" : 0, "zIndex" : 102} },
+					{"name" :"HUDProgressVehicleG1", "type": "group", "group": "HUDProgressGroup1", "params": {"x" :75, "y" : 3, "zIndex" : 103} },
+						{"name" :"HUDIcon1_1", "type": "image", "group": "HUDProgressVehicleG1","asset" : "HUDIconDBBlue", "params": {"x" :0, "y" : 0, "zIndex" : 103} },
+					{"name" :"HUDProgressPlace1",  "type": "text", "group" : "HUDProgressGroup1", "params": {"left" :25, "top" : 0, "zIndex" : 131, "text" : "2", "style": ".hudProgressPlace", "gradient": [{"position":0, "color":"#FFFFFF"}, {"position":0.75, "color":"#EDD389"}, {"position":1, "color":"#FFFFFF"}],
+			 		"shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3 }},
+					{"name" :"HUDProgressSuffix1","type": "text", "group" : "HUDProgressGroup1", "params": {"left" :48, "top" : 5, "zIndex" : 131, "text" : "nd", "style": ".hudProgressSuffix", "gradient": [{"position":0, "color":"#FFFFFF"}, {"position":0.75, "color":"#EDD389"}, {"position":1, "color":"#FFFFFF"}],
+			 		"shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3 }},
+			 		{"name" :"HUDProgressNumber1", "type": "text", "group": "HUDProgressGroup1","params": {"left" :112, "top" : 10, "lineWidth" : 40, "zIndex" : 103, "text" : "x18", "style": ".hudProgressNumber", "shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3 }},
+			 		{"name" :"HUDProgressAnim1", "type": "text", "group": "HUDProgressGroup1","params": {"left" :112, "top" : 10, "lineWidth" : 40, "zIndex" : 104, "text" : "x18", "style": ".hudProgressAnim", "shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3, "alpha" : 0 }},
+			 		{"name" :"HUDProgressTotal1", "type": "text", "group": "HUDProgressGroup1","params": {"left" :151, "top" : 12, "lineWidth" : 40, "zIndex" : 103, "text" : "/20", "style": ".hudProgressTotal","shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3 }},
+
+				{"name" :"HUDProgressGroup2", "type": "group", "group": "HUDProgressGroup", "params": {"x" :223,  "y" : 0, "zIndex" : 105, "scale" : 1, "registrationX" : 50, "registrationY" : 50} },
+					{"name" :"HUDProgressBox2", "type": "image", "group": "HUDProgressGroup2","asset" : "HUDProgressBox", "params": {"x" :0, "y" : 0, "zIndex" : 102} },
+					{"name" :"HUDProgressVehicleG2", "type": "group", "group": "HUDProgressGroup2", "params": {"x" :75, "y" : 3, "zIndex" : 2} },
+						{"name" :"HUDIcon2_2", "type": "image", "group": "HUDProgressVehicleG2","asset" : "HUDIconSSDark", "params": {"x" :0, "y" : 0, "zIndex" : 103} },
+					{"name" :"HUDProgressPlace2",  "type": "text", "group" : "HUDProgressGroup2", "params": {"left" :25, "top" : 0, "zIndex" : 131, "text" : "2", "style": ".hudProgressPlace", "gradient": [{"position":0, "color":"#FFFFFF"}, {"position":0.75, "color":"#EDD389"}, {"position":1, "color":"#FFFFFF"}],
+			 		"shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3 }},
+					{"name" :"HUDProgressSuffix2","type": "text", "group" : "HUDProgressGroup2", "params": {"left" :48, "top" : 5, "zIndex" : 131, "text" : "nd", "style": ".hudProgressSuffix", "gradient": [{"position":0, "color":"#FFFFFF"}, {"position":0.75, "color":"#EDD389"}, {"position":1, "color":"#FFFFFF"}],
+			 		"shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3 }},
+			 		{"name" :"HUDProgressNumber2", "type": "text", "group": "HUDProgressGroup2","params": {"left" :112, "top" : 10, "lineWidth" : 40, "zIndex" : 103, "text" : "x18", "style": ".hudProgressNumber", "shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3 }},
+			 		{"name" :"HUDProgressAnim2", "type": "text", "group": "HUDProgressGroup2","params": {"left" :112, "top" : 10, "lineWidth" : 40, "zIndex" : 104, "text" : "x18", "style": ".hudProgressAnim", "shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3, "alpha" : 0 }},
+			 		{"name" :"HUDProgressTotal2", "type": "text", "group": "HUDProgressGroup2","params": {"left" :151, "top" : 12, "lineWidth" : 40, "zIndex" : 103, "text" : "/20", "style": ".hudProgressTotal","shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3 }},
+
+
+				{"name" :"HUDProgressGroup3", "type": "group", "group": "HUDProgressGroup", "params": {"x" :445,  "y" : 0, "zIndex" : 5, "scale" : 1, "registrationX" : 50, "registrationY" : 50} },
+					{"name" :"HUDProgressBox3", "type": "image", "group": "HUDProgressGroup3","asset" : "HUDProgressBox", "params": {"x" :0, "y" : 0, "zIndex" : 102} },
+					{"name" :"HUDProgressVehicleG3", "type": "group", "group": "HUDProgressGroup3", "params": {"x" :75, "y" : 3, "zIndex" : 102} },
+						{"name" :"HUDIcon3_3", "type": "image", "group": "HUDProgressVehicleG3","asset" : "HUDIconRRYellow", "params": {"x" :0, "y" : 0, "zIndex" : 103} },
+					{"name" :"HUDProgressPlace3",  "type": "text", "group" : "HUDProgressGroup3", "params": {"left" :25, "top" : 0, "zIndex" : 131, "text" : "2", "style": ".hudProgressPlace", "gradient": [{"position":0, "color":"#FFFFFF"}, {"position":0.75, "color":"#EDD389"}, {"position":1, "color":"#FFFFFF"}],
+			 		"shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3 }},
+					{"name" :"HUDProgressSuffix3","type": "text", "group" : "HUDProgressGroup3", "params": {"left" :48, "top" : 5, "zIndex" : 131, "text" : "nd", "style": ".hudProgressSuffix", "gradient": [{"position":0, "color":"#FFFFFF"}, {"position":0.75, "color":"#EDD389"}, {"position":1, "color":"#FFFFFF"}],
+			 		"shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3 }},
+			 		{"name" :"HUDProgressNumber3", "type": "text", "group": "HUDProgressGroup3","params": {"left" :112, "top" : 10, "lineWidth" : 40, "zIndex" : 103, "text" : "x18", "style": ".hudProgressNumber", "shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3 }},
+			 		{"name" :"HUDProgressAnim3", "type": "text", "group": "HUDProgressGroup3","params": {"left" :112, "top" : 10, "lineWidth" : 40, "zIndex" : 104, "text" : "x18", "style": ".hudProgressAnim", "shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3, "alpha" : 0 }},
+			 		{"name" :"HUDProgressTotal3", "type": "text", "group": "HUDProgressGroup3","params": {"left" :151, "top" : 12, "lineWidth" : 40, "zIndex" : 103, "text" : "/20", "style": ".hudProgressTotal","shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3 }},
+
+			{"name" :"Fire1Button","type": "button", "env" : "mobile", "spritesheetID" : "Buttons", "prefix" : "mobile_btns_attack", "params": {"right" :920, "y" :400, "zIndex" : 114}},
+			{"name" :"Fire2Button","type": "button", "env" : "mobile", "spritesheetID" : "Buttons", "prefix" : "mobile_btns_super", "params": {"right" :920, "y" :500 , "zIndex" : 114}},
+
+			{"name" :"HUDTimeGroup", "type": "group", "params": {"x" : 0, "y" : 140, "zIndex" : 108} },
+				{"name" :"HUDTime", "type": "image", "group": "HUDTimeGroup","asset" : "HUDTime", "params": {"x" :0, "y" : 0, "zIndex" : 102} },
+				{"name" :"HUDTimeText", "type": "text", "group": "HUDTimeGroup","params": {"left" :40, "top" : 20, "lineWidth" : 138, "zIndex" : 103, "text" : "00:00.00", "style": ".hudTime"}}
+
+			
+		],
+
+		"TouchAxis": [
+			{"name" :"HUDAxisHitbox", "type": "rect", "color" : "#FF0000", "width" : 500, "height" : 1000,"asset" : "HUDDPad", "params": {"centerX" :100, "centerY" : 500, "alpha" : 0, "zIndex" : 104} },
+			{"name" :"HUDDPad", "type": "image", "asset" : "HUDDPad", "params": {"centerX" :100, "centerY" : 500, "zIndex" : 102} },
+			{"name" :"HUDButton", "type": "image", "asset" : "HUDButton", "params": {"centerX" :100, "centerY" : 500, "zIndex" : 103} }
+			
+		]
+	},
+
+	"overlays" : {
+		"ResultsOverlay" : [
+			{"name" :"ResultsBG", "type": "image", "asset" : "ResultsBG", "params": {"x" : 70, "y" : 20, "zIndex" : 40} },
+			{"name" :"ResultsTitle", "type": "text", "params": {"left" :30, "top" : 30, "zIndex" : 50, "lineWidth" : 900, "gradient": [{"position":0, "color":"#FFFFFF"}, {"position":0.75, "color":"#EDD389"}, {"position":1, "color":"#FFFFFF"}],
+			 "shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3 }},
+			
+			{"name" :"ResultsStarGroup1", "type": "group", "params": {"x" :300, "y" : 120, "zIndex" : 41, "registrationX" : 50, "registrationY" : 50 } },
+			{"name" :"ResultsStarBlack1", "group": "ResultsStarGroup1",  "type": "image", "asset" : "ResultsStarBlack", "params": {"x" : 0, "y" : 0, "zIndex" : 41} },
+			{"name" :"ResultsStarWhite1", "group": "ResultsStarGroup1",  "type": "image", "asset" : "ResultsStarWhite", "params": {"x" : 0, "y" : 0, "zIndex" : 42} },
+
+			{"name" :"ResultsStarGroup2", "type": "group", "params": {"x" :428, "y" : 120, "zIndex" : 41, "registrationX" : 50, "registrationY" : 50 } },
+			{"name" :"ResultsStarBlack2", "group": "ResultsStarGroup2",  "type": "image", "asset" : "ResultsStarBlack", "params": {"x" : 0, "y" : 0, "zIndex" : 41} },
+			{"name" :"ResultsStarWhite2", "group": "ResultsStarGroup2",  "type": "image", "asset" : "ResultsStarWhite", "params": {"x" : 0, "y" : 0, "zIndex" : 42} },
+
+			{"name" :"ResultsStarGroup3", "type": "group", "params": {"x" :556, "y" : 120, "zIndex" : 41, "registrationX" : 50, "registrationY" : 50 } },
+			{"name" :"ResultsStarBlack3","group": "ResultsStarGroup3", "type": "image", "asset" : "ResultsStarBlack", "params": {"x" : 0, "y" : 0, "zIndex" : 41} },
+			{"name" :"ResultsStarWhite3","group": "ResultsStarGroup3", "type": "image", "asset" : "ResultsStarWhite", "params": {"x" : 0, "y" : 0, "zIndex" : 42} },
+			
+			{"name" :"ResultsGearBitGroup", "type": "group", "params": {"x" :595, "y" : 210, "zIndex" : 41 } },
+				{"name" :"ResultsGearBit", "group": "ResultsGearBitGroup","type": "image", "asset" : "ResultsGearBit", "params": {"x" :0, "y" : 0, "zIndex" : 41} },		
+				{"name" :"ResultGearBitText","group": "ResultsGearBitGroup", "type": "text", "params": {"left" :90, "top" : 25, "zIndex" : 43, "text" : "X250", "style": ".resultsNum1"}},
+			
+			{"name" :"ResultsWatchGroup", "type": "group", "params": {"x" :200, "y" : 205, "zIndex" : 41 } },
+				{"name" :"ResultsWatch", "group": "ResultsWatchGroup","type": "image", "asset" : "ResultsWatch", "params": {"x" : 0, "y" : 0, "zIndex" : 41} },
+				{"name" :"ResultTimeText", "group": "ResultsWatchGroup","type": "text", "params": {"left" :80, "top" : 30, "zIndex" : 43, "text" : "00:00", "style": ".resultsNum1"}},
+			
+			{"name" :"ResultsScoreGroup", "type": "group", "params": {"x" :270, "y" : 175, "zIndex" : 41 } },
+				{"name" :"ResultScoreText","group": "ResultsScoreGroup", "type": "text", "params": {"left" :125, "top" : 60, "zIndex" : 43, "text" : "0,000,000", "style": ".resultsScore"}},
+
+			{"name" :"ResultsPlace1", "type": "group", "params": {"x" :310, "y" : 305, "zIndex" : 3} },
+				{"name" :"ResultsIconGroup1", "group": "ResultsPlace1", "type": "group", "params": {"x" : 0, "y" : 0, "zIndex" : 41} },
+				{"name" :"ResultsCharName1", "group": "ResultsPlace1", "type": "text",   "params": {"left" :50, "top" :10, "zIndex" : 43, "text" : "CHARNAME", "style": ".resultsCharName"}},
+				{"name" :"ResultsPlaceText1", "group": "ResultsPlace1", "type": "text",   "params": {"left" :-50, "top" :10, "zIndex" : 43, "text" : "1st", "style": ".resultsCharName"}},
+				{"name" :"ResultsCharTime1", "group": "ResultsPlace1", "type": "text", "params": {"left" :320, "top" :10, "zIndex" : 43, "text" : "00:00", "style": ".resultsCharName"}},				
+
+			{"name" :"ResultsPlace2", "type": "group", "params": {"x" :310, "y" : 342, "zIndex" : 3} },
+				{"name" :"ResultsIconGroup2", "group": "ResultsPlace2", "type": "group", "params": {"x" : 0, "y" : 0, "zIndex" : 41} },
+				{"name" :"ResultsCharName2", "group": "ResultsPlace2", "type": "text", "params": {"left" :50, "top" :10, "zIndex" : 43, "text" : "CHARNAME", "style": ".resultsCharName"}},
+				{"name" :"ResultsPlaceText2", "group": "ResultsPlace2", "type": "text",   "params": {"left" :-50, "top" :10, "zIndex" : 43, "text" : "1st", "style": ".resultsCharName"}},
+				{"name" :"ResultsCharTime2", "group": "ResultsPlace2", "type": "text", "params": {"left" :320, "top" :10, "zIndex" : 43, "text" : "00:00", "style": ".resultsCharName"}},				 
+
+			{"name" :"ResultsPlace3", "type": "group", "params": {"x" :310, "y" : 379, "zIndex" : 3} },
+				{"name" :"ResultsIconGroup3", "group": "ResultsPlace3", "type": "group", "params": {"x" : 0, "y" : 0, "zIndex" : 41} },
+				{"name" :"ResultsCharName3", "group": "ResultsPlace3", "type": "text", "params": {"left" :50, "top" :10, "zIndex" : 43, "text" : "CHARNAME", "style": ".resultsCharName"}},
+				{"name" :"ResultsPlaceText3", "group": "ResultsPlace3", "type": "text",   "params": {"left" :-50, "top" :10, "zIndex" : 43, "text" : "1st", "style": ".resultsCharName"}},
+				{"name" :"ResultsCharTime3", "group": "ResultsPlace3", "type": "text", "params": {"left" :320, "top" :10, "zIndex" : 43, "text" : "00:00", "style": ".resultsCharName"}},				 
+
+			{"name" :"NextButtonRSLTS", "type": "button", "spritesheetID" : "Buttons", "prefix" : "button_generic", "params": {"x" :580, "y" :500, "zIndex" : 44}},
+			{"name" :"PlayAgainButtonRSLTS",  "type": "button", "spritesheetID" : "Buttons", "prefix" : "button_generic", "params": {"x" :80, "y" :500, "zIndex" : 44}}
+
+		],
+		"PurchaseConfirmOverlay" : [
+			{"name" :"PConfirmGroup", "type": "group", "params": {"x" : 180, "y" : 35, "zIndex" : 4} },	
+				{"name" :"PConfirmTitle", "type": "text", "params": {"left" :30, "top" : 10, "zIndex" : 7, "lineWidth" : 900, "gradient": [{"position":0, "color":"#FFFFFF"}, {"position":0.75, "color":"#EDD389"}, {"position":1, "color":"#FFFFFF"}],
+				 "shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3 }},
+				{"name" :"PConfirmBox", "group":"PConfirmGroup", "type": "image", "asset" : "PConfirmBox", "params": {"x" : 0, "y" : 0, "zIndex" : 40} },
+				{"name" :"PConfirmGearbit", "group":"PConfirmGroup", "type": "image", "asset" : "PConfirmGearbit", "params": {"x" : 265, "y" : 265, "zIndex" : 48} },
+				{"name" :"PConfirmItemName","group":"PConfirmGroup", "type": "text", "params": {"left" :117, "top" : 95, "zIndex" : 47, "lineWidth" : 380, "style" : ".upgradeConfirm", "text" : "ROAD BURNERS"}},
+				{"name" :"PConfirmItemCost","group":"PConfirmGroup", "type": "text", "params": {"left" :340, "top" : 278, "zIndex" : 47, "lineWidth" : 380, "style" : ".upgradeConfirmCost", "text" : "0000"}},
+				{"name" :"CostCopy","group":"PConfirmGroup", "type": "text", "params": {"left" :-40, "top" : 278, "zIndex" : 47, "lineWidth" : 300}},
+				{"name" :"PConfirmImageGroup", "group":"PConfirmGroup", "type": "group", "params": {"x" :295, "y" : 195, "zIndex" : 41} },
+
+				{"name" :"NoButtonPCO",  "group":"PConfirmGroup", "type": "button", "spritesheetID" : "Buttons", "prefix" : "store_button", "params": {"x" :140, "y" :335, "zIndex" : 44}},
+				{"name" :"YesButtonPCO", "group":"PConfirmGroup", "type": "button", "spritesheetID" : "Buttons", "prefix" : "store_button", "params": {"x" :320, "y" :335, "zIndex" : 44}}
+		],
+
+		"PauseScreen" : [
+			{"name" :"PauseGroup", "type": "group", "params": {"x" :260, "y" : 40, "zIndex" : 4} },
+				{"name" :"PauseScreenBox", "group":"PauseGroup", "type": "image", "asset" : "PauseScreenBox", "params": {"x" : 0, "y" : 0, "zIndex" : 40} },
+				{"name" :"PauseTitle", "group":"PauseGroup", "type": "text", "params": {"left" :-90, "top" :5, "zIndex" : 50, "lineWidth" : 600, "gradient": [{"position":0, "color":"#FFFFFF"}, {"position":0.75, "color":"#EDD389"}, {"position":1, "color":"#FFFFFF"}],
+				 "shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3 }},
+				{"name" :"ResumeButtonPS",  "group":"PauseGroup", "type": "button", "spritesheetID" : "Buttons", "prefix" : "button_generic", "params": {"x" :70, "y" :92, "zIndex" : 44}},
+				{"name" :"RestartButtonPS",  "group":"PauseGroup", "type": "button", "spritesheetID" : "Buttons", "prefix" : "button_generic", "params": {"x" :70, "y" :162, "zIndex" : 44}},
+				{"name" :"HowToPlayButtonPS",  "group":"PauseGroup", "type": "button", "spritesheetID" : "Buttons", "prefix" : "button_generic", "params": {"x" :70, "y" :232, "zIndex" : 44}},
+				{"name" :"LevelSelectButtonPS",  "group":"PauseGroup", "type": "button", "spritesheetID" : "Buttons", "prefix" : "button_generic", "params": {"x" :70, "y" :302, "zIndex" : 44}},
+				{"name" :"QuitButtonPS",  "group":"PauseGroup", "type": "button", "spritesheetID" : "Buttons", "prefix" : "button_generic", "params": {"x" :70, "y" :372, "zIndex" : 44}}
+
+		],
+
+		"ConfirmOverlay": [
+			{"name" :"ConfirmOverlayGroup", "type": "group", "params": {"x" : 185, "y" : 100, "zIndex" : 4} },
+				{"name" :"ConfirmBox", "group":"ConfirmOverlayGroup", "type": "image", "asset" : "PConfirmBox", "params": {"x" : 0, "y" : 0, "zIndex" : 5, "scaleY" : -0.75, "scaleX": 0.90} },
+				{"name" :"AreYouSureText",        "type": "text",  "group": "ConfirmOverlayGroup", "params": {"left" :60, "top" : 160, "zIndex" : 6, "lineWidth" : 500}},
+				{"name" :"NoButtonCO",  "group":"ConfirmOverlayGroup", "type": "button", "spritesheetID" : "Buttons", "prefix" : "store_button", "params": {"x" :150, "y" :235, "zIndex" : 44}},
+				{"name" :"YesButtonCO", "group":"ConfirmOverlayGroup", "type": "button", "spritesheetID" : "Buttons", "prefix" : "store_button", "params": {"x" :330, "y" :235, "zIndex" : 44}}
+		]
+
+	},
+
+
+	"commands" :{
+		"TitleScreen" : [
+			{"name" :"enter", "command":"enterTitleScreen", "args":{}, "sfx" : "SUIClick"},
+			{"name" :"PlayButtonTS", "command":"endTitleScreen", "args":{"screen" : "WelcomeScreen"}, "sfx" : "SUIClick"}
+		],
+
+		"WelcomeScreen" : [
+			{"name" :"NextButtonWS", "command":"showScreen", "args":{"screen" : "VehicleSelectScreen"}, "sfx" : "SUIClick"}
+		],
+
+		"EndScreen" : [
+			{"name" :"enter", "command":"enterEndScreen", "args":{}},
+			{"name" :"start", "command":"startEndScreen", "args":{}},
+			{"name" :"exit", "command":"exitEndScreen", "args":{}},
+			{"name" :"PlayAgainButtonES", "command":"showScreen", "args":{"screen" : "VehicleSelectScreen"}, "sfx" : "SUIClick"}
+		],
+
+
+		"VehicleSelectScreen" : [
+			{"name" :"enter", "command":"startSelectScreen"},
+			{"name" :"exit", "command":"exitVehicleSelect"},
+			{"name" :"NextButtonVSS", "command":"showScreen", "args":{"screen" : "TrackSelectScreen"}, "sfx" : "SUIClick"},
+			{"name" :"ShopButtonVSS", "command":"showScreen", "args":{"screen" : "UpgradeScreen"}, "sfx" : "SUIClick"},
+			{"name" :"ArrowLeftChar", "command":"change", "args":{"category": "character" , "increment" : -1}},
+			{"name" :"ArrowRightChar", "command":"change", "args":{"category": "character" , "increment":1}},
+			{"name" :"ArrowLeftVehicle", "command":"change", "args":{"category": "vehicle" , "increment" : -1}},
+			{"name" :"ArrowRightVehicle", "command":"change", "args":{"category": "vehicle" , "increment":1}}
+		],
+
+		"TrackSelectScreen" : [
+			{"name" :"enter", "command":"startLevelSelect", "args":{}},
+			{"name" :"end", "command":"exitLevelSelect", "args":{}},
+			{"name" :"NextButtonTSS", "command":"gotoNextScreen", "args":{"screen" : "ReadyScreen"}, "sfx" : "SUIClick"},
+			{"name" :"BackButtonTSS", "command":"showScreen", "args":{"screen" : "VehicleSelectScreen"}, "sfx" : "SUIClick"},
+
+			{"name" :"ClearProgressB1", "command":"clearProgress", "args":{"index" : 0}, "sfx" : "SUIPurchaseFail"},
+			{"name" :"ClearProgressB2", "command":"clearProgress", "args":{"index" : 1}, "sfx" : "SUIPurchaseFail"},
+			{"name" :"ClearProgressB3", "command":"clearProgress", "args":{"index" : 2}, "sfx" : "SUIPurchaseFail"}
+		],
+
+		"HowToPlayScreen" : [
+			{"name" :"NextButtonHTPS", "command":"showScreen", "args":{"screen" : "HowToPlayScreen2"}, "sfx" : "SUIClick"},
+			{"name" :"BackButtonHTPS", "command":"endHowToPlay", "args":{"screen" : "TrackSelectScreen"}, "sfx" : "SUIClick"}
+		],
+
+		"HowToPlayScreen2" : [
+			{"name" :"NextButtonHTPS2", "command":"endHowToPlay", "args":{"screen" : "ReadyScreen"}, "sfx" : "SUIClick"},
+			{"name" :"BackButtonHTPS2", "command":"showScreen", "args":{"screen" : "HowToPlayScreen"}, "sfx" : "SUIClick"}
+		],
+
+
+		"ReadyScreen" : [
+			{"name" :"enter", "command":"startReadyScreen", "args":{}},
+			{"name" :"PlayButtonRS", "command":"setScene", "args":{"scene" : "SuperChargersLevel"}, "sfx" : "SUIResultsStar"}
+		],
+
+		"UpgradeScreen" : [
+			{"name" :"enter", "command":"startUpgradeScreen", "args":{}},
+			{"name" :"end", "command":"endUpgradeScreen", "args":{}},
+			{"name" :"exit", "command":"exitUpgradeScreen", "args":{}},
+			{"name" :"NextButtonUS", "command":"showScreen", "args":{"screen" : "VehicleSelectScreen"}, "sfx" : "SUIClick"}
+		],
+
+		"PurchaseConfirmOverlay" : [
+			{"name" :"enter", "command":"startPurchaseConfirm", "args":{}},
+			{"name" :"YesButtonPCO", "command":"confirmPurchase", "args":{}, "sfx" : "SUIPurchaseSuccess"},
+			{"name" :"NoButtonPCO", "command":"declinePurchase", "args":{}, "sfx" : "SUIPurchaseFail"}
+		],
+
+		"PauseScreen" : [
+			{"name" :"ResumeButtonPS", "command":"resume", "args":{}, "sfx" : "SUIResume"},
+			{"name" :"RestartButtonPS", "command":"restart", "args":{}, "sfx" : "SUIClick"},
+			{"name" :"LevelSelectButtonPS", "command":"levelSelect", "args":{}, "sfx" : "SUIClick"},
+			{"name" :"QuitButtonPS", "command":"quit", "args":{}, "sfx" : "SUIClick"},
+			{"name" :"HowToPlayButtonPS", "command":"howToPlay", "args":{"screen" : "HowToPlayScreen"}, "sfx" : "SUIClick"}
+		],
+
+		"ConfirmOverlay" : [
+			{"name" :"YesButtonCO", "command":"confirm", "args":{}, "sfx" : "SUIClick"},
+			{"name" :"NoButtonCO", "command":"decline", "args":{}, "sfx" : "SUIPurchaseFail"}
+		],
+
+		"ResultsOverlay" : [
+			{"name" :"enter", "command":"enterResultsScreen", "args":{}},
+			{"name" :"start", "command":"startResultsScreen", "args":{}},
+			{"name" :"NextButtonRSLTS", "command":"exitLevel", "args":{"scene" : "GameMenu", "args": ["UpgradeScreen"]}, "sfx" : "SUIClick"},
+			{"name" :"PlayAgainButtonRSLTS", "command":"setScene", "args":{"scene": "SuperChargersLevel"}, "sfx" : "SUIClick"}
+		]
+
+	},
+
+	"transitions" : {
+		"enter" : {
+			"TitleScreen" : [
+				{"name" :"DBomberTitle",    "tweens" : [{"type" : "from", "time" : 1.15, "params": {"x" : -200, "y" : 200, "alpha": 0, "scale" : 0.1, "ease" : "Power4.easeInOut", "delay" : 0.25}  },
+												  {"type" : "to", "time" : 0.09, "params": {"y" : "-=1", "ease" : "Elastic.easeInOut", "yoyo" : true, "repeat" : 20, "delay" : 0.25}}
+												 ] },
+				{"name" :"SShadowTitle", "tweens" : [{"type" : "from", "time" : 1.15, "params": {"x" : -500,  "alpha": 0, "scale" : 0.1, "ease" : "Power4.easeInOut"}  },
+												  {"type" : "to", "time" : 0.09, "params": {"y" : "-=1", "ease" : "Elastic.easeInOut", "yoyo" : true, "repeat" : 20}}
+												 ] },
+			 	{"name" :"RRipperTitle", "tweens" : [{"type" : "from", "time" : 1.15, "params": {"x" : -500,  "alpha": 0, "scale" : 0.1, "ease" : "Power4.easeInOut"}  },
+												  {"type" : "to", "time" : 0.09, "params": {"y" : "-=1", "ease" : "Elastic.easeInOut", "yoyo" : true, "repeat" : 20}}
+												 ] },
+				{"name" :"GameTitle","tweens" : [{"type" : "from", "time" : 0.5,   "params": {"left" : "+=500", "delay" : 0.25, "ease" : "Power4.easeIn"}  },
+												  {"type" : "to", "time" : 0.03, "params": {"x" : "+=3", "ease" : "Elastic.easeInOut", "yoyo" : true, "repeat" : 5, "delay" : 0.78}}
+												 ] },
+				{"name" :"PlayButtonTS", "tweens" : [{"type" : "from", "time" : 0.25, "params": {"y" : 700, "delay":1.2}  } ] }
+
+
+			],
+
+			"WelcomeScreen" : [
+				{"name" :"WelcomeTitle", "tweens": [{"type" : "from", "time" : 0.3, "params": {"top" : -500}  }]},
+				{"name" :"CharacterWelcome", "tweens": [{"type" : "from", "time" : 0.3, "params": {"x" : -500}  }]},
+				{"name" :"TextBoxWelcome", "tweens": [{"type" : "from", "time" : 0.3, "params": {"y" : "+=700"}  }] },
+				{"name" :"WelcomeCopy1", "tweens": [{"type" : "from", "time" : 0.3, "params": {"top" : "+=700"}  }]},
+				{"name" :"WelcomeCopy2", "tweens": [{"type" : "from", "time" : 0.3, "params": {"top" : "+=700"}  }]},
+				{"name" :"WelcomeCopy3", "tweens": [{"type" : "from", "time" : 0.3, "params": {"top" : "+=700"}  }]},
+				{"name" :"NextButtonWS", "tweens": [{"type" : "from", "time" : 0.3, "params": {"x" : 1000}  }]}
+			],
+
+			"VehicleSelectScreen" : [
+				{"name" :"SelectTitle",          "tweens": [{"type" : "from", "time" : 0.3, "params": {"top" : -500, "delay" : 0.2}  }] },
+				{"name" :"CharName",             "tweens": [{"type" : "from", "time" : 0.3, "params": {"top" : -500, "delay" : 0.35}  }] },
+				{"name" :"VehclName",            "tweens": [{"type" : "from", "time" : 0.3, "params": {"top" : -500, "delay" : 0.37}  }] },
+				{"name" :"VSTextBehind1",         "tweens": [{"type" : "from", "time" : 0.3, "params": {"top" : -500, "delay" : 0.35}  }] },
+				{"name" :"VSTextBehind2",         "tweens": [{"type" : "from", "time" : 0.3, "params": {"top" : -500, "delay" : 0.37}  }] },
+				{"name" :"IconGroupChar1",        "tweens": [{"type" : "from", "time" : 0.3, "params": {"scale" : 0, "delay" : 0.2}  }] },
+				{"name" :"IconGroupChar2",        "tweens": [{"type" : "from", "time" : 0.3, "params": {"scale" : 0, "delay" : 0.2}  }] },
+				{"name" :"IconGroupVehicle1",     "tweens": [{"type" : "from", "time" : 0.3, "params": {"scale" : 0, "delay" : 0.2}  }] },
+				{"name" :"IconGroupVehicle2",     "tweens": [{"type" : "from", "time" : 0.3, "params": {"scale" : 0, "delay" : 0.2}  }] },
+				{"name" :"CharGroup",            "tweens": [{"type" : "from", "time" : 0.7, "params": {"x" : "-=100", "scale" : 0.75, "alpha":0, "delay" : 0.2}  }] },
+				{"name" :"VehclGroup",           "tweens": [{"type" : "from", "time" : 0.7, "params": {"x" : "-=100", "scale" : 0.75, "alpha":0, "delay" : 0.2}  }] },
+				{"name" :"ArrowLeftChar",        "tweens": [{"type" : "from", "time" : 0.3, "params": {"x" : "-=50", "alpha" : 0, "delay" : 0.9}  }] },
+				{"name" :"ArrowRightChar",       "tweens": [{"type" : "from", "time" : 0.3, "params": {"x" : "+=50", "alpha" : 0, "delay" : 0.9}  }] },
+				{"name" :"ArrowLeftVehicle",     "tweens": [{"type" : "from", "time" : 0.3, "params": {"x" : "-=50", "alpha" : 0, "delay" : 0.9}  }] },
+				{"name" :"ArrowRightVehicle",    "tweens": [{"type" : "from", "time" : 0.3, "params": {"x" : "+=50", "alpha" : 0, "delay" : 0.9}  }] },
+				{"name" :"TextBoxSelectChar",    "tweens": [{"type" : "from", "time" : 0.3, "params": {"y" : "+=700", "delay" : 0.3}  }] },
+				{"name" :"TextBoxSelectVehicle", "tweens": [{"type" : "from", "time" : 0.3, "params": {"y" : "+=700", "delay" : 0.3}  }] },
+				{"name" :"CharDesc",             "tweens": [{"type" : "from", "time" : 0.3, "params": {"top" : "+=700", "delay" : 0.3}  }] },
+				{"name" :"VehicleDesc",          "tweens": [{"type" : "from", "time" : 0.3, "params": {"top" : "+=700", "delay" : 0.3}  }] },
+				{"name" :"NextButtonVSS",        "tweens": [{"type" : "from", "time" : 0.3, "params": {"x" : 1000, "delay" : 0.2}  }] },
+				{"name" :"ShopButtonVSS",        "tweens": [{"type" : "from", "time" : 0.3, "params": {"x" : "-=500"}  }] }
+			],
+
+			"TrackSelectScreen": [
+				{"name" :"TrackSelectTitle",     "tweens": [{"type" : "from", "time" : 0.3, "params": {"top" : "-=500"}  }] },
+				{"name" :"LevelGroup1",          "tweens": [{"type" : "from", "time" : 0.5, "params": {"x" : "+=1500", "delay" : 0.2}  }] },
+				{"name" :"LevelGroup2",          "tweens": [{"type" : "from", "time" : 0.5, "params": {"x" : "+=1000", "delay" : 0.3}  }] },
+				{"name" :"LevelGroup3",          "tweens": [{"type" : "from", "time" : 0.5, "params": {"x" : "+=500", "delay" : 0.4}  }] },
+				{"name" :"BackButtonTSS",        "tweens": [{"type" : "from", "time" : 0.3, "params": {"x" : "-=500"}  }] },
+				{"name" :"NextButtonTSS",        "tweens": [{"type" : "from", "time" : 0.3, "params": {"x" : "+=500"}  }] }
+			],
+
+			"HowToPlayScreen": [
+				{"name" :"HTPTitle",             "tweens": [{"type" : "from", "time" : 0.3, "params": {"top" : "-=500"}  }] },
+				{"name" :"InstructionGroup1",          "tweens": [{"type" : "from", "time" : 0.5, "params": {"x" : "+=1500", "delay" : 0.2}  }] },
+				{"name" :"InstructionGroup2",          "tweens": [{"type" : "from", "time" : 0.5, "params": {"x" : "+=1000", "delay" : 0.3}  }] },
+				{"name" :"InstructionGroup3",          "tweens": [{"type" : "from", "time" : 0.5, "params": {"x" : "+=500", "delay" : 0.4}  }] },
+
+				{"name" :"InstructionGroupMobile","tweens": [{"type" : "from", "time" : 0.5, "params": {"x" : "+=1000", "delay" : 0.4}  }] },
+				{"name" :"BackButtonHTPS",        "tweens": [{"type" : "from", "time" : 0.3, "params": {"x" : "-=500"}  }] },
+				{"name" :"NextButtonHTPS",        "tweens": [{"type" : "from", "time" : 0.3, "params": {"x" : "+=500"}  }] },
+
+				{"name" :"HTPMobileSwipe",        "tweens": [{"type" : "from", "time" : 0.5, "params": {"alpha" : 0, "rotation": -30, "delay" : 0.8}  }] },
+				{"name" :"HTPMobileSpecial",        "tweens": [{"type" : "from", "time" : 1.5, "params": {"scale" : 0, "ease" : "Elastic.easeOut", "delay" : 0.81}  }] },
+				{"name" :"HTPMobileAttack",        "tweens": [{"type" : "from", "time" : 1.5, "params": {"scale" : 0, "ease" : "Elastic.easeOut", "delay" : 0.85}  }] },
+				{"name" :"HTPMobileGas",        "tweens": [{"type" : "from", "time" : 1.5, "params": {"scale" : 0, "ease" : "Elastic.easeOut", "delay" : 0.7}  }] },
+				{"name" :"HTPMobileBrake",        "tweens": [{"type" : "from", "time" : 1.5, "params": {"scale" : 0, "ease" : "Elastic.easeOut", "delay" : 0.9}  }] }
+			],
+
+			"HowToPlayScreen2": [
+				{"name" :"InstructionGroupLarge", "tweens": [{"type" : "from", "time" : 0.5, "params": {"x" : "+=1500"}  }] },
+				{"name" :"InstructionLine1",      "tweens": [{"type" : "from", "time" : 0.2, "params": {"x" : "+=50", "alpha" : 0, "delay" : 0.3}  }] },
+				{"name" :"InstructionLine2",      "tweens": [{"type" : "from", "time" : 0.2, "params": {"x" : "+=50", "alpha" : 0, "delay" : 0.4}  }] },
+				{"name" :"InstructionLine3",      "tweens": [{"type" : "from", "time" : 0.2, "params": {"x" : "+=50", "alpha" : 0, "delay" : 0.5}  }] },
+				{"name" :"InstructionLine4",      "tweens": [{"type" : "from", "time" : 0.2, "params": {"x" : "+=50", "alpha" : 0, "delay" : 0.6}  }] },
+				{"name" :"InstructionLine5",      "tweens": [{"type" : "from", "time" : 0.2, "params": {"x" : "+=50", "alpha" : 0, "delay" : 0.7}  }] },
+				{"name" :"InstructionLine6",      "tweens": [{"type" : "from", "time" : 0.2, "params": {"x" : "+=50", "alpha" : 0, "delay" : 0.8}  }] }
+			],
+
+			"ReadyScreen": [
+				{"name" :"ReadyScreenTitle",    "tweens": [{"type" : "from", "time" : 0.3, "params": {"top" : "-=500"}  }] },
+				{"name" :"ReadyBoxGroup",       "tweens": [{"type" : "from", "time" : 0.5, "params": {"x" : "+=1500"}  }] },
+				{"name" :"ReadyScoreGroup",     "tweens": [{"type" : "from", "time" : 0.5, "params": {"y" : "+=500", "delay" : 0.4}  }] },
+				{"name" :"PlayButtonRS",        "tweens": [{"type" : "from", "time" : 0.3, "params": {"x" : "+=500"}  }] },
+				{"name" :"ReadyScreenLoading",  "tweens": [{"type" : "from", "time" : 0.3, "params": {"x" : "+=500"}  }] }
+			],
+
+			"MenuLoadScreen": [
+				{"name" :"MenuLoading",         "tweens": [{"type" : "from", "time" : 0.3, "params": {"left" : "+=500"}  }] }
+			],
+
+
+			"PauseScreen": [
+				{"name" :"PauseGroup",    "tweens": [{"type" : "from", "time" : 0.2, "params": {"y" : "+=700"}  }] }
+			],
+
+			"ConfirmOverlay": [
+				{"name" :"ConfirmOverlayGroup", "tweens": [{"type" : "from", "time" : 0.2, "params": {"x" : "+=1000"}  }] }
+			],
+
+			"PurchaseConfirmOverlay": [
+				{"name" :"PConfirmGroup", "tweens": [{"type" : "from", "time" : 0.2, "params": {"x" : "+=1000"}  }] }
+			],
+
+
+			"UpgradeScreen": [
+				{"name" :"UpgradeScreenTitle",  "tweens": [{"type" : "from", "time" : 0.3, "params": {"top" : "-=500", "delay" : 0.70}  }] },
+				{"name" :"IconGroupUVehicle1",  "tweens": [{"type" : "from", "time" : 0.3, "params": {"scale" : 0, "delay" : 0.9}  }] },
+				{"name" :"IconGroupUVehicle2",  "tweens": [{"type" : "from", "time" : 0.3, "params": {"scale" : 0, "delay" : 0.9}  }] },
+				{"name" :"UpgradeVehclName",    "tweens": [{"type" : "from", "time" : 0.3, "params": {"top" : "-=500", "delay" : 0.9}  }] },
+				{"name" :"USTextBehind",        "tweens": [{"type" : "from", "time" : 0.3, "params": {"top" : "-=500", "delay" : 0.9}  }] },
+
+				{"name" :"SpecialtyCopy",       "tweens": [{"type" : "from", "time" : 0.2, "params": {"left" : "-=500", "delay" : 0.9}  }] },
+				{"name" :"PerformanceCopy",     "tweens": [{"type" : "from", "time" : 0.2, "params": {"left" : "-=500", "delay" : 1.0}  }] },
+				{"name" :"ItemGroup1",          "tweens": [{"type" : "from", "time" : 0.2, "params": {"x" : "-=500", "delay" : 1.1}  }] },
+				{"name" :"ItemGroup2",          "tweens": [{"type" : "from", "time" : 0.2, "params": {"x" : "-=500", "delay" : 1.15}  }] },
+				{"name" :"ItemGroup3",          "tweens": [{"type" : "from", "time" : 0.2, "params": {"x" : "-=500", "delay" : 1.2}  }] },
+				{"name" :"ItemGroup4",          "tweens": [{"type" : "from", "time" : 0.2, "params": {"x" : "-=500", "delay" : 1.25}  }] },
+				{"name" :"ItemGroup5",          "tweens": [{"type" : "from", "time" : 0.2, "params": {"x" : "-=500", "delay" : 1.3}  }] },
+				{"name" :"ItemGroup6",          "tweens": [{"type" : "from", "time" : 0.2, "params": {"x" : "-=500", "delay" : 1.35}  }] },
+				{"name" :"ItemGroup7",          "tweens": [{"type" : "from", "time" : 0.2, "params": {"x" : "-=500", "delay" : 1.4}  }] },
+				{"name" :"ItemGroup8",          "tweens": [{"type" : "from", "time" : 0.2, "params": {"x" : "-=500", "delay" : 1.45}  }] },
+
+				{"name" :"UpgradeCurrencyGroup","tweens": [{"type" : "from", "time" : 0.3, "params": {"x" : "+=1000", "delay" : 1.1}  }] },
+				{"name" :"UpgradeBoxGroup",     "tweens": [{"type" : "from", "time" : 0.3, "params": {"y" : "+=500", "alpha" : 0, "delay" : 0.7}  }] },
+				{"name" :"UpgradeVehicleGroup", "tweens": [{"type" : "from", "time" : 0.3, "params": {"x" : "+=500", "alpha" : 0, "delay" : 0.7}  }] },
+
+				{"name" :"NextButtonUS",        "tweens": [{"type" : "from", "time" : 0.3, "params": {"x" : "+=500", "delay" : 0.7 } }] }
+			],
+
+			"EndScreen" : [
+				{"name" :"EndScreenBanner1",             "tweens": [{"type" : "from", "time" : 0.85, "params": {"y" : "-=500", "delay" : 0, "ease": "Power4.easeInOut"}  }] },
+				{"name" :"EndScreenBanner2",             "tweens": [{"type" : "from", "time" : 0.85, "params": {"y" : "+=500", "delay" : 0, "ease": "Power4.easeInOut"}  }] },
+				{"name" :"EndScreenTitle",          "tweens": [{"type" : "from", "time" : 0.25, "params": {"left" : "+=900", "delay" : 0.6, "ease": "Power4.easeIn"}  }] },
+				{"name" :"EndScreenTitle",          "tweens": [{"type" : "to",   "time" : 0.15, "params": {"rotation" : "+=5", "delay" : 1.15, "ease" : "Power4.easeOut"}  }] },
+				{"name" :"EndScreenTitle",          "tweens": [{"type" : "to",   "time" : 0.75, "params": {"rotation" : "-=5", "delay" : 2.25, "ease" : "Back.easeInOut"}  }] },
+				{"name" :"EndScreenQueen",     "tweens": [{"type" : "from", "time" : 0.25, "params": {"scale" : 3, "alpha" : 0, "delay" : 0.8, "ease": "Power4.easeIn"}  }] },
+				{"name" :"EndScreenGroup",          "tweens": [{"type" : "to", "time" : 0.02, "params": {"y" : "+=4", "delay" : 1.05, "ease": "Elastic.easeInOut", "yoyo" : true, "repeat" : 17 }  }] },
+				{"name" :"EndCharacterGroup",       "tweens": [{"type" : "from", "time" : 0.2, "params": {"x" : "-=700", "delay" : 1.25}  }] },
+				{"name" :"EndPlaceGroup1",          "tweens": [{"type" : "from", "time" : 0.2, "params": {"x" : "+=500",  "delay" : 1.5}  }] },
+				{"name" :"EndScreenVehicleGroup1",  "tweens": [{"type" : "from", "time" : 0.8, "params": {"x" : "+=100", "scale" : 0,"delay" : 1.8, "ease" :"Elastic.easeOut"}  }] },
+				
+				{"name" :"EndPlaceGroup2",          "tweens": [{"type" : "from", "time" : 0.2, "params": {"x" : "+=500", "delay" : 1.5}  }] },
+				{"name" :"EndScreenVehicleGroup2",  "tweens": [{"type" : "from", "time" : 1, "params": {"x" : "-=80",  "scale" : 0,"delay" : 1.8, "ease" :"Elastic.easeOut"}  }] },
+				
+				{"name" :"EndPlaceGroup3",          "tweens": [{"type" : "from", "time" : 0.2, "params": {"x" : "+=500", "delay" : 1.5}  }] },
+				{"name" :"EndScreenVehicleGroup3",  "tweens": [{"type" : "from", "time" : 1, "params": {"x" : "+=100",  "scale" : 0,"delay" : 1.8, "ease" :"Elastic.easeOut"}  }] },
+				
+				{"name" :"PlayAgainButtonES",       "tweens": [{"type" : "from", "time" : 0.2, "params": {"x" : "+=500", "delay" : 3.5}  }] },
+				{"name" :"EndScreenCopy",           "tweens": [{"type" : "from", "time" : 0.5, "params": {"alpha" : 0, "top" : "+=20", "delay" : 3.2}  }] }
+
+
+			],
+
+			"ResultsOverlay" : [
+
+				{"name" :"ResultsTitle",  "tweens": [{"type" : "from", "time" : 0.3, "params": {"top" : "-=500", "delay" : 1}  }] },
+				{"name" :"ResultsBG",     "tweens": [{"type" : "from", "time" : 0.5, "params": {"x" : "+=1000", "delay" : 1}  }] },
+
+				{"name" :"ResultsScoreGroup",     "tweens": [{"type" : "from", "time" : 0.3, "params": {"x" : "+=1000", "delay" : 1.1}  }] },
+				{"name" :"ResultsWatchGroup",     "tweens": [{"type" : "from", "time" : 0.3, "params": {"x" : "+=1000", "delay" : 1.2}  }] },
+				{"name" :"ResultsGearBitGroup",   "tweens": [{"type" : "from", "time" : 0.3, "params": {"x" : "+=1000", "delay" : 1.3}  }] },
+
+				{"name" :"ResultsPlace1",   "tweens": [{"type" : "from", "time" : 0.3, "params": {"x" : "-=700", "delay" : 1.5}  }] },
+				{"name" :"ResultsPlace2",   "tweens": [{"type" : "from", "time" : 0.3, "params": {"x" : "-=700", "delay" : 1.6}  }] },
+				{"name" :"ResultsPlace3",   "tweens": [{"type" : "from", "time" : 0.3, "params": {"x" : "-=700", "delay" : 1.7}  }] },
+				{"name" :"ResultsPlace4",   "tweens": [{"type" : "from", "time" : 0.3, "params": {"x" : "-=700", "delay" : 1.8}  }] },
+				{"name" :"ResultsPlace5",   "tweens": [{"type" : "from", "time" : 0.3, "params": {"x" : "-=700", "delay" : 1.9}  }] },
+				{"name" :"ResultsPlace6",   "tweens": [{"type" : "from", "time" : 0.3, "params": {"x" : "-=700", "delay" : 2}  }] }
+			]
+		},
+
+		"idle" : {
+
+			"TitleScreen" : [
+				{"name" :"DBomberTitle",    "tweens" : [{"type" : "to", "time" : 0.09, "params": {"y" : "-=1", "ease" : "Elastic.easeInOut", "yoyo" : true, "repeat" : -1, "delay" : 0.25}  } ] },
+				{"name" :"SShadowTitle", "tweens" : [{"type" : "to", "time" : 0.09, "params": {"y" : "-=1", "ease" : "Elastic.easeInOut", "yoyo" : true, "repeat" : -1}  } ] },
+				{"name" :"RRipperTitle", "tweens" : [{"type" : "to", "time" : 0.09, "params": {"y" : "-=1", "ease" : "Elastic.easeInOut", "yoyo" : true, "repeat" : -1}  } ] },
+				{"name" :"GameTitle", "tweens" : [{"type" : "to", "time" : 3.25, "params": {"left" : "-=5", "ease" : "Power4.easeInOut", "yoyo" : true, "repeat" : -1, "delay":1.2}  } ] }
+
+
+			],
+
+			"WelcomeScreen" : [
+				{"name" :"CharacterWelcome", "tweens" : [ {"type" : "to", "time" : 1.25, "params": {"y" : "-=5", "ease" : "Bounce.easeOut", "yoyo" : true, "repeat" : -1, "delay":1.2} }
+														 ] },
+				{"name" :"WelcomeGroup",      "tweens" : [{"type" : "to", "time" : 3.5, "params": {"y" : "+=5", "ease" : "Back.easeInOut", "yoyo" : true, "repeat" : -1}  }] }
+			],
+
+			"ReadyScreen":[
+				{"name" :"ResultsStarScore",      "tweens" : [{"type" : "to", "time" : 3, "params": {"rotation" : "+=45", "ease" : "Back.easeInOut", "yoyo" : true, "repeat" : -1}  }] },
+				{"name" :"HighScoreGlow",         "tweens" : [{"type" : "to", "time" : 5, "params": {"rotation" : 360, "ease" : "Linear.easeInOut", "yoyo" : false, "repeat" : -1}  }] },
+				{"name" :"ReadyScreenLoading",  "tweens": [{"type" : "from", "time" : 0.3, "params": {"alpha" : 0, "yoyo" : true, "repeat" : -1}  }] }
+			],
+
+			"MenuLoadScreen": [
+				{"name" :"MenuLoading",  "tweens": [{"type" : "from", "time" : 0.3, "params": {"alpha" : 0, "yoyo" : true, "repeat" : -1}  }] }
+			],
+
+
+			"GameMenu" : [
+				{"name" :"BGNormal",      "tweens" : [{"type" : "to", "time" : 1, "params": {"scale" : 1.5, "alpha" : 0}  }] },
+				{"name" :"BGBlur",      "tweens" : [{"type" : "to", "time" : 3, "params": {"scale" : 1.5}  },
+													{"type" : "to", "time" :20, "params": {"x" : "-=200", "y" : "-=100", "yoyo" : true, "repeat" : -1, "ease" : "Linear.easeInOut", "delay" : 3}}
+												   ]}
+			],
+
+			"GameMenuTitle" : [
+				{"name" :"BGNormal",      "tweens" : [{"type" : "to", "time" : 1, "params": {"scale" : 1.5}  },
+													  {"type" : "to", "time" :20, "params": {"x" : "-=200", "y" : "-=100", "yoyo" : true, "repeat" : -1, "ease" : "Linear.easeInOut", "delay" : 3}}] },
+				{"name" :"BGBlur",      "tweens" : [{"type" : "to", "time" : 1, "params": {"scale" : 1.5}  } ,
+													{"type" : "to", "time" :20, "params": {"x" : "-=200", "y" : "-=100", "yoyo" : true, "repeat" : -1, "ease" : "Linear.easeInOut", "delay" : 3}}]}
+			],
+
+			"GameMenuPostTitle" : [
+				{"name" :"BGNormal",      "tweens" : [{"type" : "to", "time" : 1, "params": {"alpha" : 0}  }] }
+			],
+
+			"GameMenuOverlay" : [
+				{"name" :"MenuShade",      "tweens" : [{"type" : "from", "time" : 1, "params": {"alpha" : 0}  }] }
+			]
+
+		},
+
+		"exit" : {
+			"TitleScreen" : [
+				{"name" :"DBomberTitle",       "tweens" : [{"type" : "to", "time" : 0.35, "params": {"x" : "+=1000"}  } ] },
+				{"name" :"SShadowTitle",    "tweens" : [{"type" : "to", "time" : 0.35, "params": {"x" : "+=1000"}  } ] },
+				{"name" :"GameTitle",   "tweens" : [{"type" : "to", "time" : 0.35, "params": {"left" : "-=1000"}  }] },
+				{"name" :"RRipperTitle",      "tweens" : [{"type" : "to", "time" : 0.35, "params": {"x" : "+=1000"}  }] },
+				{"name" :"PlayButtonTS", "tweens" : [{"type" : "to", "time" : 0.35, "params": {"x" : "-=900"}  } ] }
+			],
+
+			"WelcomeScreen" : [
+				{"name" :"WelcomeTitle",      "tweens": [{"type" : "to", "time" : 0.25, "params": {"top" : -500}  }]},
+				{"name" :"CharacterWelcome", "tweens": [{"type" : "to", "time" : 0.25, "params": {"x" : -500}  }]},
+				{"name" :"TextBoxWelcome",    "tweens": [{"type" : "to", "time" : 0.25, "params": {"y" : "+=700"}  }] },
+				{"name" :"WelcomeCopy1",      "tweens": [{"type" : "to", "time" : 0.25, "params": {"top" : "+=700"}  }]},
+				{"name" :"WelcomeCopy2",      "tweens": [{"type" : "to", "time" : 0.25, "params": {"top" : "+=700"}  }]},
+				{"name" :"WelcomeCopy3",      "tweens": [{"type" : "to", "time" : 0.25, "params": {"top" : "+=700"}  }]},
+				{"name" :"NextButtonWS",      "tweens": [{"type" : "to", "time" : 0.25, "params": {"x" : 1000}  }]}
+			],
+
+			"VehicleSelectScreen" : [
+				{"name" :"SelectTitle",          "tweens": [{"type" : "to", "time" : 0.6, "params": {"top" : -300, "delay" : 1.00}  }] },
+				{"name" :"CharName",             "tweens": [{"type" : "to", "time" : 0.3, "params": {"left" : "+=1000", "delay" : 0.55, "ease":"Back.easeIn"}  }] },
+				{"name" :"VehclName",            "tweens": [{"type" : "to", "time" : 0.3, "params": {"left" : "+=1000", "delay" : 0.57, "ease":"Back.easeIn"}  }] },
+				{"name" :"VSTextBehind1",         "tweens": [{"type" : "to", "time" : 0.3, "params": {"left" : "+=1000", "delay" : 0.55, "ease":"Back.easeIn"}  }] },
+				{"name" :"VSTextBehind2",         "tweens": [{"type" : "to", "time" : 0.3, "params": {"left" : "+=1000", "delay" : 0.57, "ease":"Back.easeIn"}  }] },
+				{"name" :"IconGroupChar1",        "tweens": [{"type" : "to", "time" : 0.3, "params": {"x" : "+=1000", "delay" : 0.55, "ease":"Back.easeIn"}  }] },
+				{"name" :"IconGroupChar2",        "tweens": [{"type" : "to", "time" : 0.3, "params": {"x" : "+=1000", "delay" : 0.55, "ease":"Back.easeIn"}  }] },
+				{"name" :"IconGroupVehicle1",     "tweens": [{"type" : "to", "time" : 0.3, "params": {"x" : "+=1000", "delay" : 0.57, "ease":"Back.easeIn"}  }] },
+				{"name" :"IconGroupVehicle2",     "tweens": [{"type" : "to", "time" : 0.3, "params": {"x" : "+=1000", "delay" : 0.57, "ease":"Back.easeIn"}  }] },
+				{"name" :"CharGroup",            "tweens": [{"type" : "to", "time" : 0.3, "params": {"x" : "+=1000", "delay" : 0.57, "ease":"Back.easeIn"}  }] },
+				{"name" :"VehclGroup",           "tweens": [{"type" : "to", "time" : 0.3, "params": {"x" : "+=1000", "delay" : 0.57, "ease":"Back.easeIn"}  }] },
+				{"name" :"ArrowLeftChar",        "tweens": [{"type" : "to", "time" : 0.3, "params": {"x" : "-=50", "alpha" : 0}  }] },
+				{"name" :"ArrowRightChar",       "tweens": [{"type" : "to", "time" : 0.3, "params": {"x" : "+=50", "alpha" : 0}  }] },
+				{"name" :"ArrowLeftVehicle",     "tweens": [{"type" : "to", "time" : 0.3, "params": {"x" : "-=50", "alpha" : 0}  }] },
+				{"name" :"ArrowRightVehicle",    "tweens": [{"type" : "to", "time" : 0.3, "params": {"x" : "+=50", "alpha" : 0}  }] },
+				{"name" :"TextBoxSelectChar",    "tweens": [{"type" : "to", "time" : 0.3, "params": {"y" : "+=700"}  }] },
+				{"name" :"TextBoxSelectVehicle", "tweens": [{"type" : "to", "time" : 0.3, "params": {"y" : "+=700"}  }] },
+				{"name" :"StarBanner",           "tweens": [{"type" : "to", "time" : 0.3, "params": {"x" : "-=700"}  }] },
+				{"name" :"ComboText",            "tweens": [{"type" : "to", "time" : 0.3, "params": {"left" : "-=700"}  }] },
+				{"name" :"CharDesc",             "tweens": [{"type" : "to", "time" : 0.3, "params": {"top" : "+=700"}  }] },
+				{"name" :"VehicleDesc",          "tweens": [{"type" : "to", "time" : 0.3, "params": {"top" : "+=700"}  }] },
+				{"name" :"NextButtonVSS",        "tweens": [{"type" : "to", "time" : 0.3, "params": {"x" : 1000}  }] },
+				{"name" :"ShopButtonVSS",        "tweens": [{"type" : "to", "time" : 0.3, "params": {"x" : "-=500"}  }] }
+			],
+
+			"TrackSelectScreen": [
+				{"name" :"TrackSelectTitle",     "tweens": [{"type" : "to", "time" : 0.3, "params": {"top" : "-=500"}  }] },
+				{"name" :"LevelGroup1",          "tweens": [{"type" : "to", "time" : 0.5, "params": {"x" : "-=500", "delay" : 0.2, "ease" : "Back.easeIn"}  }] },
+				{"name" :"LevelGroup2",          "tweens": [{"type" : "to", "time" : 0.6, "params": {"x" : "-=1000", "delay" : 0.3, "ease" : "Back.easeIn"}  }] },
+				{"name" :"LevelGroup3",          "tweens": [{"type" : "to", "time" : 0.7, "params": {"x" : "-=1500", "delay" : 0.4, "ease" : "Back.easeIn"}  }] },
+				{"name" :"BackButtonTSS",        "tweens": [{"type" : "to", "time" : 0.3, "params": {"x" : "-=500"}  }] },
+				{"name" :"NextButtonTSS",        "tweens": [{"type" : "to", "time" : 0.3, "params": {"x" : "+=500"}  }] }
+			],
+
+			"HowToPlayScreen": [
+				{"name" :"InstructionGroup1",          "tweens": [{"type" : "to", "time" : 0.5, "params": {"x" : "-=1000", "delay" : 0.1}  }] },
+				{"name" :"InstructionGroup2",          "tweens": [{"type" : "to", "time" : 0.5, "params": {"x" : "-=1000", "delay" : 0.2}  }] },
+				{"name" :"InstructionGroup3",          "tweens": [{"type" : "to", "time" : 0.5, "params": {"x" : "-=1000", "delay" : 0.3}  }] },
+				{"name" :"InstructionGroupMobile",     "tweens": [{"type" : "to", "time" : 0.5, "params": {"x" : "-=1000", "delay" : 0.4}  }] }
+			],
+
+			"HowToPlayScreen2": [
+				{"name" :"HTPTitle2",             "tweens": [{"type" : "to", "time" : 0.3, "params": {"top" : "-=500"}  }] },
+				{"name" :"InstructionGroupLarge","tweens": [{"type" : "to", "time" : 0.5, "params": {"x" : "-=1000", "delay" : 0.1}  }] },
+				{"name" :"BackButtonHTPS2",       "tweens": [{"type" : "to", "time" : 0.3, "params": {"x" : "-=500"}  }] },
+				{"name" :"NextButtonHTPS2",       "tweens": [{"type" : "to", "time" : 0.3, "params": {"x" : "+=500"}  }] }
+			],
+
+			"PauseScreen": [
+				{"name" :"PauseGroup",    "tweens": [{"type" : "to", "time" : 0.2, "params": {"y" : "+=700"}  }] }
+			],
+
+			"ConfirmOverlay": [
+				{"name" :"ConfirmOverlayGroup", "tweens": [{"type" : "to", "time" : 0.2, "params": {"x" : "+=1000"}  }] }
+			],
+
+			"PurchaseConfirmOverlay": [
+				{"name" :"PConfirmGroup", "tweens": [{"type" : "to", "time" : 0.2, "params": {"x" : "+=1000"}  }] }
+			],
+
+			"MenuLoadScreen": [
+				{"name" :"MenuLoading",         "tweens": [{"type" : "to", "time" : 0.3, "params": {"left" : "+=500"}  }] },
+				{"name" :"LoadBGRect",          "tweens": [{"type" : "to", "time" : 0.3, "params": {"alpha" : 0}  }] }
+			],
+
+			"EndScreen" : [
+				{"name" :"EndScreenBanner1",             "tweens": [{"type" : "to", "time" : 0.45, "params": {"y" : "-=500", "delay" : 0, "ease": "Power4.easeInOut"}  }] },
+				{"name" :"EndScreenBanner2",             "tweens": [{"type" : "to", "time" : 0.45, "params": {"y" : "+=500", "delay" : 0, "ease": "Power4.easeInOut"}  }] },
+				{"name" :"EndScreenTitle",          "tweens": [{"type" : "to", "time" : 0.25, "params": {"left" : "-=1000"}  }] },
+				{"name" :"EndScreenQueen",     "tweens": [{"type" : "to", "time" : 0.25, "params": {"y" : "+=500"}  }] },
+				{"name" :"EndCharacterGroup",       "tweens": [{"type" : "to", "time" : 0.2, "params": {"x" : "-=700"}  }] },
+				{"name" :"EndPlaceGroup1",          "tweens": [{"type" : "to", "time" : 0.2, "params": {"x" : "+=500"}  }] },
+				{"name" :"EndPlaceGroup2",          "tweens": [{"type" : "to", "time" : 0.2, "params": {"x" : "+=500"}  }] },
+				{"name" :"EndPlaceGroup3",          "tweens": [{"type" : "to", "time" : 0.2, "params": {"x" : "+=500"}  }] },
+				
+				{"name" :"PlayAgainButtonES",       "tweens": [{"type" : "to", "time" : 0.2, "params": {"x" : "+=500"}  }] },
+				{"name" :"EndScreenCopy",           "tweens": [{"type" : "to", "time" : 0.5, "params": {"alpha" : 0, "top" : "-=20"}  }] }
+
+
+			],
+
+
+
+			"UpgradeScreen": [
+				{"name" :"UpgradeScreenTitle",  "tweens": [{"type" : "to", "time" : 0.3, "params": {"top" : "-=500"}  }] },
+				{"name" :"IconGroupUVehicle1",  "tweens": [{"type" : "to", "time" : 0.3, "params": {"scale" : 0, "delay" : 0.4}  }] },
+				{"name" :"IconGroupUVehicle2",  "tweens": [{"type" : "to", "time" : 0.3, "params": {"scale" : 0, "delay" : 0.4}  }] },
+				{"name" :"UpgradeVehclName",    "tweens": [{"type" : "to", "time" : 0.3, "params": {"top" : "-=500", "delay" : 0.4}  }] },
+				{"name" :"USTextBehind",        "tweens": [{"type" : "to", "time" : 0.3, "params": {"top" : "-=500", "delay" : 0.4}  }] },
+
+				{"name" :"SpecialtyCopy",       "tweens": [{"type" : "to", "time" : 0.2, "params": {"left" : "-=500"}  }] },
+				{"name" :"PerformanceCopy",     "tweens": [{"type" : "to", "time" : 0.2, "params": {"left" : "-=500", "delay" : 0.1}  }] },
+				{"name" :"ItemGroup1",          "tweens": [{"type" : "to", "time" : 0.2, "params": {"x" : "-=500", "delay" : 0.2}  }] },
+				{"name" :"ItemGroup2",          "tweens": [{"type" : "to", "time" : 0.2, "params": {"x" : "-=500", "delay" : 0.25}  }] },
+				{"name" :"ItemGroup3",          "tweens": [{"type" : "to", "time" : 0.2, "params": {"x" : "-=500", "delay" : 0.3}  }] },
+				{"name" :"ItemGroup4",          "tweens": [{"type" : "to", "time" : 0.2, "params": {"x" : "-=500", "delay" : 0.35}  }] },
+				{"name" :"ItemGroup5",          "tweens": [{"type" : "to", "time" : 0.2, "params": {"x" : "-=500", "delay" : 0.4}  }] },
+				{"name" :"ItemGroup6",          "tweens": [{"type" : "to", "time" : 0.2, "params": {"x" : "-=500", "delay" : 0.45}  }] },
+				{"name" :"ItemGroup7",          "tweens": [{"type" : "to", "time" : 0.2, "params": {"x" : "-=500", "delay" : 0.5}  }] },
+				{"name" :"ItemGroup8",          "tweens": [{"type" : "to", "time" : 0.2, "params": {"x" : "-=500", "delay" : 0.55}  }] },
+
+				{"name" :"UpgradeCurrencyGroup","tweens": [{"type" : "to", "time" : 0.3, "params": {"x" : "+=1000", "delay" : 0.4}  }] },
+				{"name" :"UpgradeBoxGroup",     "tweens": [{"type" : "to", "time" : 0.3, "params": {"y" : "+=500"}  }] },
+				{"name" :"UpgradeVehicleGroup", "tweens": [{"type" : "to", "time" : 0.3, "params": {"x" : "+=500", "delay" : 0.4}  }] },
+
+				{"name" :"NextButtonUS",        "tweens": [{"type" : "to", "time" : 0.3, "params": {"x" : "+=500"}  }] }
+			]
+
+		}
+	}
+
+}

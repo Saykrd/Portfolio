@@ -1,0 +1,252 @@
+{"frames": [
+
+{
+	"filename": "bonus_shield_get_fx/0000",
+	"frame": {"x":291,"y":180,"w":53,"h":68},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":55,"y":33,"w":53,"h":68},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_get_fx/0001",
+	"frame": {"x":291,"y":180,"w":53,"h":68},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":55,"y":33,"w":53,"h":68},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_get_fx/0002",
+	"frame": {"x":273,"y":92,"w":71,"h":88},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":43,"y":29,"w":71,"h":88},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_get_fx/0003",
+	"frame": {"x":273,"y":92,"w":71,"h":88},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":43,"y":29,"w":71,"h":88},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_get_fx/0004",
+	"frame": {"x":2,"y":2,"w":111,"h":122},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":16,"w":111,"h":122},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_get_fx/0005",
+	"frame": {"x":2,"y":2,"w":111,"h":122},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":16,"w":111,"h":122},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_get_fx/0006",
+	"frame": {"x":2,"y":124,"w":95,"h":102},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":26,"w":95,"h":102},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_get_fx/0007",
+	"frame": {"x":2,"y":124,"w":95,"h":102},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":26,"w":95,"h":102},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_get_fx/0008",
+	"frame": {"x":344,"y":166,"w":77,"h":84},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":33,"w":77,"h":84},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_get_fx/0009",
+	"frame": {"x":344,"y":166,"w":77,"h":84},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":39,"y":33,"w":77,"h":84},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_get_fx/0010",
+	"frame": {"x":465,"y":82,"w":55,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":34,"w":55,"h":64},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_get_fx/0011",
+	"frame": {"x":465,"y":82,"w":55,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":34,"w":55,"h":64},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_overlay_fx/0000",
+	"frame": {"x":374,"y":2,"w":101,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":33,"w":101,"h":80},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_overlay_fx/0001",
+	"frame": {"x":374,"y":2,"w":101,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":33,"w":101,"h":80},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_overlay_fx/0002",
+	"frame": {"x":192,"y":186,"w":99,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":32,"w":99,"h":66},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_overlay_fx/0003",
+	"frame": {"x":192,"y":186,"w":99,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":32,"w":99,"h":66},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_overlay_fx/0004",
+	"frame": {"x":421,"y":166,"w":75,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":34,"w":75,"h":64},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_overlay_fx/0005",
+	"frame": {"x":421,"y":166,"w":75,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":34,"w":75,"h":64},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_overlay_fx/0006",
+	"frame": {"x":374,"y":82,"w":91,"h":84},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":35,"w":91,"h":84},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_overlay_fx/0007",
+	"frame": {"x":374,"y":82,"w":91,"h":84},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":33,"y":35,"w":91,"h":84},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_overlay_fx/0008",
+	"frame": {"x":194,"y":2,"w":99,"h":90},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":36,"y":34,"w":99,"h":90},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_overlay_fx/0009",
+	"frame": {"x":194,"y":2,"w":99,"h":90},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":36,"y":34,"w":99,"h":90},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_overlay_fx/0010",
+	"frame": {"x":97,"y":124,"w":95,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":40,"y":35,"w":95,"h":92},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_overlay_fx/0011",
+	"frame": {"x":97,"y":124,"w":95,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":40,"y":35,"w":95,"h":92},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_overlay_fx/0012",
+	"frame": {"x":192,"y":94,"w":81,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":35,"w":81,"h":92},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_overlay_fx/0013",
+	"frame": {"x":192,"y":94,"w":81,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":35,"w":81,"h":92},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_overlay_fx/0014",
+	"frame": {"x":113,"y":2,"w":81,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":33,"w":81,"h":92},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_overlay_fx/0015",
+	"frame": {"x":113,"y":2,"w":81,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":33,"w":81,"h":92},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_overlay_fx/0016",
+	"frame": {"x":293,"y":2,"w":81,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":33,"w":81,"h":86},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_shield_overlay_fx/0017",
+	"frame": {"x":293,"y":2,"w":81,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":33,"w":81,"h":86},
+	"sourceSize": {"w":165,"h":138}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "Bonus_Shield_FX.png",
+	"format": "RGBA8888",
+	"size": {"w":522,"h":254},
+	"scale": "0.25",
+	"smartupdate": "$TexturePacker:SmartUpdate:eb16462570e19787c4c1decec4cc2601:1/1$"
+}
+}

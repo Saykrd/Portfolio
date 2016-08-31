@@ -1,0 +1,580 @@
+{
+
+	"superchargedModifier" : 1.2,
+	"boostSpeedModifier" : 1.2,
+	"boostAccelModifier" : 3,
+	"rivalRubberbandMod" : 1.25,
+	"enemyRubberbandMod" : 1.43,
+	"playerRubberbandMod": 1.18,
+
+	"characters" : {
+		"char_spitfire" : {
+			"comboVehicle" : "vehicle_hotstreak",
+			"image" : "SpitfireSelect",
+			"icon" : "FireIcon",
+			"mapIcon" : "MapIconSpitfire",
+			"selectable": true,
+			"portraitHUD": "HUDSpitfire",
+			"endScreenImage": "EndScreenSpitfire",
+			"code" : "sf",
+			"selectVO1" : "VOSpitfireBanter1",
+			"selectVO2" : "VOSpitfireBanter2",
+			"crashVO" : "VOSpitfireCrash",
+			"hitVO" : "VOSpitfireHit"
+		},
+
+		"char_fiesta" : {
+			"comboVehicle" : "vehicle_cryptcrusher",
+			"image" : "FiestaSelect",
+			"mapIcon" : "MapIconFiesta",
+			"icon" : "SkullIcon",
+			"selectable": true,
+			"portraitHUD": "HUDFiesta",
+			"endScreenImage": "EndScreenFiesta",
+			"code":"f",
+			"selectVO1" : "VOFiestaBanter1",
+			"selectVO2" : "VOFiestaBanter2",
+			"crashVO" : "VOFiestaCrash",
+			"hitVO" : "VOFiestaHit"
+		},
+
+		"char_chompy" : {
+			"mapIcon" : "MapIconChompy",
+			"selectable": false,
+			"hitVO" : "VOChompyHit"
+		}
+	},
+
+
+	"vehicles":{
+
+
+		"vehicle_chompy" : {
+			"maxSpeed" : 305,
+			"boostSpeed" : 400,
+			"accel" : 1.56,
+			"friction" : 1,
+			"maxHP" : 500,
+			"turnSpeed": 80,
+			"weight":50,
+			"display":"chompycar",
+			
+			"primaryWeaponDelay" : 5,
+			"primaryWeaponDamage" : 300,
+			"secondaryWeaponDelay" : 5,
+			"secondaryWeaponDamage" : 200,
+			"code": "cc",
+			"primaryAttack"   : "CCShoot1",
+			"secondaryAttack" : "CCShoot2",
+			"engineSFX" : "SFXChompyEngine" ,
+			"hornSFX"  : "SFXChompyHorn"
+		},
+
+
+
+		"vehicle_cryptcrusher" : {
+			"image" : "CryptCrusherSelect",
+			"icon" : "SkullIcon",
+			"base" : "CCBase",
+			"maxSpeed" : 350,
+			"boostSpeed" : 400,
+			"accel" : 1.50,
+			"turnSpeed": 110,
+			"friction" : 1,
+			"weight" : 105,
+			"display"  : "car",
+			"primaryWeaponDelay" : 5,
+			"primaryWeaponDamage" : 300,
+			"secondaryWeaponDelay" : 5,
+			"secondaryWeaponDamage" : 200,
+			"maxEnergy" : 1200,
+			"maxHP" : 1100,
+			"selectable" : true,
+			"code": "cc",
+			"primaryAttack"   : "CCShoot1",
+			"secondaryAttack" : "CCShoot2",
+			"engineSFX" : "SFXCryptCrusherEngine" ,
+			"engineActiveSFX" : "SFXCryptCrusherEngine2",
+			"hornSFX"  : "SFXCryptCrusherHorn",
+			"revSFX" : "SFXCryptCrusherRev",
+			"boostRevSFX" : "SFXCryptCrusherBoostRev",
+			"selectVO" : "VOCryptCrusher"
+		},
+
+		"vehicle_hotstreak" : {
+			"image" : "HotStreakSelect",
+			"icon" : "FireIcon",
+			"base" : "HSBase",
+			"maxSpeed" : 335,
+			"boostSpeed" : 375,
+			"accel" : 1.92,
+			"turnSpeed": 95,
+			"friction" : 1,
+			"weight" : 70, 
+			"primaryAttack"   : "SFShoot",
+			"secondaryAttack" : "SFCharge",
+			"maxEnergy" : 900,
+			"maxHP" : 1500,
+			"primaryWeaponDelay" : 5,
+			"primaryWeaponDamage" : 300,
+			"secondaryWeaponDelay" : 5,
+			"secondaryWeaponDamage" : 200,
+			
+			"selectable" : true,
+			"code": "hs",
+			"engineSFX" : "SFXHotstreakEngine",
+			"engineActiveSFX" : "SFXHotstreakEngine2",
+			"hornSFX"  : "SFXHotstreakHorn",
+			"revSFX" : "SFXHotstreakRev",
+			"boostRevSFX" : "SFXCryptCrusherBoostRev",
+			"selectVO" : "VOHotstreak"
+
+		}
+	
+
+	},
+
+	"maxStats":{
+		"maxHP" : 4000,
+		"maxSpeed" : 450,
+		"accel" : 2.25,
+		"turnSpeed" : 150,
+		"weight" : 200
+	},
+
+	"bonuses":{
+		"elixir" :{
+			"startup": 15,
+			"activeFrames" : 120,
+			"display" : "bonus_elixir",
+			"sfx": "SFXBonusElixir",
+			"encounter" : 23
+		},
+
+		"hourglass" :{
+			"startup": 15,
+			"activeFrames" : 300,
+			"speedModifier" : 0.85,
+			"display" : "bonus_hourglass",
+			"effectDisplay" : "bonus_hourglass_effect",
+			"sfx": "SFXBonusHourglass",
+			"encounter" : 6
+		},
+
+		"shoe" :{
+			"startup": 15,
+			"activeFrames" : 300,
+			"accelModifier": 5,
+			"speedModifier": 1.3,
+			"display" : "bonus_shoe",
+			"sfx": "SFXBonusShoe",
+			"encounter" : 25
+		},
+
+
+		"jukebox" :{
+			"startup": 15,
+			"activeFrames" : 300,
+			"display" : "bonus_jukebox",
+			"sfx": "SFXBonusJukebox",
+			"encounter" : 23
+		},
+
+
+
+		"shield" :{
+			"startup": 15,
+			"activeFrames" : 300,
+			"display" : "bonus_shield",
+			"sfx": "SFXBonusShield",
+			"encounter" : 23
+		}
+
+	},
+
+	"items" : {
+		"gearbit" : {
+			"property" : "currency",
+			"value" : 1,
+			"display" : "gearbit",
+			"sfx" : "SFXGearbitCollect" 
+			
+		},
+		"gearbit2" : {
+			"property" : "currency",
+			"value" : 5,
+
+			"display" : "gearbit2",
+			"sfx" : "SFXGearbitCollect" 
+			
+		},
+		"powerpod":{
+			"property" : "energy",
+			"value" : 100,
+			"display": "powerpod",
+			"sfx" : "SFXPowerpod" 
+		}
+	},
+
+	"structures":{
+		"boulder1" : {
+			"defaultDisplay" : "obstacle01",
+			"weight" : 40,
+			"damage" : 200
+		},
+
+		"barrel1" : {
+			"defaultDisplay" : "barrel01",
+			"weight" : 20,
+			"damage" : 100,
+			"canShoot" : true
+		},
+
+		"cone1" : {
+			"defaultDisplay" : "cone01",
+			"weight" : 10,
+			"damage" : 20,
+			"canShoot" : true
+		}
+	},
+
+
+
+
+	"attacks" : {
+		"SFShoot" : {
+			"type":"shot",
+			"display" : "hs_shoot",
+			"hitDisplay": "hs_shoot_hit",
+			"shootSFX" : "SFXHSShoot",
+			"shotLifespan" : 50,
+			"shotAccel": 10,
+			"shotDelay": 3,
+			"behavior":"projectile",
+			"baseDamage": 80,
+			"cooldown" : 0,
+			"activeTime" : 60,
+			"energy" : 150
+		},
+		"SFCharge": {
+			"type":"boost",
+			"display": "hs_charge",
+			"hitDisplay": "hs_shoot_hit",
+			"shootSFX" : "SFXHSCharge",
+			"energy" : 100,
+			"effectOffsetX" : 0,
+			"effectOffsetY" : -300,
+			"effectOffsetZ" : 100,
+			"boostAccelTime" : 1,
+			"activeTime" : 50,
+			"cooldown" : 40,
+			"accel" : 60,
+			"baseDamage" : 100
+		},
+		"CCShoot1": {
+			"type":"shot",
+			"display" : "cc_shoot",
+			"hitDisplay": "hs_shoot_hit",
+			"trailDisplay":"cc_shootfx",
+			"shootSFX" : "SFXCCShoot1",
+			"energy" : 50,
+			"explosive" : true,
+			"explosionLifespan": 30,
+			"trailLifespan": 30,
+			"shotLifespan" : 50,
+			"shotAccel": 25,
+			"shotDelay": 21,
+			"behavior":"explosiveProjectile",
+			"baseDamage": 200,
+			"cooldown" : 5,
+			"activeTime" : 20
+		},
+		"CCShoot2": {
+			"type":"shot",
+			"display" : "cc_shoot2",
+			"hitDisplay": "cc_shoot2_hit",
+			"trailDisplay":"cc_shoot2fx",
+			"shootSFX" : "SFXCCShoot2",
+			"energy" : 50,
+			"explosive" : true,
+			"explosionLifespan": 40,
+			"shotLifespan" : 55,
+			"shotAccel": 10,
+			"shotDelay": 26,
+			"behavior":"explosiveProjectile",
+			"baseDamage": 350,
+			"cooldown" : 15,
+			"activeTime" : 25
+		}
+	},
+
+	"opponents" : {
+		"rival" : {
+			"upgrades" : ["hs_sm_blazeboost", "hs_pm_bluefire", "cc_sm_graveraiser", "cc_pm_coffinclapper"]
+		}
+	},
+
+	"enemies" : {
+		"chompy" : {
+			"maxSpeed" : -30,
+			"display" : "chompy",
+			"damage" : 100,
+			"behavior" : "hostile"
+		},
+
+		"greeble" : {
+			"maxSpeed" : -55,
+			"display" : "greeble",
+			"damage" : 150,
+			"behavior" : "hostile"
+		},
+		"troll" : {
+			"maxSpeed" : -20,
+			"display" : "troll",
+			"damage" : 200,
+			"behavior" : "charge"
+		}
+
+	},
+
+
+	"upgrades":{
+		"hs_sm_blazeboost"    : {
+			"type" : "special", 
+			"code": "bbs", "cost":100, 
+			"vehicle" : "vehicle_hotstreak", 
+			"icon":"IconBBosters",
+			"vo":"VOBBoosters",
+			"image" : "HSBBooster",
+			"storeImage" : "PConfirmBBooster",
+			"forceUnlock" : true,
+			"stats" : {"maxSpeed" : 10}
+		},
+
+		"hs_sm_windflares"    : {
+			"type" : "special",
+			"code": "wf",
+			"cost":150,
+		    "vehicle" : "vehicle_hotstreak",
+		    "storeImage" : "PConfirmWFlares",
+			"vo":"VOWFlares",
+			"icon":"IconWFlares",
+			"image" : "HSWFlares",
+			"stats" : {"turnSpeed" : 5, "accel" : 0.1}
+		},
+
+		"hs_sm_blockbroiler"  : {
+			"type" : "special",
+			"code": "bbl", 
+			"cost":200, 
+			"vehicle" : "vehicle_hotstreak", 
+			"storeImage" : "PConfirmBBroiler",
+			"vo":"VOBBroiler",
+			"icon":"IconBBroiler", 
+			"image" : "HSBBroiler",
+			"stats" : {"maxSpeed" : 5, "accel" : 0.05}
+		},
+
+		"hs_sm_volcanicvents" : {
+			"type" : "special", 
+			"code": "vv", "cost":100, 
+			"vehicle" : "vehicle_hotstreak", 
+			"storeImage" : "PConfirmVVents",
+			"vo":"VOVVents",
+			"icon":"IconVVents", 
+			"image" : "HSVVents",
+			"stats" : {"maxHP" : 150, "weight" : 15}
+		},
+
+
+		"hs_pm_bluefire"     : {
+			"type" : "performance",
+			"code": "bf",
+			"cost":1000,
+			"vehicle" : "vehicle_hotstreak",
+			"storeImage" : "PConfirmBFTires",
+			"vo":"VOBFTires",
+			"icon":"IconBFTires",
+			"image" : "HSBFTires",
+			"forceUnlock" : true,
+			"stats" : {"maxSpeed" : 5, "turnSpeed" : 5}
+		},
+
+		"hs_pm_roadburn"     : {
+			"type" : "performance",
+			"code": "rb",
+			"cost":150,
+			"vehicle" : "vehicle_hotstreak",
+			"storeImage" : "PConfirmRBurners",
+			"vo":"VORBurners",
+			"icon":"IconRBurners",
+			"image" : "HSRBurners",
+			"stats" : {"turnSpeed" : 10, "accel" : 0.05}
+		},
+
+		"hs_pm_speeddemon"   : {
+			"type" : "performance",
+			"code": "sd",
+			"cost":200,
+			"vehicle" : "vehicle_hotstreak",
+			"storeImage" : "PConfirmSDemons",
+			"vo":"VOSDemons",
+			"icon":"IconSDemons",
+			"image" : "HSSDemons",
+			"stats" : {"accel" : 0.1}
+		},
+
+		"hs_pm_coalshooters" : {
+			"type" : "performance",
+			"code": "cs",
+			"cost":100,
+			"vehicle" : "vehicle_hotstreak",
+			"storeImage" : "PConfirmCShooters",
+			"vo":"VOCShooters",
+			"icon":"IconCShooters",
+			"image" : "HSCShooters",
+			"stats" : {"maxHP" : 150, "weight" : 15}
+		},
+
+
+		"cc_sm_graveraiser"  : {
+			"type" : "special",
+			"icon":"IconGRaiser",
+			"image" : "CCGRaiser",
+			"code": "gr",
+			"cost":1000,
+			"storeImage" : "PConfirmGRaiser",
+			"vo":"VOGRaiser",
+			"vehicle" : "vehicle_cryptcrusher",
+			"forceUnlock" : true,
+			"stats" : {"accel" : 0.1}
+		},
+
+		"cc_sm_scoachcruiser": {
+			"type" : "special",
+			"icon":"IconSCCruiser",
+			"image" : "CCSCCruiser",
+			 "code": "scc",
+			 "storeImage" : "PConfirmSCCruiser",
+			"vo":"VOSCCruiser",
+			"cost":200,
+			"vehicle" : "vehicle_cryptcrusher",
+			"stats" : {"maxSpeed" : 15, "weight" : 15}
+		},
+
+		"cc_sm_percpusher"   : {
+			"type" : "special",
+			"icon":"IconPPusher",
+			"image" : "CCPPusher",
+			 "code": "pp",
+			 "storeImage" : "PConfirmPPusher",
+			"vo":"VOPPusher",
+			"cost":110,
+			"vehicle" : "vehicle_cryptcrusher",
+			"stats" : {"turnSpeed" : 10}
+		},
+
+		"cc_sm_mumspindle"   : {
+			"type" : "special",
+			"icon":"IconMSpindle",
+			"image" : "CCMSpindle",
+			"storeImage" : "PConfirmMSpindle",
+			"vo":"VOMSpindle",
+			 "code": "ms",
+			"cost":150,
+			"vehicle" : "vehicle_cryptcrusher",
+			"stats" : {"maxHP" : 150, "weight" : 15}
+		},
+
+
+		"cc_pm_coffinclapper" : {
+			"type" : "performance",
+			"icon":"IconCClapper",
+			"image" : "CCCClapper",
+			"storeImage" : "PConfirmCClapper",
+			"vo":"VOCClapper",
+			 "code": "ccl",
+			"cost":160,
+			"vehicle" : "vehicle_cryptcrusher",
+			"forceUnlock" : true,
+			"stats" : {"maxSpeed" : 10}
+		},
+
+		"cc_pm_woodgiest"     : {
+			"type" : "performance",
+			"icon":"IconWGeist",
+			"image" : "CCWGeist",
+			"vo":"VOWGeist",
+			"storeImage" : "PConfirmWGeist",
+			"vo":"VOWGeist",
+			 "code": "wg",
+			"cost":120,
+			"vehicle" : "vehicle_cryptcrusher",
+			"stats" : {"accel" : 0.1, "weight" : -15}
+		},
+
+		"cc_pm_ffengine"      : {
+			"type" : "performance",
+			"icon":"IconFFEngine",
+			"image" : "CCFFEngine",
+			"storeImage" : "PConfirmFFEngine",
+			"vo":"VOFFEngine",
+			 "code": "ffe",
+			"cost":210,
+			"vehicle" : "vehicle_cryptcrusher",
+			"stats" : {"turnSpeed" : 10, "accel" : 0.1}
+		},
+
+		"cc_pm_mummymotif"    : {
+			"type" : "performance",
+			"icon":"IconMMotif",
+			"image" : "CCMMotif",
+			"storeImage" : "PConfirmMMotif",
+			"vo":"VOMMotif",
+			"code": "mm",
+			"cost":150,
+			"vehicle" : "vehicle_cryptcrusher",
+			"stats" : {"maxHP" : 300, "weight" : 30}
+		}
+	},
+
+
+	"shopVehicleLayering":{
+		"vehicle_hotstreak":{
+			"base" : 1,
+			"specialty" : 2,
+			"performance" : 3
+		},
+
+		"vehicle_cryptcrusher":{
+			"base" : 1,
+			"specialty" : 2,
+			"performance" : 3
+		}
+
+
+	},
+
+	"tracks":["Track001" , "Track002", "Track003"],
+
+	"scoring": {
+			"scoreDefinitions" : {
+			"getPowerUp" : 1000,
+			"getGearbit1": 1500,
+			"getGearbit2": 2000,
+			"hitEnemy"   : 500,
+			"hitOpponent": 700,
+			"damagePenalty": -700,
+			"hazardPenalty": -800
+
+		},
+
+		"scoreMultipliers" : {
+			"firstPlace"  : 3,
+			"secondPlace" : 2.5,
+			"thirdPlace"  : 2,
+			"forthPlace"  : 1.25
+		}
+	}
+
+}

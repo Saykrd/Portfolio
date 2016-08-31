@@ -1,0 +1,3340 @@
+{"frames": [
+
+{
+	"filename": "reefripper_gg_aquafin/0000",
+	"frame": {"x":1924,"y":484,"w":60,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":32,"w":60,"h":125},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_aquafin/0001",
+	"frame": {"x":1924,"y":484,"w":60,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":32,"w":60,"h":125},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_aquafin/0002",
+	"frame": {"x":1820,"y":137,"w":60,"h":105},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":26,"w":60,"h":105},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_aquafin/0003",
+	"frame": {"x":1820,"y":137,"w":60,"h":105},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":26,"w":60,"h":105},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_aquafin/0004",
+	"frame": {"x":1638,"y":145,"w":62,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":32,"w":62,"h":99},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_aquafin/0005",
+	"frame": {"x":1638,"y":145,"w":62,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":32,"w":62,"h":99},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_aquafin/0006",
+	"frame": {"x":1512,"y":149,"w":64,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":32,"w":64,"h":99},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_aquafin/0007",
+	"frame": {"x":1512,"y":149,"w":64,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":32,"w":64,"h":99},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_aquafin/0008",
+	"frame": {"x":1940,"y":127,"w":64,"h":107},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":32,"w":64,"h":107},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_aquafin/0009",
+	"frame": {"x":1940,"y":127,"w":64,"h":107},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":32,"w":64,"h":107},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_aquafin/0010",
+	"frame": {"x":1968,"y":746,"w":60,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":24,"w":60,"h":125},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_aquafin/0011",
+	"frame": {"x":1968,"y":746,"w":60,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":24,"w":60,"h":125},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_aquafin/0012",
+	"frame": {"x":1912,"y":2,"w":60,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":32,"w":60,"h":125},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_aquafin/0013",
+	"frame": {"x":1912,"y":2,"w":60,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":32,"w":60,"h":125},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_aquafin/0014",
+	"frame": {"x":1760,"y":137,"w":60,"h":105},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":26,"w":60,"h":105},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_aquafin/0015",
+	"frame": {"x":1760,"y":137,"w":60,"h":105},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":26,"w":60,"h":105},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_aquafin/0016",
+	"frame": {"x":1700,"y":141,"w":60,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":31,"w":60,"h":101},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_aquafin/0017",
+	"frame": {"x":1700,"y":141,"w":60,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":31,"w":60,"h":101},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_aquafin/0018",
+	"frame": {"x":1576,"y":149,"w":62,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":32,"w":62,"h":99},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_aquafin/0019",
+	"frame": {"x":1576,"y":149,"w":62,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":32,"w":62,"h":99},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_aquafin/0020",
+	"frame": {"x":1448,"y":149,"w":64,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":32,"w":64,"h":99},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_aquafin/0021",
+	"frame": {"x":1448,"y":149,"w":64,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":32,"w":64,"h":99},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_aquafin/0022",
+	"frame": {"x":1928,"y":355,"w":64,"h":107},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":32,"w":64,"h":107},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_aquafin/0023",
+	"frame": {"x":1928,"y":355,"w":64,"h":107},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":32,"w":64,"h":107},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_aquafin/0024",
+	"frame": {"x":1868,"y":359,"w":60,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":24,"w":60,"h":125},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_aquafin/0025",
+	"frame": {"x":1868,"y":359,"w":60,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":24,"w":60,"h":125},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_sharkfin/0000",
+	"frame": {"x":1684,"y":361,"w":60,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":32,"w":60,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_sharkfin/0001",
+	"frame": {"x":1684,"y":361,"w":60,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":32,"w":60,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_sharkfin/0002",
+	"frame": {"x":1744,"y":361,"w":60,"h":143},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":31,"w":60,"h":143},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_sharkfin/0003",
+	"frame": {"x":1744,"y":361,"w":60,"h":143},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":31,"w":60,"h":143},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_sharkfin/0004",
+	"frame": {"x":1502,"y":369,"w":62,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":32,"w":62,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_sharkfin/0005",
+	"frame": {"x":1502,"y":369,"w":62,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":32,"w":62,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_sharkfin/0006",
+	"frame": {"x":1364,"y":516,"w":64,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":32,"w":64,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_sharkfin/0007",
+	"frame": {"x":1364,"y":516,"w":64,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":32,"w":64,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_sharkfin/0008",
+	"frame": {"x":1314,"y":369,"w":64,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":32,"w":64,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_sharkfin/0009",
+	"frame": {"x":1314,"y":369,"w":64,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":32,"w":64,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_sharkfin/0010",
+	"frame": {"x":1608,"y":2,"w":60,"h":143},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":32,"w":60,"h":143},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_sharkfin/0011",
+	"frame": {"x":1608,"y":2,"w":60,"h":143},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":32,"w":60,"h":143},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_sharkfin/0012",
+	"frame": {"x":1548,"y":2,"w":60,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":32,"w":60,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_sharkfin/0013",
+	"frame": {"x":1548,"y":2,"w":60,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":32,"w":60,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_sharkfin/0014",
+	"frame": {"x":1550,"y":663,"w":62,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":32,"w":62,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_sharkfin/0015",
+	"frame": {"x":1550,"y":663,"w":62,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":32,"w":62,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_sharkfin/0016",
+	"frame": {"x":1488,"y":2,"w":60,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":32,"w":60,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_sharkfin/0017",
+	"frame": {"x":1488,"y":2,"w":60,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":32,"w":60,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_sharkfin/0018",
+	"frame": {"x":1490,"y":516,"w":62,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":32,"w":62,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_sharkfin/0019",
+	"frame": {"x":1490,"y":516,"w":62,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":32,"w":62,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_sharkfin/0020",
+	"frame": {"x":1300,"y":530,"w":64,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":32,"w":64,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_sharkfin/0021",
+	"frame": {"x":1300,"y":530,"w":64,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":32,"w":64,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_sharkfin/0022",
+	"frame": {"x":1424,"y":2,"w":64,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":32,"w":64,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_sharkfin/0023",
+	"frame": {"x":1424,"y":2,"w":64,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":32,"w":64,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_sharkfin/0024",
+	"frame": {"x":1564,"y":369,"w":60,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":32,"w":60,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_sharkfin/0025",
+	"frame": {"x":1564,"y":369,"w":60,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":32,"w":60,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_tidalwave/0000",
+	"frame": {"x":1440,"y":369,"w":62,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":32,"w":62,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_tidalwave/0001",
+	"frame": {"x":1440,"y":369,"w":62,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":32,"w":62,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_tidalwave/0002",
+	"frame": {"x":1732,"y":641,"w":60,"h":149},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":25,"w":60,"h":149},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_tidalwave/0003",
+	"frame": {"x":1732,"y":641,"w":60,"h":149},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":25,"w":60,"h":149},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_tidalwave/0004",
+	"frame": {"x":1488,"y":663,"w":62,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":32,"w":62,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_tidalwave/0005",
+	"frame": {"x":1488,"y":663,"w":62,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":32,"w":62,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_tidalwave/0006",
+	"frame": {"x":1250,"y":383,"w":64,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":32,"w":64,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_tidalwave/0007",
+	"frame": {"x":1250,"y":383,"w":64,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":32,"w":64,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_tidalwave/0008",
+	"frame": {"x":1236,"y":554,"w":64,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":32,"w":64,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_tidalwave/0009",
+	"frame": {"x":1236,"y":554,"w":64,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":32,"w":64,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_tidalwave/0010",
+	"frame": {"x":1364,"y":663,"w":62,"h":151},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":24,"w":62,"h":151},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_tidalwave/0011",
+	"frame": {"x":1364,"y":663,"w":62,"h":151},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":24,"w":62,"h":151},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_tidalwave/0012",
+	"frame": {"x":1428,"y":516,"w":62,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":32,"w":62,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_tidalwave/0013",
+	"frame": {"x":1428,"y":516,"w":62,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":32,"w":62,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_tidalwave/0014",
+	"frame": {"x":1612,"y":655,"w":60,"h":153},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":26,"w":60,"h":153},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_tidalwave/0015",
+	"frame": {"x":1612,"y":655,"w":60,"h":153},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":26,"w":60,"h":153},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_tidalwave/0016",
+	"frame": {"x":1426,"y":663,"w":62,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":32,"w":62,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_tidalwave/0017",
+	"frame": {"x":1426,"y":663,"w":62,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":32,"w":62,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_tidalwave/0018",
+	"frame": {"x":1378,"y":369,"w":62,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":32,"w":62,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_tidalwave/0019",
+	"frame": {"x":1378,"y":369,"w":62,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":32,"w":62,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_tidalwave/0020",
+	"frame": {"x":1172,"y":675,"w":64,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":32,"w":64,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_tidalwave/0021",
+	"frame": {"x":1172,"y":675,"w":64,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":32,"w":64,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_tidalwave/0022",
+	"frame": {"x":1360,"y":2,"w":64,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":32,"w":64,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_tidalwave/0023",
+	"frame": {"x":1360,"y":2,"w":64,"h":147},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":32,"w":64,"h":147},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_tidalwave/0024",
+	"frame": {"x":600,"y":600,"w":62,"h":155},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":24,"w":62,"h":155},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_tidalwave/0025",
+	"frame": {"x":600,"y":600,"w":62,"h":155},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":24,"w":62,"h":155},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_whaleflipper/0000",
+	"frame": {"x":864,"y":2,"w":72,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":32,"w":72,"h":125},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_whaleflipper/0001",
+	"frame": {"x":864,"y":2,"w":72,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":32,"w":72,"h":125},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_whaleflipper/0002",
+	"frame": {"x":1246,"y":822,"w":72,"h":107},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":25,"w":72,"h":107},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_whaleflipper/0003",
+	"frame": {"x":1246,"y":822,"w":72,"h":107},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":25,"w":72,"h":107},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_whaleflipper/0004",
+	"frame": {"x":1526,"y":810,"w":72,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":32,"w":72,"h":101},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_whaleflipper/0005",
+	"frame": {"x":1526,"y":810,"w":72,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":32,"w":72,"h":101},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_whaleflipper/0006",
+	"frame": {"x":1374,"y":149,"w":74,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":31,"w":74,"h":103},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_whaleflipper/0007",
+	"frame": {"x":1374,"y":149,"w":74,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":31,"w":74,"h":103},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_whaleflipper/0008",
+	"frame": {"x":1172,"y":822,"w":74,"h":107},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":32,"w":74,"h":107},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_whaleflipper/0009",
+	"frame": {"x":1172,"y":822,"w":74,"h":107},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":32,"w":74,"h":107},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_whaleflipper/0010",
+	"frame": {"x":950,"y":568,"w":70,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":24,"w":70,"h":125},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_whaleflipper/0011",
+	"frame": {"x":950,"y":568,"w":70,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":24,"w":70,"h":125},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_whaleflipper/0012",
+	"frame": {"x":796,"y":296,"w":72,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":32,"w":72,"h":125},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_whaleflipper/0013",
+	"frame": {"x":796,"y":296,"w":72,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":32,"w":72,"h":125},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_whaleflipper/0014",
+	"frame": {"x":1234,"y":274,"w":74,"h":109},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":25,"w":74,"h":109},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_whaleflipper/0015",
+	"frame": {"x":1234,"y":274,"w":74,"h":109},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":25,"w":74,"h":109},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_whaleflipper/0016",
+	"frame": {"x":1308,"y":266,"w":74,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":32,"w":74,"h":103},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_whaleflipper/0017",
+	"frame": {"x":1308,"y":266,"w":74,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":32,"w":74,"h":103},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_whaleflipper/0018",
+	"frame": {"x":1390,"y":814,"w":72,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":32,"w":72,"h":101},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_whaleflipper/0019",
+	"frame": {"x":1390,"y":814,"w":72,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":32,"w":72,"h":101},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_whaleflipper/0020",
+	"frame": {"x":1318,"y":816,"w":72,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":32,"w":72,"h":101},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_whaleflipper/0021",
+	"frame": {"x":1318,"y":816,"w":72,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":32,"w":72,"h":101},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_whaleflipper/0022",
+	"frame": {"x":1300,"y":159,"w":74,"h":107},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":32,"w":74,"h":107},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_whaleflipper/0023",
+	"frame": {"x":1300,"y":159,"w":74,"h":107},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":32,"w":74,"h":107},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_whaleflipper/0024",
+	"frame": {"x":732,"y":596,"w":74,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":24,"w":74,"h":125},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_gg_whaleflipper/0025",
+	"frame": {"x":732,"y":596,"w":74,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":24,"w":74,"h":125},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_aquafin/0000",
+	"frame": {"x":1300,"y":2,"w":60,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":0,"w":60,"h":157},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_aquafin/0001",
+	"frame": {"x":1300,"y":2,"w":60,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":0,"w":60,"h":157},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_aquafin/0002",
+	"frame": {"x":1912,"y":615,"w":60,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":0,"w":60,"h":131},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_aquafin/0003",
+	"frame": {"x":1912,"y":615,"w":60,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":0,"w":60,"h":131},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_aquafin/0004",
+	"frame": {"x":1742,"y":508,"w":62,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":0,"w":62,"h":131},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_aquafin/0005",
+	"frame": {"x":1742,"y":508,"w":62,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":0,"w":62,"h":131},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_aquafin/0006",
+	"frame": {"x":1724,"y":796,"w":64,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":0,"w":64,"h":131},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_aquafin/0007",
+	"frame": {"x":1724,"y":796,"w":64,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":0,"w":64,"h":131},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_aquafin/0008",
+	"frame": {"x":1552,"y":516,"w":64,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":0,"w":64,"h":139},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_aquafin/0009",
+	"frame": {"x":1552,"y":516,"w":64,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":0,"w":64,"h":139},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_aquafin/0010",
+	"frame": {"x":1624,"y":361,"w":60,"h":149},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":0,"w":60,"h":149},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_aquafin/0011",
+	"frame": {"x":1624,"y":361,"w":60,"h":149},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":0,"w":60,"h":149},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_aquafin/0012",
+	"frame": {"x":1240,"y":117,"w":60,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":0,"w":60,"h":157},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_aquafin/0013",
+	"frame": {"x":1240,"y":117,"w":60,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":0,"w":60,"h":157},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_aquafin/0014",
+	"frame": {"x":1908,"y":748,"w":60,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":0,"w":60,"h":131},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_aquafin/0015",
+	"frame": {"x":1908,"y":748,"w":60,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":0,"w":60,"h":131},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_aquafin/0016",
+	"frame": {"x":1804,"y":484,"w":60,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":0,"w":60,"h":133},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_aquafin/0017",
+	"frame": {"x":1804,"y":484,"w":60,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":0,"w":60,"h":133},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_aquafin/0018",
+	"frame": {"x":1680,"y":510,"w":62,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":0,"w":62,"h":131},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_aquafin/0019",
+	"frame": {"x":1680,"y":510,"w":62,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":0,"w":62,"h":131},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_aquafin/0020",
+	"frame": {"x":1616,"y":516,"w":64,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":0,"w":64,"h":131},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_aquafin/0021",
+	"frame": {"x":1616,"y":516,"w":64,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":0,"w":64,"h":131},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_aquafin/0022",
+	"frame": {"x":1300,"y":677,"w":64,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":0,"w":64,"h":139},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_aquafin/0023",
+	"frame": {"x":1300,"y":677,"w":64,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":0,"w":64,"h":139},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_aquafin/0024",
+	"frame": {"x":1672,"y":647,"w":60,"h":149},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":0,"w":60,"h":149},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_aquafin/0025",
+	"frame": {"x":1672,"y":647,"w":60,"h":149},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":0,"w":60,"h":149},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_sharkfin/0000",
+	"frame": {"x":148,"y":696,"w":60,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":0,"w":60,"h":179},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_sharkfin/0001",
+	"frame": {"x":148,"y":696,"w":60,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":0,"w":60,"h":179},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_sharkfin/0002",
+	"frame": {"x":316,"y":320,"w":60,"h":175},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":0,"w":60,"h":175},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_sharkfin/0003",
+	"frame": {"x":316,"y":320,"w":60,"h":175},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":0,"w":60,"h":175},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_sharkfin/0004",
+	"frame": {"x":66,"y":517,"w":62,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":0,"w":62,"h":179},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_sharkfin/0005",
+	"frame": {"x":66,"y":517,"w":62,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":0,"w":62,"h":179},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_sharkfin/0006",
+	"frame": {"x":2,"y":539,"w":64,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":0,"w":64,"h":179},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_sharkfin/0007",
+	"frame": {"x":2,"y":539,"w":64,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":0,"w":64,"h":179},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_sharkfin/0008",
+	"frame": {"x":2,"y":360,"w":64,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":0,"w":64,"h":179},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_sharkfin/0009",
+	"frame": {"x":2,"y":360,"w":64,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":0,"w":64,"h":179},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_sharkfin/0010",
+	"frame": {"x":316,"y":145,"w":60,"h":175},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":0,"w":60,"h":175},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_sharkfin/0011",
+	"frame": {"x":316,"y":145,"w":60,"h":175},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":0,"w":60,"h":175},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_sharkfin/0012",
+	"frame": {"x":128,"y":517,"w":60,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":0,"w":60,"h":179},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_sharkfin/0013",
+	"frame": {"x":128,"y":517,"w":60,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":0,"w":60,"h":179},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_sharkfin/0014",
+	"frame": {"x":66,"y":338,"w":62,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":0,"w":62,"h":179},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_sharkfin/0015",
+	"frame": {"x":66,"y":338,"w":62,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":0,"w":62,"h":179},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_sharkfin/0016",
+	"frame": {"x":128,"y":338,"w":60,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":0,"w":60,"h":179},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_sharkfin/0017",
+	"frame": {"x":128,"y":338,"w":60,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":0,"w":60,"h":179},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_sharkfin/0018",
+	"frame": {"x":66,"y":159,"w":62,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":0,"w":62,"h":179},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_sharkfin/0019",
+	"frame": {"x":66,"y":159,"w":62,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":0,"w":62,"h":179},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_sharkfin/0020",
+	"frame": {"x":2,"y":181,"w":64,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":0,"w":64,"h":179},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_sharkfin/0021",
+	"frame": {"x":2,"y":181,"w":64,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":0,"w":64,"h":179},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_sharkfin/0022",
+	"frame": {"x":2,"y":2,"w":64,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":0,"w":64,"h":179},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_sharkfin/0023",
+	"frame": {"x":2,"y":2,"w":64,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":0,"w":64,"h":179},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_sharkfin/0024",
+	"frame": {"x":128,"y":159,"w":60,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":0,"w":60,"h":179},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_sharkfin/0025",
+	"frame": {"x":128,"y":159,"w":60,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":0,"w":60,"h":179},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_tidalwave/0000",
+	"frame": {"x":66,"y":2,"w":72,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":0,"w":72,"h":157},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_tidalwave/0001",
+	"frame": {"x":66,"y":2,"w":72,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":0,"w":72,"h":157},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_tidalwave/0002",
+	"frame": {"x":718,"y":2,"w":72,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":0,"w":72,"h":133},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_tidalwave/0003",
+	"frame": {"x":718,"y":2,"w":72,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":0,"w":72,"h":133},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_tidalwave/0004",
+	"frame": {"x":650,"y":302,"w":72,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":0,"w":72,"h":133},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_tidalwave/0005",
+	"frame": {"x":650,"y":302,"w":72,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":0,"w":72,"h":133},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_tidalwave/0006",
+	"frame": {"x":572,"y":2,"w":74,"h":135},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":74,"h":135},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_tidalwave/0007",
+	"frame": {"x":572,"y":2,"w":74,"h":135},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":74,"h":135},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_tidalwave/0008",
+	"frame": {"x":316,"y":495,"w":74,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":74,"h":139},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_tidalwave/0009",
+	"frame": {"x":316,"y":495,"w":74,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":74,"h":139},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_tidalwave/0010",
+	"frame": {"x":138,"y":2,"w":70,"h":149},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":0,"w":70,"h":149},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_tidalwave/0011",
+	"frame": {"x":138,"y":2,"w":70,"h":149},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":0,"w":70,"h":149},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_tidalwave/0012",
+	"frame": {"x":2,"y":718,"w":72,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":0,"w":72,"h":157},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_tidalwave/0013",
+	"frame": {"x":2,"y":718,"w":72,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":0,"w":72,"h":157},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_tidalwave/0014",
+	"frame": {"x":504,"y":302,"w":74,"h":135},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":0,"w":74,"h":135},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_tidalwave/0015",
+	"frame": {"x":504,"y":302,"w":74,"h":135},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":0,"w":74,"h":135},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_tidalwave/0016",
+	"frame": {"x":464,"y":624,"w":74,"h":135},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":74,"h":135},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_tidalwave/0017",
+	"frame": {"x":464,"y":624,"w":74,"h":135},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":74,"h":135},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_tidalwave/0018",
+	"frame": {"x":646,"y":2,"w":72,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":0,"w":72,"h":133},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_tidalwave/0019",
+	"frame": {"x":646,"y":2,"w":72,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":0,"w":72,"h":133},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_tidalwave/0020",
+	"frame": {"x":578,"y":302,"w":72,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":0,"w":72,"h":133},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_tidalwave/0021",
+	"frame": {"x":578,"y":302,"w":72,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":0,"w":72,"h":133},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_tidalwave/0022",
+	"frame": {"x":352,"y":2,"w":74,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":74,"h":139},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_tidalwave/0023",
+	"frame": {"x":352,"y":2,"w":74,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":74,"h":139},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_tidalwave/0024",
+	"frame": {"x":74,"y":696,"w":74,"h":149},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":74,"h":149},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_tidalwave/0025",
+	"frame": {"x":74,"y":696,"w":74,"h":149},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":74,"h":149},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_whaleflipper/0000",
+	"frame": {"x":66,"y":2,"w":72,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":0,"w":72,"h":157},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_whaleflipper/0001",
+	"frame": {"x":66,"y":2,"w":72,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":0,"w":72,"h":157},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_whaleflipper/0002",
+	"frame": {"x":718,"y":2,"w":72,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":0,"w":72,"h":133},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_whaleflipper/0003",
+	"frame": {"x":718,"y":2,"w":72,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":0,"w":72,"h":133},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_whaleflipper/0004",
+	"frame": {"x":650,"y":302,"w":72,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":0,"w":72,"h":133},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_whaleflipper/0005",
+	"frame": {"x":650,"y":302,"w":72,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":0,"w":72,"h":133},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_whaleflipper/0006",
+	"frame": {"x":572,"y":2,"w":74,"h":135},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":74,"h":135},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_whaleflipper/0007",
+	"frame": {"x":572,"y":2,"w":74,"h":135},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":74,"h":135},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_whaleflipper/0008",
+	"frame": {"x":316,"y":495,"w":74,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":74,"h":139},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_whaleflipper/0009",
+	"frame": {"x":316,"y":495,"w":74,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":74,"h":139},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_whaleflipper/0010",
+	"frame": {"x":138,"y":2,"w":70,"h":149},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":0,"w":70,"h":149},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_whaleflipper/0011",
+	"frame": {"x":138,"y":2,"w":70,"h":149},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":0,"w":70,"h":149},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_whaleflipper/0012",
+	"frame": {"x":2,"y":718,"w":72,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":0,"w":72,"h":157},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_whaleflipper/0013",
+	"frame": {"x":2,"y":718,"w":72,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":0,"w":72,"h":157},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_whaleflipper/0014",
+	"frame": {"x":504,"y":302,"w":74,"h":135},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":0,"w":74,"h":135},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_whaleflipper/0015",
+	"frame": {"x":504,"y":302,"w":74,"h":135},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":0,"w":74,"h":135},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_whaleflipper/0016",
+	"frame": {"x":464,"y":624,"w":74,"h":135},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":74,"h":135},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_whaleflipper/0017",
+	"frame": {"x":464,"y":624,"w":74,"h":135},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":74,"h":135},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_whaleflipper/0018",
+	"frame": {"x":646,"y":2,"w":72,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":0,"w":72,"h":133},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_whaleflipper/0019",
+	"frame": {"x":646,"y":2,"w":72,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":0,"w":72,"h":133},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_whaleflipper/0020",
+	"frame": {"x":578,"y":302,"w":72,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":0,"w":72,"h":133},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_whaleflipper/0021",
+	"frame": {"x":578,"y":302,"w":72,"h":133},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":0,"w":72,"h":133},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_whaleflipper/0022",
+	"frame": {"x":352,"y":2,"w":74,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":74,"h":139},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_whaleflipper/0023",
+	"frame": {"x":352,"y":2,"w":74,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":74,"h":139},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_whaleflipper/0024",
+	"frame": {"x":74,"y":696,"w":74,"h":149},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":74,"h":149},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_sd_whaleflipper/0025",
+	"frame": {"x":74,"y":696,"w":74,"h":149},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":0,"w":74,"h":149},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_aquafin/0000",
+	"frame": {"x":1848,"y":782,"w":60,"h":143},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":14,"w":60,"h":143},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_aquafin/0001",
+	"frame": {"x":1848,"y":782,"w":60,"h":143},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":14,"w":60,"h":143},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_aquafin/0002",
+	"frame": {"x":1818,"y":242,"w":60,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":14,"w":60,"h":117},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_aquafin/0003",
+	"frame": {"x":1818,"y":242,"w":60,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":14,"w":60,"h":117},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_aquafin/0004",
+	"frame": {"x":1598,"y":810,"w":62,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":14,"w":62,"h":117},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_aquafin/0005",
+	"frame": {"x":1598,"y":810,"w":62,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":14,"w":62,"h":117},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_aquafin/0006",
+	"frame": {"x":1462,"y":810,"w":64,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":14,"w":64,"h":117},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_aquafin/0007",
+	"frame": {"x":1462,"y":810,"w":64,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":14,"w":64,"h":117},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_aquafin/0008",
+	"frame": {"x":1848,"y":2,"w":64,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":14,"w":64,"h":125},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_aquafin/0009",
+	"frame": {"x":1848,"y":2,"w":64,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":14,"w":64,"h":125},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_aquafin/0010",
+	"frame": {"x":1788,"y":2,"w":60,"h":135},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":14,"w":60,"h":135},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_aquafin/0011",
+	"frame": {"x":1788,"y":2,"w":60,"h":135},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":14,"w":60,"h":135},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_aquafin/0012",
+	"frame": {"x":1792,"y":639,"w":60,"h":143},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":14,"w":60,"h":143},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_aquafin/0013",
+	"frame": {"x":1792,"y":639,"w":60,"h":143},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":14,"w":60,"h":143},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_aquafin/0014",
+	"frame": {"x":1758,"y":242,"w":60,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":14,"w":60,"h":117},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_aquafin/0015",
+	"frame": {"x":1758,"y":242,"w":60,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":14,"w":60,"h":117},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_aquafin/0016",
+	"frame": {"x":1698,"y":244,"w":60,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":15,"w":60,"h":117},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_aquafin/0017",
+	"frame": {"x":1698,"y":244,"w":60,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":15,"w":60,"h":117},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_aquafin/0018",
+	"frame": {"x":1446,"y":252,"w":62,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":14,"w":62,"h":117},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_aquafin/0019",
+	"frame": {"x":1446,"y":252,"w":62,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":14,"w":62,"h":117},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_aquafin/0020",
+	"frame": {"x":1382,"y":252,"w":64,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":14,"w":64,"h":117},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_aquafin/0021",
+	"frame": {"x":1382,"y":252,"w":64,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":14,"w":64,"h":117},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_aquafin/0022",
+	"frame": {"x":1804,"y":359,"w":64,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":14,"w":64,"h":125},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_aquafin/0023",
+	"frame": {"x":1804,"y":359,"w":64,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":14,"w":64,"h":125},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_aquafin/0024",
+	"frame": {"x":1728,"y":2,"w":60,"h":135},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":14,"w":60,"h":135},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_aquafin/0025",
+	"frame": {"x":1728,"y":2,"w":60,"h":135},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":14,"w":60,"h":135},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_sharkfin/0000",
+	"frame": {"x":950,"y":403,"w":60,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":14,"w":60,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_sharkfin/0001",
+	"frame": {"x":950,"y":403,"w":60,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":14,"w":60,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_sharkfin/0002",
+	"frame": {"x":1130,"y":399,"w":60,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":13,"w":60,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_sharkfin/0003",
+	"frame": {"x":1130,"y":399,"w":60,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":13,"w":60,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_sharkfin/0004",
+	"frame": {"x":690,"y":135,"w":62,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":14,"w":62,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_sharkfin/0005",
+	"frame": {"x":690,"y":135,"w":62,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":14,"w":62,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_sharkfin/0006",
+	"frame": {"x":272,"y":640,"w":64,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":14,"w":64,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_sharkfin/0007",
+	"frame": {"x":272,"y":640,"w":64,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":14,"w":64,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_sharkfin/0008",
+	"frame": {"x":252,"y":475,"w":64,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":14,"w":64,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_sharkfin/0009",
+	"frame": {"x":252,"y":475,"w":64,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":14,"w":64,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_sharkfin/0010",
+	"frame": {"x":1052,"y":683,"w":60,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":14,"w":60,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_sharkfin/0011",
+	"frame": {"x":1052,"y":683,"w":60,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":14,"w":60,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_sharkfin/0012",
+	"frame": {"x":932,"y":701,"w":60,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":14,"w":60,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_sharkfin/0013",
+	"frame": {"x":932,"y":701,"w":60,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":14,"w":60,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_sharkfin/0014",
+	"frame": {"x":642,"y":435,"w":62,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":14,"w":62,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_sharkfin/0015",
+	"frame": {"x":642,"y":435,"w":62,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":14,"w":62,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_sharkfin/0016",
+	"frame": {"x":890,"y":409,"w":60,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":14,"w":60,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_sharkfin/0017",
+	"frame": {"x":890,"y":409,"w":60,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":14,"w":60,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_sharkfin/0018",
+	"frame": {"x":564,"y":759,"w":62,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":14,"w":62,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_sharkfin/0019",
+	"frame": {"x":564,"y":759,"w":62,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":14,"w":62,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_sharkfin/0020",
+	"frame": {"x":252,"y":310,"w":64,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":14,"w":64,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_sharkfin/0021",
+	"frame": {"x":252,"y":310,"w":64,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":14,"w":64,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_sharkfin/0022",
+	"frame": {"x":252,"y":145,"w":64,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":14,"w":64,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_sharkfin/0023",
+	"frame": {"x":252,"y":145,"w":64,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":14,"w":64,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_sharkfin/0024",
+	"frame": {"x":872,"y":717,"w":60,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":14,"w":60,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_sharkfin/0025",
+	"frame": {"x":872,"y":717,"w":60,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":14,"w":60,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_tidalwave/0000",
+	"frame": {"x":580,"y":435,"w":62,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":14,"w":62,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_tidalwave/0001",
+	"frame": {"x":580,"y":435,"w":62,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":14,"w":62,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_tidalwave/0002",
+	"frame": {"x":1120,"y":117,"w":60,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":13,"w":60,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_tidalwave/0003",
+	"frame": {"x":1120,"y":117,"w":60,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":13,"w":60,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_tidalwave/0004",
+	"frame": {"x":628,"y":137,"w":62,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":14,"w":62,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_tidalwave/0005",
+	"frame": {"x":628,"y":137,"w":62,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":14,"w":62,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_tidalwave/0006",
+	"frame": {"x":208,"y":646,"w":64,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":14,"w":64,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_tidalwave/0007",
+	"frame": {"x":208,"y":646,"w":64,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":14,"w":64,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_tidalwave/0008",
+	"frame": {"x":188,"y":481,"w":64,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":14,"w":64,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_tidalwave/0009",
+	"frame": {"x":188,"y":481,"w":64,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":14,"w":64,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_tidalwave/0010",
+	"frame": {"x":938,"y":123,"w":62,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":14,"w":62,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_tidalwave/0011",
+	"frame": {"x":938,"y":123,"w":62,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":14,"w":62,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_tidalwave/0012",
+	"frame": {"x":518,"y":437,"w":62,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":14,"w":62,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_tidalwave/0013",
+	"frame": {"x":518,"y":437,"w":62,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":14,"w":62,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_tidalwave/0014",
+	"frame": {"x":812,"y":717,"w":60,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":14,"w":60,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_tidalwave/0015",
+	"frame": {"x":812,"y":717,"w":60,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":14,"w":60,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_tidalwave/0016",
+	"frame": {"x":566,"y":137,"w":62,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":14,"w":62,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_tidalwave/0017",
+	"frame": {"x":566,"y":137,"w":62,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":14,"w":62,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_tidalwave/0018",
+	"frame": {"x":504,"y":137,"w":62,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":14,"w":62,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_tidalwave/0019",
+	"frame": {"x":504,"y":137,"w":62,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":14,"w":62,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_tidalwave/0020",
+	"frame": {"x":188,"y":316,"w":64,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":14,"w":64,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_tidalwave/0021",
+	"frame": {"x":188,"y":316,"w":64,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":14,"w":64,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_tidalwave/0022",
+	"frame": {"x":188,"y":151,"w":64,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":14,"w":64,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_tidalwave/0023",
+	"frame": {"x":188,"y":151,"w":64,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":14,"w":64,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_tidalwave/0024",
+	"frame": {"x":502,"y":759,"w":62,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":14,"w":62,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_tidalwave/0025",
+	"frame": {"x":502,"y":759,"w":62,"h":165},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":14,"w":62,"h":165},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_whaleflipper/0000",
+	"frame": {"x":280,"y":2,"w":72,"h":143},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":14,"w":72,"h":143},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_whaleflipper/0001",
+	"frame": {"x":280,"y":2,"w":72,"h":143},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":14,"w":72,"h":143},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_whaleflipper/0002",
+	"frame": {"x":1162,"y":278,"w":72,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":13,"w":72,"h":119},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_whaleflipper/0003",
+	"frame": {"x":1162,"y":278,"w":72,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":13,"w":72,"h":119},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_whaleflipper/0004",
+	"frame": {"x":1092,"y":562,"w":72,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":14,"w":72,"h":119},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_whaleflipper/0005",
+	"frame": {"x":1092,"y":562,"w":72,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":14,"w":72,"h":119},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_whaleflipper/0006",
+	"frame": {"x":942,"y":284,"w":74,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":15,"w":74,"h":119},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_whaleflipper/0007",
+	"frame": {"x":942,"y":284,"w":74,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":15,"w":74,"h":119},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_whaleflipper/0008",
+	"frame": {"x":790,"y":2,"w":74,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":14,"w":74,"h":125},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_whaleflipper/0009",
+	"frame": {"x":790,"y":2,"w":74,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":14,"w":74,"h":125},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_whaleflipper/0010",
+	"frame": {"x":662,"y":600,"w":70,"h":135},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":14,"w":70,"h":135},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_whaleflipper/0011",
+	"frame": {"x":662,"y":600,"w":70,"h":135},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":14,"w":70,"h":135},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_whaleflipper/0012",
+	"frame": {"x":208,"y":2,"w":72,"h":143},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":14,"w":72,"h":143},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_whaleflipper/0013",
+	"frame": {"x":208,"y":2,"w":72,"h":143},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":14,"w":72,"h":143},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_whaleflipper/0014",
+	"frame": {"x":876,"y":582,"w":74,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":15,"w":74,"h":119},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_whaleflipper/0015",
+	"frame": {"x":876,"y":582,"w":74,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":15,"w":74,"h":119},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_whaleflipper/0016",
+	"frame": {"x":936,"y":2,"w":74,"h":121},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":14,"w":74,"h":121},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_whaleflipper/0017",
+	"frame": {"x":936,"y":2,"w":74,"h":121},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":14,"w":74,"h":121},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_whaleflipper/0018",
+	"frame": {"x":1090,"y":280,"w":72,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":14,"w":72,"h":119},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_whaleflipper/0019",
+	"frame": {"x":1090,"y":280,"w":72,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":14,"w":72,"h":119},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_whaleflipper/0020",
+	"frame": {"x":1020,"y":564,"w":72,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":14,"w":72,"h":119},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_whaleflipper/0021",
+	"frame": {"x":1020,"y":564,"w":72,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":14,"w":72,"h":119},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_whaleflipper/0022",
+	"frame": {"x":722,"y":300,"w":74,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":14,"w":74,"h":125},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_whaleflipper/0023",
+	"frame": {"x":722,"y":300,"w":74,"h":125},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":14,"w":74,"h":125},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_whaleflipper/0024",
+	"frame": {"x":498,"y":2,"w":74,"h":135},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":14,"w":74,"h":135},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_tp_whaleflipper/0025",
+	"frame": {"x":498,"y":2,"w":74,"h":135},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":14,"w":74,"h":135},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_aquafin/0000",
+	"frame": {"x":1668,"y":2,"w":60,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":18,"w":60,"h":139},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_aquafin/0001",
+	"frame": {"x":1668,"y":2,"w":60,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":18,"w":60,"h":139},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_aquafin/0002",
+	"frame": {"x":1972,"y":2,"w":60,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":18,"w":60,"h":113},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_aquafin/0003",
+	"frame": {"x":1972,"y":2,"w":60,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":18,"w":60,"h":113},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_aquafin/0004",
+	"frame": {"x":1878,"y":242,"w":62,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":18,"w":62,"h":113},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_aquafin/0005",
+	"frame": {"x":1878,"y":242,"w":62,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":18,"w":62,"h":113},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_aquafin/0006",
+	"frame": {"x":1572,"y":248,"w":64,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":18,"w":64,"h":113},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_aquafin/0007",
+	"frame": {"x":1572,"y":248,"w":64,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":18,"w":64,"h":113},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_aquafin/0008",
+	"frame": {"x":1508,"y":248,"w":64,"h":121},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":18,"w":64,"h":121},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_aquafin/0009",
+	"frame": {"x":1508,"y":248,"w":64,"h":121},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":18,"w":64,"h":121},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_aquafin/0010",
+	"frame": {"x":1864,"y":484,"w":60,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":18,"w":60,"h":131},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_aquafin/0011",
+	"frame": {"x":1864,"y":484,"w":60,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":18,"w":60,"h":131},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_aquafin/0012",
+	"frame": {"x":1788,"y":790,"w":60,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":18,"w":60,"h":139},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_aquafin/0013",
+	"frame": {"x":1788,"y":790,"w":60,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":18,"w":60,"h":139},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_aquafin/0014",
+	"frame": {"x":1972,"y":609,"w":60,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":18,"w":60,"h":113},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_aquafin/0015",
+	"frame": {"x":1972,"y":609,"w":60,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":18,"w":60,"h":113},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_aquafin/0016",
+	"frame": {"x":1880,"y":127,"w":60,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":17,"w":60,"h":115},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_aquafin/0017",
+	"frame": {"x":1880,"y":127,"w":60,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":17,"w":60,"h":115},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_aquafin/0018",
+	"frame": {"x":1636,"y":248,"w":62,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":18,"w":62,"h":113},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_aquafin/0019",
+	"frame": {"x":1636,"y":248,"w":62,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":18,"w":62,"h":113},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_aquafin/0020",
+	"frame": {"x":1660,"y":808,"w":64,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":18,"w":64,"h":113},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_aquafin/0021",
+	"frame": {"x":1660,"y":808,"w":64,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":18,"w":64,"h":113},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_aquafin/0022",
+	"frame": {"x":1236,"y":701,"w":64,"h":121},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":18,"w":64,"h":121},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_aquafin/0023",
+	"frame": {"x":1236,"y":701,"w":64,"h":121},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":18,"w":64,"h":121},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_aquafin/0024",
+	"frame": {"x":1852,"y":617,"w":60,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":18,"w":60,"h":131},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_aquafin/0025",
+	"frame": {"x":1852,"y":617,"w":60,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":18,"w":60,"h":131},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_sharkfin/0000",
+	"frame": {"x":1070,"y":401,"w":60,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":18,"w":60,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_sharkfin/0001",
+	"frame": {"x":1070,"y":401,"w":60,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":18,"w":60,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_sharkfin/0002",
+	"frame": {"x":1190,"y":397,"w":60,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":17,"w":60,"h":157},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_sharkfin/0003",
+	"frame": {"x":1190,"y":397,"w":60,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":17,"w":60,"h":157},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_sharkfin/0004",
+	"frame": {"x":876,"y":127,"w":62,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":18,"w":62,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_sharkfin/0005",
+	"frame": {"x":876,"y":127,"w":62,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":18,"w":62,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_sharkfin/0006",
+	"frame": {"x":454,"y":463,"w":64,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":18,"w":64,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_sharkfin/0007",
+	"frame": {"x":454,"y":463,"w":64,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":18,"w":64,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_sharkfin/0008",
+	"frame": {"x":440,"y":302,"w":64,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":18,"w":64,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_sharkfin/0009",
+	"frame": {"x":440,"y":302,"w":64,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":18,"w":64,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_sharkfin/0010",
+	"frame": {"x":1112,"y":681,"w":60,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":18,"w":60,"h":157},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_sharkfin/0011",
+	"frame": {"x":1112,"y":681,"w":60,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":18,"w":60,"h":157},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_sharkfin/0012",
+	"frame": {"x":992,"y":693,"w":60,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":18,"w":60,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_sharkfin/0013",
+	"frame": {"x":992,"y":693,"w":60,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":18,"w":60,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_sharkfin/0014",
+	"frame": {"x":828,"y":421,"w":62,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":18,"w":62,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_sharkfin/0015",
+	"frame": {"x":828,"y":421,"w":62,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":18,"w":62,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_sharkfin/0016",
+	"frame": {"x":1060,"y":119,"w":60,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":18,"w":60,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_sharkfin/0017",
+	"frame": {"x":1060,"y":119,"w":60,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":18,"w":60,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_sharkfin/0018",
+	"frame": {"x":750,"y":721,"w":62,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":18,"w":62,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_sharkfin/0019",
+	"frame": {"x":750,"y":721,"w":62,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":18,"w":62,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_sharkfin/0020",
+	"frame": {"x":440,"y":141,"w":64,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":18,"w":64,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_sharkfin/0021",
+	"frame": {"x":440,"y":141,"w":64,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":18,"w":64,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_sharkfin/0022",
+	"frame": {"x":400,"y":624,"w":64,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":18,"w":64,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_sharkfin/0023",
+	"frame": {"x":400,"y":624,"w":64,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":18,"w":64,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_sharkfin/0024",
+	"frame": {"x":1010,"y":403,"w":60,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":18,"w":60,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_sharkfin/0025",
+	"frame": {"x":1010,"y":403,"w":60,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":18,"w":60,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_tidalwave/0000",
+	"frame": {"x":814,"y":127,"w":62,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":18,"w":62,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_tidalwave/0001",
+	"frame": {"x":814,"y":127,"w":62,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":18,"w":62,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_tidalwave/0002",
+	"frame": {"x":1180,"y":117,"w":60,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":17,"w":60,"h":157},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_tidalwave/0003",
+	"frame": {"x":1180,"y":117,"w":60,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":17,"w":60,"h":157},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_tidalwave/0004",
+	"frame": {"x":766,"y":425,"w":62,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":18,"w":62,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_tidalwave/0005",
+	"frame": {"x":766,"y":425,"w":62,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":18,"w":62,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_tidalwave/0006",
+	"frame": {"x":390,"y":463,"w":64,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":18,"w":64,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_tidalwave/0007",
+	"frame": {"x":390,"y":463,"w":64,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":18,"w":64,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_tidalwave/0008",
+	"frame": {"x":376,"y":302,"w":64,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":18,"w":64,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_tidalwave/0009",
+	"frame": {"x":376,"y":302,"w":64,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":18,"w":64,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_tidalwave/0010",
+	"frame": {"x":538,"y":602,"w":62,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":18,"w":62,"h":157},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_tidalwave/0011",
+	"frame": {"x":538,"y":602,"w":62,"h":157},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":18,"w":62,"h":157},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_tidalwave/0012",
+	"frame": {"x":688,"y":735,"w":62,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":18,"w":62,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_tidalwave/0013",
+	"frame": {"x":688,"y":735,"w":62,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":18,"w":62,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_tidalwave/0014",
+	"frame": {"x":1000,"y":123,"w":60,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":18,"w":60,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_tidalwave/0015",
+	"frame": {"x":1000,"y":123,"w":60,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":18,"w":60,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_tidalwave/0016",
+	"frame": {"x":752,"y":135,"w":62,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":18,"w":62,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_tidalwave/0017",
+	"frame": {"x":752,"y":135,"w":62,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":18,"w":62,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_tidalwave/0018",
+	"frame": {"x":704,"y":435,"w":62,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":18,"w":62,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_tidalwave/0019",
+	"frame": {"x":704,"y":435,"w":62,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":18,"w":62,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_tidalwave/0020",
+	"frame": {"x":376,"y":141,"w":64,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":18,"w":64,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_tidalwave/0021",
+	"frame": {"x":376,"y":141,"w":64,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":18,"w":64,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_tidalwave/0022",
+	"frame": {"x":336,"y":634,"w":64,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":18,"w":64,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_tidalwave/0023",
+	"frame": {"x":336,"y":634,"w":64,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":18,"w":64,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_tidalwave/0024",
+	"frame": {"x":626,"y":755,"w":62,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":18,"w":62,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_tidalwave/0025",
+	"frame": {"x":626,"y":755,"w":62,"h":161},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":18,"w":62,"h":161},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_whaleflipper/0000",
+	"frame": {"x":430,"y":785,"w":72,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":18,"w":72,"h":139},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_whaleflipper/0001",
+	"frame": {"x":430,"y":785,"w":72,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":18,"w":72,"h":139},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_whaleflipper/0002",
+	"frame": {"x":1164,"y":560,"w":72,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":17,"w":72,"h":115},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_whaleflipper/0003",
+	"frame": {"x":1164,"y":560,"w":72,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":17,"w":72,"h":115},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_whaleflipper/0004",
+	"frame": {"x":1228,"y":2,"w":72,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":18,"w":72,"h":115},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_whaleflipper/0005",
+	"frame": {"x":1228,"y":2,"w":72,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":18,"w":72,"h":115},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_whaleflipper/0006",
+	"frame": {"x":1016,"y":284,"w":74,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":17,"w":74,"h":117},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_whaleflipper/0007",
+	"frame": {"x":1016,"y":284,"w":74,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":17,"w":74,"h":117},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_whaleflipper/0008",
+	"frame": {"x":868,"y":288,"w":74,"h":121},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":18,"w":74,"h":121},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_whaleflipper/0009",
+	"frame": {"x":868,"y":288,"w":74,"h":121},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":18,"w":74,"h":121},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_whaleflipper/0010",
+	"frame": {"x":806,"y":586,"w":70,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":18,"w":70,"h":131},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_whaleflipper/0011",
+	"frame": {"x":806,"y":586,"w":70,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":18,"w":70,"h":131},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_whaleflipper/0012",
+	"frame": {"x":426,"y":2,"w":72,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":18,"w":72,"h":139},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_whaleflipper/0013",
+	"frame": {"x":426,"y":2,"w":72,"h":139},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":18,"w":72,"h":139},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_whaleflipper/0014",
+	"frame": {"x":1010,"y":2,"w":74,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":17,"w":74,"h":117},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_whaleflipper/0015",
+	"frame": {"x":1010,"y":2,"w":74,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":17,"w":74,"h":117},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_whaleflipper/0016",
+	"frame": {"x":208,"y":811,"w":74,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":18,"w":74,"h":117},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_whaleflipper/0017",
+	"frame": {"x":208,"y":811,"w":74,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":18,"w":74,"h":117},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_whaleflipper/0018",
+	"frame": {"x":1156,"y":2,"w":72,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":18,"w":72,"h":115},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_whaleflipper/0019",
+	"frame": {"x":1156,"y":2,"w":72,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":10,"y":18,"w":72,"h":115},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_whaleflipper/0020",
+	"frame": {"x":1084,"y":2,"w":72,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":18,"w":72,"h":115},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_whaleflipper/0021",
+	"frame": {"x":1084,"y":2,"w":72,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":18,"w":72,"h":115},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_whaleflipper/0022",
+	"frame": {"x":282,"y":805,"w":74,"h":121},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":18,"w":74,"h":121},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_whaleflipper/0023",
+	"frame": {"x":282,"y":805,"w":74,"h":121},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":18,"w":74,"h":121},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_whaleflipper/0024",
+	"frame": {"x":356,"y":795,"w":74,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":18,"w":74,"h":131},
+	"sourceSize": {"w":90,"h":179}
+},
+{
+	"filename": "reefripper_ts_whaleflipper/0025",
+	"frame": {"x":356,"y":795,"w":74,"h":131},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":18,"w":74,"h":131},
+	"sourceSize": {"w":90,"h":179}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "reefripper_01.png",
+	"format": "RGBA8888",
+	"size": {"w":2034,"h":931},
+	"scale": "0.7",
+	"smartupdate": "$TexturePacker:SmartUpdate:a43b271db84133465e552ef20832b88e:1/1$"
+}
+}

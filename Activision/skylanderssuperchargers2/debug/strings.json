@@ -1,0 +1,265 @@
+{
+	"buttons":
+	[
+		{"name":"PlayButton", "style":".titleButton", "value":"PLAY"},
+		{"name":"NextButton", "style":".titleButton", "value":"NEXT"},
+		{"name":"ShopButton", "style":".smallButton", "value":"SHOP"},
+		{"name":"SoundOffButton", "style":".smallButton", "value":"SOUND OFF"},
+		{"name":"SoundOnButton", "style":".smallButton", "value":"SOUND ON"},
+		{"name":"ResumeButton", "style":".smallButton", "value":"RESUME"},
+		{"name":"RestartButton", "style":".smallButton", "value":"RESTART"},
+		{"name":"HowToPlayButton", "style":".smallButton", "value":"HOW TO PLAY"},
+		{"name":"LevelSelectButton", "style":".smallButton", "value":"LEVEL SELECT"},
+		{"name":"HelpButton", "style":".smallButton", "value":"HELP"},
+		{"name":"QuitButton", "style":".smallButton", "value":"QUIT"},
+		{"name":"YesButton", "style":".smallButton", "value":"YES"},
+		{"name":"NoButton", "style":".smallButton", "value":"NO"},
+		{"name":"ContinueButton", "style":".smallButton", "value":"DONE"},
+		{"name":"BackButton", "style":".titleButton", "value":"BACK"},
+		{"name":"PlayAgainButton", "style":".smallButton", "value":"PLAY AGAIN"},
+		{"name":"SkipButton", "style":".smallButton", "value":"Skip"},
+		{"name":"ClearProgress", "style":".clearProgressButton", "value":"CLEAR PROGRESS"}
+	],
+
+	"screens":
+	{
+		"PreloadScreen":
+		[
+			{"name":"Loading", "style":".loadingCopy", "value":"Loading"},
+			{"name":"Copyright", "style":".copyright", "value":"©2015 Activision Publishing, Inc"}
+		],
+
+		"GameLoadScreen":
+		[
+			{"name":"Title", "style":".loadingTitle", "value":"LOADING"},
+			{"name":"Copyright", "style":".copyright", "value":""}
+		],
+
+		"MenuLoadScreen":
+		[
+			{"name":"MenuLoading", "style":".loadingCopy", "value":"LOADING..."}
+		],
+
+		"TitleScreen":
+		[
+			{"name":"GameTitle", "style":".gameTitle", "value":"AIR RACE ADVENTURE"}
+		],
+
+		"WelcomeScreen":
+		[
+			{"name":"WelcomeTitle", "style":".screenTitle1", "value":"WELCOME"},
+			{"name":"WelcomeCopy1", "style":".screenCopy", "value":"We need your help, Portal Master! Kaos’ pesky villains have taken over the Cloud Factory and are holding our friends captive."},
+			{"name":"WelcomeCopy2", "style":".screenCopy", "value":"We need you and the Superchargers to rescue the prisoners and win back our sacred skies."},
+			{"name":"WelcomeCopy3", "style":".screenCopy", "value":"The fastest Skylander in this race to defeat evil will be greatly honored!"}
+		],
+
+		"VehicleSelectScreen":
+		[
+			{"name":"SelectTitle", "style":".screenTitle2", "value":"SELECT HERO & VEHICLE"},
+			{"name":"ComboText", "style":".comboText", "value":"Using this hero and vehicle combo means more speed and firepower!"}
+		],
+
+		"TrackSelectScreen":
+		[
+			{"name":"TrackSelectTitle", "style":".screenTitle2", "value":"LEVEL SELECT"},
+			{"name":"ComboText", "style":".comboText", "value":"Using this hero and vehicle combo means more speed and firepower!"}
+		],
+
+		"HowToPlayScreen":
+		[
+			{"name":"HTPTitle", "style":".screenTitle2", "value":"HOW TO PLAY"},
+			
+			{"name":"HTPCopy1",  "style":".htpHeader", "value":"It's a race to rescue our captive friends throughout the Cloud Kingdom!"},
+			{"name":"HTPCopy2",  "style":".htpCopy2", "value":"Match up like-colored gems to stay ahead of the other racers and perform these special actions!"},
+			{"name":"HTPSpecialActions",  "style":".htpHeader2", "value":"SPECIAL ACTIONS"},
+			{"name":"HTPBonuses",  "style":".htpHeader2", "value":"BONUSES"},
+			{"name":"HTPPrimaryAttack",  "style":".htpCopy2", "value":"Primary Attack"},
+			{"name":"HTPSecondaryAttack",  "style":".htpCopy2", "value":"Secondary Attack"},
+			{"name":"HTPZipForward",  "style":".htpCopy2", "value":"Speed Boost"},
+			{"name":"HTPGetGearbits",  "style":".htpCopy2", "value":"Gearbits"},
+			{"name":"HTPGetPoints",  "style":".htpCopy2", "value":"Treasure"},
+			{"name":"HTPMatchWithAny",  "style":".htpCopy2", "value":"Match With Any & Awards Bonus"},
+			{"name":"HTPExtraSpeed",  "style":".htpCopy2", "value":"Zip Forward"},
+			{"name":"HTPExtraShield",  "style":".htpCopy2", "value":"Shield"},
+			{"name":"HTPSkeletonKey",  "style":".htpCopy2", "value":"Open Locks"},
+			{"name":"HTPExtraLife",  "style":".htpCopy2", "value":"Healing Elixir"}
+			
+
+		],
+
+		"HowToPlayScreen2":
+		[
+			{"name":"HTPTitle2", "style":".screenTitle2", "value":"HOW TO PLAY"},
+			{"name":"InstructionText1", "style":".htpCopy", "value":"Click and drag to connect chains of three or more like-colored blocks! Match up specific block types when you want those actions performed."},
+			{"name":"InstructionText1Mobile", "style":".htpCopy", "value":"Press and drag to connect chains of three or more like-colored blocks! Match up specific block types when you want those actions performed."},
+			{"name":"InstructionText2", "style":".htpCopy", "value":"Earn bonuses by matching up with mystery boxes!"},
+			{"name":"InstructionText3", "style":".htpCopy", "value":"Use bonus keys to rescue captive friends!"},
+			{"name":"InstructionText4", "style":".htpCopy", "value":"Battle enemies by matching up attack blocks!"},
+			{"name":"InstructionText5", "style":".htpCopy", "value":"Get to the finish line as quickly as possible!"}
+		],
+
+		"ReadyScreen":
+		[
+			{"name":"ReadyScreenTitle", "style":".screenTitle2", "value":"ARE YOU READY?"},
+			{"name":"ReadyScreenCopy", "style":".readyCopy", "value":"Let’s see who is the greatest driver (and hero) of all Skylands! Race to the end of this track as quickly as possible!"},
+			{"name":"GoalScore", "style":".readyGoalScore", "value":"Goal Score"},
+			{"name":"HighScoreCopy", "style":".readyHighScoreCopy", "value":"HIGH SCORE"},
+			{"name":"ReadyScreenLoading", "style":".loadingCopy", "value":"LOADING..."}
+		],
+
+		"UpgradeScreen":
+		[
+			{"name":"UpgradeScreenTitle", "style":".screenTitle2", "value":"CHOOSE VEHICLE MODS"},
+			{"name":"SpecialtyCopy", "style":".upgradeHeader", "value":"SPECIALTY MODS"},
+			{"name":"PerformanceCopy", "style":".upgradeHeader", "value":"PERFORMANCE MODS"},
+			{"name":"CurrencyCopy", "style":".upgradeHeader", "value":"GEARBITS"},
+			{"name":"ArmorCopy", "style":".upgradeStats", "value":"Armor"},
+			{"name":"TopSpeedCopy", "style":".upgradeStats", "value":"Top Speed"},
+			{"name":"AccelerationCopy", "style":".upgradeStats", "value":"Acceleration"},
+			{"name":"HandlingCopy", "style":".upgradeStats", "value":"Handling"},
+			{"name":"WeightCopy", "style":".upgradeStats", "value":"Weight"}
+		],
+
+		"EndScreen":
+		[
+			{"name":"EndScreenTitle", "style":".screenTitle2", "value":"SUPERCHARGED WINNER"},
+			{"name":"EndScreenCopy", "style":".endScreenCopy", "value":"Play again to beat your high score and earn more mods for your vehicle!"}
+		],
+
+		"PauseScreen":
+		[
+			{"name":"PauseTitle", "style":".screenTitle2", "value":"PAUSE"}
+		],
+
+		"ResultsOverlay":
+		[
+			{"name":"ResultsTitle", "style":".screenTitle2", "value":"RESULTS"}
+		],
+
+		"ConfirmOverlay":
+		[
+			{"name":"AreYouSureText", "style":".popupHeader", "value":"ARE YOU SURE?"}
+		],
+
+		"PurchaseConfirmOverlay":
+		[
+			{"name":"CostCopy", "style":".upgradeConfirmCostCopy", "value":"COST"}
+		]
+
+	},
+
+	"ui":
+	{
+		"overlays":
+		{
+			"PauseOverlay":
+			[
+				{"name":"Title", "style":".overlayTitle", "value":"Paused"}
+			],
+
+			"ConfirmOverlay":
+			[
+				{"name":"Title", "style":".overlayTitle", "value":"Are you sure?"}
+			],
+
+			"MenuOverlay":
+			[
+				{"name":"Menu", "style":".overlayTitle", "value":"MENU"}
+			]
+		},
+
+		"GUI":
+		[
+			{"name":"HUDBonusText", "style":".hudHeader", "value":"BONUS"},
+			{"name":"HUDRescuedText", "style":".hudHeader", "value":"RESCUED"}
+		]
+	},
+
+
+	"game":{
+		"lap" : "Lap",
+		"characters" : {
+			"char_stealthelf" : "Super Shot Stealth Elf",
+			"char_jetvac"   : "Hurricane Jet-Vac",
+			"char_stormblade"   : "Stormblade"
+		},
+
+		"vehicles" : {
+			"vehicle_stealthstinger"   : "Stealth Stinger",
+			"vehicle_jetstream"   : "Jet Stream",
+			"vehicle_skyslicer": "Sky Slicer"
+		},
+
+		"upgrades":{
+				"ss_pm_1"    : "Waxed Wood Plates",
+				"ss_pm_2"    : "Acorn Armoring",
+				"ss_pm_3"  : "Briar Patching",
+				"ss_pm_4" : "Hardwood Shielding",
+
+				"ss_sm_1"     : "Leaf Cutters",
+				"ss_sm_2"     : "Pine Cone Rotors",
+				"ss_sm_3"   : "Petal Paddles",
+				"ss_sm_4" : "Lacquered Coaxial",
+
+				"js_sm_1"    : "Wind Frenzies",
+				"js_sm_2"    : "Vortex Core Turbine",
+				"js_sm_3"  : "Vintage Forge Crank",
+				"js_sm_4" : "Brasslock Engine",
+
+				"js_pm_1"     : "Wind Slashers",
+				"js_pm_2"     : "Blade Wings",
+				"js_pm_3"   : "Air-Flex Flyers",
+				"js_pm_4" : "Brassfeather Wings",
+
+				"ssl_sm_1"    : "Screamstream Thrust",
+				"ssl_sm_2"    : "Uni-Fusion Boost",
+				"ssl_sm_3"    : "Twin Jet Turbos",
+				"ssl_sm_4"    : "Tri-Jet Threat",
+
+				"ssl_pm_1"     : "Katar Wing",
+				"ssl_pm_2"     : "Zero Friction Plate",
+				"ssl_pm_3"     : "Double Edge Hull",
+				"ssl_pm_4"     : "Sai Wing Shell"
+
+
+		},
+
+		"placement":{
+			"suffix1" : "st",
+			"suffix2" : "nd",
+			"suffix3" : "rd",
+			"suffix4" : "th"
+		},
+
+		"messages" : {
+			"QueenTrack1" : {"style" : ".screenFXCopy", "value" : "Match blocks to race ahead, attack enemies and help rescue our friends!"},
+			"QueenTrack2" : {"style" : ".screenFXCopy", "value" : "Match up those blocks quickly to stay ahead of the race!"},
+			"QueenTrack3" : {"style" : ".screenFXCopy", "value" : "Keep matching up blocks to get to the finish line first!"},
+			"RaceGO" : {"style" : ".screenFXCountdown", "value" :  "GO!"},
+			"RescueAlert" : {"style" : ".raceMessage", "value" :  "RESCUE NEEDED!"},
+			"RescueMessage" : {"style" : ".raceMessage", "value" :  "FRIEND RESCUED!"},
+			"EnemyApproach" : {"style" : ".enemyApproach", "value" :  "INCOMING FIRE!"},
+			"HintMessageKey" : {"style" : ".bonusHint", "value" :  "USE YOUR KEY!"},
+			"EnemyHint":{"style":".enemyHint", "value":"MATCH ATTACK BLOCKS!"},
+			"ShieldUse":{"style":".shieldUse", "value":"SHIELD!"},
+			"ShoeUse":{"style":".shoeUse", "value":"SPEED BOOST!"},
+			"ElixirUse":{"style":".elixirUse", "value":"HEALING ELIXIR!"},
+			"Shuffle":{"style":".shuffle", "value":"SHUFFLE!"},
+			"outOfMoves":{"style":".screenFXOutOfMoves", "value":"Out Of Moves!"}
+		},
+
+		"descriptions": {
+			"char_stealthelf" : "“Silent but Deadly!”",
+			"char_jetvac"   : "“Hawk and Awe!”",
+			"char_stormblade"   : "“Feather the Storm!”",
+			"vehicle_stealthstinger"   : "Primary Attack: Rapidly fire acorn into the sky! \nSecondary Attack: Shoot missiles to attack enemies!",
+			"vehicle_skyslicer"   : "Primary Attack: Shoot out feathered spears! \nSecondary Attack: Lock on and shoot out Pidgeon Flock homing missiles!",
+			"vehicle_jetstream"   : "Primary Attack: Fire Avian Razors! \nSecondary Attack: Create a Tornado. Fire Avian Razors into it to Charge it Up!"
+		}
+	},
+
+	"messages":
+	{
+		"go":{"style":".screenFXCopy", "value":"Go!"}
+	}
+}

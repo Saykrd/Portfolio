@@ -1,0 +1,32 @@
+{
+	"id" : "track001",
+	"name": "Track 001",
+	"preRaceMessage": "QueenTrack1",
+	"laps": 2,
+	"lanes" : 3,
+	"scoring" : [50000, 100000, 200000],
+	"unlocks" : "Track002",
+	"events" : [
+		{"id": "evt000", "event" : "gameEnter" },
+		{"id": "evt001", "event" : "cameraPan" },
+		{"id": "evt002", "event" : "levelMessage" },
+		{"id": "evt003", "event" : "countdown" },
+		{"id": "evt004", "event" : "gameStart" }
+	],
+
+
+
+	"numSegments" : 100,
+	"map": "Map000"
+
+
+
+
+}
+				
+
+
+
+			
+
+

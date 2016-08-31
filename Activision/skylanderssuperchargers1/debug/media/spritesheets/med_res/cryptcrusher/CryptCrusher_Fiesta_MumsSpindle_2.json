@@ -1,0 +1,268 @@
+{"frames": [
+
+{
+	"filename": "CC_mumspindle_FFengine_idle/0000",
+	"frame": {"x":172,"y":2,"w":104,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":6,"w":104,"h":113},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_FFengine_idle/0001",
+	"frame": {"x":248,"y":228,"w":104,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":6,"w":104,"h":113},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_FFengine_idle/0002",
+	"frame": {"x":156,"y":115,"w":112,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":51,"y":6,"w":112,"h":113},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_FFengine_idle/0003",
+	"frame": {"x":136,"y":228,"w":112,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":51,"y":6,"w":112,"h":113},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_FFengine_idle/0004",
+	"frame": {"x":276,"y":2,"w":134,"h":111},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":41,"y":8,"w":134,"h":111},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_FFengine_idle/0005",
+	"frame": {"x":2,"y":228,"w":134,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":41,"y":6,"w":134,"h":113},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_FFengine_idle/0006",
+	"frame": {"x":352,"y":226,"w":126,"h":111},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":8,"w":126,"h":111},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_FFengine_idle/0007",
+	"frame": {"x":410,"y":2,"w":126,"h":109},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":10,"w":126,"h":109},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_coffinclapper_idle/0000",
+	"frame": {"x":230,"y":341,"w":104,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":18,"w":104,"h":101},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_coffinclapper_idle/0001",
+	"frame": {"x":230,"y":341,"w":104,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":18,"w":104,"h":101},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_coffinclapper_idle/0002",
+	"frame": {"x":536,"y":105,"w":106,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":51,"y":16,"w":106,"h":103},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_coffinclapper_idle/0003",
+	"frame": {"x":536,"y":105,"w":106,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":51,"y":16,"w":106,"h":103},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_coffinclapper_idle/0004",
+	"frame": {"x":352,"y":337,"w":122,"h":105},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":45,"y":14,"w":122,"h":105},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_coffinclapper_idle/0005",
+	"frame": {"x":352,"y":337,"w":122,"h":105},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":45,"y":14,"w":122,"h":105},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_coffinclapper_idle/0006",
+	"frame": {"x":478,"y":224,"w":122,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":16,"w":122,"h":103},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_coffinclapper_idle/0007",
+	"frame": {"x":478,"y":224,"w":122,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":16,"w":122,"h":103},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_mummymotif_idle/0000",
+	"frame": {"x":408,"y":113,"w":122,"h":111},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":44,"y":8,"w":122,"h":111},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_mummymotif_idle/0001",
+	"frame": {"x":408,"y":113,"w":122,"h":111},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":44,"y":8,"w":122,"h":111},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_mummymotif_idle/0002",
+	"frame": {"x":268,"y":115,"w":140,"h":111},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":8,"w":140,"h":111},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_mummymotif_idle/0003",
+	"frame": {"x":268,"y":115,"w":140,"h":111},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":8,"w":140,"h":111},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_mummymotif_idle/0004",
+	"frame": {"x":2,"y":2,"w":170,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":6,"w":170,"h":113},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_mummymotif_idle/0005",
+	"frame": {"x":2,"y":2,"w":170,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":6,"w":170,"h":113},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_mummymotif_idle/0006",
+	"frame": {"x":2,"y":115,"w":154,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":42,"y":6,"w":154,"h":113},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_mummymotif_idle/0007",
+	"frame": {"x":2,"y":115,"w":154,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":42,"y":6,"w":154,"h":113},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_woodgeist_idle/0000",
+	"frame": {"x":124,"y":341,"w":106,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":18,"w":106,"h":101},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_woodgeist_idle/0001",
+	"frame": {"x":124,"y":341,"w":106,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":18,"w":106,"h":101},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_woodgeist_idle/0002",
+	"frame": {"x":536,"y":2,"w":106,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":51,"y":16,"w":106,"h":103},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_woodgeist_idle/0003",
+	"frame": {"x":536,"y":2,"w":106,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":51,"y":16,"w":106,"h":103},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_woodgeist_idle/0004",
+	"frame": {"x":474,"y":337,"w":122,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":45,"y":15,"w":122,"h":103},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_woodgeist_idle/0005",
+	"frame": {"x":474,"y":337,"w":122,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":45,"y":15,"w":122,"h":103},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_woodgeist_idle/0006",
+	"frame": {"x":2,"y":341,"w":122,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":17,"w":122,"h":101},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_mumspindle_woodgeist_idle/0007",
+	"frame": {"x":2,"y":341,"w":122,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":17,"w":122,"h":101},
+	"sourceSize": {"w":212,"h":133}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "CryptCrusher_Fiesta_MumsSpindle_2.png",
+	"format": "RGBA8888",
+	"size": {"w":650,"h":444},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:e7e45ab40b81aa82c93f616159c58e9e:1/1$"
+}
+}

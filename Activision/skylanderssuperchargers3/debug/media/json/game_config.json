@@ -1,0 +1,896 @@
+{
+	"settings" : {
+		"showGrid" : false,
+		"debugHitboxes" : true,
+		"debugSections" : false,
+		"debugHideGraphics" : false,
+		"loadLevelOnStart" : false
+	},
+
+	"minimap":{
+		"scale" : 0.085,
+		"colors" : {
+			"base" : "#000077",
+			"rigid_object" : "#075BBD",
+			"destructable" : "#54CAE5",
+			"racer" : "#FF00AA",
+			"enemy" : "#FF0000",
+			"raceItem" : "#00FF00",
+			"bonus": "#EEEE00"
+		}
+	},
+
+	"superchargedModifier" : 1.2,
+	"boostSpeedModifier" : 1.2,
+	"boostAccelModifier" : 3,
+	"rivalRubberbandMod" : 1.25,
+	"enemyRubberbandMod" : 1.43,
+	"playerRubberbandMod": 1.18,
+
+	"whirlpoolStartup" :  {"startFrame" : 0, "duration" : 100},
+	"whirlpoolActive" :   {"startFrame" : 101, "duration" : 1},
+	"whirlpoolCooldown" : {"startFrame" : 103, "duration" : 20},
+
+	"characters" : {
+		"char_diveclops" : {
+			"comboVehicle" : "vehicle_divebomber",
+			"image" : "DiveClopsSelect",
+			"icon" : "WaterIcon",
+			"mapIcon" : "MapIconDClops",
+			"selectable": true,
+			"portraitHUD": "HUDDiveClops",
+			"endScreenImage": "EndScreenDC",
+			"code" : "se",
+			"selectVO" : "VOSelectDC",
+			"banterVO" : "VOBanterDC",
+			"crashVO" : "VOCrashDC",
+			"hitVO" : "VOHitDC"
+		},
+
+		"char_nightfall" : {
+			"comboVehicle" : "vehicle_seashadow",
+			"image" : "NightfallSelect",
+			"mapIcon" : "MapIconNightfall",
+			"icon" : "DarkIcon",
+			"selectable": true,
+			"portraitHUD": "HUDNightfall",
+			"endScreenImage": "EndScreenNF",
+			"code":"jv",
+			"selectVO" : "VOSelectNF",
+			"banterVO" : "VOBanterNF",
+			"crashVO" : "VOCrashNF",
+			"hitVO" : "VOHitNF"
+		},
+
+		"char_gillgrunt" : {
+			"comboVehicle" : "vehicle_reefripper",
+			"image" : "GillGruntSelect",
+			"mapIcon" : "MapIconGGrunt",
+			"icon" : "WaterIcon",
+			"selectable": true,
+			"portraitHUD": "HUDGillGrunt",
+			"endScreenImage": "EndScreenGG",
+			"code":"sb",
+			"selectVO" : "VOSelectGG",
+			"banterVO" : "VOBanterGG",
+			"crashVO" : "VOCrashGG",
+			"hitVO" : "VOHitGG"
+		},
+
+		"char_chompy" : {
+			"mapIcon" : "MapIconChompy",
+			"selectable": false,
+			"hitVO" : "VOChompyHit"
+		}
+	},
+
+
+	"vehicles":{
+
+
+		"vehicle_chompy" : {
+			"display" : "enemy",
+			"maxSpeed" : 4.92,
+			"boostSpeed" : 29,
+			"accel" : 0.52,
+			"turnSpeed": 95,
+			"friction" : 3,
+			"weight" : 70,
+			"hitbox" : {"x" : -32, "y" : -32, "width" : 64, "height" : 64},
+			"sightAngle" : 45,
+			"sightRange" : 120,
+			"primaryAttack"   : "EnemyShoot1",
+			"secondaryAttack" : "SSLSpecial",
+			"maxEnergy" : 900,
+			"maxHP" : 500,
+			"behavior" : "enemy",
+			"deathFX" : "enemy_explode",
+			"primaryWeaponDelay" : 5,
+			"primaryWeaponDamage" : 300,
+			"secondaryWeaponDelay" : 5,
+			"secondaryWeaponDamage" : 200,
+			"code": "cc",
+			"engineSFX" : "SFXChompyEngine" ,
+			"hornSFX"  : "SFXChompyHorn",
+			"crashSFX": "SFXEnemyExplode"
+		},
+
+
+		"vehicle_reefripper" : {
+			"image" : "RRBase",
+			"icon" : "WaterIcon",
+			"base" : "RRBase",
+			"display"  : "reefripper",
+			"maxSpeed" : 8.2,
+			"boostSpeed" : 29,
+			"accel" : 0.56,
+			"turnSpeed": 95,
+			"friction" : 4.5,
+			"weight" : 40,
+			"hitbox" : {"x" : -32, "y" : -32, "width" : 64, "height" : 64},
+			"sightAngle" : 45,
+			"sightRange" : 120,
+			"primaryAttack"   : "RRAttack01",
+			"secondaryAttack" : "RRSpecial",
+			"maxEnergy" : 900,
+			"maxHP" : 1200,
+			"primaryWeaponDelay" : 5,
+			"primaryWeaponDamage" : 300,
+			"secondaryWeaponDelay" : 5,
+			"secondaryWeaponDamage" : 200,
+			"vehicleIndex" : 3,
+			
+			"selectable" : true,
+			"code": "rr",
+			"engineSFX" : "SFXRREngine",
+			"engineActiveSFX" : "",
+			"hornSFX"  : "",
+			"revSFX" : "SFXRRRev",
+			"boostRevSFX" : "",
+			"selectVO" : "VORR"
+
+		},
+
+		"vehicle_divebomber" : {
+			"image" : "DBBase",
+			"icon" : "WaterIcon",
+			"base" : "DBBase",
+			"display"  : "divebomber",
+			"maxSpeed" : 9,
+			"boostSpeed" : 29,
+			"accel" : 0.25,
+			"turnSpeed": 95,
+			"friction" : 3.33,
+			"weight" : 130,
+			"hitbox" : {"x" : -32, "y" : -32, "width" : 64, "height" : 64},
+			"sightAngle" : 45,
+			"sightRange" : 120,
+			"primaryAttack"   : "DBAttack01",
+			"secondaryAttack" : "DBSpecial",
+			"maxEnergy" : 900,
+			"maxHP" : 1320,
+			"primaryWeaponDelay" : 5,
+			"primaryWeaponDamage" : 300,
+			"secondaryWeaponDelay" : 5,
+			"secondaryWeaponDamage" : 200,
+			"vehicleIndex" : 1,
+			
+			"selectable" : true,
+			"code": "db",
+			"engineSFX" : "SFXDBEngine",
+			"engineActiveSFX" : "",
+			"hornSFX"  : "",
+			"revSFX" : "SFXDBRev",
+			"boostRevSFX" : "",
+			"selectVO" : "VODB"
+
+		},
+
+		"vehicle_seashadow" : {
+			"image" : "SSBase",
+			"icon" : "DarkIcon",
+			"base" : "SSBase",
+			"display"  : "seashadow",
+			"maxSpeed" : 6,
+			"boostSpeed" : 29,
+			"accel" : 0.32,
+			"turnSpeed": 95,
+			"friction" : 3.20,
+			"weight" : 50,
+			"hitbox" : {"x" : -32, "y" : -32, "width" : 64, "height" : 64},
+			"sightAngle" : 45,
+			"sightRange" : 120,
+			"primaryAttack"   : "SSAttack01",
+			"secondaryAttack" : "SSSpecial",
+			"maxEnergy" : 900,
+			"maxHP" : 800,
+			"primaryWeaponDelay" : 5,
+			"primaryWeaponDamage" : 300,
+			"secondaryWeaponDelay" : 5,
+			"secondaryWeaponDamage" : 200,
+			"vehicleIndex" : 2,
+			
+			"selectable" : true,
+			"code": "ss",
+			"engineSFX" : "SFXSSEngine",
+			"engineActiveSFX" : "",
+			"hornSFX"  : "",
+			"revSFX" : "SFXSSRev",
+			"boostRevSFX" : "",
+			"selectVO" : "VOSS"
+
+		}
+
+	
+
+	},
+
+	"maxStats":{
+		"maxHP" : 4000,
+		"maxSpeed" : 12,
+		"accel" : 1.25,
+		"friction" : 10,
+		"weight" : 200
+	},
+
+	"bonuses":{
+		"elixir" :{
+			"startup": 15,
+			"activeFrames" : 120,
+			"display" : "bonus_elixir",
+			"sfx": "SFXBonusElixir",
+			"encounter" : 35
+		},
+
+
+		"shoe" :{
+			"startup": 15,
+			"activeFrames" : 300,
+			"accelModifier": 5,
+			"speedModifier": 1.5,
+			"display" : "bonus_shoe",
+			"sfx": "SFXBonusShoe",
+			"canStore":true,
+			"encounter" : 25
+		},
+
+		"shield" :{
+			"startup": 15,
+			"activeFrames" : 300,
+			"display" : "bonus_shield",
+			"sfx": "SFXBonusShield",
+			"encounter" : 30
+		},
+
+		"hourglass" :{
+			"startup": 15,
+			"activeFrames" : 300,
+			"accelModifier": 5,
+			"speedModifier": 0.65,
+			"display" : "bonus_hourglass",
+			"effectDisplay" : "slow",
+			"sfx": "SFXBonusHourglass",
+			"encounter" : 10
+		}
+	},
+
+	"treasure":{
+		"gearbits01" :{
+			"sfx": "SFXBonusJukebox",
+			"amount" : 25,
+			"encounter" : 55
+		},
+
+		"gearbits02" :{
+			"sfx": "SFXBonusJukebox",
+			"amount" : 50,
+			"encounter" : 30
+		},
+
+		"gearbits03" :{
+			"sfx": "SFXBonusJukebox",
+			"amount" : 250,
+			"encounter" : 15
+		}
+	},
+
+	"items" : {
+		"gearbit" : {
+			"property" : "currency",
+			"value" : 1,
+			"display" : "gearbit",
+			"sfx" : "SFXGearbitCollect" 
+			
+		},
+		"gearbit2" : {
+			"property" : "currency",
+			"value" : 5,
+
+			"display" : "gearbit2",
+			"sfx" : "SFXGearbitCollect" 
+			
+		},
+		"mysterybox":{
+			"delay" : 600,
+			"sfx" : "SFXPowerpod" 
+		},
+		"item1":{
+			"delay" : 600,
+			"sfx" : "SUICollect" 
+		},
+		"item2":{
+			"delay" : 600,
+			"sfx" : "SUICollect" 
+		},
+		"item3":{
+			"delay" : 600,
+			"sfx" : "SUICollect" 
+		}
+
+	},
+
+
+	"hazards":{
+		"whirlpool" : {
+			"strength" : 20,
+			"basePull" : 0.55,
+			"counterForce" : 0.2,
+			"startup" : {"startFrame" : 0, "duration" : 30},
+			"active" : {"startFrame" : 31, "duration" : 350},
+			"cooldown" : {"startFrame" : 382, "duration" : 30},
+			"captureStartup" :  {"startFrame" : 0, "duration" : 100},
+			"captureActive" :   {"startFrame" : 101, "duration" : 1},
+			"captureCooldown" : {"startFrame" : 103, "duration" : 20},
+			"spawnDelay" : 350
+		},
+
+		"seaweed" : {
+			"accelModifier" : 0.90,
+			"minSpeed" : 1.75
+		}
+	},
+
+
+
+
+	"attacks" : {
+
+		"EnemyShoot1" : {
+			"type":"shot",
+			"display" : "enemy_attack",
+			"hitDisplay": "enemy_attack_hit",
+			"shootDisplay": "",
+			"shootSFX" : "SFXEnemyShootHit",
+			"shotLifespan" : 50,
+			"shotAccel": 0.55,
+			"shotDelay": 16,
+			"hitbox" : {"x" : -20  , "y" : -20, "width" : 40, "height" : 40},
+			"behavior":"projectile_basic",
+			"baseDamage": 80,
+			"cooldown" : 80,
+			"activeTime" : 15,
+			"hitstun": 5,
+			"energy" : 150
+		},
+
+
+		"Attack001" : {
+			"type":"shot",
+			"display" : "projectile",
+			"hitDisplay": "",
+			"shootDisplay": "",
+			"shootSFX" : "",
+			"shotLifespan" : 50,
+			"shotAccel": 2.5,
+			"shotDelay": 15,
+			"hitbox" : {"x" : 0, "y" : 0, "width" : 8, "height" : 8},
+			"behavior":"projectile_basic",
+			"baseDamage": 80,
+			"cooldown" : 0,
+			"activeTime" : 10,
+			"hitstun": 5,
+			"energy" : 150
+		},
+
+		"DBAttack01" : {
+			"type":"shot",
+			"display" : "db_attack",
+			"hitDisplay": "db_attack_hit",
+			"shootDisplay": "",
+			"shootSFX" : "SFXDBShoot",
+			"shotLifespan" : 50,
+			"shotAccel": 0.7,
+			"shotDelay": 5,
+			"hitbox" : {"x" : -20  , "y" : -20, "width" : 40, "height" : 40},
+			"behavior":"projectile_homing",
+			"baseDamage": 120,
+			"cooldown" : 20,
+			"activeTime" : 10,
+			"hitstun": 5,
+			"energy" : 150
+		},
+
+
+		"DBSpecial" : {
+			"type":"area_effect",
+			"action":"lockOn",
+			"display" : "db_special",
+			"hitDisplay": "reticle",
+			"shootSFX" : "SFXDBSpecial",
+			"shotLifespan" : 50,
+			"shotAccel": 0.7,
+			"shotDelay": 5,
+			"hitbox" : {"x" : -20  , "y" : -20, "width" : 40, "height" : 40},
+			"behavior":"projectile_basic",
+			"baseDamage": 100,
+			"cooldown" : 100,
+			"activeTime" : 10,
+			"hitstun": 5,
+			"range": 5,
+			"energy" : 150
+		},
+
+		"SSAttack01" : {
+			"type":"shot",
+			"display" : "ss_attack",
+			"hitDisplay": "ss_attack_hit",
+			"shootDisplay": "",
+			"shootSFX" : "SFXSSShoot",
+			"shotLifespan" : 50,
+			"shotAccel": 0.55,
+			"shotDelay": 31,
+			"hitbox" : {"x" : -32  , "y" : -22, "width" : 64, "height" : 44},
+			"behavior":"projectile_basic",
+			"baseDamage": 250,
+			"cooldown" : 20,
+			"activeTime" : 30,
+			"hitstun": 15,
+			"energy" : 150
+		},
+
+		"SSSpecial" : {
+			"type":"shot",
+			"display" : "ss_special",
+			"hitDisplay": "ss_special_hit",
+			"shootDisplay": "",
+			"shootSFX" : "SFXSSSpecial",
+			"shotLifespan" : 15,
+			"shotAccel": 3.55,
+			"shotDelay": 31,
+			"hitbox" : {"x" : -32  , "y" : -22, "width" : 64, "height" : 44},
+			"behavior":"projectile_grenade",
+			"explosive" : true,
+			"explosionHitbox" : {"x" : -64  , "y" : -64, "width" : 128, "height" : 128},
+			"explosionLifespan" : 60,
+			"explosionDamage" : 20,
+			"explosionSFX": "SFXSSExplosion",
+			"baseDamage": 300,
+			"cooldown" : 20,
+			"activeTime" : 30,
+			"hitstun": 15,
+			"baseKnockback" : 30,
+			"energy" : 150
+		},
+
+		"RRAttack01" : {
+			"type":"shot",
+			"display" : "rr_attack",
+			"hitDisplay": "rr_attack_hit",
+			"shootDisplay": "",
+			"shootSFX" : "SFXRRShoot",
+			"shotLifespan" : 50,
+			"shotAccel": 1.25,
+			"shotDelay": 10,
+			"hitbox" : {"x" : -16  , "y" : -16, "width" : 32, "height" : 32},
+			"behavior":"projectile_basic",
+			"baseDamage": 100,
+			"cooldown" : 7,
+			"activeTime" : 30,
+			"hitstun": 5,
+			"energy" : 150
+		},
+
+		"RRSpecial" : {
+			"type":"shot",
+			"display" : "rr_special",
+			"hitDisplay": "rr_special_hit",
+			"explodeDisplay": "rr_special_overlay",
+			"direction" : "random",
+			"spawnPoint": "center",
+			"shootDisplay": "",
+			"shootSFX" : "SFXRRSpecial",
+			"shotLifespan" : 6,
+			"shotAccel": 8.55,
+			"shotDelay": 2,
+			"hitbox" : {"x" : -47  , "y" : -31, "width" : 95, "height" : 62},
+			"behavior":"projectile_grenade",
+			"explosive" : true,
+			"explosionHitbox" : {"x" : -64  , "y" : -64, "width" : 128, "height" : 128},
+			"explosionLifespan" : 60,
+			"explosionDamage" : 50,
+			"baseDamage": 300,
+			"cooldown" : 1,
+			"activeTime" : 2,
+			"hitstun": 15,
+			"baseKnockback" : 30,
+			"energy" : 150
+		}
+
+
+	
+	},
+
+	"opponents" : {
+		"rival" : {
+			"upgrades" : ["ss_sm_1", "ss_pm_1","rr_sm_1", "rr_pm_1","db_sm_1", "db_pm_1"]
+		}
+	},
+
+
+	"enemies" : {
+		"chompy" : {
+			"maxSpeed" : -30,
+			"display" : "chompy",
+			"damage" : 100,
+			"behavior" : "hostile"
+		},
+
+		"greeble" : {
+			"maxSpeed" : -55,
+			"display" : "greeble",
+			"damage" : 150,
+			"behavior" : "hostile"
+		},
+		"troll" : {
+			"maxSpeed" : -20,
+			"display" : "troll",
+			"damage" : 200,
+			"behavior" : "charge"
+		}
+
+	},
+
+
+	"upgrades":{
+		
+
+
+		"db_sm_1"  : {
+			"type" : "special",
+			"icon":"IconDBSM1",
+			"image" : "DBSM1",
+			"code": "dbsm1",
+			"cost":1000,
+			"storeImage" : "PConfirmDBSM1",
+			"vo":"VODBSM1",
+			"vehicle" : "vehicle_divebomber",
+			"forceUnlock" : true,
+			"stats" : {"friction" : 1}
+		},
+
+		"db_sm_2": {
+			"type" : "special",
+			"icon":"IconDBSM2",
+			"image" : "DBSM2",
+			 "code": "dbsm2",
+			 "storeImage" : "PConfirmDBSM2",
+			"vo":"VODBSM2",
+			"cost":200,
+			"vehicle" : "vehicle_divebomber",
+			"stats" : {"accel":0.12}
+		},
+
+		"db_sm_3"   : {
+			"type" : "special",
+			"icon":"IconDBSM3",
+			"image" : "DBSM3",
+			 "code": "dbsm3",
+			 "storeImage" : "PConfirmDBSM3",
+			"vo":"VODBSM3",
+			"cost":110,
+			"vehicle" : "vehicle_divebomber",
+			"stats" : {"maxSpeed" : 1.2}
+		},
+
+		"db_sm_4"   : {
+			"type" : "special",
+			"icon":"IconDBSM4",
+			"image" : "DBSM4",
+			"storeImage" : "PConfirmDBSM4",
+			"vo":"VODBSM4",
+			 "code": "dbsm4",
+			"cost":150,
+			"vehicle" : "vehicle_divebomber",
+			"stats" : {"accel" : -0.2, "weight" : 15, "maxHP" : 150}
+		},
+
+
+		"db_pm_1" : {
+			"type" : "performance",
+			"icon":"IconDBPM1",
+			"image" : "DBPM1",
+			"storeImage" : "PConfirmDBPM1",
+			"vo":"VODBPM1",
+			 "code": "dbpm1",
+			"cost":160,
+			"vehicle" : "vehicle_divebomber",
+			"forceUnlock" : true,
+			"stats" : {"maxSpeed" : 0.9}
+		},
+
+		"db_pm_2"     : {
+			"type" : "performance",
+			"icon":"IconDBPM2",
+			"image" : "DBPM2",
+			"vo":"VODBPM2",
+			"storeImage" : "PConfirmDBPM2",
+			 "code": "dbpm2",
+			"cost":120,
+			"vehicle" : "vehicle_divebomber",
+			"stats" : {"accel" : 0.12}
+		},
+
+		"db_pm_3"      : {
+			"type" : "performance",
+			"icon":"IconDBPM3",
+			"image" : "DBPM3",
+			"storeImage" : "PConfirmDBPM3",
+			"vo":"VODBPM3",
+			 "code": "dbpm3",
+			"cost":210,
+			"vehicle" : "vehicle_divebomber",
+			"stats" : {"maxHP":300}
+		},
+
+		"db_pm_4"    : {
+			"type" : "performance",
+			"icon":"IconDBPM4",
+			"image" : "DBPM4",
+			"storeImage" : "PConfirmDBPM4",
+			"vo":"VODBPM4",
+			"code": "dbpm4",
+			"cost":150,
+			"vehicle" : "vehicle_divebomber",
+			"stats" : {"friction" : 1}
+		},
+
+		"ss_sm_1"    : {
+			"type" : "special", 
+			"code": "sssm1", "cost":100, 
+			"vehicle" : "vehicle_seashadow", 
+			"icon":"IconSSSM1",
+			"vo":"VOSSSM1",
+			"image" : "SSSM1",
+			"storeImage" : "PConfirmSSSM1",
+			"forceUnlock" : true,
+			"stats" : {"accel" : 0.12}
+		},
+
+		"ss_sm_2"    : {
+			"type" : "special",
+			"code": "sssm2",
+			"cost":150,
+		    "vehicle" : "vehicle_seashadow",
+		    "storeImage" : "PConfirmSSSM2",
+			"vo":"VOSSSM2",
+			"icon":"IconSSSM2",
+			"image" : "SSSM2",
+			"stats" : {"friction":1}
+		},
+
+		"ss_sm_3"  : {
+			"type" : "special",
+			"code": "sssm3", 
+			"cost":200, 
+			"vehicle" : "vehicle_seashadow", 
+			"storeImage" : "PConfirmSSSM3",
+			"vo":"VOSSSM3",
+			"icon":"IconSSSM3", 
+			"image" : "SSSM3",
+			"stats" : {"maxHP" : 300, "weight" : 5, "friction" : -0.5}
+		},
+
+		"ss_sm_4" : {
+			"type" : "special", 
+			"code": "sssm4", "cost":100, 
+			"vehicle" : "vehicle_seashadow", 
+			"storeImage" : "PConfirmSSSM4",
+			"vo":"VOSSSM4",
+			"icon":"IconSSSM4", 
+			"image" : "SSSM4",
+			"stats" : {"maxSpeed" : 1.2}
+		},
+
+
+		"ss_pm_1"     : {
+			"type" : "performance",
+			"code": "sspm1",
+			"cost":1000,
+			"vehicle" : "vehicle_seashadow",
+			"storeImage" : "PConfirmSSPM1",
+			"vo":"VOSSPM1",
+			"icon":"IconSSPM1",
+			"image" : "SSPM1",
+			"forceUnlock" : true,
+			"stats" : {"maxSpeed" : 1.2}
+		},
+
+		"ss_pm_2"     : {
+			"type" : "performance",
+			"code": "sspm2",
+			"cost":150,
+			"vehicle" : "vehicle_seashadow",
+			"storeImage" : "PConfirmSSPM2",
+			"vo":"VOSSPM2",
+			"icon":"IconSSPM2",
+			"image" : "SSPM2",
+			"stats" : {"friction":1}
+		},
+
+		"ss_pm_3"   : {
+			"type" : "performance",
+			"code": "sspm3",
+			"cost":200,
+			"vehicle" : "vehicle_seashadow",
+			"storeImage" : "PConfirmSSPM3",
+			"vo":"VOSSPM3",
+			"icon":"IconSSPM3",
+			"image" : "SSPM3",
+			"stats" : {"accel" : 0.12}
+		},
+
+		"ss_pm_4" : {
+			"type" : "performance",
+			"code": "sspm4",
+			"cost":100,
+			"vehicle" : "vehicle_seashadow",
+			"storeImage" : "PConfirmSSPM4",
+			"vo":"VOSSPM4",
+			"icon":"IconSSPM4",
+			"image" : "SSPM4",
+			"stats" : {"maxHP" : 150, "weight" : -5, "friction":0.5}
+		},
+
+		"rr_sm_1"  : {
+			"type" : "special",
+			"icon":"IconRRSM1",
+			"image" : "RRSM1",
+			"code": "rrsm1",
+			"cost":1000,
+			"storeImage" : "PConfirmRRSM1",
+			"vo":"VORRSM1",
+			"vehicle" : "vehicle_reefripper",
+			"forceUnlock" : true,
+			"stats" : {"accel" : 0.12}
+		},
+
+		"rr_sm_2": {
+			"type" : "special",
+			"icon":"IconRRSM2",
+			"image" : "RRSM2",
+			 "code": "rrsm2",
+			 "storeImage" : "PConfirmRRSM2",
+			"vo":"VORRSM2",
+			"cost":200,
+			"vehicle" : "vehicle_reefripper",
+			"stats" : {"maxSpeed" : 1.2}
+		},
+
+		"rr_sm_3"   : {
+			"type" : "special",
+			"icon":"IconRRSM3",
+			"image" : "RRSM3",
+			 "code": "rrsm3",
+			 "storeImage" : "PConfirmRRSM3",
+			"vo":"VORRSM3",
+			"cost":110,
+			"vehicle" : "vehicle_reefripper",
+			"stats" : {"maxHP" : 150, "weight" : 5}
+			
+		},
+
+		"rr_sm_4"   : {
+			"type" : "special",
+			"icon":"IconRRSM4",
+			"image" : "RRSM4",
+			"storeImage" : "PConfirmRRSM4",
+			"vo":"VORRSM4",
+			 "code": "rrsm4",
+			"cost":150,
+			"vehicle" : "vehicle_reefripper",
+			"stats" : {"maxSpeed" : 0.7, "friction":0.5}
+		},
+
+
+		"rr_pm_1" : {
+			"type" : "performance",
+			"icon":"IconRRPM1",
+			"image" : "RRPM1",
+			"storeImage" : "PConfirmRRPM1",
+			"vo":"VORRPM1",
+			 "code": "rrpm1",
+			"cost":160,
+			"vehicle" : "vehicle_reefripper",
+			"forceUnlock" : true,
+			"stats" : {"friction" : 1}
+		},
+
+		"rr_pm_2"     : {
+			"type" : "performance",
+			"icon":"IconRRPM2",
+			"image" : "RRPM2",
+			"vo":"VORRPM2",
+			"storeImage" : "PConfirmRRPM2",
+			 "code": "rrpm2",
+			"cost":120,
+			"vehicle" : "vehicle_reefripper",
+			"stats" : {"maxSpeed" : 1.2}
+		},
+
+		"rr_pm_3"      : {
+			"type" : "performance",
+			"icon":"IconRRPM3",
+			"image" : "RRPM3",
+			"storeImage" : "PConfirmRRPM3",
+			"vo":"VORRPM3",
+			 "code": "rrpm3",
+			"cost":210,
+			"vehicle" : "vehicle_reefripper",
+			"stats" : {"accel" : 0.12}
+		},
+
+		"rr_pm_4"    : {
+			"type" : "performance",
+			"icon":"IconRRPM4",
+			"image" : "RRPM4",
+			"storeImage" : "PConfirmRRPM4",
+			"vo":"VORRPM4",
+			"code": "rrpm4",
+			"cost":150,
+			"vehicle" : "vehicle_reefripper",
+			"stats" : {"maxHP" : 300}
+		}
+	},
+
+
+	"shopVehicleLayering":{
+		"vehicle_seashadow":{
+			"base" : 3,
+			"specialty" : 2,
+			"performance" : 1
+		},
+
+		"vehicle_divebomber":{
+			"base" : 1,
+			"specialty" : 3,
+			"performance" : 2
+		}
+
+
+	},
+
+	"tracks":["Track001" , "Track002", "Track003"],
+
+	"scoring": {
+		"scoreDefinitions" : {
+			"getPowerUp" : 100,
+			"getGearbit1": 150,
+			"getGearbit2": 200,
+			"collectItem": 210,
+			"hitEnemy"   : 500,
+			"hitOpponent": 700,
+			"place1" : 200000,
+			"place2": 100000,
+			"place3" : 50000,
+
+
+			"damagePenalty": -200,
+			"hazardPenalty": -300
+
+		},
+
+		"scoreMultipliers" : {
+		}
+	}
+
+}

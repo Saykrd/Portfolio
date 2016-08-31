@@ -1,0 +1,340 @@
+{"frames": [
+
+{
+	"filename": "bonus_hourglass_get_fx/0000",
+	"frame": {"x":2,"y":2,"w":250,"h":374},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":240,"y":70,"w":250,"h":374},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_get_fx/0001",
+	"frame": {"x":2,"y":2,"w":250,"h":374},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":240,"y":70,"w":250,"h":374},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_get_fx/0002",
+	"frame": {"x":252,"y":2,"w":282,"h":402},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":224,"y":70,"w":282,"h":402},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_get_fx/0003",
+	"frame": {"x":252,"y":2,"w":282,"h":402},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":224,"y":70,"w":282,"h":402},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_get_fx/0004",
+	"frame": {"x":1152,"y":966,"w":320,"h":486},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":201,"y":51,"w":320,"h":486},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_get_fx/0005",
+	"frame": {"x":1152,"y":966,"w":320,"h":486},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":201,"y":51,"w":320,"h":486},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_get_fx/0006",
+	"frame": {"x":694,"y":1448,"w":366,"h":498},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":177,"y":52,"w":366,"h":498},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_get_fx/0007",
+	"frame": {"x":1426,"y":1482,"w":366,"h":506},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":177,"y":44,"w":366,"h":506},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_get_fx/0008",
+	"frame": {"x":1426,"y":1482,"w":366,"h":506},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":177,"y":44,"w":366,"h":506},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0000",
+	"frame": {"x":1534,"y":2,"w":294,"h":512},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":172,"y":38,"w":294,"h":512},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0001",
+	"frame": {"x":1534,"y":2,"w":294,"h":512},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":172,"y":38,"w":294,"h":512},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0002",
+	"frame": {"x":2,"y":1368,"w":302,"h":504},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":166,"y":46,"w":302,"h":504},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0003",
+	"frame": {"x":2,"y":1368,"w":302,"h":504},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":166,"y":46,"w":302,"h":504},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0004",
+	"frame": {"x":1498,"y":514,"w":312,"h":484},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":161,"y":66,"w":312,"h":484},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0005",
+	"frame": {"x":1498,"y":514,"w":312,"h":484},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":161,"y":66,"w":312,"h":484},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0006",
+	"frame": {"x":534,"y":2,"w":322,"h":482},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":156,"y":68,"w":322,"h":482},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0007",
+	"frame": {"x":534,"y":2,"w":322,"h":482},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":156,"y":68,"w":322,"h":482},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0008",
+	"frame": {"x":856,"y":2,"w":334,"h":482},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":150,"y":68,"w":334,"h":482},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0009",
+	"frame": {"x":856,"y":2,"w":334,"h":482},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":150,"y":68,"w":334,"h":482},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0010",
+	"frame": {"x":2,"y":886,"w":344,"h":482},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":146,"y":68,"w":344,"h":482},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0011",
+	"frame": {"x":2,"y":886,"w":344,"h":482},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":146,"y":68,"w":344,"h":482},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0012",
+	"frame": {"x":2,"y":404,"w":356,"h":482},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":140,"y":68,"w":356,"h":482},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0013",
+	"frame": {"x":2,"y":404,"w":356,"h":482},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":140,"y":68,"w":356,"h":482},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0014",
+	"frame": {"x":358,"y":484,"w":368,"h":482},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":134,"y":68,"w":368,"h":482},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0015",
+	"frame": {"x":358,"y":484,"w":368,"h":482},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":134,"y":68,"w":368,"h":482},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0016",
+	"frame": {"x":726,"y":484,"w":380,"h":482},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":128,"y":68,"w":380,"h":482},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0017",
+	"frame": {"x":726,"y":484,"w":380,"h":482},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":128,"y":68,"w":380,"h":482},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0018",
+	"frame": {"x":1106,"y":484,"w":392,"h":482},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":123,"y":68,"w":392,"h":482},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0019",
+	"frame": {"x":1106,"y":484,"w":392,"h":482},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":123,"y":68,"w":392,"h":482},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0020",
+	"frame": {"x":346,"y":966,"w":398,"h":482},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":120,"y":68,"w":398,"h":482},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0021",
+	"frame": {"x":346,"y":966,"w":398,"h":482},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":120,"y":68,"w":398,"h":482},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0022",
+	"frame": {"x":744,"y":966,"w":408,"h":482},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":112,"y":68,"w":408,"h":482},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0023",
+	"frame": {"x":744,"y":966,"w":408,"h":482},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":112,"y":68,"w":408,"h":482},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0024",
+	"frame": {"x":304,"y":1448,"w":390,"h":482},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":136,"y":68,"w":390,"h":482},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0025",
+	"frame": {"x":304,"y":1448,"w":390,"h":482},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":136,"y":68,"w":390,"h":482},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0026",
+	"frame": {"x":1190,"y":2,"w":344,"h":482},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":187,"y":68,"w":344,"h":482},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0027",
+	"frame": {"x":1190,"y":2,"w":344,"h":482},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":187,"y":68,"w":344,"h":482},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0028",
+	"frame": {"x":1472,"y":998,"w":352,"h":484},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":182,"y":66,"w":352,"h":484},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0029",
+	"frame": {"x":1472,"y":998,"w":352,"h":484},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":182,"y":66,"w":352,"h":484},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0030",
+	"frame": {"x":1060,"y":1452,"w":366,"h":504},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":177,"y":46,"w":366,"h":504},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_hourglass_overlay_fx/0031",
+	"frame": {"x":1060,"y":1452,"w":366,"h":504},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":177,"y":46,"w":366,"h":504},
+	"sourceSize": {"w":660,"h":550}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "Bonus_Hourglass_FX.png",
+	"format": "RGBA8888",
+	"size": {"w":1830,"h":1990},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e56c306a88ac606914e8b5f0d14a780c:1/1$"
+}
+}

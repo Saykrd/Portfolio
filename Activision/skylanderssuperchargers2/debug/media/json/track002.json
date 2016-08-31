@@ -1,0 +1,149 @@
+{
+	"id" : "track002",
+	"name": "Track 002",
+	"preRaceMessage": "QueenTrack2",
+	"laps": 2,
+	"lanes" : 3,
+	"scoring" : [1000000, 1500000, 2000000],
+	"unlocks" : "Track003",
+	"events" : [
+		{"id": "evt000", "event" : "raceBegin" },
+		{"id": "evt001", "event" : "countdown" },
+		{"id": "evt002", "event" : "start" }
+	],
+
+	"numSegments" : 100,
+	"mapImage" : "HUDMap2",
+
+	"colors" : {
+		"LIGHT": { "road": "#D5A55E", "rumble": "#D5A55E", "offroad": "#866138", "lane":"#FFFFFF" },
+		"DARK":  { "road": "#CE974F", "rumble": "#CE974F", "offroad": "#845F34" }
+	},
+
+	"bgSettings": [
+		{"image" : "SkyBG",      "amount": 2, "spacing" : 0,   "scrollWidth" : 0,  "scrollSpeed" : 0.20, "startX" : 0,   "startY": 0,  "zIndex" :  1},
+		{"image" : "ArchBG",     "amount": 2, "spacing" : 480, "scrollWidth" : 0,  "scrollSpeed" : 1.00, "startX" : 0,   "startY": 0,  "zIndex" :  10},
+		{"image" : "ArchFront",  "amount": 2, "spacing" : 480, "scrollWidth" : 99, "scrollSpeed" : 1.00, "startX" : 0,   "startY": 0,  "zIndex" :  40},
+		{"image" : "Building02", "amount": 2, "spacing" : 500, "scrollWidth" : 0,  "scrollSpeed" : 0.75, "startX" : 100, "startY": 7,  "zIndex" :  9},
+		{"image" : "Building09", "amount": 2, "spacing" : 500, "scrollWidth" : 0,  "scrollSpeed" : 0.54, "startX" : 100, "startY": 84,  "zIndex" :  8},
+		{"image" : "Building08", "amount": 2, "spacing" : 500, "scrollWidth" : 0,  "scrollSpeed" : 0.40, "startX" : 50,  "startY": 72,  "zIndex" :  7},
+		{"image" : "Rock07", "amount": 2, "spacing" : 600, "scrollWidth" : 0,  "scrollSpeed" : 0.30, "startX" : 100, "startY": 22,  "zIndex" :  6},
+		{"image" : "Rock04",     "amount": 1, "spacing" : 500, "scrollWidth" : 0,  "scrollSpeed" : 0.24, "startX" : 350, "startY": 20, "zIndex" :  5}
+	],
+
+
+
+	"roadSettings" : {
+		"length"   : {"none" : 0, "short" : 25, "medium": 50, "long": 500},
+		"curve"    : {"none" : 0, "easy"  : 2,  "medium": 4,  "hard": 6},
+		"elevation": {"none" : 0, "low"   : 20, "medium": 40, "high": 60}
+	},
+
+	"roadData": [
+		{ "length": "long" },
+		{ "length": "long" },
+		{ "length": "long" },
+		{ "length": "long" },
+		{ "length": "long" },
+		{ "length": "long" }
+
+
+
+	],
+
+	"elementDefinitions": {
+		"exampleID" : [
+		], 
+
+		"racers" : [
+			{ "type":"racer", "id":"player",   "lane":1, "distance":5},
+			{ "type":"racer", "id":"rival",   "lane":2, "distance":4},
+			{ "type":"racer", "id":"opponent", "class" : "vehicle_jetstream",   "lane":3, "distance":3},
+			{ "type":"racemarker", "distance":20}
+		],
+
+		"ally1" :[
+			{"type": "ally", "class" : "gillgrunt",  "lane": 1, "distance":1}
+		],
+
+		"ally2" :[
+			{"type": "ally", "class" : "hex",  "lane": 1, "distance":1}
+		],
+
+		"ally3" :[
+			{"type": "ally", "class" : "grilladrilla", "lane": 1, "distance":1}
+		],
+
+		"enemies01" : [
+			{"type": "enemy", "class" : "vehicle_enemy_a" , "distance" :1 }
+		],
+
+
+		"gearbit" : [
+			{"type": "gearbit", "class" : "gearbit" , "amount" : 10, "spacing" : 10, "distance" :1 }
+		]
+
+	},
+
+	"elementPositioning": [
+		{"definition":"racers", "padding" : 0},
+		{"definition":"gearbit", "padding" : 100},
+		{"definition":"enemies01", "padding" : 500},
+		{"definition":"ally1", "padding" : 1000},
+		{"definition":"enemies01", "padding" : 500},
+		{"definition":"ally2", "padding" : 1000},
+		{"definition":"gearbit", "padding" : 400},
+		{"definition":"enemies01", "padding" : 300},
+		{"definition":"ally3", "padding" : 1000},
+		{"definition":"gearbit", "padding" : 100}
+
+	],
+
+	"bgDefinitions" : {
+		"exampleID" : [
+		],
+
+		"arches" :[
+			{"type": "bgElement", "display" : "archfront", "amount" : 80, "z" : 0, "spacing" : 35, "distance":1},
+			{"type": "bgElement", "display" : "archback", "amount" : 80, "z" : 100, "spacing" : 35, "distance":1}
+		]
+	},
+
+	"bgPositioning" : [
+		{"definition":"exampleID", "padding" : 0}
+	],
+
+	"mapNodeList" : [
+		{ "x" : 59.5, "y" : 119},
+		{ "x" : 70.5, "y" : 100},
+		{ "x" : 62.5, "y" : 86},
+		{ "x" : 25.5, "y" : 83},
+		{ "x" : 11.5, "y" : 68},
+		{ "x" : 19.5, "y" : 43},
+		{ "x" : 55.5, "y" : 18},
+		{ "x" : 89.5, "y" : 9},
+		{ "x" : 135.5, "y" : 21},
+		{ "x" : 160.5, "y" : 41},
+		{ "x" : 171.5, "y" : 64},
+		{ "x" : 150.5, "y" : 78},
+		{ "x" : 116.5, "y" : 87},
+		{ "x" : 112.5, "y" : 102},
+		{ "x" : 129.5, "y" : 130},
+		{ "x" : 148.5, "y" : 151},
+		{ "x" : 155.5, "y" : 161},
+		{ "x" : 143.5, "y" : 169},
+		{ "x" : 105.5, "y" : 179},
+		{ "x" : 52.5, "y" : 175},
+		{ "x" : 34.5, "y" : 166},
+		{ "x" : 29.5, "y" : 158},
+		{ "x" : 49.5, "y" : 135},
+		{ "x" : 60.5, "y" : 119}
+	]
+}
+				
+
+
+
+			
+
+

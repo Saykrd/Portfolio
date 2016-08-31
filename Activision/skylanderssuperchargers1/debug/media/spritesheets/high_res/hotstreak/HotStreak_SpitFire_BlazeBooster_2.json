@@ -1,0 +1,268 @@
+{"frames": [
+
+{
+	"filename": "HS_blazeboosters_bluefiretires_idle/0000",
+	"frame": {"x":622,"y":2,"w":312,"h":211},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":39,"w":312,"h":211},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_bluefiretires_idle/0001",
+	"frame": {"x":622,"y":2,"w":312,"h":211},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":39,"w":312,"h":211},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_bluefiretires_idle/0002",
+	"frame": {"x":930,"y":631,"w":312,"h":209},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":39,"w":312,"h":209},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_bluefiretires_idle/0003",
+	"frame": {"x":930,"y":631,"w":312,"h":209},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":39,"w":312,"h":209},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_bluefiretires_idle/0004",
+	"frame": {"x":622,"y":426,"w":308,"h":213},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":38,"w":308,"h":213},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_bluefiretires_idle/0005",
+	"frame": {"x":622,"y":426,"w":308,"h":213},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":38,"w":308,"h":213},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_bluefiretires_idle/0006",
+	"frame": {"x":934,"y":2,"w":308,"h":211},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":37,"w":308,"h":211},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_bluefiretires_idle/0007",
+	"frame": {"x":934,"y":2,"w":308,"h":211},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":37,"w":308,"h":211},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_coalshooters_idle/0000",
+	"frame": {"x":312,"y":643,"w":314,"h":193},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":38,"w":314,"h":193},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_coalshooters_idle/0001",
+	"frame": {"x":312,"y":643,"w":314,"h":193},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":38,"w":314,"h":193},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_coalshooters_idle/0002",
+	"frame": {"x":312,"y":643,"w":314,"h":193},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":38,"w":314,"h":193},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_coalshooters_idle/0003",
+	"frame": {"x":312,"y":643,"w":314,"h":193},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":38,"w":314,"h":193},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_coalshooters_idle/0004",
+	"frame": {"x":2,"y":643,"w":310,"h":197},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":34,"w":310,"h":197},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_coalshooters_idle/0005",
+	"frame": {"x":2,"y":643,"w":310,"h":197},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":34,"w":310,"h":197},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_coalshooters_idle/0006",
+	"frame": {"x":2,"y":643,"w":310,"h":197},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":34,"w":310,"h":197},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_coalshooters_idle/0007",
+	"frame": {"x":2,"y":643,"w":310,"h":197},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":34,"w":310,"h":197},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_roadburners_idle/0000",
+	"frame": {"x":2,"y":217,"w":312,"h":213},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":39,"w":312,"h":213},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_roadburners_idle/0001",
+	"frame": {"x":2,"y":217,"w":312,"h":213},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":39,"w":312,"h":213},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_roadburners_idle/0002",
+	"frame": {"x":930,"y":422,"w":312,"h":209},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":39,"w":312,"h":209},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_roadburners_idle/0003",
+	"frame": {"x":930,"y":422,"w":312,"h":209},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":39,"w":312,"h":209},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_roadburners_idle/0004",
+	"frame": {"x":312,"y":430,"w":310,"h":213},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":35,"w":310,"h":213},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_roadburners_idle/0005",
+	"frame": {"x":312,"y":430,"w":310,"h":213},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":35,"w":310,"h":213},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_roadburners_idle/0006",
+	"frame": {"x":2,"y":2,"w":310,"h":215},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":36,"w":310,"h":215},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_roadburners_idle/0007",
+	"frame": {"x":2,"y":2,"w":310,"h":215},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":36,"w":310,"h":215},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_speeddemon_idle/0000",
+	"frame": {"x":314,"y":215,"w":312,"h":211},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":39,"w":312,"h":211},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_speeddemon_idle/0001",
+	"frame": {"x":314,"y":215,"w":312,"h":211},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":39,"w":312,"h":211},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_speeddemon_idle/0002",
+	"frame": {"x":626,"y":213,"w":312,"h":209},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":40,"w":312,"h":209},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_speeddemon_idle/0003",
+	"frame": {"x":626,"y":213,"w":312,"h":209},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":40,"w":312,"h":209},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_speeddemon_idle/0004",
+	"frame": {"x":2,"y":430,"w":310,"h":213},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":36,"w":310,"h":213},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_speeddemon_idle/0005",
+	"frame": {"x":2,"y":430,"w":310,"h":213},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":36,"w":310,"h":213},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_speeddemon_idle/0006",
+	"frame": {"x":312,"y":2,"w":310,"h":213},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":36,"w":310,"h":213},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blazeboosters_speeddemon_idle/0007",
+	"frame": {"x":312,"y":2,"w":310,"h":213},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":36,"w":310,"h":213},
+	"sourceSize": {"w":424,"h":265}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "HotStreak_SpitFire_BlazeBooster_2.png",
+	"format": "RGBA8888",
+	"size": {"w":1244,"h":842},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:2f4de06035fd4c130d129d07e8f0f398:1/1$"
+}
+}

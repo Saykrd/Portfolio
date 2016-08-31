@@ -1,0 +1,1054 @@
+{
+
+	"superchargedModifier" : 1.2,
+	"boostSpeedModifier" : 1.2,
+	"boostAccelModifier" : 3,
+	"rivalRubberbandMod" : 1.25,
+	"enemyRubberbandMod" : 1.43,
+	"playerRubberbandMod": 1.18,
+
+	"characters" : {
+		"char_stealthelf" : {
+			"comboVehicle" : "vehicle_stealthstinger",
+			"image" : "StealthElfSelect",
+			"icon" : "LifeIcon",
+			"mapIcon" : "MapIconStealthElf",
+			"selectable": true,
+			"portraitHUD": "HUDStealthElf",
+			"endScreenImage": "EndScreenSE",
+			"code" : "se",
+			"selectVO" : "VOSelectSE",
+			"banterVO" : "VOBanterSE",
+			"crashVO" : "VOCrashSE",
+			"hitVO" : "VOHitSE"
+		},
+
+		"char_jetvac" : {
+			"comboVehicle" : "vehicle_jetstream",
+			"image" : "JetVacSelect",
+			"mapIcon" : "MapIconJetVac",
+			"icon" : "AirIcon",
+			"selectable": true,
+			"portraitHUD": "HUDJetVac",
+			"endScreenImage": "EndScreenJV",
+			"code":"jv",
+			"selectVO" : "VOSelectJV",
+			"banterVO" : "VOBanterJV",
+			"crashVO" : "VOCrashJV",
+			"hitVO" : "VOHitJV"
+		},
+
+		"char_stormblade" : {
+			"comboVehicle" : "vehicle_skyslicer",
+			"image" : "StormBladeSelect",
+			"mapIcon" : "MapIconStormBlade",
+			"icon" : "AirIcon",
+			"selectable": true,
+			"portraitHUD": "HUDStormBlade",
+			"endScreenImage": "EndScreenSB",
+			"code":"sb",
+			"selectVO" : "VOSelectSB",
+			"banterVO" : "VOBanterSB",
+			"crashVO" : "VOCrashSB",
+			"hitVO" : "VOHitSB"
+		},
+
+		"char_chompy" : {
+			"mapIcon" : "MapIconChompy",
+			"selectable": false,
+			"hitVO" : "VOChompyHit"
+		}
+	},
+
+
+	"vehicles":{
+
+
+		"vehicle_enemy_a" : {
+			"maxSpeed" : 7.12,
+			"boostSpeed" : 19,
+			"accel" : 0.22,
+			"turnSpeed": 95,
+			"friction" : 0.1,
+			"weight" : 70, 
+			"primaryAttack"   : "EnemyShoot1",
+			"secondaryAttack" : "EnemyShoot1",
+			"maxEnergy" : 900,
+			"maxHP" : 500,
+			"display":"enemy_a",
+			"destroyDisplay" : "enemy_explode", 
+			
+			"primaryWeaponDelay" : 5,
+			"primaryWeaponDamage" : 300,
+			"secondaryWeaponDelay" : 5,
+			"secondaryWeaponDamage" : 200,
+			"code": "cc",
+			"engineSFX" : "SFXChompyEngine" ,
+			"hornSFX"  : "SFXChompyHorn",
+			"crashSFX": "SFXEnemyExplode"
+		},
+
+		"vehicle_enemy_b" : {
+			"maxSpeed" : 7.12,
+			"boostSpeed" : 19,
+			"accel" : 0.22,
+			"turnSpeed": 95,
+			"friction" : 0.1,
+			"weight" : 70, 
+			"primaryAttack"   : "EnemyShoot1",
+			"secondaryAttack" : "EnemyShoot1",
+			"maxEnergy" : 900,
+			"maxHP" : 500,
+			"display":"enemy_b",
+			"destroyDisplay" : "enemy_explode",
+			
+			"primaryWeaponDelay" : 5,
+			"primaryWeaponDamage" : 300,
+			"secondaryWeaponDelay" : 5,
+			"secondaryWeaponDamage" : 200,
+			"code": "cc",
+			"engineSFX" : "SFXChompyEngine" ,
+			"hornSFX"  : "SFXChompyHorn"
+		},
+
+		"vehicle_skyslicer" : {
+			"image" : "SSlicerSelect",
+			"icon" : "AirIcon",
+			"base" : "SSLBase",
+			"display"  : "sslicer",
+			"maxSpeed" : 12.92,
+			"boostSpeed" : 29,
+			"accel" : 0.52,
+			"turnSpeed": 95,
+			"friction" : 0.1,
+			"weight" : 70, 
+			"primaryAttack"   : "SSLShoot1",
+			"secondaryAttack" : "SSLSpecial",
+			"maxEnergy" : 900,
+			"maxHP" : 1500,
+			"primaryWeaponDelay" : 5,
+			"primaryWeaponDamage" : 300,
+			"secondaryWeaponDelay" : 5,
+			"secondaryWeaponDamage" : 200,
+			
+			"selectable" : true,
+			"code": "ssl",
+			"engineSFX" : "SFXSSLEngine",
+			"engineActiveSFX" : "",
+			"hornSFX"  : "",
+			"revSFX" : "",
+			"boostRevSFX" : "",
+			"selectVO" : "VOSSL"
+
+		},
+
+
+		"vehicle_stealthstinger" : {
+			"image" : "SStingerSelect",
+			"icon" : "LifeIcon",
+			"base" : "SSBase",
+			"maxSpeed" : 13.21,
+			"boostSpeed" : 28,
+			"accel" : 0.29,
+			"turnSpeed": 110,
+			"friction" : 0.1,
+			"weight" : 105,
+			"display"  : "sstinger",
+			"primaryWeaponDelay" : 5,
+			"primaryWeaponDamage" : 300,
+			"secondaryWeaponDelay" : 5,
+			"secondaryWeaponDamage" : 200,
+			"maxEnergy" : 1200,
+			"maxHP" : 1100,
+			"selectable" : true,
+			"code": "ss",
+			"primaryAttack"   : "SSShoot1",
+			"secondaryAttack" : "SSSpecial",
+			"engineSFX" : "SFXSSEngine" ,
+			"engineActiveSFX" : "",
+			"hornSFX"  : "",
+			"revSFX" : "",
+			"boostRevSFX" : "",
+			"selectVO" : "VOSS"
+		},
+
+		
+		"vehicle_jetstream" : {
+			"image" : "JetStreamSelect",
+			"icon" : "AirIcon",
+			"base" : "JSBase",
+			"display"  : "jstream",
+			"maxSpeed" : 13.62,
+			"boostSpeed" : 31,
+			"accel" : 0.28,
+			"turnSpeed": 95,
+			"friction" : 0.1,
+			"weight" : 70, 
+			"primaryAttack"   : "JSShoot1",
+			"secondaryAttack" : "JSSpecial",
+			"maxEnergy" : 900,
+			"maxHP" : 1500,
+			"primaryWeaponDelay" : 5,
+			"primaryWeaponDamage" : 300,
+			"secondaryWeaponDelay" : 5,
+			"secondaryWeaponDamage" : 200,
+			
+			"selectable" : true,
+			"code": "js",
+			"engineSFX" : "SFXJSEngine",
+			"engineActiveSFX" : "",
+			"hornSFX"  : "",
+			"revSFX" : "",
+			"boostRevSFX" : "",
+			"selectVO" : "VOJS"
+
+		}
+	
+
+	},
+
+	"maxStats":{
+		"maxHP" : 4000,
+		"maxSpeed" : 450,
+		"accel" : 2.25,
+		"turnSpeed" : 150,
+		"weight" : 200
+	},
+
+	"gamePieces":{
+
+		"sword" : {
+			"display" : "PieceSword",
+			"matchFX" : "match_attack",
+			"rate" : 18
+
+		},
+
+		"explosion" : {
+			"display" : "PieceExplosion",
+			"matchFX" : "match_sattack",
+			"rate" : 17
+		},
+
+		"engine" : {
+			"display" : "PieceEngine",
+			"matchFX" : "match_engine",
+			"rate" : 37,
+
+			"baseValue" : 180,
+			"increment" : 60
+		},
+
+
+		"treasure" : {
+			"display" : "PieceTreasure",
+			"matchFX" : "match_treasure",
+			"rate" : 10
+		},
+
+		"gearbit" : {
+			"display" : "PieceGearbit",
+			"matchFX" : "match_gearbit",
+			"rate" : 15,
+			"baseValue": 20,
+			"increment": 10
+		}, 
+
+		"wild" : {
+			"display" : "PieceWild",
+			"matchFX" : "match_bonus",
+			"rate" : 3
+		}
+	},
+
+	"bonuses":{
+		"elixir" :{
+			"startup": 15,
+			"activeFrames" : 120,
+			"display" : "PieceHeal",
+			"fx":"elixir",
+			"sfx": "SFXBonusElixir",
+			"canStore":true,
+			"encounter" : 10
+		},
+
+
+		"shoe" :{
+			"startup": 15,
+			"activeFrames" : 300,
+			"accelModifier": 5,
+			"speedModifier": 1.3,
+			"display" : "PieceBoots",
+			"fx":"shoe",
+			"sfx": "SFXBonusShoe",
+			"canStore":true,
+			"encounter" : 11
+		},
+
+		"key" :{
+			"startup": 15,
+			"activeFrames" : 300,
+			"accelModifier": 5,
+			"speedModifier": 1.3,
+			"display" : "PieceKey",
+			"sfx": "SFXBonusShoe",
+			"canStore":true,
+			"encounter" : 42
+		},
+
+		"attack_extra" :{
+			"startup": 15,
+			"activeFrames" : 300,
+			"accelModifier": 5,
+			"speedModifier": 1.3,
+			"display" : "PieceSwordExtra",
+			"sfx": "SFXBonusShoe",
+			"canStore":true,
+			"encounter" : 7
+		},
+
+		"sattack_extra" :{
+			"startup": 15,
+			"activeFrames" : 300,
+			"accelModifier": 5,
+			"speedModifier": 1.3,
+			"display" : "PieceExplosionExtra",
+			"sfx": "SFXBonusShoe",
+			"canStore":true,
+			"encounter" : 7
+		},
+
+		"engine_extra" :{
+			"startup": 15,
+			"activeFrames" : 300,
+			"accelModifier": 5,
+			"speedModifier": 1.3,
+			"display" : "PieceEngineExtra",
+			"sfx": "SFXBonusShoe",
+			"canStore":true,
+			"encounter" : 7
+		},
+
+		"shield" :{
+			"startup": 15,
+			"activeFrames" : 300,
+			"accelModifier": 5,
+			"speedModifier": 1.3,
+			"display" : "PieceShield",
+			"fx":"shield",
+			"sfx": "SFXBonusShield",
+			"canStore":true,
+			"encounter" : 14
+		}
+
+
+
+	},
+
+	"treasure":{
+		"gearbits01" :{
+			"sfx": "SFXBonusJukebox",
+			"amount" : 25,
+			"encounter" : 55
+		},
+
+		"gearbits02" :{
+			"sfx": "SFXBonusJukebox",
+			"amount" : 50,
+			"encounter" : 30
+		},
+
+		"gearbits03" :{
+			"sfx": "SFXBonusJukebox",
+			"amount" : 250,
+			"encounter" : 15
+		}
+	},
+
+	"items" : {
+		"gearbit" : {
+			"property" : "currency",
+			"value" : 1,
+			"display" : "gearbit",
+			"sfx" : "SFXGearbitCollect" 
+			
+		},
+		"gearbit2" : {
+			"property" : "currency",
+			"value" : 5,
+
+			"display" : "gearbit2",
+			"sfx" : "SFXGearbitCollect" 
+			
+		},
+		"powerpod":{
+			"property" : "energy",
+			"value" : 100,
+			"display": "powerpod",
+			"sfx" : "SFXPowerpod" 
+		}
+	},
+
+	"structures":{
+		"boulder1" : {
+			"defaultDisplay" : "obstacle01",
+			"weight" : 40,
+			"damage" : 200
+		},
+
+		"barrel1" : {
+			"defaultDisplay" : "barrel01",
+			"weight" : 20,
+			"damage" : 100,
+			"canShoot" : true
+		},
+
+		"cone1" : {
+			"defaultDisplay" : "cone01",
+			"weight" : 10,
+			"damage" : 20,
+			"canShoot" : true
+		}
+	},
+
+
+
+
+	"attacks" : {
+		"SSShoot1" : {
+			"type":"shot",
+			"display" : "ss_projectile",
+			"hitDisplay": "ss_hit",
+			"shootDisplay": "ss_shoot",
+			"shootSFX" : "SFXSSShoot",
+			"shotLifespan" : 50,
+			"shotAccel": 5,
+			"shotDelay": 5,
+			"behavior":"projectile",
+			"baseDamage": 80,
+			"cooldown" : 0,
+			"activeTime" : 60,
+			"energy" : 150
+		},
+
+
+		"SSSpecial" : {
+			"type":"shot",
+			"display" : "ss_special_projectile",
+			"hitDisplay": "ss_special_hit",
+			"shootDisplay": "ss_special_shoot",
+			"shootSFX" : "SFXSSSpecial",
+			"shotLifespan" : 50,
+			"shotAccel": 5,
+			"shotDelay": 5,
+			"behavior":"projectile",
+			"baseDamage": 80,
+			"cooldown" : 0,
+			"activeTime" : 60,
+			"energy" : 150
+		},
+
+
+		"JSShoot1" : {
+			"type":"shot",
+			"display" : "js_projectile",
+			"hitDisplay": "js_hit",
+			"shootDisplay": "js_shoot",
+			"shootSFX" : "SFXJSShoot",
+			"shotLifespan" : 50,
+			"shotAccel": 3,
+			"shotDelay": 10,
+			"behavior":"projectile",
+			"baseDamage": 100,
+			"cooldown" : 0,
+			"activeTime" : 60,
+			"energy" : 150
+		},
+
+		"JSSpecial" : {
+			"type":"shot",
+			"display" : "js_special",
+			"hitDisplay": "js_hit",
+			"shootSFX" : "SFXJSSpecial",
+			"shotLifespan" : 120,
+			"shotAccel": 0.05,
+			"shotDelay": 63,
+			"behavior":"staticProjectile",
+			"baseDamage": 100,
+			"cooldown" : 0,
+			"activeTime" : 60,
+			"isStatic" : true,
+			"energy" : 150
+		},
+
+		"SSLShoot1" : {
+			"type":"shot",
+			"display" : "ssl_projectile",
+			"hitDisplay": "ssl_hit",
+			"shootDisplay": "ssl_shoot",
+			"shootSFX" : "SFXSSLShoot",
+			"shotLifespan" : 50,
+			"shotAccel": 3,
+			"shotDelay": 10,
+			"behavior":"projectile",
+			"baseDamage": 100,
+			"cooldown" : 0,
+			"activeTime" : 60,
+			"energy" : 150
+		},
+
+		"SSLSpecial" : {
+			"type":"shot",
+			"display" : "ssl_special",
+			"hitDisplay": "ssl_hit",
+			"shootDisplay": "ssl_shoot",
+			"shootSFX" : "SFXSSLSpecial",
+			"shotLifespan" : 50,
+			"shotAccel": 3,
+			"shotDelay": 10,
+			"behavior":"projectile",
+			"baseDamage": 100,
+			"cooldown" : 0,
+			"activeTime" : 60,
+			"energy" : 150
+		},
+
+
+		"EnemyShoot1" : {
+			"type":"shot",
+			"display" : "bomb",
+			"hitDisplay": "bomb_hit",
+			"shootSFX" : "SFXHSShoot",
+			"hitSFX" : "SFXEnemyShootHit",
+			"shotLifespan" : 50,
+			"shotAccel": -0.2,
+			"shotDelay": 100,
+			"behavior":"projectile",
+			"baseDamage": 80,
+			"cooldown" : 30,
+			"activeTime" : 80,
+			"energy" : 150
+		},
+		"SFCharge": {
+			"type":"boost",
+			"display": "hs_charge",
+			"hitDisplay": "hs_shoot_hit",
+			"shootSFX" : "SFXHSCharge",
+			"energy" : 100,
+			"effectOffsetX" : 0,
+			"effectOffsetY" : -300,
+			"effectOffsetZ" : 100,
+			"boostAccelTime" : 1,
+			"activeTime" : 50,
+			"cooldown" : 40,
+			"accel" : 60,
+			"baseDamage" : 100
+		},
+		"CCShoot1": {
+			"type":"shot",
+			"display" : "cc_shoot",
+			"hitDisplay": "hs_shoot_hit",
+			"trailDisplay":"cc_shootfx",
+			"shootSFX" : "SFXCCShoot1",
+			"energy" : 50,
+			"explosive" : true,
+			"explosionLifespan": 30,
+			"trailLifespan": 30,
+			"shotLifespan" : 50,
+			"shotAccel": 25,
+			"shotDelay": 21,
+			"behavior":"explosiveProjectile",
+			"baseDamage": 200,
+			"cooldown" : 5,
+			"activeTime" : 20
+		},
+		"CCShoot2": {
+			"type":"shot",
+			"display" : "cc_shoot2",
+			"hitDisplay": "cc_shoot2_hit",
+			"trailDisplay":"cc_shoot2fx",
+			"shootSFX" : "SFXCCShoot2",
+			"energy" : 50,
+			"explosive" : true,
+			"explosionLifespan": 40,
+			"shotLifespan" : 55,
+			"shotAccel": 10,
+			"shotDelay": 26,
+			"behavior":"explosiveProjectile",
+			"baseDamage": 350,
+			"cooldown" : 15,
+			"activeTime" : 25
+		}
+	},
+
+	"opponents" : {
+		"rival" : {
+			"upgrades" : ["ss_sm_1", "ss_pm_1","ssl_sm_1", "ssl_pm_1","js_sm_1", "js_pm_1"]
+		}
+	},
+
+	"allies" : {
+		"blastdrilla" : {
+			"image" :  "IconBlastDrilla",
+			"display" : "blastdrilla"  
+		},
+
+		"boomshift" : {
+			"image" :  "IconBoomShift",
+			"display" : "boomshift"  
+		},
+
+		"freedrilla" : {
+			"image" :  "IconFreeDrilla",
+			"display" : "freedrilla"  
+		},
+
+		"gillgrunt" : {
+			"image" :  "IconGillGrunt",
+			"display" : "gillgrunt"  
+		},
+
+		"grilladrilla" : {
+			"image" :  "IconGrillaDrilla",
+			"display" : "grilladrilla"  
+		},
+
+		"hex" : {
+			"image" :  "IconHex",
+			"display" : "hex"  
+		},
+
+		"hootdrilla" : {
+			"image" :  "IconHootDrilla",
+			"display" : "hootdrilla"  
+		},
+
+		"knightlight" : {
+			"image" :  "IconKnightlight",
+			"display" : "knightlight"  
+		},
+
+		"knightmare" : {
+			"image" :  "IconKnightmare",
+			"display" : "knightmare"  
+		},
+
+		"magnaloop" : {
+			"image" :  "IconMagnaLoop",
+			"display" : "magnaloop"  
+		},
+
+		"rubbledrilla" : {
+			"image" :  "IconRubbleDrilla",
+			"display" : "rubbledrilla"  
+		},
+
+		"rattledrilla" : {
+			"image" :  "IconRattleDrilla",
+			"display" : "rattledrilla"  
+		},
+
+		"snapshot" : {
+			"image" :  "IconSnapshot",
+			"display" : "snapshot"  
+		},
+
+		"spotlight" : {
+			"image" :  "IconSpotlight",
+			"display" : "spotlight"  
+		},
+
+		"stinkbomb" : {
+			"image" :  "IconStinkBomb",
+			"display" : "stinkbomb"  
+		},
+
+		"trapshadow" : {
+			"image" :  "IconTrapshadow",
+			"display" : "trapshadow"  
+		},
+
+		"blackout" : {
+			"image" :  "IconBlackout",
+			"display" : "blackout"  
+		},
+
+		"treerex" : {
+			"image" :  "IconTreerex",
+			"display" : "treerex"  
+		},
+
+		"washdrilla" : {
+			"image" :  "IconWashdrilla",
+			"display" : "washdrilla"  
+		}
+
+
+	},
+
+	"enemies" : {
+		"chompy" : {
+			"maxSpeed" : -30,
+			"display" : "chompy",
+			"damage" : 100,
+			"behavior" : "hostile"
+		},
+
+		"greeble" : {
+			"maxSpeed" : -55,
+			"display" : "greeble",
+			"damage" : 150,
+			"behavior" : "hostile"
+		},
+		"troll" : {
+			"maxSpeed" : -20,
+			"display" : "troll",
+			"damage" : 200,
+			"behavior" : "charge"
+		}
+
+	},
+
+
+	"upgrades":{
+		"ss_sm_1"    : {
+			"type" : "special", 
+			"code": "sssm1", "cost":100, 
+			"vehicle" : "vehicle_stealthstinger", 
+			"icon":"IconSSSM1",
+			"vo":"VOSSSM1",
+			"image" : "SSSM1",
+			"storeImage" : "PConfirmSSSM1",
+			"forceUnlock" : true,
+			"stats" : {"maxSpeed" : 10}
+		},
+
+		"ss_sm_2"    : {
+			"type" : "special",
+			"code": "sssm2",
+			"cost":150,
+		    "vehicle" : "vehicle_stealthstinger",
+		    "storeImage" : "PConfirmSSSM2",
+			"vo":"VOSSSM2",
+			"icon":"IconSSSM2",
+			"image" : "SSSM2",
+			"stats" : {"turnSpeed" : 5, "accel" : 0.1}
+		},
+
+		"ss_sm_3"  : {
+			"type" : "special",
+			"code": "sssm3", 
+			"cost":200, 
+			"vehicle" : "vehicle_stealthstinger", 
+			"storeImage" : "PConfirmSSSM3",
+			"vo":"VOSSSM3",
+			"icon":"IconSSSM3", 
+			"image" : "SSSM3",
+			"stats" : {"maxSpeed" : 5, "accel" : 0.05}
+		},
+
+		"ss_sm_4" : {
+			"type" : "special", 
+			"code": "sssm4", "cost":100, 
+			"vehicle" : "vehicle_stealthstinger", 
+			"storeImage" : "PConfirmSSSM4",
+			"vo":"VOSSSM4",
+			"icon":"IconSSSM4", 
+			"image" : "SSSM4",
+			"stats" : {"maxHP" : 150, "weight" : 15}
+		},
+
+
+		"ss_pm_1"     : {
+			"type" : "performance",
+			"code": "sspm1",
+			"cost":1000,
+			"vehicle" : "vehicle_stealthstinger",
+			"storeImage" : "PConfirmSSPM1",
+			"vo":"VOSSPM1",
+			"icon":"IconSSPM1",
+			"image" : "SSPM1",
+			"forceUnlock" : true,
+			"stats" : {"maxSpeed" : 5, "turnSpeed" : 5}
+		},
+
+		"ss_pm_2"     : {
+			"type" : "performance",
+			"code": "sspm2",
+			"cost":150,
+			"vehicle" : "vehicle_stealthstinger",
+			"storeImage" : "PConfirmSSPM2",
+			"vo":"VOSSPM2",
+			"icon":"IconSSPM2",
+			"image" : "SSPM2",
+			"stats" : {"turnSpeed" : 10, "accel" : 0.05}
+		},
+
+		"ss_pm_3"   : {
+			"type" : "performance",
+			"code": "sspm3",
+			"cost":200,
+			"vehicle" : "vehicle_stealthstinger",
+			"storeImage" : "PConfirmSSPM3",
+			"vo":"VOSSPM3",
+			"icon":"IconSSPM3",
+			"image" : "SSPM3",
+			"stats" : {"accel" : 0.1}
+		},
+
+		"ss_pm_4" : {
+			"type" : "performance",
+			"code": "sspm4",
+			"cost":100,
+			"vehicle" : "vehicle_stealthstinger",
+			"storeImage" : "PConfirmSSPM4",
+			"vo":"VOSSPM4",
+			"icon":"IconSSPM4",
+			"image" : "SSPM4",
+			"stats" : {"maxHP" : 150, "weight" : 15}
+		},
+
+
+		"js_sm_1"  : {
+			"type" : "special",
+			"icon":"IconJSSM1",
+			"image" : "JSSM1",
+			"code": "jssm1",
+			"cost":1000,
+			"storeImage" : "PConfirmJSSM1",
+			"vo":"VOJSSM1",
+			"vehicle" : "vehicle_jetstream",
+			"forceUnlock" : true,
+			"stats" : {"accel" : 0.1}
+		},
+
+		"js_sm_2": {
+			"type" : "special",
+			"icon":"IconJSSM2",
+			"image" : "JSSM2",
+			 "code": "jssm2",
+			 "storeImage" : "PConfirmJSSM2",
+			"vo":"VOJSSM2",
+			"cost":200,
+			"vehicle" : "vehicle_jetstream",
+			"stats" : {"maxSpeed" : 15, "weight" : 15}
+		},
+
+		"js_sm_3"   : {
+			"type" : "special",
+			"icon":"IconJSSM3",
+			"image" : "JSSM3",
+			 "code": "jssm3",
+			 "storeImage" : "PConfirmJSSM3",
+			"vo":"VOJSSM3",
+			"cost":110,
+			"vehicle" : "vehicle_jetstream",
+			"stats" : {"turnSpeed" : 10}
+		},
+
+		"js_sm_4"   : {
+			"type" : "special",
+			"icon":"IconJSSM4",
+			"image" : "JSSM4",
+			"storeImage" : "PConfirmJSSM4",
+			"vo":"VOJSSM4",
+			 "code": "jssm4",
+			"cost":150,
+			"vehicle" : "vehicle_jetstream",
+			"stats" : {"maxHP" : 150, "weight" : 15}
+		},
+
+
+		"js_pm_1" : {
+			"type" : "performance",
+			"icon":"IconJSPM1",
+			"image" : "JSPM1",
+			"storeImage" : "PConfirmJSPM1",
+			"vo":"VOJSPM1",
+			 "code": "jspm1",
+			"cost":160,
+			"vehicle" : "vehicle_jetstream",
+			"forceUnlock" : true,
+			"stats" : {"maxSpeed" : 10}
+		},
+
+		"js_pm_2"     : {
+			"type" : "performance",
+			"icon":"IconJSPM2",
+			"image" : "JSPM2",
+			"vo":"VOJSPM2",
+			"storeImage" : "PConfirmJSPM2",
+			 "code": "jspm2",
+			"cost":120,
+			"vehicle" : "vehicle_jetstream",
+			"stats" : {"accel" : 0.1, "weight" : -15}
+		},
+
+		"js_pm_3"      : {
+			"type" : "performance",
+			"icon":"IconJSPM3",
+			"image" : "JSPM3",
+			"storeImage" : "PConfirmJSPM3",
+			"vo":"VOJSPM3",
+			 "code": "jspm3",
+			"cost":210,
+			"vehicle" : "vehicle_jetstream",
+			"stats" : {"turnSpeed" : 10, "accel" : 0.1}
+		},
+
+		"js_pm_4"    : {
+			"type" : "performance",
+			"icon":"IconJSPM4",
+			"image" : "JSPM4",
+			"storeImage" : "PConfirmJSPM4",
+			"vo":"VOJSPM4",
+			"code": "jspm4",
+			"cost":150,
+			"vehicle" : "vehicle_jetstream",
+			"stats" : {"maxHP" : 300, "weight" : 30}
+		},
+
+		"ssl_sm_1"  : {
+			"type" : "special",
+			"icon":"IconSSLSM1",
+			"image" : "SSLSM1",
+			"code": "sslsm1",
+			"cost":1000,
+			"storeImage" : "PConfirmSSLSM1",
+			"vo":"VOSSLSM1",
+			"vehicle" : "vehicle_skyslicer",
+			"forceUnlock" : true,
+			"stats" : {"accel" : 0.1}
+		},
+
+		"ssl_sm_2": {
+			"type" : "special",
+			"icon":"IconSSLSM2",
+			"image" : "SSLSM2",
+			 "code": "sslsm2",
+			 "storeImage" : "PConfirmSSLSM2",
+			"vo":"VOSSLSM2",
+			"cost":200,
+			"vehicle" : "vehicle_skyslicer",
+			"stats" : {"maxSpeed" : 15, "weight" : 15}
+		},
+
+		"ssl_sm_3"   : {
+			"type" : "special",
+			"icon":"IconSSLSM3",
+			"image" : "SSLSM3",
+			 "code": "sslsm3",
+			 "storeImage" : "PConfirmSSLSM3",
+			"vo":"VOSSLSM3",
+			"cost":110,
+			"vehicle" : "vehicle_skyslicer",
+			"stats" : {"turnSpeed" : 10}
+		},
+
+		"ssl_sm_4"   : {
+			"type" : "special",
+			"icon":"IconSSLSM4",
+			"image" : "SSLSM4",
+			"storeImage" : "PConfirmSSLSM4",
+			"vo":"VOSSLSM4",
+			 "code": "sslsm4",
+			"cost":150,
+			"vehicle" : "vehicle_skyslicer",
+			"stats" : {"maxHP" : 150, "weight" : 15}
+		},
+
+
+		"ssl_pm_1" : {
+			"type" : "performance",
+			"icon":"IconSSLPM1",
+			"image" : "SSLPM1",
+			"storeImage" : "PConfirmSSLPM1",
+			"vo":"VOSSLPM1",
+			 "code": "sslpm1",
+			"cost":160,
+			"vehicle" : "vehicle_skyslicer",
+			"forceUnlock" : true,
+			"stats" : {"maxSpeed" : 10}
+		},
+
+		"ssl_pm_2"     : {
+			"type" : "performance",
+			"icon":"IconSSLPM2",
+			"image" : "SSLPM2",
+			"vo":"VOSSLPM2",
+			"storeImage" : "PConfirmSSLPM2",
+			 "code": "sslpm2",
+			"cost":120,
+			"vehicle" : "vehicle_skyslicer",
+			"stats" : {"accel" : 0.1, "weight" : -15}
+		},
+
+		"ssl_pm_3"      : {
+			"type" : "performance",
+			"icon":"IconSSLPM3",
+			"image" : "SSLPM3",
+			"storeImage" : "PConfirmSSLPM3",
+			"vo":"VOSSLPM3",
+			 "code": "sslpm3",
+			"cost":210,
+			"vehicle" : "vehicle_skyslicer",
+			"stats" : {"turnSpeed" : 10, "accel" : 0.1}
+		},
+
+		"ssl_pm_4"    : {
+			"type" : "performance",
+			"icon":"IconSSLPM4",
+			"image" : "SSLPM4",
+			"storeImage" : "PConfirmSSLPM4",
+			"vo":"VOSSLPM4",
+			"code": "sslpm4",
+			"cost":150,
+			"vehicle" : "vehicle_skyslicer",
+			"stats" : {"maxHP" : 300, "weight" : 30}
+		}
+	},
+
+
+	"shopVehicleLayering":{
+		"vehicle_hotstreak":{
+			"base" : 1,
+			"specialty" : 2,
+			"performance" : 3
+		},
+
+		"vehicle_cryptcrusher":{
+			"base" : 1,
+			"specialty" : 2,
+			"performance" : 3
+		}
+
+
+	},
+
+	"tracks":["Track001" , "Track002", "Track003"],
+
+	"scoring": {
+			"scoreDefinitions" : {
+			"getPowerUp" : 10000,
+			"getGearbit1": 15000,
+			"getGearbit2": 20000,
+			"hitEnemy"   : 5000,
+			"hitOpponent": 7000,
+			"rescuedFriend" : 20000,
+			"rescuedAllFriends" : 50000,
+			"damagePenalty": -7000,
+			"hazardPenalty": -8000,
+			"matchTreasure": 20000,
+			"matchTreasureExtra" : 10000
+
+		},
+
+		"scoreMultipliers" : {
+			"firstPlace"  : 3,
+			"secondPlace" : 2.5,
+			"thirdPlace"  : 2,
+			"forthPlace"  : 1.25
+		}
+	}
+
+}

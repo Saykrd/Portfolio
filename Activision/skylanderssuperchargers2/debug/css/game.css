@@ -1,0 +1,130 @@
+html, body {width:100%; height:100%; background:#000000;}
+
+@font-face {
+    font-family: 'Font1_unused';
+	  src: url('gothambold.woff') format('woff'),
+	  		url('gothambold.otf') format('opentype');
+}
+
+body {margin:0px; padding:0px; display:table; font-family:"Font01";}
+
+textarea:focus, input:focus{
+    outline: none;
+    outline-style: none;
+}
+
+textarea{
+	resize:none;
+    overflow:hidden;
+}
+
+#game {margin:0px; padding:0px; display:table-cell; vertical-align:middle; text-align:center;}
+
+.loadingTitle {font-size:32pt; font-family:'Roboto Slab', serif; font-weight:bold; color:#FFFFFF;}
+
+.gameTitle {font-size:42pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: center; color:#FFFFFF;}
+.screenTitle1 {font-size:54pt; font-family:"Font1", "Verdana"; text-align: center;font-weight: bold;	 color:#FFFFFF;}
+.screenTitle2 {font-size:34pt; font-family:"Font1", "Verdana"; text-align: center;font-weight: bold;	 color:#FFFFFF;}
+.screenCopy {font-size:13pt; font-family:"Font1", "Verdana"; text-align: center; color:#FFFFFF; line-height: 20%;}
+.loadingCopy {font-size:22pt; font-family:"Font1", "Verdana"; font-weight:bold; color:#FFFFFF; text-align: center;}
+.copyright {font-size:8pt; font-family:"Font1", "Verdana"; color:#FFFFFF; text-align: center;}
+
+.heading1 {font-size:14pt; font-family:"Font1"; font-weight:bold;text-align: center; color:#000000;}
+.paragraph1 {font-size:16pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: center; color:#FFFFFF;}
+.paragraph2 {font-size:12pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: center; color:#FFFFFF;}
+.paragraph3 {font-size:10pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: center; color:#FFFFFF;}
+
+.comboText {font-size:12pt; font-family:"Font1", "Verdana"; line-height: 22%;font-weight:bold;text-align: center; color:#000000;}
+.selectName {font-size:25pt; font-family:"Font1", "Verdana"; line-height: 35%; font-weight:bold;text-align: center; color:#82C9DF;}
+.selectNameChar {font-size:20pt; font-family:"Font1", "Verdana"; line-height: 35%; font-weight:bold;text-align: center; color:#82C9DF;}
+
+.trackSelectScore {font-size:14pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: center; color:#FFFFFF;}
+.trackSelectTime  {font-size:18pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: left; color:#FFFFFF;}
+
+.htpHeader  {font-size:12pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: center; color:#FFFFFF;}
+.htpHeader2  {font-size:16pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: center; color:#FFFFFF;}
+.htpFooter  {font-size:12pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: center; color:#FFFFFF;}
+.htpCopy    {font-size:11pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: left; color:#FFFFFF;}
+.htpCopy2    {font-size:10pt; font-family:"Font1", "Verdana";text-align: center; color:#FFFFFF;}
+.htpSpacebar{font-size:15pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: left; color:#000000;}
+
+.readyCopy       {font-size:16pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: center; color:#FFFFFF;}
+.readyGoalScore  {font-size:20pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: center; color:#FFFFFF;}
+.readyHighScoreCopy  {font-size:12pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: center; color:#FDEECF;}
+.readyHighScore  {font-size:20pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: center; color:#FDEECF;}
+
+.upgradeCost  {font-size:14pt; font-family:"Font1", "Verdana";text-align: right; color:#FFFFFF;}
+.upgradeName  {font-size:12pt; font-family:"Font1", "Verdana";text-align: left; color:#FFFFFF;}
+.upgradeHeader  {font-size:18pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: left; color:#FFFFFF;}
+
+.upgradeStats  {font-size:14pt; font-family:"Font1", "Verdana";text-align: left; color:#FFFFFF;}
+
+.upgradeConfirm  {font-size:18pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: center; color:#FFFFFF;}
+.upgradeConfirmCostCopy  {font-size:18pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: right; color:#FFFFFF;}
+.upgradeConfirmCost  {font-size:18pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: left; color:#FFFFFF;}
+
+
+.screenFXCopy  {font-size:12pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: center; color:#FFFFFF;}
+.screenFXCountdown  {font-size:100pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: center; color:#FCFF3E;}
+.screenFXOutOfMoves  {font-size:60pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: center; color:#FCFF3E;}
+.screenFXWin   {font-size:100pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: center; color:#FCFF3E;}
+.raceMessage   {font-size:30pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: center; color:#FCFF3E;}
+.bonusHint   {font-size:30pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: center; color:#FCFF3E;}
+.enemyApproach   {font-size:30pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: center; color:#E52C2C;}
+.enemyHint   {font-size:30pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: center; color:#E52C2C;}
+
+.shieldUse   {font-size:30pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: center; color:#FFFFFF;}
+.elixirUse   {font-size:30pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: center; color:#FFFFFF;}
+.shoeUse   {font-size:30pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: center; color:#FFFFFF;}
+.shuffle   {font-size:30pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: center; color:#FFFFFF;}
+
+
+.popupHeader  {font-size:26pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: center; color:#FFFFFF;}
+.screenTitle {font-size:34pt; font-family:"Font1", "Verdana"; text-align: center; font-weight:bold; color:#F0DD9B;}
+
+
+.trackSelectTime  {font-size:18pt; font-family:"Font1", "Verdana"; font-weight:bold;text-align: left; color:#FFFFFF;}z
+.screenCopyHeading {font-size:12pt; font-family:"Font1"; color:#F2812C; line-height: 30%;}
+
+.shareTitle {font-size:22pt; font-family:"Font1"; color:#F2812C;}
+.copiedConfirm {font-size:22pt; font-family:"Font1"; color:#FFFFFF;}
+.endScreenTitle {font-size:28pt; font-family:"Font1"; font-weight:bold; color:#F2812C;}
+.endScreenHeading {font-size:13pt; font-family:"Font1"; text-align: center; color:#FFFFFF;}
+
+
+.screenFX {font-size:50pt; font-family:"Font1", "Verdana"; font-weight:bold; color:#FFFFFF; text-align: center;}
+.hudScore{font-size:14pt; font-family:"Font1", "Verdana"; font-weight:bold; color:#074E48; text-align: left;}
+.hudCurrency{font-size:14pt; font-family:"Font1", "Verdana"; font-weight:bold; color:#1B1102; text-align: left;}
+.hudTime{font-size:20pt; font-family:"Font1", "Verdana"; font-weight:bold; color:#FFFFFF; text-align: center;}
+.hudHeader{font-size:18pt; font-family:"Font1", "Verdana"; font-weight:bold; color:#FFFFFF; text-align: center;}
+.hudPlace{font-size:40pt; font-family:"Font1", "Verdana"; font-weight:bold; color:#FFFFFF; text-align: left;}
+.hudPlaceSuffix{font-size:20pt; font-family:"Font1", "Verdana"; font-weight:bold; color:#FFFFFF; text-align: left;}
+.hudProgressPlace{font-size:20pt; font-family:"Font1", "Verdana"; font-weight:bold; color:#FFFFFF; text-align: left;}
+.hudProgressSuffix{font-size:12pt; font-family:"Font1", "Verdana"; font-weight:bold; color:#FFFFFF; text-align: left;}
+.hudProgressName{font-size:10pt; font-family:"Font1", "Verdana"; font-weight:bold; color:#FFFFFF; text-align: right;}
+
+
+.resultsNum1{font-size:18pt; font-family:"Font1", "Verdana";  color:#FFFFFF; text-align: left;}
+.resultsNum2{font-size:24pt; font-family:"Font1", "Verdana";  color:#FFFFFF; text-align: center;}
+.resultsScore{font-size:24pt; font-family:"Font1", "Verdana";  color:#FFFFFF; text-align: center;}
+
+.resultsPlace{font-size:60pt; font-family:"Font1", "Verdana"; font-weight:bold; color:#FFFFFF; text-align: left;}
+.resultsPlaceSuffix{font-size:40pt; font-family:"Font1", "Verdana"; font-weight:bold; color:#FFFFFF; text-align: left;}
+
+.resultsCharName{font-size:12pt; font-family:"Font1", "Verdana"; font-weight:bold; color:#FFFFFF; text-align: left;}
+
+.endScreenPlace{font-size:46pt; font-family:"Font1", "Verdana"; font-weight:bold; color:#FFFFFF; text-align: left;}
+.endScreenSuffix{font-size:24pt; font-family:"Font1", "Verdana"; font-weight:bold; color:#FFFFFF; text-align: left;}
+.endScreenCopy{font-size:16pt; font-family:"Font1", "Verdana"; font-weight:bold; color:#000000; text-align: center;}
+
+
+.overlayTitle {font-size:32pt; font-family:"Font1"; color:#FFFFFF; text-align: center;}
+.overlayCopy {font-size:12pt; font-family:"Font1"; color:#000000;line-height: 30%}
+.tutorialCopy {font-size:12pt; text-align: center; font-family:"Font1"; color:#000000;line-height: 20%}
+
+.titleButton {font-size:16pt; font-family:"Font1", "Verdana"; font-weight:bold; color:#FFFFFF;}
+.smallButton {font-size:14pt; font-family:"Font1", "Verdana"; font-weight:bold; color:#FFFFFF;}
+.clearProgressButton {font-size:8pt; font-family:"Font1", "Verdana"; font-weight:bold; color:#FFFFFF;}
+
+.wordwrap {white-space:pre-wrap; white-space:-moz-pre-wrap; white-space:-pre-wrap; white-space:-o-pre-wrap; word-wrap:break-word;}
+

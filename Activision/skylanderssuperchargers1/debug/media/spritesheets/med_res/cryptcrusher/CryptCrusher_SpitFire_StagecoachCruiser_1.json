@@ -1,0 +1,492 @@
+{"frames": [
+
+{
+	"filename": "CC_stagecoachcruiser_FFengine_left/0000",
+	"frame": {"x":908,"y":206,"w":124,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":7,"w":124,"h":115},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_FFengine_left/0001",
+	"frame": {"x":1032,"y":206,"w":126,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":8,"w":126,"h":115},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_FFengine_left/0002",
+	"frame": {"x":368,"y":313,"w":130,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":6,"w":130,"h":117},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_FFengine_left/0003",
+	"frame": {"x":1828,"y":216,"w":130,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":6,"w":130,"h":117},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_FFengine_left/0004",
+	"frame": {"x":878,"y":321,"w":146,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":3,"w":146,"h":119},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_FFengine_left/0005",
+	"frame": {"x":732,"y":319,"w":146,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":4,"w":146,"h":119},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_FFengine_left/0006",
+	"frame": {"x":2,"y":313,"w":124,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":6,"w":124,"h":117},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_FFengine_left/0007",
+	"frame": {"x":1574,"y":206,"w":124,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":6,"w":124,"h":117},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_FFengine_right/0000",
+	"frame": {"x":126,"y":313,"w":120,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":55,"y":7,"w":120,"h":117},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_FFengine_right/0001",
+	"frame": {"x":498,"y":315,"w":122,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":7,"w":122,"h":117},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_FFengine_right/0002",
+	"frame": {"x":1024,"y":321,"w":130,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":46,"y":6,"w":130,"h":119},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_FFengine_right/0003",
+	"frame": {"x":1698,"y":210,"w":130,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":46,"y":7,"w":130,"h":117},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_FFengine_right/0004",
+	"frame": {"x":1420,"y":321,"w":144,"h":121},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":3,"w":144,"h":121},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_FFengine_right/0005",
+	"frame": {"x":1276,"y":321,"w":144,"h":121},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":3,"w":144,"h":121},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_FFengine_right/0006",
+	"frame": {"x":1154,"y":321,"w":122,"h":119},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":6,"w":122,"h":119},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_FFengine_right/0007",
+	"frame": {"x":246,"y":313,"w":122,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":7,"w":122,"h":117},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_FFengine_straight/0000",
+	"frame": {"x":544,"y":202,"w":104,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":7,"w":104,"h":113},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_FFengine_straight/0001",
+	"frame": {"x":1926,"y":103,"w":104,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":7,"w":104,"h":113},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_FFengine_straight/0002",
+	"frame": {"x":620,"y":315,"w":112,"h":117},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":5,"w":112,"h":117},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_FFengine_straight/0003",
+	"frame": {"x":1158,"y":206,"w":112,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":5,"w":112,"h":115},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_FFengine_straight/0004",
+	"frame": {"x":648,"y":202,"w":134,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":41,"y":7,"w":134,"h":113},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_FFengine_straight/0005",
+	"frame": {"x":1270,"y":206,"w":134,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":41,"y":5,"w":134,"h":115},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_FFengine_straight/0006",
+	"frame": {"x":782,"y":206,"w":126,"h":113},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":9,"w":126,"h":113},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_FFengine_straight/0007",
+	"frame": {"x":2,"y":202,"w":126,"h":111},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":9,"w":126,"h":111},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_coffinclapper_left/0000",
+	"frame": {"x":1066,"y":2,"w":124,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":21,"w":124,"h":101},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_coffinclapper_left/0001",
+	"frame": {"x":700,"y":2,"w":126,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":24,"w":126,"h":99},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_coffinclapper_left/0002",
+	"frame": {"x":128,"y":2,"w":124,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":24,"w":124,"h":99},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_coffinclapper_left/0003",
+	"frame": {"x":942,"y":2,"w":124,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":22,"w":124,"h":101},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_coffinclapper_right/0000",
+	"frame": {"x":1802,"y":2,"w":120,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":55,"y":23,"w":120,"h":101},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_coffinclapper_right/0001",
+	"frame": {"x":758,"y":101,"w":122,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":23,"w":122,"h":101},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_coffinclapper_right/0002",
+	"frame": {"x":1580,"y":103,"w":122,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":22,"w":122,"h":103},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_coffinclapper_right/0003",
+	"frame": {"x":636,"y":101,"w":122,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":23,"w":122,"h":101},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_coffinclapper_straight/0000",
+	"frame": {"x":1474,"y":103,"w":106,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":17,"w":106,"h":103},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_coffinclapper_straight/0001",
+	"frame": {"x":1554,"y":2,"w":116,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":51,"y":19,"w":116,"h":101},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_coffinclapper_straight/0002",
+	"frame": {"x":1814,"y":103,"w":112,"h":107},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":44,"y":15,"w":112,"h":107},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_coffinclapper_straight/0003",
+	"frame": {"x":1352,"y":103,"w":122,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":17,"w":122,"h":103},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_mummymotif_left/0000",
+	"frame": {"x":252,"y":2,"w":150,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":23,"w":150,"h":99},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_mummymotif_left/0001",
+	"frame": {"x":402,"y":2,"w":162,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":24,"w":162,"h":99},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_mummymotif_left/0002",
+	"frame": {"x":564,"y":2,"w":136,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":26,"y":24,"w":136,"h":99},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_mummymotif_left/0003",
+	"frame": {"x":1670,"y":2,"w":132,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":27,"y":22,"w":132,"h":101},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_mummymotif_right/0000",
+	"frame": {"x":1190,"y":2,"w":120,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":55,"y":23,"w":120,"h":101},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_mummymotif_right/0001",
+	"frame": {"x":2,"y":101,"w":134,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":42,"y":23,"w":134,"h":101},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_mummymotif_right/0002",
+	"frame": {"x":1230,"y":103,"w":122,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":22,"w":122,"h":103},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_mummymotif_right/0003",
+	"frame": {"x":514,"y":101,"w":122,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":23,"w":122,"h":101},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_mummymotif_straight/0000",
+	"frame": {"x":128,"y":202,"w":122,"h":111},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":44,"y":9,"w":122,"h":111},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_mummymotif_straight/0001",
+	"frame": {"x":250,"y":202,"w":140,"h":111},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":9,"w":140,"h":111},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_mummymotif_straight/0002",
+	"frame": {"x":1404,"y":206,"w":170,"h":115},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":7,"w":170,"h":115},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_mummymotif_straight/0003",
+	"frame": {"x":390,"y":202,"w":154,"h":111},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":42,"y":9,"w":154,"h":111},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_woodgeist_left/0000",
+	"frame": {"x":388,"y":101,"w":126,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":21,"w":126,"h":101},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_woodgeist_left/0001",
+	"frame": {"x":2,"y":2,"w":126,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":23,"w":126,"h":99},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_woodgeist_left/0002",
+	"frame": {"x":262,"y":101,"w":126,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":22,"w":126,"h":101},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_woodgeist_left/0003",
+	"frame": {"x":136,"y":101,"w":126,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":22,"w":126,"h":101},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_woodgeist_right/0000",
+	"frame": {"x":1922,"y":2,"w":122,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":22,"w":122,"h":101},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_woodgeist_right/0001",
+	"frame": {"x":1108,"y":103,"w":122,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":21,"w":122,"h":103},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_woodgeist_right/0002",
+	"frame": {"x":1432,"y":2,"w":122,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":23,"w":122,"h":101},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_woodgeist_right/0003",
+	"frame": {"x":1310,"y":2,"w":122,"h":101},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":23,"w":122,"h":101},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_woodgeist_straight/0000",
+	"frame": {"x":1002,"y":103,"w":106,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":51,"y":17,"w":106,"h":103},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_woodgeist_straight/0001",
+	"frame": {"x":826,"y":2,"w":116,"h":99},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":51,"y":20,"w":116,"h":99},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_woodgeist_straight/0002",
+	"frame": {"x":1702,"y":103,"w":112,"h":107},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":44,"y":15,"w":112,"h":107},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "CC_stagecoachcruiser_woodgeist_straight/0003",
+	"frame": {"x":880,"y":103,"w":122,"h":103},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":34,"y":17,"w":122,"h":103},
+	"sourceSize": {"w":212,"h":133}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "CryptCrusher_SpitFire_StagecoachCruiser_1.png",
+	"format": "RGBA8888",
+	"size": {"w":2046,"h":444},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:f16003069da1a5e1de3fceb043482e6c:1/1$"
+}
+}

@@ -1,0 +1,603 @@
+{
+	"id" : "track002",
+	"name": "Track 001",
+	"preRaceMessage": "PanderGastRaceTrack2",
+	"laps": 2,
+	"lanes" : 3,
+	"scoring" : [200000, 600000, 900000],
+	"unlocks" : "Track003",
+	"events" : [
+		{"id": "evt000", "event" : "raceBegin" },
+		{"id": "evt001", "event" : "countdown" },
+		{"id": "evt002", "event" : "start" }
+	],
+	"colors" : {
+		"LIGHT": { "road": "#D5A55E", "rumble": "#D5A55E", "offroad": "#866138", "lane":"#FFFFFF" },
+		"DARK":  { "road": "#CE974F", "rumble": "#CE974F", "offroad": "#845F34" }
+	},
+
+
+	"roadSettings" : {
+		"length"   : {"none" : 0, "short" : 25, "medium": 50, "long": 100},
+		"curve"    : {"none" : 0, "easy"  : 2,  "medium": 4,  "hard": 6},
+		"elevation": {"none" : 0, "low"   : 60, "medium": 80, "high": 120}
+	},
+
+
+	"roadData": [
+
+		{ "length": "long", "dirY": "down" , "curve": "none", "dirX": "left", "elevation":"none" },
+		{ "length": "long", "dirY": "down" , "curve": "none", "dirX": "right", "elevation":"none" },
+		{ "length": "long", "dirY": "down" , "curve": "none", "dirX": "left", "elevation":"low" },
+		{ "length": "long", "dirY": "up" , "curve": "easy", "dirX": "right", "elevation":"low" },
+		{ "length": "long", "dirY": "up" , "curve": "easy", "dirX": "right", "elevation":"medium" },
+		{ "length": "long", "dirY": "down" , "curve": "medium", "dirX": "left", "elevation":"none" },
+		{ "length": "long", "dirY": "up" , "curve": "none", "dirX": "left", "elevation":"high" },
+		{ "length": "long", "dirY": "down" , "curve": "none", "dirX": "left", "elevation":"none" },
+		{ "length": "long", "dirY": "down" , "curve": "none", "dirX": "left", "elevation":"none" },
+		{ "length": "long", "dirY": "up" , "curve": "none", "dirX": "left", "elevation":"low" },
+		{ "length": "long", "dirY": "up" , "curve": "easy", "dirX": "left", "elevation":"low" },
+		{ "length": "long", "dirY": "down" , "curve": "easy", "dirX": "right", "elevation":"low" },
+		{ "length": "long", "dirY": "up" , "curve": "none", "dirX": "left", "elevation":"low" },
+		{ "length": "long", "dirY": "down" , "curve": "medium", "dirX": "left", "elevation":"medium" },
+		{ "length": "long", "dirY": "down" , "curve": "none", "dirX": "left", "elevation":"none" },
+		{ "length": "long", "dirY": "down" , "curve": "none", "dirX": "left", "elevation":"low" },
+		{ "length": "long", "dirY": "up" , "curve": "hard", "dirX": "right", "elevation":"low" },
+		{ "length": "long", "dirY": "down" , "curve": "easy", "dirX": "left", "elevation":"medium" },
+		{ "length": "long", "dirY": "up" , "curve": "none", "dirX": "left", "elevation":"low" },
+		{ "length": "long", "dirY": "up" , "curve": "easy", "dirX": "right", "elevation":"high" },
+		{ "length": "long", "dirY": "down" , "curve": "none", "dirX": "left", "elevation":"none" },
+		{ "length": "long", "dirY": "down" , "curve": "medium", "dirX": "left", "elevation":"none" },
+		{ "length": "long", "dirY": "down" , "curve": "none", "dirX": "left", "elevation":"low" },
+		{ "length": "long", "dirY": "up" , "curve": "none", "dirX": "left", "elevation":"medium" },
+		{ "length": "long", "dirY": "up" , "curve": "easy", "dirX": "left", "elevation":"medium" },
+		{ "length": "long", "dirY": "down" , "curve": "easy", "dirX": "right", "elevation":"low" },
+		{ "length": "long", "dirY": "down" , "curve": "medium", "dirX": "left", "elevation":"high" },
+		{ "length": "long", "dirY": "down" , "curve": "easy", "dirX": "left", "elevation":"high" },
+		{ "length": "long", "dirY": "down" , "curve": "none", "dirX": "left", "elevation":"medium" },
+		{ "length": "long", "dirY": "down" , "curve": "none", "dirX": "left", "elevation":"none" },
+		{ "length": "medium", "dirY": "down" , "curve": "none", "dirX": "left", "elevation":"low" }
+
+
+
+	],
+
+	"elementDefinitions": {
+		"racers" : [
+			{ "type":"racer", "id":"player",   "lane":2, "distance":2},
+			{ "type":"racer", "id":"rival",   "lane":3, "distance":4},
+			{ "type":"racer", "id":"opponent1", "lane":1, "distance":6, "class":"vehicle_chompy"},
+
+			{ "type":"racer", "id":"opponent2", "lane":2, "distance":8, "class":"vehicle_chompy"},
+			{ "type":"racer", "id":"opponent3", "lane":3, "distance":10, "class":"vehicle_chompy"},
+			{ "type":"racer", "id":"opponent4", "lane":1, "distance":12, "class":"vehicle_chompy"},
+
+			{ "type":"racemarker", "distance":20}
+		],
+
+		"solo" : [
+			{ "type":"racer", "id":"player",   "lane":2, "distance":12},
+			{ "type":"racemarker", "distance":20}
+		],
+
+
+		"gearbits00": [
+			{"type": "gearbit",   "amount":8, "spacing":3, "lane": 2, "distance":1}
+		],
+
+		"gearbits01": [
+			{"type": "gearbit",   "amount":8, "spacing":3, "lane": 3, "distance":1},
+			{"type": "gearbit",   "amount":8, "spacing":3, "lane": 1, "distance":1}
+		],
+
+		"gearbits02": [
+			{"type": "gearbit",   "amount":8, "spacing":3, "lane": 3, "distance":1},
+			{"type": "gearbit",   "amount":8, "spacing":3, "lane": 1, "distance":1}
+		],
+
+		"gearbits03": [
+			{"type": "gearbit",   "amount":8, "spacing":3, "lane": 1, "distance":1},
+			{"type": "gearbit",   "amount":8, "spacing":3, "lane": 2, "distance":26},
+			{"type": "gearbit",   "amount":8, "spacing":3, "lane": 3, "distance":52}
+		],
+
+
+		"powerpods01": [
+			{"type": "powerpod",   "amount":8, "spacing":3, "lane": 3, "distance":1},
+			{"type": "powerpod",   "amount":8, "spacing":3, "lane": 1, "distance":1}
+		],
+
+		"enemies01": [
+			{"type": "enemy", "class" : "chompy",  "amount":1, "spacing":10, "lane": 2, "distance":1},
+			{"type": "enemy", "class" : "chompy",  "amount":1, "spacing":10, "lane": 3, "distance":20},
+			{"type": "enemy", "class" : "chompy",  "amount":1, "spacing":10, "lane": 1, "distance":28}
+		],
+
+		"enemies02": [
+			{"type": "enemy", "class" : "greeble",  "amount":1, "spacing":3, "lane": 1, "distance":2},
+			{"type": "enemy", "class" : "greeble",  "amount":1, "spacing":3, "lane": 2, "distance":16},
+			{"type": "enemy", "class" : "greeble",  "amount":1, "spacing":3, "lane": 3 , "distance":8}
+		],
+
+		"enemies03": [
+			{"type": "enemy", "class" : "troll",  "amount":2, "spacing":35, "lane": 1, "distance":5},
+			{"type": "enemy", "class" : "troll",  "amount":2, "spacing":35, "lane": 2, "distance":1},
+			{"type": "enemy", "class" : "troll",  "amount":2, "spacing":35, "lane": 3, "distance":15}
+		],
+
+		"mysterybox01": [
+			{"type": "mysterybox",   "amount":1, "spacing":3, "lane": 1, "distance":1},
+			{"type": "mysterybox",   "amount":1, "spacing":3, "lane": 2, "distance":1},
+			{"type": "mysterybox",   "amount":1, "spacing":3, "lane": 3, "distance":1}
+		],
+
+
+
+
+		"cones1" : [
+			{"type": "structure", "class":"cone1", "lane": 1, "amount":5, "spacing":6,"distance":28},
+			{"type": "structure", "class":"cone1", "lane": 3, "amount":5, "spacing":6,"distance":56},
+			{"type": "gearbit", "class":"gearbit", "lane": 2, "amount":8, "spacing":6,"distance":10}
+		],
+
+		"cones2" : [
+			{"type": "structure", "class":"boulder1", "lane": 1, "amount":4, "spacing":6,"distance":5},
+			{"type": "structure", "class":"cone1", "lane": 1, "amount":1, "spacing":6,"distance":1},
+			{"type": "structure", "class":"cone1", "lane": 2, "amount":6, "spacing":6,"distance":5},
+			{"type": "gearbit", "class":"gearbit", "lane": 3, "amount":5, "spacing":6,"distance":36},
+			
+			{"type": "gearbit", "class":"gearbit2", "lane": 2, "amount":1, "spacing":6,"distance":68},
+			{"type": "gearbit", "class":"gearbit2", "lane": 1, "amount":1, "spacing":6,"distance":78},
+
+			{"type": "structure", "class":"boulder1", "lane": 3, "amount":4, "spacing":6,"distance":95},
+			{"type": "structure", "class":"cone1", "lane": 3, "amount":1, "spacing":6,"distance":91},
+			{"type": "structure", "class":"cone1", "lane": 3, "amount":1, "spacing":6,"distance":155},
+			{"type": "gearbit", "class":"gearbit", "lane": 1, "amount":8, "spacing":6,"distance":110}
+		],
+
+		"cones3" : [
+			
+			{"type": "structure", "class":"cone1", "lane": 1, "amount":3, "spacing":30,"distance":1},
+			{"type": "structure", "class":"cone1", "lane": 2, "amount":4, "spacing":80,"distance":10},
+			{"type": "structure", "class":"cone1", "lane": 3, "amount":7, "spacing":58,"distance":5},
+			{"type": "structure", "class":"barrel1", "lane": 2, "amount":3, "spacing":100,"distance":8}
+		],
+
+		"barrels1" : [
+			{"type": "structure", "class":"barrel1", "lane": 2, "amount":1, "spacing":6,"distance":48},
+			{"type": "gearbit", "class":"gearbit", "lane": 1, "amount":8, "spacing":6,"distance":1},
+			{"type": "gearbit", "class":"gearbit2", "lane": 1, "amount":1, "spacing":6,"distance":48},
+			{"type": "gearbit", "class":"gearbit", "lane": 3, "amount":8, "spacing":6,"distance":1},
+			{"type": "gearbit", "class":"gearbit2", "lane": 3, "amount":1, "spacing":6,"distance":48},
+			{"type": "boostpad",   "amount":5, "spacing":3, "lane": 1, "distance":56},
+			{"type": "boostpad",   "amount":5, "spacing":3, "lane": 3, "distance":56}
+		],
+
+		"barrels2" : [
+			{"type": "structure", "class":"barrel1", "lane": 1, "amount":1, "spacing":6,"distance":52},
+			{"type": "structure", "class":"barrel1", "lane": 3, "amount":1, "spacing":6,"distance":52},
+			{"type": "gearbit", "class":"gearbit", "lane": 1, "amount":8, "spacing":6,"distance":1},
+			{"type": "gearbit", "class":"gearbit2", "lane": 1, "amount":1, "spacing":6,"distance":48},
+			{"type": "gearbit", "class":"gearbit", "lane": 3, "amount":8, "spacing":6,"distance":1},
+			{"type": "gearbit", "class":"gearbit2", "lane": 3, "amount":1, "spacing":6,"distance":48},
+			{"type": "boostpad",   "amount":5, "spacing":3, "lane": 2, "distance":56}
+		],
+
+		"barrels3" : [
+			{"type": "structure", "class":"barrel1", "lane": 1, "amount":2, "spacing":120,"distance":1},
+			{"type": "structure", "class":"barrel1", "lane": 3, "amount":2, "spacing":120,"distance":1},
+			{"type": "structure", "class":"barrel1", "lane": 2, "amount":2, "spacing":120,"distance":60},
+			{"type": "boostpad",   "amount":5, "spacing":3, "lane": 2, "distance":1},
+			{"type": "boostpad",   "amount":5, "spacing":3, "lane": 1, "distance":60},
+			{"type": "boostpad",   "amount":5, "spacing":3, "lane": 3, "distance":60},
+
+			{"type": "boostpad",   "amount":5, "spacing":3, "lane": 2, "distance":120},
+			{"type": "boostpad",   "amount":5, "spacing":3, "lane": 1, "distance":180},
+			{"type": "boostpad",   "amount":5, "spacing":3, "lane": 3, "distance":180},
+
+
+			{"type": "gearbit", "class":"gearbit", "lane": 2, "amount":7, "spacing":6,"distance":16},
+			{"type": "gearbit", "class":"gearbit2", "lane": 2, "amount":1, "spacing":6,"distance":56},
+
+			{"type": "gearbit", "class":"gearbit", "lane": 1, "amount":7, "spacing":6,"distance":66},
+			{"type": "gearbit", "class":"gearbit2", "lane":1, "amount":1, "spacing":6,"distance":116},
+			{"type": "gearbit", "class":"gearbit", "lane": 3, "amount":7, "spacing":6,"distance":66},
+			{"type": "gearbit", "class":"gearbit2", "lane": 3, "amount":1, "spacing":6,"distance":116},
+
+			{"type": "gearbit", "class":"gearbit", "lane": 2, "amount":7, "spacing":6,"distance":126},
+			{"type": "gearbit", "class":"gearbit2", "lane":2, "amount":1, "spacing":6,"distance":176}
+
+
+		],
+
+		"hazard2" : [
+			{"type": "gearbit",   "amount":8, "spacing":4, "lane": 2, "distance":1},
+			{"type": "gearbit", "class" : "gearbit2",   "amount":1, "spacing":3, "lane": 2, "distance":27},
+			{"type": "structure", "display" : "obstacle01", "lane": 1, "distance":27},
+			{"type": "structure","display" : "obstacle01", "lane": 3, "distance":27}
+		],
+
+		"hazard3" : [
+			{"type": "gearbit",   "amount":8, "spacing":3, "lane": 2, "distance":1},
+			{"type": "structure", "lane": 1,"display" : "obstacle03", "distance":1},
+			{"type": "structure", "lane": 3,"display" : "obstacle02", "distance":1},
+			{"type": "structure", "lane": 2,"display" : "obstacle01", "distance":26}
+		],
+
+		"hazard4" : [
+			{"type": "structure", "display" : "obstacle01", "lane": 1, "distance":1},
+			{"type": "structure", "display" : "obstacle02", "lane": 2, "distance":12},
+			{"type": "structure", "display" : "obstacle01", "lane": 3, "distance":24},
+			{"type": "structure", "display" : "obstacle03", "lane": 2, "distance":36},
+			{"type": "structure", "display" : "obstacle02", "lane": 1, "distance":48},
+			{"type": "structure", "display" : "obstacle03", "lane": 3, "distance":48}
+		],
+
+		"icefloor1" : [
+			{"type": "icefloor",   "amount":5, "spacing":1, "lane": 3, "distance":1}
+
+		],
+
+		"roughfloor1" : [
+			{"type": "roughfloor",   "amount":15, "spacing":1, "lane": 1, "distance":1},
+			{"type": "roughfloor",   "amount":15, "spacing":1, "lane": 3, "distance":1}
+
+		],
+
+		"boostLane1" : [
+			{"type": "boostpad",   "amount":5, "spacing":3, "lane": 2, "distance":1}
+
+		],
+
+		"boostLane2" : [
+			{"type": "boostpad",   "amount":5, "spacing":3, "lane": 1, "distance":1},
+			{"type": "boostpad",   "amount":5, "spacing":3, "lane": 3, "distance":1}
+		],
+
+		"boostLane3" : [
+			{"type": "boostpad",   "amount":5, "spacing":3, "lane": 1, "distance":1},
+			{"type": "boostpad",   "amount":5, "spacing":3, "lane": 2, "distance":32},
+			{"type": "boostpad", "amount": 5, "spacing": 3, "lane": 1, "distance":64},
+			{"type": "boostpad",   "amount":5, "spacing":3, "lane": 3, "distance":96}
+		]
+
+	},
+
+	"elementPositioning": [
+		{"definition":"racers"},
+		{"definition":"barrels1", "padding" : 100},
+		{"definition":"boostLane2", "padding" : 100},
+		{"definition":"mysterybox01", "padding" : 100},
+		{"definition":"gearbits02", "padding" : 100},
+		{"definition":"cones1", "padding" : 0},
+		{"definition":"powerpods01", "padding" : 10},
+		{"definition":"enemies03", "padding" : 0},
+		{"definition":"mysterybox01", "padding" : 0},
+		{"definition":"cones2", "padding" : 70},
+		{"definition":"boostLane1", "padding" : 70},
+		{"definition":"powerpods01", "padding" : 70},
+		{"definition":"barrels2", "padding" : 70},
+		{"definition":"gearbits02", "padding" : 70},
+		{"definition":"barrels3", "padding" : 70},
+		{"definition":"mysterybox01", "padding" : 70},
+		{"definition":"gearbits02", "padding" : 70},
+		{"definition":"cones1", "padding" : 70},
+		{"definition":"powerpods01", "padding" : 70},
+		{"definition":"barrels1", "padding" : 70},
+		{"definition":"hazard4", "padding" : 70},
+		
+	
+		{"definition":"mysterybox01", "padding" : 100},
+		{"definition":"cones2", "padding" : 50},
+		{"definition":"barrels2", "padding" : 50},
+		{"definition":"cones3", "padding" : 50},
+		{"definition":"hazard4", "padding" : 100},
+		{"definition":"cones3", "padding" : 50},
+		{"definition":"gearbits02", "padding" : 100},
+		{"definition":"mysterybox01", "padding" : 100},
+		{"definition":"boostLane2", "padding" : 10}
+
+	],
+
+	"bgDefinitions" : {
+
+		"beginElements":[
+			{"type": "bgElement", "display" : "building01_3", "x" : -3400, "distance":2},
+			{"type": "bgElement", "display" : "building02", "x" : 3100, "distance":2},
+			{"type": "bgElement", "display" : "racebanner", "x" : 0, "y" : 2500, "distance":2}
+		],
+
+		"village":[
+			{"type": "bgElement", "display" : "building05", "x" : 3900, "distance":5},
+			{"type": "bgElement", "display" : "building06", "x" : -3900, "distance":5},
+			{"type": "bgElement", "display" : "cactus01", "x" : 3000, "distance":3},
+			{"type": "bgElement", "display" : "cactus01", "x" : -3200, "distance":2},
+			{"type": "bgElement", "display" : "building11", "x" : 3900, "distance":10},
+			{"type": "bgElement", "display" : "building12", "x" : -3900, "distance":10},
+			{"type": "bgElement", "display" : "cactus02", "x" : 3500, "distance":11},
+			{"type": "bgElement", "display" : "cactus02", "x" : -3000, "distance":7},
+			{"type": "bgElement", "display" : "building11", "x" : 9500, "distance":14},
+			{"type": "bgElement", "display" : "building12", "x" : -9500, "distance":14},
+			{"type": "bgElement", "display" : "building09", "x" : 3900, "distance":15},
+			{"type": "bgElement", "display" : "building10", "x" : -3900, "distance":15},
+			{"type": "bgElement", "display" : "building03", "x" : 3900, "distance":18},
+			{"type": "bgElement", "display" : "building04", "x" : -3900, "distance":18}
+		],
+
+		"villageBounds":[
+			{"type": "bgElement", "display" : "building05", "x" : 3900, "distance":5},
+			{"type": "bgElement", "display" : "building06", "x" : -3900, "distance":5},
+			{"type": "bgElement", "display" : "cactus01", "x" : 3000, "distance":3},
+			{"type": "bgElement", "display" : "cactus01", "x" : -3200, "distance":2},
+			{"type": "bgElement", "display" : "building11", "x" : 3900, "distance":10},
+			{"type": "bgElement", "display" : "building12", "x" : -3900, "distance":10},
+			{"type": "bgElement", "display" : "cactus02", "x" : 3500, "distance":11},
+			{"type": "bgElement", "display" : "cactus02", "x" : -3000, "distance":7},
+			{"type": "bgElement", "display" : "building11", "x" : 9500, "distance":14},
+			{"type": "bgElement", "display" : "building12", "x" : -9500, "distance":14},
+			{"type": "bgElement", "display" : "building09", "x" : 3900, "distance":15},
+			{"type": "bgElement", "display" : "building10", "x" : -3900, "distance":15},
+			{"type": "bgElement", "display" : "building09", "x" : 3900, "distance":16},
+			{"type": "bgElement", "display" : "building10", "x" : -3900, "distance":16},
+			{"type": "bgElement", "display" : "cactus01", "x" : 2900, "distance":17},
+			{"type": "bgElement", "display" : "cactus01", "x" : -3300, "distance":17},
+			{"type": "bgElement", "display" : "building09", "x" : 3900, "distance":18},
+			{"type": "bgElement", "display" : "building10", "x" : -3900, "distance":18},
+			{"type": "bgElement", "display" : "cactus01", "x" : 2900, "distance":17},
+			{"type": "bgElement", "display" : "cactus01", "x" : -3300, "distance":17}
+
+		],
+
+		"rocktunnel01" : [
+			{"type": "bgElement", "display" : "rock06", "amount" : 50, "spacing" : 5, "x" : 700, "distance":1}
+		],
+
+		"cacti01" : [
+			{"type": "bgElement", "display" : "cactus01", "amount" : 20, "spacing" : 5, "x" : 3900, "distance":1},
+			{"type": "bgElement", "display" : "cactus01", "amount" : 20, "spacing" : 5, "x" : 4900, "distance":5},
+			{"type": "bgElement", "display" : "cactus01", "amount" : 20, "spacing" : 5, "x" : 5900, "distance":15},
+			{"type": "bgElement", "display" : "cactus01", "amount" : 20, "spacing" : 5, "x" : 6900, "distance":20},
+			{"type": "bgElement", "display" : "cactus01", "amount" : 20, "spacing" : 5, "x" : 7900, "distance":27},
+
+			{"type": "bgElement", "display" : "cactus01", "amount" : 20, "spacing" : 5, "x" : -3900, "distance":1},
+			{"type": "bgElement", "display" : "cactus01", "amount" : 20, "spacing" : 5, "x" : -4900, "distance":5},
+			{"type": "bgElement", "display" : "cactus01", "amount" : 20, "spacing" : 5, "x" : -5900, "distance":15},
+			{"type": "bgElement", "display" : "cactus01", "amount" : 20, "spacing" : 5, "x" : -6900, "distance":20},
+			{"type": "bgElement", "display" : "cactus01", "amount" : 20, "spacing" : 5, "x" : -7900, "distance":27},
+
+			{"type": "bgElement", "display" : "cactus02", "amount" : 12, "spacing" : 10, "x" : 3900, "distance":3},
+			{"type": "bgElement", "display" : "cactus02", "amount" : 12, "spacing" : 10, "x" : 4900, "distance":7},
+			{"type": "bgElement", "display" : "cactus02", "amount" : 12, "spacing" : 10, "x" : 5900, "distance":17},
+			{"type": "bgElement", "display" : "cactus02", "amount" : 12, "spacing" : 10, "x" : 6900, "distance":23},
+			{"type": "bgElement", "display" : "cactus02", "amount" : 12, "spacing" : 10, "x" : 7900, "distance":30},
+
+			{"type": "bgElement", "display" : "cactus02", "amount" : 12, "spacing" : 10, "x" : -3900, "distance":3},
+			{"type": "bgElement", "display" : "cactus02", "amount" : 12, "spacing" : 10, "x" : -4900, "distance":7},
+			{"type": "bgElement", "display" : "cactus02", "amount" : 12, "spacing" : 10, "x" : -5900, "distance":17},
+			{"type": "bgElement", "display" : "cactus02", "amount" : 12, "spacing" : 10, "x" : -6900, "distance":23},
+			{"type": "bgElement", "display" : "cactus02", "amount" : 12, "spacing" : 10, "x" : -7900, "distance":30}
+			
+			
+		],
+
+		"bgElements01" : [
+			{"type": "bgElement", "display" : "rock01", "x" : -4000, "distance":1},
+			{"type": "bgElement", "display" : "rock02_1", "x" : 4000, "distance":3},
+			{"type": "bgElement", "display" : "building08", "x" : -4500, "distance":12},
+			{"type": "bgElement", "display" : "building01_2", "x" : 4500, "distance":62},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -7390, "distance":20},
+			{"type": "bgElement", "display" : "building08", "x" : 5483, "distance":30},
+			{"type": "bgElement", "display" : "rock01", "x" : 6000, "distance":12},
+			{"type": "bgElement", "display" : "building07", "x" : -4500, "distance":44},
+			{"type": "bgElement", "display" : "building08", "x" : 4500, "distance":13},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -4532, "distance":30},
+			{"type": "bgElement", "display" : "building08", "x" : 5500, "distance":18},
+			{"type": "bgElement", "display" : "rock02_1", "x" : 4000, "distance":14},
+			{"type": "bgElement", "display" : "rock02_1", "x" : -4000, "distance":14},
+			{"type": "bgElement", "display" : "building08", "x" : -4500, "distance":46},
+			{"type": "bgElement", "display" : "rock01_1", "x" : 6245, "distance":13},
+			{"type": "bgElement", "display" : "building07", "x" : -5800, "distance":30},
+			{"type": "bgElement", "display" : "building08", "x" : 7643, "distance":18},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -4500, "distance":15},
+			{"type": "bgElement", "display" : "rock03_1", "x" : -6000, "distance":13},
+			{"type": "bgElement", "display" : "building07", "x" : -4500, "distance":52},
+			{"type": "bgElement", "display" : "building07", "x" : 4500, "distance":23},
+			{"type": "bgElement", "display" : "building08", "x" : -5500, "distance":18},
+			{"type": "bgElement", "display" : "rock01_1", "x" : 4426, "distance":18},
+			{"type": "bgElement", "display" : "rock02", "x" : -4421, "distance":18},
+			{"type": "bgElement", "display" : "rock03", "x" : -8500, "distance":25},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -6342, "distance":88},
+			{"type": "bgElement", "display" : "rock02_1", "x" : 4516, "distance":53},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -5500, "distance":30},
+			{"type": "bgElement", "display" : "rock02_1", "x" : 5500, "distance":25},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -6500, "distance":30},
+			{"type": "bgElement", "display" : "building01_2", "x" : 5500, "distance":33},
+
+
+			{"type": "bgElement", "display" : "rock02_1", "x" : 8000, "distance":3},
+			{"type": "bgElement", "display" : "rock01", "x" : 12000, "distance":12},
+			{"type": "bgElement", "display" : "rock02_1", "x" : 8000, "distance":14},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -7500, "distance":15},
+			{"type": "bgElement", "display" : "rock03_1", "x" : -12000, "distance":13},
+			{"type": "bgElement", "display" : "rock02", "x" : -8500, "distance":18},
+			{"type": "bgElement", "display" : "rock03", "x" : 10500, "distance":25},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -6500, "distance":30},
+
+			{"type": "bgElement", "display" : "rock01", "x" : 5000, "distance":26}
+		],
+
+		"bgElements02" : [
+			{"type": "bgElement", "display" : "cactus01", "x" : 3900, "distance":5},
+			{"type": "bgElement", "display" : "cactus02", "x" : -3900, "distance":5},
+			{"type": "bgElement", "display" : "cactus01", "x" : 3000, "distance":3},
+			{"type": "bgElement", "display" : "cactus02", "x" : -3200, "distance":2},
+			{"type": "bgElement", "display" : "cactus01", "x" : 3900, "distance":10},
+			{"type": "bgElement", "display" : "cactus01", "x" : -3900, "distance":10},
+			{"type": "bgElement", "display" : "cactus02", "x" : 3500, "distance":11},
+			{"type": "bgElement", "display" : "cactus01", "x" : -3000, "distance":7},
+			{"type": "bgElement", "display" : "cactus01", "x" : 9500, "distance":14},
+			{"type": "bgElement", "display" : "cactus02", "x" : -9500, "distance":14},
+
+			{"type": "bgElement", "display" : "rock01", "x" : -4000, "distance":14},
+			{"type": "bgElement", "display" : "rock01", "x" : 4000, "distance":1},
+			{"type": "bgElement", "display" : "rock02_1", "x" : -4000, "distance":3},
+			{"type": "bgElement", "display" : "rock01", "x" : -6000, "distance":12},
+			{"type": "bgElement", "display" : "rock02_1", "x" : 4000, "distance":14},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -5000, "distance":15},
+			{"type": "bgElement", "display" : "rock03_1", "x" : -6000, "distance":13},
+			{"type": "bgElement", "display" : "rock02", "x" : 4500, "distance":18},
+
+			{"type": "bgElement", "display" : "rock02_1", "x" : -8000, "distance":3},
+			{"type": "bgElement", "display" : "rock01", "x" : -12000, "distance":12},
+			{"type": "bgElement", "display" : "rock02_1", "x" : 8000, "distance":14},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -10000, "distance":15},
+			{"type": "bgElement", "display" : "rock03_1", "x" : -12000, "distance":13},
+			{"type": "bgElement", "display" : "rock02", "x" : 8500, "distance":18},
+
+
+			{"type": "bgElement", "display" : "rock03", "x" : 5500, "distance":25},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -6500, "distance":30}
+			
+		],
+
+		"bgElements03" : [
+			{"type": "bgElement", "display" : "cactus01", "x" : 3900, "distance":5},
+			{"type": "bgElement", "display" : "cactus02", "x" : -3900, "distance":5},
+			{"type": "bgElement", "display" : "cactus01", "x" : 3000, "distance":3},
+			{"type": "bgElement", "display" : "cactus02", "x" : -3200, "distance":2},
+			{"type": "bgElement", "display" : "cactus01", "x" : 3900, "distance":10},
+			{"type": "bgElement", "display" : "cactus01", "x" : -3900, "distance":10},
+			{"type": "bgElement", "display" : "cactus02", "x" : 3500, "distance":11},
+			{"type": "bgElement", "display" : "cactus01", "x" : -3000, "distance":7},
+			{"type": "bgElement", "display" : "cactus01", "x" : 9500, "distance":14},
+			{"type": "bgElement", "display" : "cactus02", "x" : -9500, "distance":14},
+
+			{"type": "bgElement", "display" : "rock02_1", "x" : -8000, "distance":3},
+			{"type": "bgElement", "display" : "rock01", "x" : -12000, "distance":12},
+			{"type": "bgElement", "display" : "building06", "x" : -4500, "distance":13},
+			{"type": "bgElement", "display" : "building07", "x" : 4500, "distance":14},
+			{"type": "bgElement", "display" : "building08", "x" : -5500, "distance":30},
+			{"type": "bgElement", "display" : "building09", "x" : 5500, "distance":18},
+
+			{"type": "bgElement", "display" : "rock01", "x" : -4000, "distance":14},
+			{"type": "bgElement", "display" : "rock01", "x" : 4000, "distance":1},
+			{"type": "bgElement", "display" : "rock02_1", "x" : -4000, "distance":3},
+			{"type": "bgElement", "display" : "rock01", "x" : -6000, "distance":12},
+			{"type": "bgElement", "display" : "rock02_1", "x" : 4000, "distance":14},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -5000, "distance":15},
+			{"type": "bgElement", "display" : "rock03_1", "x" : -6000, "distance":13},
+			{"type": "bgElement", "display" : "rock02", "x" : 4500, "distance":18},
+
+			{"type": "bgElement", "display" : "rock02_1", "x" : -8000, "distance":3},
+			{"type": "bgElement", "display" : "rock01", "x" : -12000, "distance":12},
+			{"type": "bgElement", "display" : "rock02_1", "x" : 8000, "distance":14},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -10000, "distance":15},
+			{"type": "bgElement", "display" : "rock03_1", "x" : -12000, "distance":13},
+			{"type": "bgElement", "display" : "rock02", "x" : 8500, "distance":18},
+
+
+			{"type": "bgElement", "display" : "rock03", "x" : 5500, "distance":25},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -6500, "distance":30},
+
+			{"type": "bgElement", "display" : "cactus02", "x" : -6200, "distance":2},
+			{"type": "bgElement", "display" : "cactus01", "x" : 6900, "distance":10},
+			{"type": "bgElement", "display" : "cactus01", "x" : -6900, "distance":10},
+			{"type": "bgElement", "display" : "cactus02", "x" : 6500, "distance":11},
+			{"type": "bgElement", "display" : "cactus01", "x" : -6000, "distance":7},
+			{"type": "bgElement", "display" : "cactus01", "x" : 12500, "distance":14},
+			{"type": "bgElement", "display" : "cactus02", "x" : -12500, "distance":14},
+			{"type": "bgElement", "display" : "cactus01", "x" : 6900, "distance":15},
+			{"type": "bgElement", "display" : "cactus01", "x" : -6900, "distance":15},
+			{"type": "bgElement", "display" : "cactus02", "x" : 6900, "distance":16},
+			{"type": "bgElement", "display" : "cactus01", "x" : -6900, "distance":16},
+			{"type": "bgElement", "display" : "cactus01", "x" : 5900, "distance":17},
+			{"type": "bgElement", "display" : "cactus02", "x" : -6300, "distance":17},
+			{"type": "bgElement", "display" : "cactus01", "x" : 6900, "distance":18},
+			{"type": "bgElement", "display" : "cactus02", "x" : -6900, "distance":18},
+			{"type": "bgElement", "display" : "cactus02", "x" : 5900, "distance":17},
+			{"type": "bgElement", "display" : "cactus01", "x" : -6300, "distance":17}
+			
+		]
+	},
+
+	"bgPositioning" : [
+		{"definition":"village", "padding" : 1},
+		{"definition":"beginElements", "padding" : 1},
+		{"definition":"village", "padding" : 1},
+		{"definition":"village", "padding" : 1},
+		{"definition":"village", "padding" : 1},
+		{"definition":"village", "padding" : 1},
+		{"definition":"village", "padding" : 1},
+		{"definition":"villageBounds", "padding" : 1},
+		{"definition":"cacti01", "padding" : 1},
+		{"definition":"cacti01", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements03", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements03", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements03", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements03", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements03", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements03", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements03", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements03", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements03", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements03", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements03", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements03", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"rocktunnel01", "padding" : 1},
+		{"definition":"rocktunnel01", "padding" : 1},
+		{"definition":"cacti01", "padding" : 1},
+		{"definition":"cacti01", "padding" : 1},
+		{"definition":"cacti01", "padding" : 1},
+		{"definition":"cacti01", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements03", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements03", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements03", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements03", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements03", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements03", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements03", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1},
+		{"definition":"bgElements03", "padding" : 1},
+		{"definition":"bgElements02", "padding" : 1}
+
+	]
+}
+				
+
+
+
+			
+
+

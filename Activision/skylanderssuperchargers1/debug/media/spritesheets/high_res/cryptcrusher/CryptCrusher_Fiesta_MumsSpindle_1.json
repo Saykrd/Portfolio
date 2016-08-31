@@ -1,0 +1,492 @@
+{"frames": [
+
+{
+	"filename": "CC_mumspindle_FFengine_left/0000",
+	"frame": {"x":1314,"y":452,"w":250,"h":219},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":17,"w":250,"h":219},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_FFengine_left/0001",
+	"frame": {"x":1064,"y":444,"w":250,"h":215},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":17,"w":250,"h":215},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_FFengine_left/0002",
+	"frame": {"x":870,"y":185,"w":262,"h":225},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":13,"w":262,"h":225},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_FFengine_left/0003",
+	"frame": {"x":1132,"y":223,"w":262,"h":221},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":12,"w":262,"h":221},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_FFengine_left/0004",
+	"frame": {"x":2,"y":440,"w":290,"h":227},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":9,"w":290,"h":227},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_FFengine_left/0005",
+	"frame": {"x":2,"y":1123,"w":290,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":9,"w":290,"h":223},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_FFengine_left/0006",
+	"frame": {"x":1764,"y":2,"w":250,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":15,"w":250,"h":223},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_FFengine_left/0007",
+	"frame": {"x":814,"y":410,"w":250,"h":219},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":14,"w":250,"h":219},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_FFengine_right/0000",
+	"frame": {"x":292,"y":989,"w":242,"h":221},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":109,"y":17,"w":242,"h":221},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_FFengine_right/0001",
+	"frame": {"x":292,"y":1210,"w":242,"h":219},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":109,"y":16,"w":242,"h":219},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_FFengine_right/0002",
+	"frame": {"x":1394,"y":225,"w":260,"h":227},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":91,"y":13,"w":260,"h":227},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_FFengine_right/0003",
+	"frame": {"x":1654,"y":225,"w":260,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":91,"y":12,"w":260,"h":223},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_FFengine_right/0004",
+	"frame": {"x":2,"y":667,"w":288,"h":229},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":63,"y":9,"w":288,"h":229},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_FFengine_right/0005",
+	"frame": {"x":2,"y":896,"w":288,"h":227},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":63,"y":8,"w":288,"h":227},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_FFengine_right/0006",
+	"frame": {"x":290,"y":764,"w":242,"h":225},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":109,"y":15,"w":242,"h":225},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_FFengine_right/0007",
+	"frame": {"x":532,"y":766,"w":242,"h":221},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":109,"y":14,"w":242,"h":221},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_FFengine_straight/0000",
+	"frame": {"x":1564,"y":452,"w":210,"h":221},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":102,"y":15,"w":210,"h":221},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_FFengine_straight/0001",
+	"frame": {"x":758,"y":1212,"w":210,"h":221},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":102,"y":14,"w":210,"h":221},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_FFengine_straight/0002",
+	"frame": {"x":534,"y":1210,"w":224,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":102,"y":12,"w":224,"h":223},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_FFengine_straight/0003",
+	"frame": {"x":534,"y":987,"w":224,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":102,"y":13,"w":224,"h":223},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_FFengine_straight/0004",
+	"frame": {"x":1232,"y":2,"w":266,"h":221},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":83,"y":15,"w":266,"h":221},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_FFengine_straight/0005",
+	"frame": {"x":1498,"y":2,"w":266,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":83,"y":12,"w":266,"h":223},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_FFengine_straight/0006",
+	"frame": {"x":562,"y":358,"w":252,"h":217},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":18,"w":252,"h":217},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_FFengine_straight/0007",
+	"frame": {"x":310,"y":356,"w":252,"h":217},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":19,"w":252,"h":217},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_coffinclapper_left/0000",
+	"frame": {"x":542,"y":575,"w":250,"h":191},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":45,"w":250,"h":191},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_coffinclapper_left/0001",
+	"frame": {"x":1292,"y":671,"w":250,"h":181},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":51,"w":250,"h":181},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_coffinclapper_left/0002",
+	"frame": {"x":1024,"y":836,"w":250,"h":183},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":55,"w":250,"h":183},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_coffinclapper_left/0003",
+	"frame": {"x":1274,"y":852,"w":250,"h":177},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":56,"w":250,"h":177},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_coffinclapper_right/0000",
+	"frame": {"x":1732,"y":1214,"w":242,"h":177},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":109,"y":61,"w":242,"h":177},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_coffinclapper_right/0001",
+	"frame": {"x":1732,"y":1035,"w":242,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":109,"y":56,"w":242,"h":179},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_coffinclapper_right/0002",
+	"frame": {"x":1210,"y":1415,"w":242,"h":183},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":109,"y":57,"w":242,"h":183},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_coffinclapper_right/0003",
+	"frame": {"x":1490,"y":1220,"w":242,"h":177},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":109,"y":58,"w":242,"h":177},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_coffinclapper_straight/0000",
+	"frame": {"x":1784,"y":649,"w":212,"h":201},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":102,"y":35,"w":212,"h":201},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_coffinclapper_straight/0001",
+	"frame": {"x":1452,"y":1397,"w":232,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":102,"y":40,"w":232,"h":195},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_coffinclapper_straight/0002",
+	"frame": {"x":742,"y":1433,"w":222,"h":205},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":90,"y":30,"w":222,"h":205},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_coffinclapper_straight/0003",
+	"frame": {"x":1246,"y":1029,"w":244,"h":201},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":35,"w":244,"h":201},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_mummymotif_left/0000",
+	"frame": {"x":664,"y":2,"w":298,"h":177},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":59,"w":298,"h":177},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_mummymotif_left/0001",
+	"frame": {"x":342,"y":2,"w":322,"h":177},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":55,"w":322,"h":177},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_mummymotif_left/0002",
+	"frame": {"x":962,"y":2,"w":270,"h":183},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":55,"w":270,"h":183},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_mummymotif_left/0003",
+	"frame": {"x":342,"y":179,"w":264,"h":177},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":56,"w":264,"h":177},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_mummymotif_right/0000",
+	"frame": {"x":1490,"y":1035,"w":242,"h":185},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":109,"y":53,"w":242,"h":185},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_mummymotif_right/0001",
+	"frame": {"x":606,"y":179,"w":264,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":87,"y":56,"w":264,"h":179},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_mummymotif_right/0002",
+	"frame": {"x":1524,"y":852,"w":242,"h":183},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":109,"y":57,"w":242,"h":183},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_mummymotif_right/0003",
+	"frame": {"x":968,"y":1415,"w":242,"h":177},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":109,"y":58,"w":242,"h":177},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_mummymotif_straight/0000",
+	"frame": {"x":758,"y":993,"w":244,"h":219},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":88,"y":17,"w":244,"h":219},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_mummymotif_straight/0001",
+	"frame": {"x":2,"y":1346,"w":276,"h":219},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":16,"w":276,"h":219},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_mummymotif_straight/0002",
+	"frame": {"x":2,"y":2,"w":340,"h":219},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":16,"w":340,"h":219},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_mummymotif_straight/0003",
+	"frame": {"x":2,"y":221,"w":308,"h":219},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":84,"y":17,"w":308,"h":219},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_woodgeist_left/0000",
+	"frame": {"x":292,"y":573,"w":250,"h":191},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":44,"w":250,"h":191},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_woodgeist_left/0001",
+	"frame": {"x":792,"y":629,"w":250,"h":181},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":51,"w":250,"h":181},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_woodgeist_left/0002",
+	"frame": {"x":774,"y":810,"w":250,"h":183},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":55,"w":250,"h":183},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_woodgeist_left/0003",
+	"frame": {"x":1042,"y":659,"w":250,"h":177},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":56,"w":250,"h":177},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_woodgeist_right/0000",
+	"frame": {"x":1684,"y":1397,"w":242,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":109,"y":59,"w":242,"h":179},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_woodgeist_right/0001",
+	"frame": {"x":1542,"y":673,"w":242,"h":179},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":109,"y":56,"w":242,"h":179},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_woodgeist_right/0002",
+	"frame": {"x":1200,"y":1230,"w":242,"h":185},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":109,"y":55,"w":242,"h":185},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_woodgeist_right/0003",
+	"frame": {"x":278,"y":1429,"w":242,"h":177},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":109,"y":58,"w":242,"h":177},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_woodgeist_straight/0000",
+	"frame": {"x":1774,"y":448,"w":212,"h":201},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":102,"y":35,"w":212,"h":201},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_woodgeist_straight/0001",
+	"frame": {"x":968,"y":1220,"w":232,"h":195},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":102,"y":40,"w":232,"h":195},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_woodgeist_straight/0002",
+	"frame": {"x":520,"y":1433,"w":222,"h":205},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":90,"y":30,"w":222,"h":205},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_mumspindle_woodgeist_straight/0003",
+	"frame": {"x":1002,"y":1019,"w":244,"h":201},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":35,"w":244,"h":201},
+	"sourceSize": {"w":424,"h":265}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "CryptCrusher_Fiesta_MumsSpindle_1.png",
+	"format": "RGBA8888",
+	"size": {"w":2016,"h":1640},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:274d3b88392ec58d04c74ad20adba792:1/1$"
+}
+}

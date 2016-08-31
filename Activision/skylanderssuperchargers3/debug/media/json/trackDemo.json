@@ -1,0 +1,624 @@
+{
+	"id" : "track001",
+	"name": "Track 001",
+	"preRaceMessage": "PanderGastRaceTrack1",
+	"laps": 1,
+	"lanes" : 3,
+	"scoring" : [100000, 150000, 180000],
+	"unlocks" : "Track002",
+	"events" : [
+		{"id": "evt002", "event" : "start" }
+	],
+
+	"colors" : {
+		"LIGHT": { "road": "#D5A55E", "rumble": "#D5A55E", "offroad": "#866138", "lane":"#FFFFFF" },
+		"DARK":  { "road": "#CE974F", "rumble": "#CE974F", "offroad": "#845F34" }
+	},
+
+
+	"roadSettings" : {
+		"length"   : {"none" : 0, "short" : 25, "medium": 50, "long": 100},
+		"curve"    : {"none" : 0, "easy"  : 2,  "medium": 4,  "hard": 6},
+		"elevation": {"none" : 0, "low"   : 20, "medium": 40, "high": 60}
+	},
+
+
+	"roadData": [
+
+		{ "length": "medium" },
+		{ "length": "medium", "curve": "medium", "dirX": "right", "elevation":"medium", "dirY":"up"},
+		{ "length": "long" },
+		{ "length": "medium", "curve": "easy", "dirX": "left", "elevation":"none" },
+		{ "length": "medium", "curve": "medium", "dirX": "right", "elevation": "medium", "dirY": "up" },
+		{ "length": "medium", "curve": "easy", "dirX": "right", "elevation": "low", "dirY": "down" },
+		{ "length": "medium", "curve": "easy", "dirX": "left", "elevation": "medium", "dirY": "up" },
+		{ "length": "medium", "curve": "medium", "dirX": "left", "elevation": "medium", "dirY": "down" },
+		{ "length": "medium"},
+		{ "length": "long", "elevation":"high", "dirY":"up"},
+		{ "length": "medium", "elevation": "high", "dirY": "down" },
+		{ "length": "medium", "elevation": "high", "dirY": "up" },
+		{ "length": "medium" },
+		{ "length": "long", "elevation":"high", "dirY":"up"},
+		{ "length": "medium", "curve": "medium", "dirX": "right", "elevation": "high", "dirY": "down" },
+		{ "length": "medium", "curve": "medium", "dirX": "left", "elevation": "high", "dirY": "up" },
+		{ "length": "medium", "curve": "easy", "dirX": "right", "elevation": "low", "dirY": "up" },
+		{ "length": "long" },
+		{ "length": "medium", "curve": "medium", "dirX": "right", "elevation": "high", "dirY": "down" },
+		{ "length": "medium", "curve": "hard", "dirX": "left", "elevation": "medium", "dirY": "down" },
+		{ "length": "long" },
+		{ "length": "long" },
+		{ "length": "long", "curve": "medium", "dirX": "left", "elevation": "high", "dirY": "down" },
+		{ "length": "medium", "curve": "medium", "dirX": "right", "elevation": "medium", "dirY": "down" },
+		{ "length": "long" },
+		{ "length": "medium"},
+		{ "length": "long", "elevation":"high", "dirY":"up"},
+		{ "length": "medium", "elevation": "high", "dirY": "down" },
+		{ "length": "medium", "elevation": "medium", "dirY": "up" },
+		{ "length": "medium" },
+		{ "length": "medium" },
+		{ "length": "medium", "curve": "medium", "dirX": "right", "elevation":"medium", "dirY":"up"},
+		{ "length": "long" },
+		{ "length": "medium", "curve": "easy", "dirX": "left", "elevation":"none" },
+		{ "length": "medium", "curve": "medium", "dirX": "right", "elevation": "medium", "dirY": "up" },
+		{ "length": "medium", "curve": "easy", "dirX": "right", "elevation": "low", "dirY": "down" },
+		{ "length": "medium", "curve": "easy", "dirX": "left", "elevation": "medium", "dirY": "up" },
+		{ "length": "medium", "curve": "medium", "dirX": "left", "elevation": "medium", "dirY": "down" },
+		{ "length": "medium"},
+		{ "length": "long", "elevation":"high", "dirY":"up"},
+		{ "length": "medium", "elevation": "high", "dirY": "down" },
+		{ "length": "medium" },
+		{ "length": "medium", "elevation":"high", "dirY":"down"},
+		{ "length": "long", "elevation":"medium", "dirY":"down"},
+		{ "length": "long" }
+
+
+
+
+	],
+
+	"elementDefinitions": {
+		"racers" : [
+			{ "type":"racer", "id":"player",   "lane":2, "distance":2},
+			{ "type":"racer", "id":"rival",   "lane":3, "distance":4},
+			{ "type":"racer", "id":"opponent1", "lane":1, "distance":6, "class":"vehicle_chompy"},
+
+			{ "type":"racer", "id":"opponent2", "lane":2, "distance":8, "class":"vehicle_chompy"},
+			{ "type":"racer", "id":"opponent3", "lane":3, "distance":10, "class":"vehicle_chompy"},
+			{ "type":"racer", "id":"opponent4", "lane":1, "distance":12, "class":"vehicle_chompy"},
+
+			{ "type":"racemarker", "distance":20}
+		],
+
+		"solo" : [
+			{ "type":"racer", "id":"player",   "lane":2, "distance":12},
+			{ "type":"racemarker", "distance":20}
+		],
+
+
+		"gearbits00": [
+			{"type": "gearbit",  "class" : "gearbit", "amount":8, "spacing":3, "lane": 2, "distance":1},
+			{"type": "gearbit",  "class" : "gearbit2", "amount":1, "spacing":3, "lane": 2, "distance":27}
+
+		],
+
+		"gearbits01": [
+			{"type": "gearbit",   "amount":8, "spacing":3, "lane": 3, "distance":1},
+			{"type": "gearbit",   "amount":8, "spacing":3, "lane": 1, "distance":1}
+		],
+
+		"gearbits02": [
+			{"type": "gearbit", "class" : "gearbit",   "amount":8, "spacing":3, "lane": 3, "distance":1},
+			{"type": "gearbit", "class" : "gearbit",   "amount":8, "spacing":3, "lane": 1, "distance":1},
+			{"type": "gearbit", "class" : "gearbit2",   "amount":1, "spacing":3, "lane": 3, "distance":27},
+			{"type": "gearbit", "class" : "gearbit2",   "amount":1, "spacing":3, "lane": 1, "distance":27}
+		],
+
+		"gearbits03": [
+			{"type": "gearbit",   "amount":8, "spacing":3, "lane": 1, "distance":1},
+			{"type": "gearbit",   "amount":8, "spacing":3, "lane": 2, "distance":26},
+			{"type": "gearbit",  "class" : "gearbit2", "amount":8, "spacing":3, "lane": 3, "distance":52}
+		],
+
+
+		"powerpods01": [
+			{"type": "powerpod",   "amount":8, "spacing":3, "lane": 3, "distance":1},
+			{"type": "powerpod",   "amount":8, "spacing":3, "lane": 1, "distance":1}
+		],
+
+		"enemies01": [
+			{"type": "enemy", "class" : "chompy",  "amount":1, "spacing":10, "lane": 2, "distance":1},
+			{"type": "enemy", "class" : "chompy",  "amount":1, "spacing":10, "lane": 3, "distance":20},
+			{"type": "enemy", "class" : "chompy",  "amount":1, "spacing":10, "lane": 1, "distance":28}
+		],
+
+		"enemies02": [
+			{"type": "enemy", "class" : "greeble",  "amount":1, "spacing":3, "lane": 1, "distance":2},
+			{"type": "enemy", "class" : "greeble",  "amount":1, "spacing":3, "lane": 2, "distance":16},
+			{"type": "enemy", "class" : "greeble",  "amount":1, "spacing":3, "lane": 3 , "distance":8}
+		],
+
+		"enemies03": [
+			{"type": "enemy", "class" : "troll",  "amount":3, "spacing":25, "lane": 1, "distance":1},
+			{"type": "enemy", "class" : "troll",  "amount":3, "spacing":25, "lane": 2, "distance":1},
+			{"type": "enemy", "class" : "troll",  "amount":3, "spacing":25, "lane": 3, "distance":1}
+		],
+
+		"mysterybox01": [
+			{"type": "mysterybox",   "amount":1, "spacing":3, "lane": 1, "distance":1},
+			{"type": "mysterybox",   "amount":1, "spacing":3, "lane": 2, "distance":1},
+			{"type": "mysterybox",   "amount":1, "spacing":3, "lane": 3, "distance":1}
+		],
+
+
+
+
+		"hazard1" : [
+			{"type": "structure", "display" : "obstacle01", "class":"boulder1", "lane": 2, "distance":10}
+		],
+
+		"hazard2" : [
+			{"type": "gearbit",   "amount":8, "spacing":3, "lane": 2, "distance":1},
+			{"type": "gearbit", "class" : "gearbit2",   "amount":1, "spacing":3, "lane": 2, "distance":27},
+			{"type": "structure", "display" : "obstacle01", "lane": 1, "distance":27},
+			{"type": "structure","display" : "obstacle01", "lane": 3, "distance":27}
+		],
+
+		"hazard3" : [
+			{"type": "gearbit",   "amount":8, "spacing":3, "lane": 2, "distance":1},
+			{"type": "structure", "lane": 1,"display" : "obstacle03", "distance":1},
+			{"type": "structure", "lane": 3,"display" : "obstacle02", "distance":1},
+			{"type": "structure", "lane": 2,"display" : "obstacle01", "distance":26}
+		],
+
+		"hazard4" : [
+			{"type": "structure", "display" : "obstacle01", "lane": 1, "distance":1},
+			{"type": "structure", "display" : "obstacle02", "lane": 2, "distance":12},
+			{"type": "structure", "display" : "obstacle01", "lane": 3, "distance":24},
+			{"type": "structure", "display" : "obstacle03", "lane": 2, "distance":36},
+			{"type": "structure", "display" : "obstacle02", "lane": 1, "distance":48},
+			{"type": "structure", "display" : "obstacle03", "lane": 3, "distance":48}
+		],
+
+		"icefloor1" : [
+			{"type": "icefloor",   "amount":5, "spacing":1, "lane": 3, "distance":1}
+
+		],
+
+		"roughfloor1" : [
+			{"type": "roughfloor",   "amount":21, "spacing":1, "lane": 1, "distance":1},
+			{"type": "roughfloor",   "amount":21, "spacing":1, "lane": 3, "distance":1},
+			{"type": "gearbit",   "amount":8, "spacing":3, "lane": 2, "distance":1},
+			{"type": "gearbit", "class" : "gearbit2",   "amount":1, "spacing":3, "lane": 3, "distance":24},
+			{"type": "gearbit", "class" : "gearbit2",   "amount":1, "spacing":3, "lane": 1, "distance":24}
+
+		],
+
+		"boostLane1" : [
+			{"type": "boostpad",   "amount":5, "spacing":3, "lane": 2, "distance":1}
+
+		],
+
+		"boostLane2" : [
+			{"type": "boostpad",   "amount":5, "spacing":3, "lane": 1, "distance":1},
+			{"type": "boostpad",   "amount":5, "spacing":3, "lane": 3, "distance":1}
+		],
+
+		"boostLane3" : [
+			{"type": "boostpad",   "amount":5, "spacing":3, "lane": 1, "distance":1},
+			{"type": "boostpad",   "amount":5, "spacing":3, "lane": 2, "distance":32},
+			{"type": "boostpad", "amount": 5, "spacing": 3, "lane": 1, "distance":64},
+			{"type": "boostpad",   "amount":5, "spacing":3, "lane": 3, "distance":96}
+		]
+
+	},
+
+	"elementPositioning": [
+		{"definition":"solo"}
+
+	],
+
+	"bgDefinitions" : {
+
+		"beginElements":[
+			{"type": "bgElement", "display" : "building01_3", "x" : -3400, "distance":2},
+			{"type": "bgElement", "display" : "building02", "x" : 3100, "distance":2},
+			{"type": "bgElement", "display" : "racebanner", "x" : 0, "y" : 2500, "distance":2}
+		],
+
+		"village":[
+			{"type": "bgElement", "display" : "building05", "x" : 3900, "distance":5},
+			{"type": "bgElement", "display" : "building06", "x" : -3900, "distance":5},
+			{"type": "bgElement", "display" : "cactus01", "x" : 3000, "distance":3},
+			{"type": "bgElement", "display" : "cactus01", "x" : -3200, "distance":2},
+			{"type": "bgElement", "display" : "building11", "x" : 3900, "distance":10},
+			{"type": "bgElement", "display" : "building12", "x" : -3900, "distance":10},
+			{"type": "bgElement", "display" : "cactus02", "x" : 3500, "distance":11},
+			{"type": "bgElement", "display" : "cactus02", "x" : -3000, "distance":7},
+			{"type": "bgElement", "display" : "building11", "x" : 9500, "distance":14},
+			{"type": "bgElement", "display" : "building12", "x" : -9500, "distance":14},
+			{"type": "bgElement", "display" : "building09", "x" : 3900, "distance":15},
+			{"type": "bgElement", "display" : "building10", "x" : -3900, "distance":15},
+			{"type": "bgElement", "display" : "building03", "x" : 3900, "distance":18},
+			{"type": "bgElement", "display" : "building04", "x" : -3900, "distance":18}
+		],
+
+		"villageBounds":[
+			{"type": "bgElement", "display" : "building05", "x" : 3900, "distance":5},
+			{"type": "bgElement", "display" : "building06", "x" : -3900, "distance":5},
+			{"type": "bgElement", "display" : "cactus01", "x" : 3000, "distance":3},
+			{"type": "bgElement", "display" : "cactus01", "x" : -3200, "distance":2},
+			{"type": "bgElement", "display" : "building11", "x" : 3900, "distance":10},
+			{"type": "bgElement", "display" : "building12", "x" : -3900, "distance":10},
+			{"type": "bgElement", "display" : "cactus02", "x" : 3500, "distance":11},
+			{"type": "bgElement", "display" : "cactus02", "x" : -3000, "distance":7},
+			{"type": "bgElement", "display" : "building11", "x" : 9500, "distance":14},
+			{"type": "bgElement", "display" : "building12", "x" : -9500, "distance":14},
+			{"type": "bgElement", "display" : "building09", "x" : 3900, "distance":15},
+			{"type": "bgElement", "display" : "building10", "x" : -3900, "distance":15},
+			{"type": "bgElement", "display" : "building09", "x" : 3900, "distance":16},
+			{"type": "bgElement", "display" : "building10", "x" : -3900, "distance":16},
+			{"type": "bgElement", "display" : "cactus01", "x" : 2900, "distance":17},
+			{"type": "bgElement", "display" : "cactus01", "x" : -3300, "distance":17},
+			{"type": "bgElement", "display" : "building09", "x" : 3900, "distance":18},
+			{"type": "bgElement", "display" : "building10", "x" : -3900, "distance":18},
+			{"type": "bgElement", "display" : "cactus01", "x" : 2900, "distance":17},
+			{"type": "bgElement", "display" : "cactus01", "x" : -3300, "distance":17}
+
+		],
+
+		"cactusField":[
+			{"type": "bgElement", "display" : "cactus01", "x" : 3900, "distance":5},
+			{"type": "bgElement", "display" : "cactus02", "x" : -3900, "distance":5},
+			{"type": "bgElement", "display" : "cactus01", "x" : 3000, "distance":3},
+			{"type": "bgElement", "display" : "cactus02", "x" : -3200, "distance":2},
+			{"type": "bgElement", "display" : "cactus01", "x" : 3900, "distance":10},
+			{"type": "bgElement", "display" : "cactus01", "x" : -3900, "distance":10},
+			{"type": "bgElement", "display" : "cactus02", "x" : 3500, "distance":11},
+			{"type": "bgElement", "display" : "cactus01", "x" : -3000, "distance":7},
+			{"type": "bgElement", "display" : "cactus01", "x" : 9500, "distance":14},
+			{"type": "bgElement", "display" : "cactus02", "x" : -9500, "distance":14},
+			{"type": "bgElement", "display" : "cactus01", "x" : 3900, "distance":15},
+			{"type": "bgElement", "display" : "cactus01", "x" : -3900, "distance":15},
+			{"type": "bgElement", "display" : "cactus02", "x" : 3900, "distance":16},
+			{"type": "bgElement", "display" : "cactus01", "x" : -3900, "distance":16},
+			{"type": "bgElement", "display" : "cactus01", "x" : 2900, "distance":17},
+			{"type": "bgElement", "display" : "cactus02", "x" : -3300, "distance":17},
+			{"type": "bgElement", "display" : "cactus01", "x" : 3900, "distance":18},
+			{"type": "bgElement", "display" : "cactus02", "x" : -3900, "distance":18},
+			{"type": "bgElement", "display" : "cactus02", "x" : 2900, "distance":17},
+			{"type": "bgElement", "display" : "cactus01", "x" : -3300, "distance":17},
+
+			{"type": "bgElement", "display" : "cactus01", "x" : 6900, "distance":5},
+			{"type": "bgElement", "display" : "cactus02", "x" : -6900, "distance":5},
+			{"type": "bgElement", "display" : "cactus01", "x" : 6000, "distance":3},
+			{"type": "bgElement", "display" : "cactus02", "x" : -6200, "distance":2},
+			{"type": "bgElement", "display" : "cactus01", "x" : 6900, "distance":10},
+			{"type": "bgElement", "display" : "cactus01", "x" : -6900, "distance":10},
+			{"type": "bgElement", "display" : "cactus02", "x" : 6500, "distance":11},
+			{"type": "bgElement", "display" : "cactus01", "x" : -6000, "distance":7},
+			{"type": "bgElement", "display" : "cactus01", "x" : 12500, "distance":14},
+			{"type": "bgElement", "display" : "cactus02", "x" : -12500, "distance":14},
+			{"type": "bgElement", "display" : "cactus01", "x" : 6900, "distance":15},
+			{"type": "bgElement", "display" : "cactus01", "x" : -6900, "distance":15},
+			{"type": "bgElement", "display" : "cactus02", "x" : 6900, "distance":16},
+			{"type": "bgElement", "display" : "cactus01", "x" : -6900, "distance":16},
+			{"type": "bgElement", "display" : "cactus01", "x" : 5900, "distance":17},
+			{"type": "bgElement", "display" : "cactus02", "x" : -6300, "distance":17},
+			{"type": "bgElement", "display" : "cactus01", "x" : 6900, "distance":18},
+			{"type": "bgElement", "display" : "cactus02", "x" : -6900, "distance":18},
+			{"type": "bgElement", "display" : "cactus02", "x" : 5900, "distance":17},
+			{"type": "bgElement", "display" : "cactus01", "x" : -6300, "distance":17}
+
+		],
+
+		"bgElements01" : [
+			{"type": "bgElement", "display" : "rock01", "x" : -4000, "distance":1},
+			{"type": "bgElement", "display" : "rock02_1", "x" : 4000, "distance":3},
+			{"type": "bgElement", "display" : "building08", "x" : -4500, "distance":12},
+			{"type": "bgElement", "display" : "building01_2", "x" : 4500, "distance":62},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -7390, "distance":20},
+			{"type": "bgElement", "display" : "building08", "x" : 5483, "distance":30},
+			{"type": "bgElement", "display" : "rock01", "x" : 6000, "distance":12},
+			{"type": "bgElement", "display" : "building07", "x" : -4500, "distance":44},
+			{"type": "bgElement", "display" : "building08", "x" : 4500, "distance":13},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -4532, "distance":30},
+			{"type": "bgElement", "display" : "building08", "x" : 5500, "distance":18},
+			{"type": "bgElement", "display" : "rock02_1", "x" : 4000, "distance":14},
+			{"type": "bgElement", "display" : "rock02_1", "x" : -4000, "distance":14},
+			{"type": "bgElement", "display" : "building08", "x" : -4500, "distance":46},
+			{"type": "bgElement", "display" : "rock01_1", "x" : 6245, "distance":13},
+			{"type": "bgElement", "display" : "building07", "x" : -5800, "distance":30},
+			{"type": "bgElement", "display" : "building08", "x" : 7643, "distance":18},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -4500, "distance":15},
+			{"type": "bgElement", "display" : "rock03_1", "x" : -6000, "distance":13},
+			{"type": "bgElement", "display" : "building07", "x" : -4500, "distance":52},
+			{"type": "bgElement", "display" : "building07", "x" : 4500, "distance":23},
+			{"type": "bgElement", "display" : "building08", "x" : -5500, "distance":18},
+			{"type": "bgElement", "display" : "rock01_1", "x" : 4426, "distance":18},
+			{"type": "bgElement", "display" : "rock02", "x" : -4421, "distance":18},
+			{"type": "bgElement", "display" : "rock03", "x" : -8500, "distance":25},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -6342, "distance":88},
+			{"type": "bgElement", "display" : "rock02_1", "x" : 4516, "distance":53},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -5500, "distance":30},
+			{"type": "bgElement", "display" : "rock02_1", "x" : 5500, "distance":25},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -6500, "distance":30},
+			{"type": "bgElement", "display" : "building01_2", "x" : 5500, "distance":33},
+
+
+			{"type": "bgElement", "display" : "rock02_1", "x" : 8000, "distance":3},
+			{"type": "bgElement", "display" : "rock01", "x" : 12000, "distance":12},
+			{"type": "bgElement", "display" : "rock02_1", "x" : 8000, "distance":14},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -7500, "distance":15},
+			{"type": "bgElement", "display" : "rock03_1", "x" : -12000, "distance":13},
+			{"type": "bgElement", "display" : "rock02", "x" : -8500, "distance":18},
+			{"type": "bgElement", "display" : "rock03", "x" : 10500, "distance":25},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -6500, "distance":30},
+
+			{"type": "bgElement", "display" : "rock01", "x" : 5000, "distance":26}
+		],
+
+		"bgElements02" : [
+			{"type": "bgElement", "display" : "cactus01", "x" : 3900, "distance":5},
+			{"type": "bgElement", "display" : "cactus02", "x" : -3900, "distance":5},
+			{"type": "bgElement", "display" : "cactus01", "x" : 3000, "distance":3},
+			{"type": "bgElement", "display" : "cactus02", "x" : -3200, "distance":2},
+			{"type": "bgElement", "display" : "cactus01", "x" : 3900, "distance":10},
+			{"type": "bgElement", "display" : "cactus01", "x" : -3900, "distance":10},
+			{"type": "bgElement", "display" : "cactus02", "x" : 3500, "distance":11},
+			{"type": "bgElement", "display" : "cactus01", "x" : -3000, "distance":7},
+			{"type": "bgElement", "display" : "cactus01", "x" : 9500, "distance":14},
+			{"type": "bgElement", "display" : "cactus02", "x" : -9500, "distance":14},
+
+			{"type": "bgElement", "display" : "rock01", "x" : -4000, "distance":14},
+			{"type": "bgElement", "display" : "rock01", "x" : 4000, "distance":1},
+			{"type": "bgElement", "display" : "rock02_1", "x" : -4000, "distance":3},
+			{"type": "bgElement", "display" : "rock01", "x" : -6000, "distance":12},
+			{"type": "bgElement", "display" : "rock02_1", "x" : 4000, "distance":14},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -5000, "distance":15},
+			{"type": "bgElement", "display" : "rock03_1", "x" : -6000, "distance":13},
+			{"type": "bgElement", "display" : "rock02", "x" : 4500, "distance":18},
+
+			{"type": "bgElement", "display" : "rock02_1", "x" : -8000, "distance":3},
+			{"type": "bgElement", "display" : "rock01", "x" : -12000, "distance":12},
+			{"type": "bgElement", "display" : "rock02_1", "x" : 8000, "distance":14},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -10000, "distance":15},
+			{"type": "bgElement", "display" : "rock03_1", "x" : -12000, "distance":13},
+			{"type": "bgElement", "display" : "rock02", "x" : 8500, "distance":18},
+
+
+			{"type": "bgElement", "display" : "rock03", "x" : 5500, "distance":25},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -6500, "distance":30}
+			
+		],
+
+		"bgElements03" : [
+			{"type": "bgElement", "display" : "rock01", "x" : -4000, "distance":1},
+			{"type": "bgElement", "display" : "building06", "x" : -4500, "distance":12},
+			{"type": "bgElement", "display" : "building07", "x" : 4500, "distance":13},
+			{"type": "bgElement", "display" : "building08", "x" : -5500, "distance":30},
+			{"type": "bgElement", "display" : "building09", "x" : 5500, "distance":18},
+
+
+			{"type": "bgElement", "display" : "rock02_1", "x" : -8000, "distance":3},
+			{"type": "bgElement", "display" : "rock01", "x" : -12000, "distance":12},
+			{"type": "bgElement", "display" : "building06", "x" : -4500, "distance":13},
+			{"type": "bgElement", "display" : "building07", "x" : 4500, "distance":14},
+			{"type": "bgElement", "display" : "building08", "x" : -5500, "distance":30},
+			{"type": "bgElement", "display" : "building09", "x" : 5500, "distance":18},
+
+			{"type": "bgElement", "display" : "rock03_1", "x" : -6000, "distance":13},
+			{"type": "bgElement", "display" : "building06", "x" : -4500, "distance":13},
+			{"type": "bgElement", "display" : "building07", "x" : 4500, "distance":12},
+			{"type": "bgElement", "display" : "building08", "x" : -5500, "distance":30},
+			{"type": "bgElement", "display" : "building09", "x" : 5500, "distance":18},
+
+			{"type": "bgElement", "display" : "cactus02", "x" : -6200, "distance":2},
+			{"type": "bgElement", "display" : "cactus01", "x" : 6900, "distance":10},
+			{"type": "bgElement", "display" : "cactus01", "x" : -6900, "distance":10},
+			{"type": "bgElement", "display" : "cactus02", "x" : 6500, "distance":11},
+			{"type": "bgElement", "display" : "cactus01", "x" : -6000, "distance":7},
+			{"type": "bgElement", "display" : "cactus01", "x" : 12500, "distance":14},
+			{"type": "bgElement", "display" : "cactus02", "x" : -12500, "distance":14},
+			{"type": "bgElement", "display" : "cactus01", "x" : 6900, "distance":15},
+			{"type": "bgElement", "display" : "cactus01", "x" : -6900, "distance":15},
+			{"type": "bgElement", "display" : "cactus02", "x" : 6900, "distance":16},
+			{"type": "bgElement", "display" : "cactus01", "x" : -6900, "distance":16},
+			{"type": "bgElement", "display" : "cactus01", "x" : 5900, "distance":17},
+			{"type": "bgElement", "display" : "cactus02", "x" : -6300, "distance":17},
+			{"type": "bgElement", "display" : "cactus01", "x" : 6900, "distance":18},
+			{"type": "bgElement", "display" : "cactus02", "x" : -6900, "distance":18},
+			{"type": "bgElement", "display" : "cactus02", "x" : 5900, "distance":17},
+			{"type": "bgElement", "display" : "cactus01", "x" : -6300, "distance":17}
+		],
+
+		"bgElements04" : [
+			{"type": "bgElement", "display" : "cactus01", "x" : 3900, "distance":5},
+			{"type": "bgElement", "display" : "cactus02", "x" : -3900, "distance":5},
+			{"type": "bgElement", "display" : "cactus01", "x" : 3000, "distance":3},
+			{"type": "bgElement", "display" : "cactus02", "x" : -3200, "distance":2},
+			{"type": "bgElement", "display" : "cactus01", "x" : 3900, "distance":10},
+			{"type": "bgElement", "display" : "cactus01", "x" : -3900, "distance":10},
+			{"type": "bgElement", "display" : "cactus02", "x" : 3500, "distance":11},
+			{"type": "bgElement", "display" : "cactus01", "x" : -3000, "distance":7},
+			{"type": "bgElement", "display" : "cactus01", "x" : 9500, "distance":14},
+			{"type": "bgElement", "display" : "cactus02", "x" : -9500, "distance":14},
+
+			{"type": "bgElement", "display" : "rock02_1", "x" : -8000, "distance":3},
+			{"type": "bgElement", "display" : "rock01", "x" : -12000, "distance":12},
+			{"type": "bgElement", "display" : "building06", "x" : -4500, "distance":13},
+			{"type": "bgElement", "display" : "building07", "x" : 4500, "distance":14},
+			{"type": "bgElement", "display" : "building08", "x" : -5500, "distance":30},
+			{"type": "bgElement", "display" : "building09", "x" : 5500, "distance":18},
+
+			{"type": "bgElement", "display" : "rock01", "x" : -4000, "distance":14},
+			{"type": "bgElement", "display" : "rock01", "x" : 4000, "distance":1},
+			{"type": "bgElement", "display" : "rock02_1", "x" : -4000, "distance":3},
+			{"type": "bgElement", "display" : "rock01", "x" : -6000, "distance":12},
+			{"type": "bgElement", "display" : "rock02_1", "x" : 4000, "distance":14},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -5000, "distance":15},
+			{"type": "bgElement", "display" : "rock03_1", "x" : -6000, "distance":13},
+			{"type": "bgElement", "display" : "rock02", "x" : 4500, "distance":18},
+
+			{"type": "bgElement", "display" : "rock02_1", "x" : -8000, "distance":3},
+			{"type": "bgElement", "display" : "rock01", "x" : -12000, "distance":12},
+			{"type": "bgElement", "display" : "rock02_1", "x" : 8000, "distance":14},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -10000, "distance":15},
+			{"type": "bgElement", "display" : "rock03_1", "x" : -12000, "distance":13},
+			{"type": "bgElement", "display" : "rock02", "x" : 8500, "distance":18},
+
+
+			{"type": "bgElement", "display" : "rock03", "x" : 5500, "distance":25},
+			{"type": "bgElement", "display" : "rock01_1", "x" : -6500, "distance":30},
+
+			{"type": "bgElement", "display" : "cactus02", "x" : -6200, "distance":2},
+			{"type": "bgElement", "display" : "cactus01", "x" : 6900, "distance":10},
+			{"type": "bgElement", "display" : "cactus01", "x" : -6900, "distance":10},
+			{"type": "bgElement", "display" : "cactus02", "x" : 6500, "distance":11},
+			{"type": "bgElement", "display" : "cactus01", "x" : -6000, "distance":7},
+			{"type": "bgElement", "display" : "cactus01", "x" : 12500, "distance":14},
+			{"type": "bgElement", "display" : "cactus02", "x" : -12500, "distance":14},
+			{"type": "bgElement", "display" : "cactus01", "x" : 6900, "distance":15},
+			{"type": "bgElement", "display" : "cactus01", "x" : -6900, "distance":15},
+			{"type": "bgElement", "display" : "cactus02", "x" : 6900, "distance":16},
+			{"type": "bgElement", "display" : "cactus01", "x" : -6900, "distance":16},
+			{"type": "bgElement", "display" : "cactus01", "x" : 5900, "distance":17},
+			{"type": "bgElement", "display" : "cactus02", "x" : -6300, "distance":17},
+			{"type": "bgElement", "display" : "cactus01", "x" : 6900, "distance":18},
+			{"type": "bgElement", "display" : "cactus02", "x" : -6900, "distance":18},
+			{"type": "bgElement", "display" : "cactus02", "x" : 5900, "distance":17},
+			{"type": "bgElement", "display" : "cactus01", "x" : -6300, "distance":17}
+			
+		]
+	},
+
+	"bgPositioning" : [
+		{"definition":"village"},
+		{"definition":"beginElements"},
+		{"definition":"village"},
+		{"definition":"villageBounds"},
+		{"definition":"cactusField"},
+		{"definition":"cactusField"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+		{"definition":"bgElements04"},
+
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"bgElements02"},
+		{"definition":"village"},
+		{"definition":"village"},
+		{"definition":"village"},
+		{"definition":"village"},
+		{"definition":"village"},
+		{"definition":"village"},
+		{"definition":"village"},
+
+		{"definition":"village"},
+		{"definition":"villageBounds"}
+
+	]
+}
+				
+
+
+
+			
+
+

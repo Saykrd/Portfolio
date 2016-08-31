@@ -1,0 +1,84 @@
+{"frames": [
+
+{
+	"filename": "bonus_speedboost_fx/0000",
+	"frame": {"x":298,"y":86,"w":99,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":48,"w":99,"h":64},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_speedboost_fx/0001",
+	"frame": {"x":298,"y":86,"w":99,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":48,"w":99,"h":64},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_speedboost_fx/0002",
+	"frame": {"x":298,"y":2,"w":127,"h":84},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":36,"w":127,"h":84},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_speedboost_fx/0003",
+	"frame": {"x":298,"y":2,"w":127,"h":84},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":36,"w":127,"h":84},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_speedboost_fx/0004",
+	"frame": {"x":159,"y":2,"w":139,"h":110},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":15,"w":139,"h":110},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_speedboost_fx/0005",
+	"frame": {"x":159,"y":2,"w":139,"h":110},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":15,"w":139,"h":110},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_speedboost_fx/0006",
+	"frame": {"x":2,"y":2,"w":157,"h":132},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":3,"w":157,"h":132},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_speedboost_fx/0007",
+	"frame": {"x":2,"y":2,"w":157,"h":132},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":4,"y":3,"w":157,"h":132},
+	"sourceSize": {"w":165,"h":138}
+},
+{
+	"filename": "bonus_speedboost_fx/0008",
+	"frame": {"x":2,"y":134,"w":1,"h":1},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":1,"h":1},
+	"sourceSize": {"w":165,"h":138}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "Bonus_SpeedBoost_FX.png",
+	"format": "RGBA8888",
+	"size": {"w":427,"h":152},
+	"scale": "0.25",
+	"smartupdate": "$TexturePacker:SmartUpdate:3dfda4ceddba082635486a301c1c366b:1/1$"
+}
+}

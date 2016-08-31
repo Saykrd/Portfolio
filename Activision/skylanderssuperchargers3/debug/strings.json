@@ -1,0 +1,272 @@
+{
+	"buttons":
+	[
+		{"name":"PlayButton", "style":".titleButton", "value":"SPELEN"},
+		{"name":"NextButton", "style":".titleButton", "value":"VOLGENDE"},
+		{"name":"ShopButton", "style":".smallButton", "value":"WINKEL"},
+		{"name":"SoundOffButton", "style":".smallButton", "value":"SOUND OFF"},
+		{"name":"SoundOnButton", "style":".smallButton", "value":"SOUND ON"},
+		{"name":"ResumeButton", "style":".smallButton", "value":"DOORGAAN"},
+		{"name":"RestartButton", "style":".smallButton", "value":" OPNIEUW"},
+		{"name":"HowToPlayButton", "style":".smallButton", "value":"SPELUITLEG"},
+		{"name":"LevelSelectButton", "style":".smallButton", "value":"LEVELKEUZE"},
+		{"name":"HelpButton", "style":".smallButton", "value":"HELP"},
+		{"name":"QuitButton", "style":".smallButton", "value":"STOPPEN"},
+		{"name":"YesButton", "style":".smallButton", "value":"JA"},
+		{"name":"NoButton", "style":".smallButton", "value":"NEE"},
+		{"name":"ContinueButton", "style":".smallButton", "value":"DONE"},
+		{"name":"BackButton", "style":".titleButton", "value":"TERUG"},
+		{"name":"PlayAgainButton", "style":".smallButton", "value":"OPNIEUW SPELEN"},
+		{"name":"SkipButton", "style":".smallButton", "value":"Skip"},
+		{"name":"ClearProgress", "style":".clearProgressButton", "value":"VOORTGANG WISSEN"}
+	],
+
+	"screens":
+	{
+		"PreloadScreen":
+		[
+			{"name":"Loading", "style":".loadingCopy", "value":"Laden"},
+			{"name":"Copyright", "style":".copyright", "value":"©2015 Activision Publishing, Inc"}
+		],
+
+		"GameLoadScreen":
+		[
+			{"name":"Title", "style":".loadingTitle", "value":"LADEN"},
+			{"name":"Copyright", "style":".copyright", "value":""}
+		],
+
+		"MenuLoadScreen":
+		[
+			{"name":"MenuLoading", "style":".loadingCopy", "value":"LADEN..."}
+		],
+
+		"TitleScreen":
+		[
+			{"name":"GameTitle", "style":".gameTitle", "value":"SPETTERCIRCUIT"}
+		],
+
+		"WelcomeScreen":
+		[
+			{"name":"WelcomeTitle", "style":".screenTitle1", "value":"WELKOM"},
+			{"name":"WelcomeCopy1", "style":".screenCopy", "value":"Mijn naam is Prong. \nJames Prong. Poortmeester, op dit circuit zal duidelijk worden welke SuperCharger de snelste waterracer is in heel Skylands."},
+			{"name":"WelcomeCopy2", "style":".screenCopy", "value":"Je neemt het tegen anderen op tijdens een race waarin je alle symbolen van je voertuig zo snel mogelijk moet verzamelen."},
+			{"name":"WelcomeCopy3", "style":".screenCopy", "value":"De Skylander die zijn symbolen het eerst heeft verzameld, wint de race."}
+		],
+
+		"VehicleSelectScreen":
+		[
+			{"name":"SelectTitle", "style":".screenTitle2", "value":"KIES EEN HELD & VOERTUIG"},
+			{"name":"ComboText", "style":".comboText", "value":"Als je deze held en voertuigcombo gebruikt, krijg je meer snelheid en vuurkracht!"}
+		],
+
+		"TrackSelectScreen":
+		[
+			
+			{"name":"TrackSelectTitle", "style":".screenTitle2", "value":"LEVELKEUZE"},
+			{"name":"ComboText", "style":".comboText", "value":"Als je deze held en voertuigcombo gebruikt, krijg je meer snelheid en vuurkracht!"}
+		],
+
+		"HowToPlayScreen":
+		[
+			{"name":"HTPTitle", "style":".screenTitle2", "value":"SPELUITLEG"},
+			{"name":"PressText1", "style":".htpHeader", "value":"Druk op"},
+			{"name":"PressText2", "style":".htpHeader", "value":"Druk op"},
+			{"name":"PressText3", "style":".htpHeader", "value":"Druk op"},
+			{"name":"TouchText1", "style":".htpHeader", "value":"Druk op"},
+			{"name":"TouchText2", "style":".htpHeader", "value":"Druk op"},
+			{"name":"TouchText3", "style":".htpHeader", "value":"Druk op"},
+			{"name":"TouchText4", "style":".htpHeader", "value":"Druk op"},
+			{"name":"SpacebarCopy", "style":".htpSpacebar", "value":"SPACEBAR"},
+			{"name":"SwipeText", "style":".htpHeader", "value":"Swipe"},
+			{"name":"MovementText", "style":".htpFooter", "value":"om rond te rijden"},
+			{"name":"MovementMobileText", "style":".htpFooter", "value":"om rond te rijden"},
+			{"name":"ForwardText", "style":".htpFooter", "value":"To move forward"},
+			{"name":"BrakeText", "style":".htpFooter", "value":"To brake"},
+			{"name":"AttackText",   "style":".htpFooter", "value":"om aan te vallen"},
+			{"name":"AttackMobileText",   "style":".htpFooter", "value":"om aan te vallen"},
+			{"name":"SAttackText",  "style":".htpFooter", "value":"voor een speciale aanval"},
+			{"name":"SAttackMobileText",  "style":".htpFooter", "value":"voor een speciale aanval"}
+		],
+
+		"HowToPlayScreen2":
+		[
+			{"name":"HTPTitle2", "style":".screenTitle2", "value":"SPELUITLEG"},
+			{"name":"InstructionText1", "style":".htpCopy", "value":"Gebruik de voertuigbesturing om te racen en zo snel mogelijk alle symbolen van je voertuig te verzamelen!"},
+			{"name":"InstructionText2", "style":".htpCopy", "value":"Verzamel power-ups en vecht met tegenstanders om op kop te blijven!"},
+			{"name":"InstructionText3", "style":".htpCopy", "value":"Vermijd onderweg gevaren die je kunnen afremmen!"},
+			{"name":"InstructionText4", "style":".htpCopy", "value":"De racer die als eerste al zijn symbolen verzamelt, wint!"},
+			{"name":"InstructionText5", "style":".htpCopy", "value":"Gebruik de Mechstukjes die je hebt verzameld om je voertuig voor de volgende race te upgraden!"}
+		],
+
+
+		"ReadyScreen":
+		[
+			{"name":"ReadyScreenTitle", "style":".screenTitle2", "value":"BEN JE ER KLAAR VOOR?"},
+			{"name":"ReadyScreenCopy", "style":".readyCopy", "value":" Laten we eens kijken wie de grootse racer\n (en held) van heel Skylands is! Race zo snel mogelijk naar het eind van dit parcours."},
+			{"name":"GoalScore", "style":".readyGoalScore", "value":"Doelscore"},
+			{"name":"HighScoreCopy", "style":".readyHighScoreCopy", "value":"TOPSCORE"},
+			{"name":"ReadyScreenLoading", "style":".loadingCopy", "value":"LADEN..."}
+		],
+
+		"UpgradeScreen":
+		[
+			{"name":"UpgradeScreenTitle", "style":".screenTitle2", "value":"VOERTUIGMODS KIEZEN"},
+			{"name":"SpecialtyCopy", "style":".upgradeHeader", "value":"SPECIALITEITSMODS"},
+			{"name":"PerformanceCopy", "style":".upgradeHeader", "value":"PRESTATIEMODS"},
+			{"name":"CurrencyCopy", "style":".upgradeHeader", "value":"MECHSTUKJES"},
+			{"name":"ArmorCopy", "style":".upgradeStats", "value":"Pantser"},
+			{"name":"TopSpeedCopy", "style":".upgradeStats", "value":"Topsnelheid"},
+			{"name":"AccelerationCopy", "style":".upgradeStats", "value":"Versnelling"},
+			{"name":"HandlingCopy", "style":".upgradeStats", "value":"Weggedrag"},
+			{"name":"WeightCopy", "style":".upgradeStats", "value":"Gewicht"}
+		],
+
+		"EndScreen":
+		[
+			{"name":"EndScreenTitle", "style":".screenTitle2", "value":"SUPERCHARGED WINNAAR!"},
+			{"name":"EndScreenCopy", "style":".endScreenCopy", "value":"Speel nog een keer om je topscore te verbeteren en meer mods te verdienen voor je voertuig!"}
+		],
+
+		"PauseScreen":
+		[
+			{"name":"PauseTitle", "style":".screenTitle2", "value":"PAUZEREN"}
+		],
+
+		"ResultsOverlay":
+		[
+			{"name":"ResultsTitle", "style":".screenTitle2", "value":"UITSLAG"}
+		],
+
+		"ConfirmOverlay":
+		[
+			{"name":"AreYouSureText", "style":".popupHeader", "value":"WEET JE HET ZEKER?"}
+		],
+
+		"PurchaseConfirmOverlay":
+		[
+			{"name":"CostCopy", "style":".upgradeConfirmCostCopy", "value":"PRIJS"}
+		]
+
+	},
+
+	"ui":
+	{
+		"overlays":
+		{
+			"PauseOverlay":
+			[
+				{"name":"Title", "style":".overlayTitle", "value":"Pauzeren"}
+			],
+
+			"ConfirmOverlay":
+			[
+				{"name":"Title", "style":".overlayTitle", "value":"Weet je het zeker?"}
+			],
+
+			"MenuOverlay":
+			[
+				{"name":"Menu", "style":".overlayTitle", "value":"MENU"}
+			]
+		},
+
+		"GUI":
+		[
+			{"name":"HUDBonusText", "style":".hudHeader", "value":"BONUS"},
+			{"name":"HUDRescuedText", "style":".hudHeader", "value":"RESCUED"}
+		]
+	},
+
+
+	"game":{
+		"lap" : "Lap",
+		"wave" : "GOLF",
+		"characters" : {
+			"char_diveclops" : "Dive-Clops",
+			"char_nightfall"   : "Nightfall",
+			"char_gillgrunt"   : "Deep Dive Gill Grunt"
+		},
+
+		"vehicles" : {
+			"vehicle_divebomber"   : "Dive Bomber",
+			"vehicle_seashadow"   : "Sea Shadow",
+			"vehicle_reefripper": "Reef Ripper"
+		},
+
+		"upgrades":{
+				"ss_pm_1"    : "Zeekloof-turbine",
+				"ss_pm_2"    : "Bio-luminator",
+				"ss_pm_3"    : "Pressiereactor",
+				"ss_pm_4"    : "Diepzeetanden",
+
+				"ss_sm_1"     : "Onderstroomvanger",
+				"ss_sm_2"     : "Krakencoating",
+				"ss_sm_3"     : "Zwarte Mantavinnen",
+				"ss_sm_4" 	  : "Aanlokkelijk lokaas",
+
+
+				"db_sm_1"     : "Powerpropeller",
+				"db_sm_2"     : "Diepe Dynamo",
+				"db_sm_3"   : "Meneer Piep",
+				"db_sm_4" : "Aquasplitser",
+
+				"db_pm_1"    : "Torpedoboeien",
+				"db_pm_2"    : "Onderstroomjets",
+				"db_pm_3"  : "Zwembanden",
+				"db_pm_4" : "Arkeyaanse Echo-geweren",
+
+				
+				"rr_sm_1"     : "Aquavin-turbine",
+				"rr_sm_2"     : "Sharpfin-knaller",
+				"rr_sm_3"     : "Walvisvin",
+				"rr_sm_4"     : "Vloedgolfbeuker",
+
+				"rr_pm_1"    : "Gill Grill",
+				"rr_pm_2"    : "Speervis-drijfas",
+				"rr_pm_3"    : "Thumpback-boeg",
+				"rr_pm_4"    : "Drietandpunten"
+
+				
+
+
+		},
+
+		"placement":{
+			"suffix1" : "e",
+			"suffix2" : "e",
+			"suffix3" : "e",
+			"suffix4" : "e"
+		},
+
+		"messages" : {
+			"QueenTrack1" : {"style" : ".screenFXCopy", "value" : "Probeer alle symbolen van je voertuig zo snel mogelijk te verzamelen tijdens de race!"},
+			"QueenTrack2" : {"style" : ".screenFXCopy", "value" : "Vergeet niet om Mechstukjes te verzamelen voor voertuigmods!"},
+			"QueenTrack3" : {"style" : ".screenFXCopy", "value" : "Ga zo door en verzamel al je symbolen als eerste!"},
+			"RaceReady" : {"style" : ".screenFXCountdown", "value" :  "KLAAR?"},
+			"RaceGO" : {"style" : ".screenFXCountdown", "value" :  "START!"},
+			"RescueAlert" : {"style" : ".raceMessage", "value" :  "RESCUE NEEDED!"},
+			"RescueMessage" : {"style" : ".raceMessage", "value" :  "FRIEND RESCUED!"},
+			"EnemyApproach" : {"style" : ".enemyApproach", "value" :  "INCOMING FIRE!"},
+			"HintMessageKey" : {"style" : ".bonusHint", "value" :  "USE YOUR KEY!"},
+			"EnemyHint":{"style":".enemyHint", "value":"MATCH ATTACK BLOCKS!"},
+			"ShieldUse":{"style":".shieldUse", "value":"SHIELD!"},
+			"ShoeUse":{"style":".shoeUse", "value":"SPEED BOOST!"},
+			"ElixirUse":{"style":".elixirUse", "value":"HEALING ELIXIR!"},
+			"Shuffle":{"style":".shuffle", "value":"SHUFFLE!"},
+			"outOfMoves":{"style":".screenFXOutOfMoves", "value":"Out Of Moves!"}
+		},
+
+		"descriptions": {
+			"char_diveclops" : "“Pas op, van onderen!”",
+			"char_nightfall"   : "“Duister en gevaarlijk!”",
+			"char_gillgrunt"   : "“Vrees de vis!”",
+			"vehicle_divebomber"   : "Eerste aanval: Dubbele Torpedobuizen \nTweede aanval: Diepzeesonar",
+			"vehicle_seashadow"   : "Eerste aanval: Afgrondkanon \nTweede aanval: Glansrijk Lanceren",
+			"vehicle_reefripper"   : "Eerste aanval: Oceaanverschuiving \nTweede aanval: Schok de Staart"
+		}
+	},
+
+	"messages":
+	{
+		"go":{"style":".screenFXCopy", "value":"Start!"}
+	}
+}

@@ -1,0 +1,341 @@
+{
+
+	"spritesheets" : [
+		{"name": "Gearbits", "sheet" : "GearbitImage" , "json": "GearbitData"},
+		{"name": "Hazards", "sheet" : "HazardImage" , "json": "HazardData"},
+		{"name": "Bonus", "sheet" : "BonusImage" , "json": "BonusData"},
+		{"name": "Enemy", "sheet" : "EnemyImage" , "json": "EnemyData"},
+
+		{"name": "DiveBomber1", "sheet" : "DBomber1Image" , "json": "DBomber1Data"},
+		{"name": "DiveBomber2", "sheet" : "DBomber2Image" , "json": "DBomber2Data"},
+		{"name": "ReefRipper1", "sheet" : "RRipper1Image" , "json": "RRipper1Data"},
+		{"name": "ReefRipper2", "sheet" : "RRipper2Image" , "json": "RRipper2Data"},
+		{"name": "SeaShadow1", "sheet" : "SShadow1Image" , "json": "SShadow1Data"},
+		{"name": "SeaShadow2", "sheet" : "SShadow2Image" , "json": "SShadow2Data"},
+		{"name": "Decor", "sheet" : "DecorImage" , "json": "DecorData"},
+		
+
+		{"name": "DiveBomberFX", "sheet" : "DiveBomberFXImage" , "json": "DiveBomberFXData"},
+		{"name": "SeaShadowFX", "sheet" : "SeaShadowFXImage" , "json": "SeaShadowFXData"},
+		{"name": "ReefRipperFX", "sheet" : "ReefRipperFXImage" , "json": "ReefRipperFXData"}
+ 
+	],
+
+	"frames" : [
+	],
+
+	"animations" : [
+		{"name" : "gearbit_blue_get", "spritesheet" : "Gearbits", "frame" : "gearbit_blue_get", "loop" : false, "duration" :  292},
+		{"name" : "gearbit_blue_idle", "spritesheet" : "Gearbits", "frame" : "gearbit_blue_idle", "loop" : true, "duration" :  2042},
+		{"name" : "gearbit_orange_get", "spritesheet" : "Gearbits", "frame" : "gearbit_orange_get", "loop" : false, "duration" :  292},
+		{"name" : "gearbit_orange_idle", "spritesheet" : "Gearbits", "frame" : "gearbit_orange_idle", "loop" : true, "duration" :  2042},
+
+		{"name" : "chompy_attack_hit", "spritesheet" : "Enemy", "frame" : "chompy_attack_hit", "loop" : false, "duration" :  666},
+		{"name" : "chompy_attack_projectile", "spritesheet" : "Enemy", "frame" : "chompy_attack_projectile", "loop" : true, "duration" :  166},
+
+		{"name" : "divebomber_attack_hit", "spritesheet" : "DiveBomberFX", "frame" : "divebomber_attack_hit", "loop" : false, "duration" :  1000},
+		{"name" : "divebomber_attack_projectile", "spritesheet" : "DiveBomberFX", "frame" : "divebomber_attack_projectile", "loop" : true, "duration" :  1000},
+		{"name" : "divebomber_special", "spritesheet" : "DiveBomberFX", "frame" : "divebomber_special", "loop" : false, "duration" :  533},
+
+		{"name" : "seashadow_attack_hit", "spritesheet" : "SeaShadowFX", "frame" : "seashadow_attack_hit", "loop" : false, "duration" :  416},
+		{"name" : "seashadow_attack_projectile", "spritesheet" : "SeaShadowFX", "frame" : "seashadow_attack_projectile", "loop" : true, "duration" :  291},
+		{"name" : "seashadow_special_hit", "spritesheet" : "SeaShadowFX", "frame" : "seashadow_special_hit", "loop" : false, "duration" :  1000},
+		{"name" : "seashadow_special_projectile", "spritesheet" : "SeaShadowFX", "frame" : "seashadow_special_projectile", "loop" : false, "duration" :  3500},
+
+		{"name" : "reefripper_attack_hit", "spritesheet" : "ReefRipperFX", "frame" : "reefripper_attack_hit", "loop" : false, "duration" :  500},
+		{"name" : "reefripper_attack_projectile", "spritesheet" : "ReefRipperFX", "frame" : "reefripper_attack_projectile", "loop" : true, "duration" :  292},
+		{"name" : "reefripper_special_hit", "spritesheet" : "ReefRipperFX", "frame" : "reefripper_special_hit", "loop" : false, "duration" :  400},
+		{"name" : "reefripper_special_overlay", "spritesheet" : "ReefRipperFX", "frame" : "reefripper_special_overlay", "loop" : false, "duration" :  266},
+		{"name" : "reefripper_special_projectile", "spritesheet" : "ReefRipperFX", "frame" : "reefripper_special_projectile", "loop" : true, "duration" :  233},
+        
+
+		{"name" : "db_dbsm1_dbpm1", "spritesheet" : "DiveBomber1", "frame" : "divebomber_tb_powerpro", "loop" : true, "duration" :  900},
+        {"name" : "db_dbsm1_dbpm2", "spritesheet" : "DiveBomber1", "frame" : "divebomber_ssj_powerpro", "loop" : true, "duration" :  900},
+        {"name" : "db_dbsm1_dbpm3", "spritesheet" : "DiveBomber1", "frame" : "divebomber_ff_powerpro", "loop" : true, "duration" :  900},
+        {"name" : "db_dbsm1_dbpm4", "spritesheet" : "DiveBomber1", "frame" : "divebomber_aeg_powerpro", "loop" : true, "duration" :  900},
+
+		{"name" : "db_dbsm2_dbpm1", "spritesheet" : "DiveBomber1", "frame" : "divebomber_tb_deepdynamo", "loop" : true, "duration" :  900},
+        {"name" : "db_dbsm2_dbpm2", "spritesheet" : "DiveBomber1", "frame" : "divebomber_ssj_deepdynamo", "loop" : true, "duration" :  900},
+        {"name" : "db_dbsm2_dbpm3", "spritesheet" : "DiveBomber1", "frame" : "divebomber_ff_deepdynamo", "loop" : true, "duration" :  900},
+        {"name" : "db_dbsm2_dbpm4", "spritesheet" : "DiveBomber1", "frame" : "divebomber_aeg_deepdynamo", "loop" : true, "duration" :  900},
+
+        {"name" : "db_dbsm3_dbpm1", "spritesheet" : "DiveBomber1", "frame" : "divebomber_tb_mrsqueeks", "loop" : true, "duration" :  900},
+        {"name" : "db_dbsm3_dbpm2", "spritesheet" : "DiveBomber1", "frame" : "divebomber_ssj_mrsqueeks", "loop" : true, "duration" :  900},
+        {"name" : "db_dbsm3_dbpm3", "spritesheet" : "DiveBomber1", "frame" : "divebomber_ff_mrsqueeks", "loop" : true, "duration" :  900},
+        {"name" : "db_dbsm3_dbpm4", "spritesheet" : "DiveBomber1", "frame" : "divebomber_aeg_mrsqueeks", "loop" : true, "duration" :  900},
+
+        {"name" : "db_dbsm4_dbpm1", "spritesheet" : "DiveBomber1", "frame" : "divebomber_tb_aquasplitter", "loop" : true, "duration" :  900},
+        {"name" : "db_dbsm4_dbpm2", "spritesheet" : "DiveBomber1", "frame" : "divebomber_ssj_aquasplitter", "loop" : true, "duration" :  900},
+        {"name" : "db_dbsm4_dbpm3", "spritesheet" : "DiveBomber1", "frame" : "divebomber_ff_aquasplitter", "loop" : true, "duration" :  900},
+        {"name" : "db_dbsm4_dbpm4", "spritesheet" : "DiveBomber1", "frame" : "divebomber_aeg_aquasplitter", "loop" : true, "duration" :  900},
+
+		{"name" : "db_dbsm1_dbpm1_idle", "spritesheet" : "DiveBomber2", "frame" : "divebomber_tb_powerpro_idle", "loop" : true, "duration" :  900},
+        {"name" : "db_dbsm1_dbpm2_idle", "spritesheet" : "DiveBomber2", "frame" : "divebomber_ssj_powerpro_idle", "loop" : true, "duration" :  900},
+        {"name" : "db_dbsm1_dbpm3_idle", "spritesheet" : "DiveBomber2", "frame" : "divebomber_ff_powerpro_idle", "loop" : true, "duration" :  900},
+        {"name" : "db_dbsm1_dbpm4_idle", "spritesheet" : "DiveBomber2", "frame" : "divebomber_aeg_powerpro_idle", "loop" : true, "duration" :  900},
+	
+		{"name" : "db_dbsm2_dbpm1_idle", "spritesheet" : "DiveBomber2", "frame" : "divebomber_tb_deepdynamo_idle", "loop" : true, "duration" :  900},
+        {"name" : "db_dbsm2_dbpm2_idle", "spritesheet" : "DiveBomber2", "frame" : "divebomber_ssj_deepdynamo_idle", "loop" : true, "duration" :  900},
+        {"name" : "db_dbsm2_dbpm3_idle", "spritesheet" : "DiveBomber2", "frame" : "divebomber_ff_deepdynamo_idle", "loop" : true, "duration" :  900},
+        {"name" : "db_dbsm2_dbpm4_idle", "spritesheet" : "DiveBomber2", "frame" : "divebomber_aeg_deepdynamo_idle", "loop" : true, "duration" :  900},
+    
+        {"name" : "db_dbsm3_dbpm1_idle", "spritesheet" : "DiveBomber2", "frame" : "divebomber_tb_mrsqueeks_idle", "loop" : true, "duration" :  900},
+        {"name" : "db_dbsm3_dbpm2_idle", "spritesheet" : "DiveBomber2", "frame" : "divebomber_ssj_mrsqueeks_idle", "loop" : true, "duration" :  900},
+        {"name" : "db_dbsm3_dbpm3_idle", "spritesheet" : "DiveBomber2", "frame" : "divebomber_ff_mrsqueeks_idle", "loop" : true, "duration" :  900},
+        {"name" : "db_dbsm3_dbpm4_idle", "spritesheet" : "DiveBomber2", "frame" : "divebomber_aeg_mrsqueeks_idle", "loop" : true, "duration" :  900},
+    
+        {"name" : "db_dbsm4_dbpm1_idle", "spritesheet" : "DiveBomber2", "frame" : "divebomber_tb_aquasplitter_idle", "loop" : true, "duration" :  900},
+        {"name" : "db_dbsm4_dbpm2_idle", "spritesheet" : "DiveBomber2", "frame" : "divebomber_ssj_aquasplitter_idle", "loop" : true, "duration" :  900},
+        {"name" : "db_dbsm4_dbpm3_idle", "spritesheet" : "DiveBomber2", "frame" : "divebomber_ff_aquasplitter_idle", "loop" : true, "duration" :  900},
+        {"name" : "db_dbsm4_dbpm4_idle", "spritesheet" : "DiveBomber2", "frame" : "divebomber_aeg_aquasplitter_idle", "loop" : true, "duration" :  900},
+        
+
+
+        {"name" : "ss_sssm1_sspm1", "spritesheet" : "SeaShadow1", "frame" : "seashadow_sc_undercurrent", "loop" : true, "duration" :  900},
+        {"name" : "ss_sssm1_sspm2", "spritesheet" : "SeaShadow1", "frame" : "seashadow_bl_undercurrent", "loop" : true, "duration" :  900},
+        {"name" : "ss_sssm1_sspm3", "spritesheet" : "SeaShadow1", "frame" : "seashadow_pr_undercurrent", "loop" : true, "duration" :  900},
+        {"name" : "ss_sssm1_sspm4", "spritesheet" : "SeaShadow1", "frame" : "seashadow_dsd_undercurrent", "loop" : true, "duration" :  900},
+
+        {"name" : "ss_sssm2_sspm1", "spritesheet" : "SeaShadow1", "frame" : "seashadow_sc_kraken", "loop" : true, "duration" :  900},
+        {"name" : "ss_sssm2_sspm2", "spritesheet" : "SeaShadow1", "frame" : "seashadow_bl_kraken", "loop" : true, "duration" :  900},
+        {"name" : "ss_sssm2_sspm3", "spritesheet" : "SeaShadow1", "frame" : "seashadow_pr_kraken", "loop" : true, "duration" :  900},
+        {"name" : "ss_sssm2_sspm4", "spritesheet" : "SeaShadow1", "frame" : "seashadow_dsd_kraken", "loop" : true, "duration" :  900},
+
+        {"name" : "ss_sssm3_sspm1", "spritesheet" : "SeaShadow1", "frame" : "seashadow_sc_manta", "loop" : true, "duration" :  900},
+        {"name" : "ss_sssm3_sspm2", "spritesheet" : "SeaShadow1", "frame" : "seashadow_bl_manta", "loop" : true, "duration" :  900},
+        {"name" : "ss_sssm3_sspm3", "spritesheet" : "SeaShadow1", "frame" : "seashadow_pr_manta", "loop" : true, "duration" :  900},
+        {"name" : "ss_sssm3_sspm4", "spritesheet" : "SeaShadow1", "frame" : "seashadow_dsd_manta", "loop" : true, "duration" :  900},
+
+        {"name" : "ss_sssm4_sspm1", "spritesheet" : "SeaShadow1", "frame" : "seashadow_sc_lures", "loop" : true, "duration" :  900},
+        {"name" : "ss_sssm4_sspm2", "spritesheet" : "SeaShadow1", "frame" : "seashadow_bl_lures", "loop" : true, "duration" :  900},
+        {"name" : "ss_sssm4_sspm3", "spritesheet" : "SeaShadow1", "frame" : "seashadow_pr_lures", "loop" : true, "duration" :  900},
+        {"name" : "ss_sssm4_sspm4", "spritesheet" : "SeaShadow1", "frame" : "seashadow_dsd_lures", "loop" : true, "duration" :  900},
+
+        {"name" : "ss_sssm1_sspm1_idle", "spritesheet" : "SeaShadow2", "frame" : "seashadow_sc_undercurrent_idle", "loop" : true, "duration" :  900},
+        {"name" : "ss_sssm1_sspm2_idle", "spritesheet" : "SeaShadow2", "frame" : "seashadow_bl_undercurrent_idle", "loop" : true, "duration" :  900},
+        {"name" : "ss_sssm1_sspm3_idle", "spritesheet" : "SeaShadow2", "frame" : "seashadow_pr_undercurrent_idle", "loop" : true, "duration" :  900},
+        {"name" : "ss_sssm1_sspm4_idle", "spritesheet" : "SeaShadow2", "frame" : "seashadow_dsd_undercurrent_idle", "loop" : true, "duration" :  900},
+
+        {"name" : "ss_sssm2_sspm1_idle", "spritesheet" : "SeaShadow2", "frame" : "seashadow_sc_kraken_idle", "loop" : true, "duration" :  900},
+        {"name" : "ss_sssm2_sspm2_idle", "spritesheet" : "SeaShadow2", "frame" : "seashadow_bl_kraken_idle", "loop" : true, "duration" :  900},
+        {"name" : "ss_sssm2_sspm3_idle", "spritesheet" : "SeaShadow2", "frame" : "seashadow_pr_kraken_idle", "loop" : true, "duration" :  900},
+        {"name" : "ss_sssm2_sspm4_idle", "spritesheet" : "SeaShadow2", "frame" : "seashadow_dsd_kraken_idle", "loop" : true, "duration" :  900},
+
+        {"name" : "ss_sssm3_sspm1_idle", "spritesheet" : "SeaShadow2", "frame" : "seashadow_sc_manta_idle", "loop" : true, "duration" :  900},
+        {"name" : "ss_sssm3_sspm2_idle", "spritesheet" : "SeaShadow2", "frame" : "seashadow_bl_manta_idle", "loop" : true, "duration" :  900},
+        {"name" : "ss_sssm3_sspm3_idle", "spritesheet" : "SeaShadow2", "frame" : "seashadow_pr_manta_idle", "loop" : true, "duration" :  900},
+        {"name" : "ss_sssm3_sspm4_idle", "spritesheet" : "SeaShadow2", "frame" : "seashadow_dsd_manta_idle", "loop" : true, "duration" :  900},
+
+        {"name" : "ss_sssm4_sspm1_idle", "spritesheet" : "SeaShadow2", "frame" : "seashadow_sc_lures_idle", "loop" : true, "duration" :  900},
+        {"name" : "ss_sssm4_sspm2_idle", "spritesheet" : "SeaShadow2", "frame" : "seashadow_bl_lures_idle", "loop" : true, "duration" :  900},
+        {"name" : "ss_sssm4_sspm3_idle", "spritesheet" : "SeaShadow2", "frame" : "seashadow_pr_lures_idle", "loop" : true, "duration" :  900},
+        {"name" : "ss_sssm4_sspm4_idle", "spritesheet" : "SeaShadow2", "frame" : "seashadow_dsd_lures_idle", "loop" : true, "duration" :  900},
+
+
+
+        {"name" : "rr_rrsm1_rrpm1", "spritesheet" : "ReefRipper1", "frame" : "reefripper_gg_aquafin", "loop" : true, "duration" :  900},
+        {"name" : "rr_rrsm1_rrpm2", "spritesheet" : "ReefRipper1", "frame" : "reefripper_sd_aquafin", "loop" : true, "duration" :  900},
+        {"name" : "rr_rrsm1_rrpm3", "spritesheet" : "ReefRipper1", "frame" : "reefripper_tp_aquafin", "loop" : true, "duration" :  900},
+        {"name" : "rr_rrsm1_rrpm4", "spritesheet" : "ReefRipper1", "frame" : "reefripper_ts_aquafin", "loop" : true, "duration" :  900},
+
+     	{"name" : "rr_rrsm2_rrpm1", "spritesheet" : "ReefRipper1", "frame" : "reefripper_gg_sharkfin", "loop" : true, "duration" :  900},
+        {"name" : "rr_rrsm2_rrpm2", "spritesheet" : "ReefRipper1", "frame" : "reefripper_sd_sharkfin", "loop" : true, "duration" :  900},
+        {"name" : "rr_rrsm2_rrpm3", "spritesheet" : "ReefRipper1", "frame" : "reefripper_tp_sharkfin", "loop" : true, "duration" :  900},
+        {"name" : "rr_rrsm2_rrpm4", "spritesheet" : "ReefRipper1", "frame" : "reefripper_ts_sharkfin", "loop" : true, "duration" :  900},
+
+     	{"name" : "rr_rrsm3_rrpm1", "spritesheet" : "ReefRipper1", "frame" : "reefripper_gg_whaleflipper", "loop" : true, "duration" :  900},
+        {"name" : "rr_rrsm3_rrpm2", "spritesheet" : "ReefRipper1", "frame" : "reefripper_sd_whaleflipper", "loop" : true, "duration" :  900},
+        {"name" : "rr_rrsm3_rrpm3", "spritesheet" : "ReefRipper1", "frame" : "reefripper_tp_whaleflipper", "loop" : true, "duration" :  900},
+        {"name" : "rr_rrsm3_rrpm4", "spritesheet" : "ReefRipper1", "frame" : "reefripper_ts_whaleflipper", "loop" : true, "duration" :  900},
+
+        {"name" : "rr_rrsm4_rrpm1", "spritesheet" : "ReefRipper1", "frame" : "reefripper_gg_tidalwave", "loop" : true, "duration" :  900},
+        {"name" : "rr_rrsm4_rrpm2", "spritesheet" : "ReefRipper1", "frame" : "reefripper_sd_tidalwave", "loop" : true, "duration" :  900},
+        {"name" : "rr_rrsm4_rrpm3", "spritesheet" : "ReefRipper1", "frame" : "reefripper_tp_tidalwave", "loop" : true, "duration" :  900},
+        {"name" : "rr_rrsm4_rrpm4", "spritesheet" : "ReefRipper1", "frame" : "reefripper_ts_tidalwave", "loop" : true, "duration" :  900},
+
+
+
+        {"name" : "rr_rrsm1_rrpm1_idle", "spritesheet" : "ReefRipper2", "frame" : "reefripper_gg_aquafin_idle", "loop" : true, "duration" :  900},
+        {"name" : "rr_rrsm1_rrpm2_idle", "spritesheet" : "ReefRipper2", "frame" : "reefripper_sd_aquafin_idle", "loop" : true, "duration" :  900},
+        {"name" : "rr_rrsm1_rrpm3_idle", "spritesheet" : "ReefRipper2", "frame" : "reefripper_tp_aquafin_idle", "loop" : true, "duration" :  900},
+        {"name" : "rr_rrsm1_rrpm4_idle", "spritesheet" : "ReefRipper2", "frame" : "reefripper_ts_aquafin_idle", "loop" : true, "duration" :  900},
+     
+     	{"name" : "rr_rrsm2_rrpm1_idle", "spritesheet" : "ReefRipper2", "frame" : "reefripper_gg_sharkfin_idle", "loop" : true, "duration" :  900},
+        {"name" : "rr_rrsm2_rrpm2_idle", "spritesheet" : "ReefRipper2", "frame" : "reefripper_sd_sharkfin_idle", "loop" : true, "duration" :  900},
+        {"name" : "rr_rrsm2_rrpm3_idle", "spritesheet" : "ReefRipper2", "frame" : "reefripper_tp_sharkfin_idle", "loop" : true, "duration" :  900},
+        {"name" : "rr_rrsm2_rrpm4_idle", "spritesheet" : "ReefRipper2", "frame" : "reefripper_ts_sharkfin_idle", "loop" : true, "duration" :  900},
+     
+     	{"name" : "rr_rrsm3_rrpm1_idle", "spritesheet" : "ReefRipper2", "frame" : "reefripper_gg_whaleflipper_idle", "loop" : true, "duration" :  900},
+        {"name" : "rr_rrsm3_rrpm2_idle", "spritesheet" : "ReefRipper2", "frame" : "reefripper_sd_whaleflipper_idle", "loop" : true, "duration" :  900},
+        {"name" : "rr_rrsm3_rrpm3_idle", "spritesheet" : "ReefRipper2", "frame" : "reefripper_tp_whaleflipper_idle", "loop" : true, "duration" :  900},
+        {"name" : "rr_rrsm3_rrpm4_idle", "spritesheet" : "ReefRipper2", "frame" : "reefripper_ts_whaleflipper_idle", "loop" : true, "duration" :  900},
+     
+        {"name" : "rr_rrsm4_rrpm1_idle", "spritesheet" : "ReefRipper2", "frame" : "reefripper_gg_tidalwave_idle", "loop" : true, "duration" :  900},
+        {"name" : "rr_rrsm4_rrpm2_idle", "spritesheet" : "ReefRipper2", "frame" : "reefripper_sd_tidalwave_idle", "loop" : true, "duration" :  900},
+        {"name" : "rr_rrsm4_rrpm3_idle", "spritesheet" : "ReefRipper2", "frame" : "reefripper_tp_tidalwave_idle", "loop" : true, "duration" :  900},
+        {"name" : "rr_rrsm4_rrpm4_idle", "spritesheet" : "ReefRipper2", "frame" : "reefripper_ts_tidalwave_idle", "loop" : true, "duration" :  900},
+
+
+
+        {"name" : "enemy_idle", "spritesheet" : "Enemy", "frame" : "chompy_idle", "loop" : true, "duration" :  633},
+        {"name" : "enemy_move", "spritesheet" : "Enemy", "frame" : "chompy_move", "loop" : true, "duration" :  500},
+        {"name" : "enemy_explode", "spritesheet" : "Enemy", "frame" : "chompy_explode", "loop" : false, "duration" :  833},
+
+
+		{"name" : "bonus_elixir_get", "spritesheet" : "Bonus", "frame" : "bonus_elixir_get_fx", "loop" : false, "duration" :  500},
+		{"name" : "bonus_elixir_overlay", "spritesheet" : "Bonus", "frame" : "bonus_elixir_overlay_fx", "loop" : true, "duration" :  1100},
+		{"name" : "bonus_hourglass_get", "spritesheet" : "Bonus", "frame" : "bonus_hourglass_get_fx", "loop" : false, "duration" :  233},
+		{"name" : "bonus_hourglass_overlay", "spritesheet" : "Bonus", "frame" : "bonus_hourglass_overlay_fx", "loop" : true, "duration" : 967},
+		{"name" : "bonus_shield_get", "spritesheet" : "Bonus", "frame" : "bonus_shield_get_fx", "loop" : false, "duration" :  700},
+		{"name" : "bonus_shield_overlay", "spritesheet" : "Bonus", "frame" : "bonus_shield_overlay_fx", "loop" : true, "duration" :  633},
+		{"name" : "bonus_shoe_get", "spritesheet" : "Bonus", "frame" : "bonus_shoe_get_fx", "loop" : false, "duration" :  700},
+		{"name" : "bonus_shoe_overlay", "spritesheet" : "Bonus", "frame" : "bonus_shoe_overlay_fx", "loop" : true, "duration" :  233},
+
+		{"name" : "icon_get_divebomber_blue", "spritesheet" : "Bonus", "frame" : "icon_get_divebomber_blue", "loop" : false, "duration" :  500},
+		{"name" : "icon_get_reefripper_yellow_fx", "spritesheet" : "Bonus", "frame" : "icon_get_reefripper_yellow_fx", "loop" : false, "duration" :  500},
+		{"name" : "icon_get_seashadow_dark_fx", "spritesheet" : "Bonus", "frame" : "icon_get_seashadow_dark_fx", "loop" : false, "duration" :  500},
+
+		{"name" : "prizebox_get", "spritesheet" : "Bonus", "frame" : "prizebox_get", "loop" : false, "duration" :  250},
+		{"name" : "prizebox_idle", "spritesheet" : "Bonus", "frame" : "prizebox_idle", "loop" : true, "duration" :  1416},
+
+		{"name" : "prizebox_get", "spritesheet" : "Bonus", "frame" : "prizebox_get", "loop" : false, "duration" :  250},
+
+		{"name" : "hazard_net_horizontal", "spritesheet" : "Hazards", "frame" : "hazard_net_horizontal", "loop" : true, "duration" :  1000},
+		{"name" : "hazard_net_vertical", "spritesheet" : "Hazards", "frame" : "hazard_net_vertical", "loop" : true, "duration" :  1000},
+		{"name" : "hazard_seaweed", "spritesheet" : "Hazards", "frame" : "hazard_seaweed", "loop" : true, "duration" :  1000},
+		{"name" : "hazard_whirlpool", "spritesheet" : "Hazards", "frame" : "hazard_whirlpool", "loop" : true, "duration" :  1000}
+	],
+
+
+	"displayDefinitions" : {
+		"default": {"type" : "image", "data" : "TileObject"},
+		"reticle": {"type" : "image", "data" : "Reticle", "options" : {"offsetX": -79, "offsetY" : -56, "scale" : 0.5}},
+
+		"divebomber": {"type" : "anim", "data" : ["divebomber_aeg_aquasplitter"], "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"seashadow": {"type" : "anim", "data" : ["seashadow_bl_kraken"], "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"reefripper": {"type" : "anim", "data" : ["reefripper_gg_aquafin"], "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+
+		"db_dbsm1_dbpm1": {"type" : "anim", "data" : ["db_dbsm1_dbpm1_idle", "db_dbsm1_dbpm1"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"db_dbsm1_dbpm2": {"type" : "anim", "data" : ["db_dbsm1_dbpm2_idle", "db_dbsm1_dbpm2"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"db_dbsm1_dbpm3": {"type" : "anim", "data" : ["db_dbsm1_dbpm3_idle", "db_dbsm1_dbpm3"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"db_dbsm1_dbpm4": {"type" : "anim", "data" : ["db_dbsm1_dbpm4_idle", "db_dbsm1_dbpm4"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"db_dbsm2_dbpm1": {"type" : "anim", "data" : ["db_dbsm2_dbpm1_idle", "db_dbsm2_dbpm1"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"db_dbsm2_dbpm2": {"type" : "anim", "data" : ["db_dbsm2_dbpm2_idle", "db_dbsm2_dbpm2"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"db_dbsm2_dbpm3": {"type" : "anim", "data" : ["db_dbsm2_dbpm3_idle", "db_dbsm2_dbpm3"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"db_dbsm2_dbpm4": {"type" : "anim", "data" : ["db_dbsm2_dbpm4_idle", "db_dbsm2_dbpm4"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},	
+		"db_dbsm3_dbpm1": {"type" : "anim", "data" : ["db_dbsm3_dbpm1_idle", "db_dbsm3_dbpm1"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"db_dbsm3_dbpm2": {"type" : "anim", "data" : ["db_dbsm3_dbpm2_idle", "db_dbsm3_dbpm2"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"db_dbsm3_dbpm3": {"type" : "anim", "data" : ["db_dbsm3_dbpm3_idle", "db_dbsm3_dbpm3"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"db_dbsm3_dbpm4": {"type" : "anim", "data" : ["db_dbsm3_dbpm4_idle", "db_dbsm3_dbpm4"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},	
+		"db_dbsm4_dbpm1": {"type" : "anim", "data" : ["db_dbsm4_dbpm1_idle", "db_dbsm4_dbpm1"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"db_dbsm4_dbpm2": {"type" : "anim", "data" : ["db_dbsm4_dbpm2_idle", "db_dbsm4_dbpm2"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"db_dbsm4_dbpm3": {"type" : "anim", "data" : ["db_dbsm4_dbpm3_idle", "db_dbsm4_dbpm3"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"db_dbsm4_dbpm4": {"type" : "anim", "data" : ["db_dbsm4_dbpm4_idle", "db_dbsm4_dbpm4"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"ss_sssm1_sspm1": {"type" : "anim", "data" : ["ss_sssm1_sspm1_idle", "ss_sssm1_sspm1"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"ss_sssm1_sspm2": {"type" : "anim", "data" : ["ss_sssm1_sspm2_idle", "ss_sssm1_sspm2"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"ss_sssm1_sspm3": {"type" : "anim", "data" : ["ss_sssm1_sspm3_idle", "ss_sssm1_sspm3"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"ss_sssm1_sspm4": {"type" : "anim", "data" : ["ss_sssm1_sspm4_idle", "ss_sssm1_sspm4"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"ss_sssm2_sspm1": {"type" : "anim", "data" : ["ss_sssm2_sspm1_idle", "ss_sssm2_sspm1"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"ss_sssm2_sspm2": {"type" : "anim", "data" : ["ss_sssm2_sspm2_idle", "ss_sssm2_sspm2"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"ss_sssm2_sspm3": {"type" : "anim", "data" : ["ss_sssm2_sspm3_idle", "ss_sssm2_sspm3"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"ss_sssm2_sspm4": {"type" : "anim", "data" : ["ss_sssm2_sspm4_idle", "ss_sssm2_sspm4"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"ss_sssm3_sspm1": {"type" : "anim", "data" : ["ss_sssm3_sspm1_idle", "ss_sssm3_sspm1"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"ss_sssm3_sspm2": {"type" : "anim", "data" : ["ss_sssm3_sspm2_idle", "ss_sssm3_sspm2"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"ss_sssm3_sspm3": {"type" : "anim", "data" : ["ss_sssm3_sspm3_idle", "ss_sssm3_sspm3"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"ss_sssm3_sspm4": {"type" : "anim", "data" : ["ss_sssm3_sspm4_idle", "ss_sssm3_sspm4"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"ss_sssm4_sspm1": {"type" : "anim", "data" : ["ss_sssm4_sspm1_idle", "ss_sssm4_sspm1"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"ss_sssm4_sspm2": {"type" : "anim", "data" : ["ss_sssm4_sspm2_idle", "ss_sssm4_sspm2"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"ss_sssm4_sspm3": {"type" : "anim", "data" : ["ss_sssm4_sspm3_idle", "ss_sssm4_sspm3"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"ss_sssm4_sspm4": {"type" : "anim", "data" : ["ss_sssm4_sspm4_idle", "ss_sssm4_sspm4"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"rr_rrsm1_rrpm1": {"type" : "anim", "data" : ["rr_rrsm1_rrpm1_idle", "rr_rrsm1_rrpm1"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"rr_rrsm1_rrpm2": {"type" : "anim", "data" : ["rr_rrsm1_rrpm2_idle", "rr_rrsm1_rrpm2"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"rr_rrsm1_rrpm3": {"type" : "anim", "data" : ["rr_rrsm1_rrpm3_idle", "rr_rrsm1_rrpm3"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"rr_rrsm1_rrpm4": {"type" : "anim", "data" : ["rr_rrsm1_rrpm4_idle", "rr_rrsm1_rrpm4"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"rr_rrsm2_rrpm1": {"type" : "anim", "data" : ["rr_rrsm2_rrpm1_idle", "rr_rrsm2_rrpm1"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"rr_rrsm2_rrpm2": {"type" : "anim", "data" : ["rr_rrsm2_rrpm2_idle", "rr_rrsm2_rrpm2"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"rr_rrsm2_rrpm3": {"type" : "anim", "data" : ["rr_rrsm2_rrpm3_idle", "rr_rrsm2_rrpm3"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"rr_rrsm2_rrpm4": {"type" : "anim", "data" : ["rr_rrsm2_rrpm4_idle", "rr_rrsm2_rrpm4"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},	
+		"rr_rrsm3_rrpm1": {"type" : "anim", "data" : ["rr_rrsm3_rrpm1_idle", "rr_rrsm3_rrpm1"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"rr_rrsm3_rrpm2": {"type" : "anim", "data" : ["rr_rrsm3_rrpm2_idle", "rr_rrsm3_rrpm2"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"rr_rrsm3_rrpm3": {"type" : "anim", "data" : ["rr_rrsm3_rrpm3_idle", "rr_rrsm3_rrpm3"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"rr_rrsm3_rrpm4": {"type" : "anim", "data" : ["rr_rrsm3_rrpm4_idle", "rr_rrsm3_rrpm4"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"rr_rrsm4_rrpm1": {"type" : "anim", "data" : ["rr_rrsm4_rrpm1_idle", "rr_rrsm4_rrpm1"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"rr_rrsm4_rrpm2": {"type" : "anim", "data" : ["rr_rrsm4_rrpm2_idle", "rr_rrsm4_rrpm2"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"rr_rrsm4_rrpm3": {"type" : "anim", "data" : ["rr_rrsm4_rrpm3_idle", "rr_rrsm4_rrpm3"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+		"rr_rrsm4_rrpm4": {"type" : "anim", "data" : ["rr_rrsm4_rrpm4_idle", "rr_rrsm4_rrpm4"], "behavior" : "racer", "options" : {"rotation": 90, "offsetX": -65, "offsetY" : -85, "registrationX" : 65, "registrationY" : 85}},
+
+
+
+
+
+
+		"gearbit_blue": {"type" : "anim","category" : "gameSprite", "data" : ["gearbit_blue_idle", "gearbit_blue_get"], "behavior" : "collectable",  "options" : {"offsetX": -32, "offsetY" : -32}},
+		"gearbit_orange": {"type" : "anim","category" : "gameSprite", "data" : ["gearbit_orange_idle", "gearbit_orange_get"], "behavior" : "collectable", "options" : {"offsetX": -32, "offsetY" : -32}},
+
+		"hazard_net_horizontal": {"type" : "anim","category" : "gameSprite", "data" : ["hazard_net_horizontal"]},
+		"hazard_net_vertical": {"type" : "anim","category" : "gameSprite", "data" : ["hazard_net_vertical"]},
+
+		"hazard_dock_vertical": {"type" : "image", "data" : "Dock2"},
+		"hazard_dock_horizontal": {"type" : "image", "data" : "Dock1"},
+		"hazard_seaweed": {"type" : "anim","category" : "gameSprite", "data" : ["hazard_seaweed"],  "options" : {"offsetY" : -64 }},
+		"hazard_whirlpool": {"type" : "anim","category" : "gameSprite", "data" : ["hazard_whirlpool"]},	
+
+		"enemy": {"type" : "anim","category" : "fx", "data" : ["enemy_idle" , "enemy_move"], "behavior" : "racer", "options" : {"rotation" : 90, "offsetX": -64, "offsetY" : -86, "registrationX": 64, "registrationY" : 86 }},
+		"enemy_explode": {"type" : "anim","category" : "fx", "data" : "enemy_explode","category" : "fx",  "options" : { "offsetX": -140, "offsetY" : -107, "registrationX": 140, "registrationY" : 107 }},
+		"destructable_explode": {"type" : "anim","category" : "fx", "data" : "enemy_explode","category" : "fx",  "options" : { "offsetX": -140, "offsetY" : -107, "registrationX": 140, "registrationY" : 107, "scale":0.5 }},
+
+		"db_attack": {"type" : "anim", "category" : "fx", "data" : ["divebomber_attack_projectile"],  "options" : {"offsetX" : -172, "offsetY" : -32, "registrationX" : 172, "registrationY" : 32}},
+		"db_attack_hit": {"type" : "anim", "category" : "fx","data" : ["divebomber_attack_hit"], "behavior" : "removeOnEnd",  "options" : {"offsetY" : -90 , "offsetX" : -90 }},
+		"db_special": {"type" : "anim", "category" : "fx", "data" : ["divebomber_special"],  "options" : {"offsetX" : -80, "offsetY" : -80, "scale":3}},
+
+
+
+		"ss_attack": {"type" : "anim", "category" : "fx","data" : ["seashadow_attack_projectile"], "options" : {"offsetX" : -134, "offsetY" : -40, "registrationX" : 134, "registrationY" : 40}},
+		"ss_attack_hit": {"type" : "anim", "category" : "fx","data" : ["seashadow_attack_hit"], "behavior" : "removeOnEnd",  "options" : {"offsetX" : -90 , "offsetY" : -90 }},
+		"ss_special": {"type" : "anim", "category" : "fx","data" : ["seashadow_special_projectile"], "behavior" : "trail",  "options" : {"offsetX" : -7 , "offsetY" : -5, "trail" : "ss_special_trail" }},
+		"ss_special_hit": {"type" : "anim", "category" : "fx","data" : ["seashadow_special_hit"], "behavior" : "",  "options" : {"offsetX" : -80 , "offsetY" : -80 }},
+		"ss_special_trail": {"type" : "anim", "category" : "fx","data" : ["seashadow_special_projectile"], "behavior" : "fadeOut",  "options" : {"offsetX" : -7 , "offsetY" : -5, "rate" :0.1 }},
+
+		"rr_attack": {"type" : "anim","category" : "fx", "data" : ["reefripper_attack_projectile"], "options" : {"offsetX" : -170, "offsetY" : -33, "registrationX" : 170, "registrationY" : 33}},
+		"rr_attack_hit": {"type" : "anim","category" : "fx", "data" : ["reefripper_attack_hit"], "behavior" : "removeOnEnd",  "options" : {"offsetX" : -90 , "offsetY" : -90 }},
+		"rr_special": {"type" : "anim","category" : "fx", "data" : ["reefripper_special_projectile"], "behavior" : "fadeIn",  "options" : {"offsetX" : -80 , "offsetY" : -26, "registrationX" : 80, "registrationY" : 26, "trail" : "rr_special_trail" }},
+		"rr_special_trail": {"type" : "anim","category" : "fx", "data" : ["reefripper_special_projectile"], "behavior" : "fadeOut",  "options" : {"offsetX" : -80 , "offsetY" : -26, "registrationX" : 80, "registrationY" : 26 }},
+		"rr_special_overlay": {"type" : "anim","category" : "fx", "data" : ["reefripper_special_overlay"], "behavior" : "removeOnEnd",  "options" : {"offsetX" : -90 , "offsetY" : -90 }},
+		"rr_special_hit": {"type" : "anim","category" : "fx", "data" : ["reefripper_special_hit"], "behavior" : "removeOnEnd",  "options" : {"offsetX" : -90 , "offsetY" : -90 }},
+
+		"enemy_attack": {"type" : "anim","category" : "fx", "data" : ["chompy_attack_projectile"], "options" : {"offsetX" : -32, "offsetY" : -32, "registrationX" : 32, "registrationY" : 32, "rotation": 90}},
+		"enemy_attack_hit": {"type" : "anim","category" : "fx", "data" : ["chompy_attack_hit"], "behavior" : "removeOnEnd",  "options" : {"offsetX" : -64 , "offsetY" : -64 }},
+
+		"prizebox": {"type" : "anim","category" : "fx", "data" : ["prizebox_idle", "prizebox_get"], "behavior" : "collectable", "options" : {"offsetX" : -70 , "offsetY" : -60 }},
+
+		"bonus_elixir": {"type" : "anim", "category" : "fx","data" : ["bonus_elixir_get", "bonus_elixir_overlay"], "behavior" : "bonus", "options" : {"offsetX" : -105 , "offsetY" : -100 }},		
+		"bonus_shield": {"type" : "anim","category" : "fx", "data" : ["bonus_shield_get", "bonus_shield_overlay"], "behavior" : "bonus", "options" : {"offsetX" : -105 , "offsetY" : -100 }},		
+		"bonus_shoe": {"type" : "anim", "category" : "fx","data" : ["bonus_shoe_get", "bonus_shoe_overlay"], "behavior" : "bonus", "options" : {"offsetX" : -105 , "offsetY" : -100 }},		
+		"bonus_hourglass": {"type" : "anim", "category" : "fx","data" : ["bonus_hourglass_get"], "behavior" : "removeOnEnd", "options" : {"offsetX" : -105 , "offsetY" : -100 }},		
+		"slow": {"type" : "anim", "category" : "fx","data" : ["bonus_hourglass_get", "bonus_hourglass_overlay"], "behavior" : "bonus", "options" : {"offsetX" : -105 , "offsetY" : -100 }},		
+
+		"item1Wave1": {"type" : "image", "data" : "IconDB1", "behavior" : "raceItemBounce"},
+		"item1Wave2": {"type" : "image", "data" : "IconDB1", "behavior" : "raceItemBounce"},
+		"item1Wave3": {"type" : "image", "data" : "IconDB1", "behavior" : "raceItemBounce"},
+		"item2Wave1": {"type" : "image", "data" : "IconSS1", "behavior" : "raceItemBounce"},
+		"item2Wave2": {"type" : "image", "data" : "IconSS1", "behavior" : "raceItemBounce"},
+		"item2Wave3": {"type" : "image", "data" : "IconSS1", "behavior" : "raceItemBounce"},
+		"item3Wave1": {"type" : "image", "data" : "IconRR1", "behavior" : "raceItemBounce"},
+		"item3Wave2": {"type" : "image", "data" : "IconRR1", "behavior" : "raceItemBounce"},
+		"item3Wave3": {"type" : "image", "data" : "IconRR1", "behavior" : "raceItemBounce"},
+
+		"item1Get": {"type" : "anim","category" : "fx", "data" : "icon_get_divebomber_blue", "behavior" : "","options" : {"offsetX" : -64 , "offsetY" : -64 }},
+		"item2Get": {"type" : "anim","category" : "fx", "data" : "icon_get_seashadow_dark_fx", "behavior" : "",   "options" : {"offsetX" : -64 , "offsetY" : -64 }},
+		"item3Get": {"type" : "anim","category" : "fx", "data" : "icon_get_reefripper_yellow_fx", "behavior" : "","options" : {"offsetX" : -64 , "offsetY" : -64 }},
+		
+
+		"passable" : {"type" : "image", "data" : "TilePassable"},
+		"impassable" : {"type" : "image", "data" : "TileImpassable"},
+		"destructable" : {"type" : "image", "data" : "TileDestructable"},
+		"projectile" : {"type" : "image", "data" : "TileProjectile", "options" : {"offsetX" : -6, "offsetY" : -6 }},
+		"levelBG" : {"type" : "image", "data" : "LevelBG", "options" : {"scale" : 1 }},
+		"collectable" : {"type" : "image", "data" : "TileCollectable"}
+
+	}
+	
+}

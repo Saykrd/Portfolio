@@ -1,0 +1,48 @@
+{
+	"products" : [
+		{"sku" : "hsm-0001", "cost" : 100, "img" : "", "commands": ["UNLOCK_HSSMBB"]},
+		{"sku" : "hsm-0002", "cost" : 100, "img" : "", "commands": ["UNLOCK_HSSMWF"]},
+		{"sku" : "hsm-0003", "cost" : 100, "img" : "", "commands": ["UNLOCK_HSSMBB"]},
+		{"sku" : "hsm-0004", "cost" : 100, "img" : "", "commands": ["UNLOCK_HSSMVV"]},
+
+		{"sku" : "hsm-0005", "cost" : 100, "img" : "", "commands": ["UNLOCK_HSPMBF"]},
+		{"sku" : "hsm-0006", "cost" : 100, "img" : "", "commands": ["UNLOCK_HSPMRB"]},
+		{"sku" : "hsm-0007", "cost" : 100, "img" : "", "commands": ["UNLOCK_HSPMSD"]},
+		{"sku" : "hsm-0008", "cost" : 100, "img" : "", "commands": ["UNLOCK_HSPMBB"]},
+
+		{"sku" : "ccm-0001", "cost" : 100, "img" : "", "commands": ["UNLOCK_CCSMGR"]},
+		{"sku" : "ccm-0002", "cost" : 100, "img" : "", "commands": ["UNLOCK_CCSMCC"]},
+		{"sku" : "ccm-0003", "cost" : 100, "img" : "", "commands": ["UNLOCK_CCSMPP"]},
+		{"sku" : "ccm-0004", "cost" : 100, "img" : "", "commands": ["UNLOCK_CCSMMS"]},
+
+		{"sku" : "ccm-0005", "cost" : 100, "img" : "", "commands": ["UNLOCK_CCPMCC"]},
+		{"sku" : "ccm-0006", "cost" : 100, "img" : "", "commands": ["UNLOCK_CCPMWG"]},
+		{"sku" : "ccm-0007", "cost" : 100, "img" : "", "commands": ["UNLOCK_CCPMFF"]},
+		{"sku" : "ccm-0008", "cost" : 100, "img" : "", "commands": ["UNLOCK_CCPMMM"]}
+	],
+
+	"commands" : {
+		"UNLOCK_ALL" : {"type" : "unlock",  "data" : "all"},
+
+		"UNLOCK_HSSMBB" : {"type" : "unlock", "data" : ["hs_sm_blazeboost"]},
+		"UNLOCK_HSSMWF" : {"type" : "unlock", "data" : ["hs_sm_windflares"]},
+		"UNLOCK_HSSMBB" : {"type" : "unlock", "data" : ["hs_sm_blockbroiler"]},
+		"UNLOCK_HSSMVV" : {"type" : "unlock", "data" : ["hs_sm_volcanicvents"]},
+
+		"UNLOCK_HSPMBF" : {"type" : "unlock", "data" : ["hs_pm_bluefire"]},
+		"UNLOCK_HSPMRB" : {"type" : "unlock", "data" : ["hs_pm_roadburn"]},
+		"UNLOCK_HSPMSD" : {"type" : "unlock", "data" : ["hs_pm_speeddemon"]},
+		"UNLOCK_HSPMBB" : {"type" : "unlock", "data" : ["hs_pm_coalshooters"]},
+
+		"UNLOCK_CCSMGR" : {"type" : "unlock", "data" : ["cc_sm_graveraiser"]},
+		"UNLOCK_CCSMCC" : {"type" : "unlock", "data" : ["cc_sm_coachcruiser"]},
+		"UNLOCK_CCSMPP" : {"type" : "unlock", "data" : ["cc_sm_percpunisher"]},
+		"UNLOCK_CCSMMS" : {"type" : "unlock", "data" : ["cc_sm_mumspindle"]},
+		
+		"UNLOCK_CCPMCC" : {"type" : "unlock", "data" : ["cc_pm_coffinclapper"]},
+		"UNLOCK_CCPMWG" : {"type" : "unlock", "data" : ["cc_pm_woodgiest"]},
+		"UNLOCK_CCPMFF" : {"type" : "unlock", "data" : ["cc_pm_ffengine"]},
+		"UNLOCK_CCPMMM" : {"type" : "unlock", "data" : ["cc_pm_mummymotif"]}
+
+	}
+}

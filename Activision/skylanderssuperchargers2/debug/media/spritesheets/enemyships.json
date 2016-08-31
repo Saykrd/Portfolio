@@ -1,0 +1,604 @@
+{"frames": [
+
+{
+	"filename": "enemyshipsA/0000",
+	"frame": {"x":846,"y":74,"w":128,"h":70},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":30,"w":128,"h":70},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsA/0001",
+	"frame": {"x":846,"y":74,"w":128,"h":70},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":30,"w":128,"h":70},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsA/0002",
+	"frame": {"x":418,"y":448,"w":132,"h":72},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":132,"h":72},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsA/0003",
+	"frame": {"x":418,"y":448,"w":132,"h":72},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":132,"h":72},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsA/0004",
+	"frame": {"x":818,"y":402,"w":132,"h":70},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":30,"w":132,"h":70},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsA/0005",
+	"frame": {"x":818,"y":402,"w":132,"h":70},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":30,"w":132,"h":70},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsA/0006",
+	"frame": {"x":718,"y":2,"w":126,"h":72},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":28,"w":126,"h":72},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsA/0007",
+	"frame": {"x":718,"y":2,"w":126,"h":72},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":28,"w":126,"h":72},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsA/0008",
+	"frame": {"x":856,"y":472,"w":130,"h":70},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":29,"w":130,"h":70},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsA/0009",
+	"frame": {"x":856,"y":472,"w":130,"h":70},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":29,"w":130,"h":70},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsA/0010",
+	"frame": {"x":706,"y":612,"w":132,"h":70},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":132,"h":70},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsA/0011",
+	"frame": {"x":706,"y":612,"w":132,"h":70},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":132,"h":70},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsA/0012",
+	"frame": {"x":574,"y":614,"w":132,"h":70},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":28,"w":132,"h":70},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsA/0013",
+	"frame": {"x":574,"y":614,"w":132,"h":70},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":28,"w":132,"h":70},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsA/0014",
+	"frame": {"x":846,"y":2,"w":126,"h":72},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":28,"w":126,"h":72},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsA/0015",
+	"frame": {"x":846,"y":2,"w":126,"h":72},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":28,"w":126,"h":72},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsA/0016",
+	"frame": {"x":846,"y":144,"w":126,"h":70},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":29,"w":126,"h":70},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsA/0017",
+	"frame": {"x":846,"y":144,"w":126,"h":70},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":29,"w":126,"h":70},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsA/0018",
+	"frame": {"x":442,"y":614,"w":132,"h":70},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":30,"w":132,"h":70},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsA/0019",
+	"frame": {"x":442,"y":614,"w":132,"h":70},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":30,"w":132,"h":70},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsA/0020",
+	"frame": {"x":550,"y":448,"w":132,"h":70},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":30,"w":132,"h":70},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsA/0021",
+	"frame": {"x":550,"y":448,"w":132,"h":70},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":30,"w":132,"h":70},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsA/0022",
+	"frame": {"x":880,"y":308,"w":126,"h":72},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":29,"w":126,"h":72},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsA/0023",
+	"frame": {"x":880,"y":308,"w":126,"h":72},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":29,"w":126,"h":72},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsB/0000",
+	"frame": {"x":720,"y":498,"w":136,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":6,"w":136,"h":94},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsB/0001",
+	"frame": {"x":720,"y":498,"w":136,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":6,"w":136,"h":94},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsB/0002",
+	"frame": {"x":608,"y":310,"w":138,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":6,"w":138,"h":94},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsB/0003",
+	"frame": {"x":608,"y":310,"w":138,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":6,"w":138,"h":94},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsB/0004",
+	"frame": {"x":442,"y":520,"w":140,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":5,"w":140,"h":94},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsB/0005",
+	"frame": {"x":442,"y":520,"w":140,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":5,"w":140,"h":94},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsB/0006",
+	"frame": {"x":844,"y":216,"w":134,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":7,"w":134,"h":92},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsB/0007",
+	"frame": {"x":844,"y":216,"w":134,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":7,"w":134,"h":92},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsB/0008",
+	"frame": {"x":682,"y":404,"w":136,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":4,"w":136,"h":94},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsB/0009",
+	"frame": {"x":682,"y":404,"w":136,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":9,"y":4,"w":136,"h":94},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsB/0010",
+	"frame": {"x":838,"y":592,"w":138,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":7,"w":138,"h":92},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsB/0011",
+	"frame": {"x":838,"y":592,"w":138,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":7,"w":138,"h":92},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsB/0012",
+	"frame": {"x":572,"y":216,"w":140,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":4,"w":140,"h":94},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsB/0013",
+	"frame": {"x":572,"y":216,"w":140,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":4,"w":140,"h":94},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsB/0014",
+	"frame": {"x":746,"y":310,"w":134,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":7,"w":134,"h":92},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsB/0015",
+	"frame": {"x":746,"y":310,"w":134,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":7,"w":134,"h":92},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsB/0016",
+	"frame": {"x":712,"y":216,"w":132,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":5,"w":132,"h":94},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsB/0017",
+	"frame": {"x":712,"y":216,"w":132,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":5,"w":132,"h":94},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsB/0018",
+	"frame": {"x":582,"y":518,"w":138,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":6,"w":138,"h":94},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsB/0019",
+	"frame": {"x":582,"y":518,"w":138,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":7,"y":6,"w":138,"h":94},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsB/0020",
+	"frame": {"x":572,"y":122,"w":140,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":6,"w":140,"h":94},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsB/0021",
+	"frame": {"x":572,"y":122,"w":140,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":5,"y":6,"w":140,"h":94},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsB/0022",
+	"frame": {"x":712,"y":122,"w":134,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":6,"w":134,"h":94},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyshipsB/0023",
+	"frame": {"x":712,"y":122,"w":134,"h":94},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":6,"w":134,"h":94},
+	"sourceSize": {"w":162,"h":110}
+},
+{
+	"filename": "enemyships_explode/0000",
+	"frame": {"x":2,"y":2,"w":202,"h":202},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":30,"w":202,"h":202},
+	"sourceSize": {"w":300,"h":250}
+},
+{
+	"filename": "enemyships_explode/0001",
+	"frame": {"x":2,"y":2,"w":202,"h":202},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":50,"y":30,"w":202,"h":202},
+	"sourceSize": {"w":300,"h":250}
+},
+{
+	"filename": "enemyships_explode/0002",
+	"frame": {"x":402,"y":2,"w":162,"h":162},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":52,"w":162,"h":162},
+	"sourceSize": {"w":300,"h":250}
+},
+{
+	"filename": "enemyships_explode/0003",
+	"frame": {"x":402,"y":2,"w":162,"h":162},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":68,"y":52,"w":162,"h":162},
+	"sourceSize": {"w":300,"h":250}
+},
+{
+	"filename": "enemyships_explode/0004",
+	"frame": {"x":426,"y":164,"w":146,"h":138},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":72,"y":69,"w":146,"h":138},
+	"sourceSize": {"w":300,"h":250}
+},
+{
+	"filename": "enemyships_explode/0005",
+	"frame": {"x":426,"y":164,"w":146,"h":138},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":72,"y":69,"w":146,"h":138},
+	"sourceSize": {"w":300,"h":250}
+},
+{
+	"filename": "enemyships_explode/0006",
+	"frame": {"x":564,"y":2,"w":154,"h":120},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":64,"y":87,"w":154,"h":120},
+	"sourceSize": {"w":300,"h":250}
+},
+{
+	"filename": "enemyships_explode/0007",
+	"frame": {"x":564,"y":2,"w":154,"h":120},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":64,"y":87,"w":154,"h":120},
+	"sourceSize": {"w":300,"h":250}
+},
+{
+	"filename": "enemyships_explode/0008",
+	"frame": {"x":418,"y":314,"w":190,"h":134},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":75,"w":190,"h":134},
+	"sourceSize": {"w":300,"h":250}
+},
+{
+	"filename": "enemyships_explode/0009",
+	"frame": {"x":418,"y":314,"w":190,"h":134},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":75,"w":190,"h":134},
+	"sourceSize": {"w":300,"h":250}
+},
+{
+	"filename": "enemyships_explode/0010",
+	"frame": {"x":226,"y":178,"w":200,"h":136},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":55,"y":71,"w":200,"h":136},
+	"sourceSize": {"w":300,"h":250}
+},
+{
+	"filename": "enemyships_explode/0011",
+	"frame": {"x":226,"y":178,"w":200,"h":136},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":55,"y":71,"w":200,"h":136},
+	"sourceSize": {"w":300,"h":250}
+},
+{
+	"filename": "enemyships_explode/0012",
+	"frame": {"x":2,"y":546,"w":218,"h":140},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":44,"y":69,"w":218,"h":140},
+	"sourceSize": {"w":300,"h":250}
+},
+{
+	"filename": "enemyships_explode/0013",
+	"frame": {"x":2,"y":546,"w":218,"h":140},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":44,"y":69,"w":218,"h":140},
+	"sourceSize": {"w":300,"h":250}
+},
+{
+	"filename": "enemyships_explode/0014",
+	"frame": {"x":220,"y":526,"w":222,"h":148},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":46,"y":66,"w":222,"h":148},
+	"sourceSize": {"w":300,"h":250}
+},
+{
+	"filename": "enemyships_explode/0015",
+	"frame": {"x":220,"y":526,"w":222,"h":148},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":46,"y":66,"w":222,"h":148},
+	"sourceSize": {"w":300,"h":250}
+},
+{
+	"filename": "enemyships_explode/0016",
+	"frame": {"x":198,"y":372,"w":220,"h":154},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":58,"w":220,"h":154},
+	"sourceSize": {"w":300,"h":250}
+},
+{
+	"filename": "enemyships_explode/0017",
+	"frame": {"x":198,"y":372,"w":220,"h":154},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":58,"w":220,"h":154},
+	"sourceSize": {"w":300,"h":250}
+},
+{
+	"filename": "enemyships_explode/0018",
+	"frame": {"x":2,"y":204,"w":224,"h":168},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":55,"y":51,"w":224,"h":168},
+	"sourceSize": {"w":300,"h":250}
+},
+{
+	"filename": "enemyships_explode/0019",
+	"frame": {"x":2,"y":204,"w":224,"h":168},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":55,"y":51,"w":224,"h":168},
+	"sourceSize": {"w":300,"h":250}
+},
+{
+	"filename": "enemyships_explode/0020",
+	"frame": {"x":2,"y":372,"w":196,"h":174},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":56,"y":49,"w":196,"h":174},
+	"sourceSize": {"w":300,"h":250}
+},
+{
+	"filename": "enemyships_explode/0021",
+	"frame": {"x":2,"y":372,"w":196,"h":174},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":56,"y":49,"w":196,"h":174},
+	"sourceSize": {"w":300,"h":250}
+},
+{
+	"filename": "enemyships_explode/0022",
+	"frame": {"x":204,"y":2,"w":198,"h":176},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":50,"w":198,"h":176},
+	"sourceSize": {"w":300,"h":250}
+},
+{
+	"filename": "enemyships_explode/0023",
+	"frame": {"x":204,"y":2,"w":198,"h":176},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":50,"w":198,"h":176},
+	"sourceSize": {"w":300,"h":250}
+},
+{
+	"filename": "enemyships_explode/0024",
+	"frame": {"x":204,"y":178,"w":1,"h":1},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":1,"h":1},
+	"sourceSize": {"w":300,"h":250}
+},
+{
+	"filename": "enemyships_explode/0025",
+	"frame": {"x":204,"y":178,"w":1,"h":1},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":1,"h":1},
+	"sourceSize": {"w":300,"h":250}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "enemyships.png",
+	"format": "RGBA8888",
+	"size": {"w":1008,"h":688},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:2ac54cf9d7f4f7891d3b333a64750a4c:1/1$"
+}
+}

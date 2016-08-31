@@ -1,0 +1,235 @@
+{
+	"buttons":
+	[
+		{"name":"PlayButton", "style":".titleButton", "value":"PLAY"},
+		{"name":"NextButton", "style":".titleButton", "value":"NEXT"},
+		{"name":"ShopButton", "style":".smallButton", "value":"SHOP"},
+		{"name":"SoundOffButton", "style":".smallButton", "value":"SOUND OFF"},
+		{"name":"SoundOnButton", "style":".smallButton", "value":"SOUND ON"},
+		{"name":"ResumeButton", "style":".smallButton", "value":"RESUME"},
+		{"name":"RestartButton", "style":".smallButton", "value":"RESTART"},
+		{"name":"HowToPlayButton", "style":".smallButton", "value":"HOW TO PLAY"},
+		{"name":"LevelSelectButton", "style":".smallButton", "value":"LEVEL SELECT"},
+		{"name":"HelpButton", "style":".smallButton", "value":"HELP"},
+		{"name":"QuitButton", "style":".smallButton", "value":"QUIT"},
+		{"name":"YesButton", "style":".smallButton", "value":"YES"},
+		{"name":"NoButton", "style":".smallButton", "value":"NO"},
+		{"name":"ContinueButton", "style":".smallButton", "value":"DONE"},
+		{"name":"BackButton", "style":".titleButton", "value":"BACK"},
+		{"name":"PlayAgainButton", "style":".smallButton", "value":"PLAY AGAIN"},
+		{"name":"SkipButton", "style":".smallButton", "value":"Skip"},
+		{"name":"ClearProgress", "style":".clearProgressButton", "value":"CLEAR PROGRESS"}
+	],
+
+	"screens":
+	{
+		"PreloadScreen":
+		[
+			{"name":"Loading", "style":".loadingCopy", "value":"Loading"},
+			{"name":"Copyright", "style":".copyright", "value":"©2015 Activision Publishing, Inc"}
+		],
+
+		"GameLoadScreen":
+		[
+			{"name":"Title", "style":".loadingTitle", "value":"LOADING"},
+			{"name":"Copyright", "style":".copyright", "value":""}
+		],
+
+		"MenuLoadScreen":
+		[
+			{"name":"MenuLoading", "style":".loadingCopy", "value":"LOADING..."}
+		],
+
+		"TitleScreen":
+		[
+			{"name":"GameTitle", "style":".gameTitle", "value":"SWITCHBACK RACETRACK"}
+		],
+
+		"WelcomeScreen":
+		[
+			{"name":"WelcomeTitle", "style":".screenTitle1", "value":"WELCOME"},
+			{"name":"WelcomeCopy1", "style":".screenCopy", "value":"Portal Masters, start your engines! Kaos has unleashed a team of villains who have taken over the canyons."},
+			{"name":"WelcomeCopy2", "style":".screenCopy", "value":"We need you and the Superchargers to stop evil in its dirt tracks as quickly as possible."},
+			{"name":"WelcomeCopy3", "style":".screenCopy", "value":"This race will prove who is the greatest driver (and hero) of all Skylands!"}
+		],
+
+		"VehicleSelectScreen":
+		[
+			{"name":"SelectTitle", "style":".screenTitle2", "value":"SELECT HERO & VEHICLE"},
+			{"name":"ComboText", "style":".comboText", "value":"Using this hero and vehicle combo means more speed and firepower!"}
+		],
+
+		"TrackSelectScreen":
+		[
+			{"name":"TrackSelectTitle", "style":".screenTitle2", "value":"LEVEL SELECT"},
+			{"name":"ComboText", "style":".comboText", "value":"Using this hero and vehicle combo means more speed and firepower!"}
+		],
+
+		"HowToPlayScreen":
+		[
+			{"name":"HTPTitle", "style":".screenTitle2", "value":"HOW TO PLAY"},
+			{"name":"PressText1", "style":".htpHeader", "value":"Press"},
+			{"name":"PressText2", "style":".htpHeader", "value":"Press"},
+			{"name":"PressText3", "style":".htpHeader", "value":"Press"},
+			{"name":"TouchText1", "style":".htpHeader", "value":"Touch"},
+			{"name":"TouchText2", "style":".htpHeader", "value":"Touch"},
+			{"name":"TouchText3", "style":".htpHeader", "value":"Touch"},
+			{"name":"TouchText4", "style":".htpHeader", "value":"Touch"},
+			{"name":"SpacebarCopy", "style":".htpSpacebar", "value":"SPACEBAR"},
+			{"name":"SwipeText", "style":".htpHeader", "value":"Swipe"},
+			{"name":"MovementText", "style":".htpFooter", "value":"To drive around"},
+			{"name":"MovementMobileText", "style":".htpFooter", "value":"To drive around"},
+			{"name":"ForwardText", "style":".htpFooter", "value":"To move forward"},
+			{"name":"BrakeText", "style":".htpFooter", "value":"To brake"},
+			{"name":"AttackText",   "style":".htpFooter", "value":"To attack"},
+			{"name":"AttackMobileText",   "style":".htpFooter", "value":"To attack"},
+			{"name":"SAttackText",  "style":".htpFooter", "value":"To use special attack"},
+			{"name":"SAttackMobileText",  "style":".htpFooter", "value":"To use special attack"}
+		],
+
+		"HowToPlayScreen2":
+		[
+			{"name":"HTPTitle2", "style":".screenTitle2", "value":"HOW TO PLAY"},
+			{"name":"InstructionText1", "style":".htpCopy", "value":"Use the vehicle controls to drive and switch lanes."},
+			{"name":"InstructionText2", "style":".htpCopy", "value":"Switch lanes to avoid obstacles to keep your momentum going!"},
+			{"name":"InstructionText3", "style":".htpCopy", "value":"Battle enemies along the way and watch out for hazards that will slow you down!"},
+			{"name":"InstructionText4", "style":".htpCopy", "value":"Drive over speed boosts to zip ahead and collect power ups along the way!"},
+			{"name":"InstructionText5", "style":".htpCopy", "value":"Pick up gear bits to purchase mods for your vehicle after you finish the race!"},
+			{"name":"InstructionText6", "style":".htpCopy", "value":"Get to the finish line as quickly as possible!"}
+		],
+
+		"ReadyScreen":
+		[
+			{"name":"ReadyScreenTitle", "style":".screenTitle2", "value":"ARE YOU READY?"},
+			{"name":"ReadyScreenCopy", "style":".readyCopy", "value":"Let’s see who is the greatest driver (and hero) of all Skylands! Race to the end of this track as quickly as possible!"},
+			{"name":"GoalScore", "style":".readyGoalScore", "value":"Goal Score"},
+			{"name":"HighScoreCopy", "style":".readyHighScoreCopy", "value":"HIGH SCORE"},
+			{"name":"ReadyScreenLoading", "style":".loadingCopy", "value":"LOADING..."}
+		],
+
+		"UpgradeScreen":
+		[
+			{"name":"UpgradeScreenTitle", "style":".screenTitle2", "value":"CHOOSE VEHICLE MODS"},
+			{"name":"SpecialtyCopy", "style":".upgradeHeader", "value":"SPECIALTY MODS"},
+			{"name":"PerformanceCopy", "style":".upgradeHeader", "value":"PERFORMANCE MODS"},
+			{"name":"CurrencyCopy", "style":".upgradeHeader", "value":"GEARBITS"},
+			{"name":"ArmorCopy", "style":".upgradeStats", "value":"Armor"},
+			{"name":"TopSpeedCopy", "style":".upgradeStats", "value":"Top Speed"},
+			{"name":"AccelerationCopy", "style":".upgradeStats", "value":"Acceleration"},
+			{"name":"HandlingCopy", "style":".upgradeStats", "value":"Handling"},
+			{"name":"WeightCopy", "style":".upgradeStats", "value":"Weight"}
+		],
+
+		"EndScreen":
+		[
+			{"name":"EndScreenTitle", "style":".screenTitle2", "value":"SUPERCHARGED WINNER"},
+			{"name":"EndScreenCopy", "style":".endScreenCopy", "value":"Play again to beat your high score and earn more mods for your vehicle!"}
+		],
+
+		"PauseScreen":
+		[
+			{"name":"PauseTitle", "style":".screenTitle2", "value":"PAUSE"}
+		],
+
+		"ResultsOverlay":
+		[
+			{"name":"ResultsTitle", "style":".screenTitle2", "value":"RESULTS"}
+		],
+
+		"ConfirmOverlay":
+		[
+			{"name":"AreYouSureText", "style":".popupHeader", "value":"ARE YOU SURE?"}
+		],
+
+		"PurchaseConfirmOverlay":
+		[
+			{"name":"CostCopy", "style":".upgradeConfirmCostCopy", "value":"COST"}
+		]
+
+	},
+
+	"ui":
+	{
+		"overlays":
+		{
+			"PauseOverlay":
+			[
+				{"name":"Title", "style":".overlayTitle", "value":"Paused"}
+			],
+
+			"ConfirmOverlay":
+			[
+				{"name":"Title", "style":".overlayTitle", "value":"Are you sure?"}
+			],
+
+			"MenuOverlay":
+			[
+				{"name":"Menu", "style":".overlayTitle", "value":"MENU"}
+			]
+		}
+	},
+
+
+	"game":{
+		"lap" : "Lap",
+		"characters" : {
+			"char_spitfire" : "Spitfire",
+			"char_fiesta"   : "Fiesta"
+		},
+
+		"vehicles" : {
+			"vehicle_hotstreak"   : "Hotstreak",
+			"vehicle_cryptcrusher": "Crypt Crusher"
+		},
+
+		"upgrades":{
+				"hs_sm_blazeboost"    : "Blaze Boosters",
+				"hs_sm_windflares"    : "Wind Flares",
+				"hs_sm_blockbroiler"  : "Block Broiler",
+				"hs_sm_volcanicvents" : "Volcanic Vents",
+
+				"hs_pm_bluefire"     : "Bluefire Tires",
+				"hs_pm_roadburn"     : "Road Burners",
+				"hs_pm_speeddemon"   : "Speed Demons",
+				"hs_pm_coalshooters" : "Coal Shooters",
+
+				"cc_sm_graveraiser"  : "Grave Raiser",
+				"cc_sm_scoachcruiser" : "Stage Coach Cruiser",
+				"cc_sm_percpusher" : "Percussion Pusher",
+				"cc_sm_mumspindle"   : "Mums Spindle",
+
+				"cc_pm_coffinclapper" : "Coffin Clapper",
+				"cc_pm_woodgiest"     : "Wood Geist",
+				"cc_pm_ffengine"      : "Fiesta Fueled Engine",
+				"cc_pm_mummymotif"    : "Mummy Motif"
+
+
+		},
+
+		"placement":{
+			"suffix1" : "st",
+			"suffix2" : "nd",
+			"suffix3" : "rd",
+			"suffix4" : "th"
+		},
+
+		"messages" : {
+			"PanderGastRaceTrack1" : {"style" : ".screenFXCopy", "value" : "Switch lanes to avoid obstacles! Get to the finish line first!"},
+			"PanderGastRaceTrack2" : {"style" : ".screenFXCopy", "value" : "They've upped the ante' here! Keep switching lanes to stay ahead of the race!"},
+			"PanderGastRaceTrack3" : {"style" : ".screenFXCopy", "value" : "Alright, this is the most difficult race track. Give it your all and blast through anything in your way!"},
+			"RaceGO" : {"style" : ".screenFXCountdown", "value" :  "GO!"}
+		},
+
+		"descriptions": {
+			"char_spitfire" : "Fuel the Fire!",
+			"char_fiesta"   : "It’s Party Time!",
+			"vehicle_hotstreak" : "Primary Attack: Unleash a powerful stream of fire to heat up your enemies! Secondary Attack: Boost forward in a nitro blaze of glory!",
+			"vehicle_cryptcrusher": "Primary Attack: Shoot musical notes at enemies! Secondary Attack: Shoot Amigos that attach to enemies, damaging them over time!"
+		}
+	},
+
+	"messages":
+	{
+		"go":{"style":".goMessage", "value":"Go!"}
+	}
+}

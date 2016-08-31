@@ -1,0 +1,2060 @@
+{"frames": [
+
+{
+	"filename": "seashadow_bl_kraken_idle/0000",
+	"frame": {"x":534,"y":88,"w":90,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":16,"w":90,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_kraken_idle/0001",
+	"frame": {"x":534,"y":88,"w":90,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":16,"w":90,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_kraken_idle/0002",
+	"frame": {"x":534,"y":88,"w":90,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":16,"w":90,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_kraken_idle/0003",
+	"frame": {"x":534,"y":88,"w":90,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":16,"w":90,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_kraken_idle/0004",
+	"frame": {"x":534,"y":88,"w":90,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":16,"w":90,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_kraken_idle/0005",
+	"frame": {"x":534,"y":88,"w":90,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":16,"w":90,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_kraken_idle/0006",
+	"frame": {"x":534,"y":88,"w":90,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":16,"w":90,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_kraken_idle/0007",
+	"frame": {"x":534,"y":88,"w":90,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":16,"w":90,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_kraken_idle/0008",
+	"frame": {"x":272,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_kraken_idle/0009",
+	"frame": {"x":272,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_kraken_idle/0010",
+	"frame": {"x":272,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_kraken_idle/0011",
+	"frame": {"x":272,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_kraken_idle/0012",
+	"frame": {"x":272,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_kraken_idle/0013",
+	"frame": {"x":272,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_kraken_idle/0014",
+	"frame": {"x":272,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_kraken_idle/0015",
+	"frame": {"x":272,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_lures_idle/0000",
+	"frame": {"x":618,"y":174,"w":88,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":16,"w":88,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_lures_idle/0001",
+	"frame": {"x":618,"y":174,"w":88,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":16,"w":88,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_lures_idle/0002",
+	"frame": {"x":618,"y":174,"w":88,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":16,"w":88,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_lures_idle/0003",
+	"frame": {"x":618,"y":174,"w":88,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":16,"w":88,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_lures_idle/0004",
+	"frame": {"x":618,"y":174,"w":88,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":16,"w":88,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_lures_idle/0005",
+	"frame": {"x":618,"y":174,"w":88,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":16,"w":88,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_lures_idle/0006",
+	"frame": {"x":618,"y":174,"w":88,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":16,"w":88,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_lures_idle/0007",
+	"frame": {"x":618,"y":174,"w":88,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":16,"w":88,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_lures_idle/0008",
+	"frame": {"x":448,"y":94,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_lures_idle/0009",
+	"frame": {"x":448,"y":94,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_lures_idle/0010",
+	"frame": {"x":448,"y":94,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_lures_idle/0011",
+	"frame": {"x":448,"y":94,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_lures_idle/0012",
+	"frame": {"x":448,"y":94,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_lures_idle/0013",
+	"frame": {"x":448,"y":94,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_lures_idle/0014",
+	"frame": {"x":448,"y":94,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_lures_idle/0015",
+	"frame": {"x":448,"y":94,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_manta_idle/0000",
+	"frame": {"x":534,"y":2,"w":90,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":16,"w":90,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_manta_idle/0001",
+	"frame": {"x":534,"y":2,"w":90,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":16,"w":90,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_manta_idle/0002",
+	"frame": {"x":534,"y":2,"w":90,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":16,"w":90,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_manta_idle/0003",
+	"frame": {"x":534,"y":2,"w":90,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":16,"w":90,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_manta_idle/0004",
+	"frame": {"x":534,"y":2,"w":90,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":16,"w":90,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_manta_idle/0005",
+	"frame": {"x":534,"y":2,"w":90,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":16,"w":90,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_manta_idle/0006",
+	"frame": {"x":534,"y":2,"w":90,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":16,"w":90,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_manta_idle/0007",
+	"frame": {"x":534,"y":2,"w":90,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":16,"w":90,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_manta_idle/0008",
+	"frame": {"x":272,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_manta_idle/0009",
+	"frame": {"x":272,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_manta_idle/0010",
+	"frame": {"x":272,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_manta_idle/0011",
+	"frame": {"x":272,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_manta_idle/0012",
+	"frame": {"x":272,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_manta_idle/0013",
+	"frame": {"x":272,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_manta_idle/0014",
+	"frame": {"x":272,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_manta_idle/0015",
+	"frame": {"x":272,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_undercurrent_idle/0000",
+	"frame": {"x":706,"y":174,"w":86,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":16,"w":86,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_undercurrent_idle/0001",
+	"frame": {"x":706,"y":174,"w":86,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":16,"w":86,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_undercurrent_idle/0002",
+	"frame": {"x":706,"y":174,"w":86,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":16,"w":86,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_undercurrent_idle/0003",
+	"frame": {"x":706,"y":174,"w":86,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":16,"w":86,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_undercurrent_idle/0004",
+	"frame": {"x":706,"y":174,"w":86,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":16,"w":86,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_undercurrent_idle/0005",
+	"frame": {"x":706,"y":174,"w":86,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":16,"w":86,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_undercurrent_idle/0006",
+	"frame": {"x":706,"y":174,"w":86,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":16,"w":86,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_undercurrent_idle/0007",
+	"frame": {"x":706,"y":174,"w":86,"h":86},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":16,"w":86,"h":86},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_undercurrent_idle/0008",
+	"frame": {"x":882,"y":170,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_undercurrent_idle/0009",
+	"frame": {"x":882,"y":170,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_undercurrent_idle/0010",
+	"frame": {"x":882,"y":170,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_undercurrent_idle/0011",
+	"frame": {"x":882,"y":170,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_undercurrent_idle/0012",
+	"frame": {"x":882,"y":170,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_undercurrent_idle/0013",
+	"frame": {"x":882,"y":170,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_undercurrent_idle/0014",
+	"frame": {"x":882,"y":170,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_bl_undercurrent_idle/0015",
+	"frame": {"x":882,"y":170,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_kraken_idle/0000",
+	"frame": {"x":182,"y":186,"w":90,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_kraken_idle/0001",
+	"frame": {"x":182,"y":186,"w":90,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_kraken_idle/0002",
+	"frame": {"x":182,"y":186,"w":90,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_kraken_idle/0003",
+	"frame": {"x":182,"y":186,"w":90,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_kraken_idle/0004",
+	"frame": {"x":182,"y":186,"w":90,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_kraken_idle/0005",
+	"frame": {"x":182,"y":186,"w":90,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_kraken_idle/0006",
+	"frame": {"x":182,"y":186,"w":90,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_kraken_idle/0007",
+	"frame": {"x":182,"y":186,"w":90,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_kraken_idle/0008",
+	"frame": {"x":182,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_kraken_idle/0009",
+	"frame": {"x":182,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_kraken_idle/0010",
+	"frame": {"x":182,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_kraken_idle/0011",
+	"frame": {"x":182,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_kraken_idle/0012",
+	"frame": {"x":182,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_kraken_idle/0013",
+	"frame": {"x":182,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_kraken_idle/0014",
+	"frame": {"x":182,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_kraken_idle/0015",
+	"frame": {"x":182,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_lures_idle/0000",
+	"frame": {"x":876,"y":2,"w":88,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":18,"w":88,"h":76},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_lures_idle/0001",
+	"frame": {"x":876,"y":2,"w":88,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":18,"w":88,"h":76},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_lures_idle/0002",
+	"frame": {"x":876,"y":2,"w":88,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":18,"w":88,"h":76},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_lures_idle/0003",
+	"frame": {"x":876,"y":2,"w":88,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":18,"w":88,"h":76},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_lures_idle/0004",
+	"frame": {"x":876,"y":2,"w":88,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":18,"w":88,"h":76},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_lures_idle/0005",
+	"frame": {"x":876,"y":2,"w":88,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":18,"w":88,"h":76},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_lures_idle/0006",
+	"frame": {"x":876,"y":2,"w":88,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":18,"w":88,"h":76},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_lures_idle/0007",
+	"frame": {"x":876,"y":2,"w":88,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":18,"w":88,"h":76},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_lures_idle/0008",
+	"frame": {"x":448,"y":2,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_lures_idle/0009",
+	"frame": {"x":448,"y":2,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_lures_idle/0010",
+	"frame": {"x":448,"y":2,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_lures_idle/0011",
+	"frame": {"x":448,"y":2,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_lures_idle/0012",
+	"frame": {"x":448,"y":2,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_lures_idle/0013",
+	"frame": {"x":448,"y":2,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_lures_idle/0014",
+	"frame": {"x":448,"y":2,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_lures_idle/0015",
+	"frame": {"x":448,"y":2,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_manta_idle/0000",
+	"frame": {"x":792,"y":174,"w":90,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":80},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_manta_idle/0001",
+	"frame": {"x":792,"y":174,"w":90,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":80},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_manta_idle/0002",
+	"frame": {"x":792,"y":174,"w":90,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":80},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_manta_idle/0003",
+	"frame": {"x":792,"y":174,"w":90,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":80},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_manta_idle/0004",
+	"frame": {"x":792,"y":174,"w":90,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":80},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_manta_idle/0005",
+	"frame": {"x":792,"y":174,"w":90,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":80},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_manta_idle/0006",
+	"frame": {"x":792,"y":174,"w":90,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":80},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_manta_idle/0007",
+	"frame": {"x":792,"y":174,"w":90,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":80},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_manta_idle/0008",
+	"frame": {"x":182,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_manta_idle/0009",
+	"frame": {"x":182,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_manta_idle/0010",
+	"frame": {"x":182,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_manta_idle/0011",
+	"frame": {"x":182,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_manta_idle/0012",
+	"frame": {"x":182,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_manta_idle/0013",
+	"frame": {"x":182,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_manta_idle/0014",
+	"frame": {"x":182,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_manta_idle/0015",
+	"frame": {"x":182,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_undercurrent_idle/0000",
+	"frame": {"x":444,"y":186,"w":86,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":17,"w":86,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_undercurrent_idle/0001",
+	"frame": {"x":444,"y":186,"w":86,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":17,"w":86,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_undercurrent_idle/0002",
+	"frame": {"x":444,"y":186,"w":86,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":17,"w":86,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_undercurrent_idle/0003",
+	"frame": {"x":444,"y":186,"w":86,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":17,"w":86,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_undercurrent_idle/0004",
+	"frame": {"x":444,"y":186,"w":86,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":17,"w":86,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_undercurrent_idle/0005",
+	"frame": {"x":444,"y":186,"w":86,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":17,"w":86,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_undercurrent_idle/0006",
+	"frame": {"x":444,"y":186,"w":86,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":17,"w":86,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_undercurrent_idle/0007",
+	"frame": {"x":444,"y":186,"w":86,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":17,"w":86,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_undercurrent_idle/0008",
+	"frame": {"x":792,"y":2,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_undercurrent_idle/0009",
+	"frame": {"x":792,"y":2,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_undercurrent_idle/0010",
+	"frame": {"x":792,"y":2,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_undercurrent_idle/0011",
+	"frame": {"x":792,"y":2,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_undercurrent_idle/0012",
+	"frame": {"x":792,"y":2,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_undercurrent_idle/0013",
+	"frame": {"x":792,"y":2,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_undercurrent_idle/0014",
+	"frame": {"x":792,"y":2,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_dsd_undercurrent_idle/0015",
+	"frame": {"x":792,"y":2,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_kraken_idle/0000",
+	"frame": {"x":92,"y":186,"w":90,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_kraken_idle/0001",
+	"frame": {"x":92,"y":186,"w":90,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_kraken_idle/0002",
+	"frame": {"x":92,"y":186,"w":90,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_kraken_idle/0003",
+	"frame": {"x":92,"y":186,"w":90,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_kraken_idle/0004",
+	"frame": {"x":92,"y":186,"w":90,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_kraken_idle/0005",
+	"frame": {"x":92,"y":186,"w":90,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_kraken_idle/0006",
+	"frame": {"x":92,"y":186,"w":90,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_kraken_idle/0007",
+	"frame": {"x":92,"y":186,"w":90,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_kraken_idle/0008",
+	"frame": {"x":92,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_kraken_idle/0009",
+	"frame": {"x":92,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_kraken_idle/0010",
+	"frame": {"x":92,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_kraken_idle/0011",
+	"frame": {"x":92,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_kraken_idle/0012",
+	"frame": {"x":92,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_kraken_idle/0013",
+	"frame": {"x":92,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_kraken_idle/0014",
+	"frame": {"x":92,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_kraken_idle/0015",
+	"frame": {"x":92,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_lures_idle/0000",
+	"frame": {"x":804,"y":94,"w":88,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":18,"w":88,"h":76},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_lures_idle/0001",
+	"frame": {"x":804,"y":94,"w":88,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":18,"w":88,"h":76},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_lures_idle/0002",
+	"frame": {"x":804,"y":94,"w":88,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":18,"w":88,"h":76},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_lures_idle/0003",
+	"frame": {"x":804,"y":94,"w":88,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":18,"w":88,"h":76},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_lures_idle/0004",
+	"frame": {"x":804,"y":94,"w":88,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":18,"w":88,"h":76},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_lures_idle/0005",
+	"frame": {"x":804,"y":94,"w":88,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":18,"w":88,"h":76},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_lures_idle/0006",
+	"frame": {"x":804,"y":94,"w":88,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":18,"w":88,"h":76},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_lures_idle/0007",
+	"frame": {"x":804,"y":94,"w":88,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":18,"w":88,"h":76},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_lures_idle/0008",
+	"frame": {"x":362,"y":94,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_lures_idle/0009",
+	"frame": {"x":362,"y":94,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_lures_idle/0010",
+	"frame": {"x":362,"y":94,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_lures_idle/0011",
+	"frame": {"x":362,"y":94,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_lures_idle/0012",
+	"frame": {"x":362,"y":94,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_lures_idle/0013",
+	"frame": {"x":362,"y":94,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_lures_idle/0014",
+	"frame": {"x":362,"y":94,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_lures_idle/0015",
+	"frame": {"x":362,"y":94,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_manta_idle/0000",
+	"frame": {"x":714,"y":94,"w":90,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":80},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_manta_idle/0001",
+	"frame": {"x":714,"y":94,"w":90,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":80},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_manta_idle/0002",
+	"frame": {"x":714,"y":94,"w":90,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":80},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_manta_idle/0003",
+	"frame": {"x":714,"y":94,"w":90,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":80},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_manta_idle/0004",
+	"frame": {"x":714,"y":94,"w":90,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":80},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_manta_idle/0005",
+	"frame": {"x":714,"y":94,"w":90,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":80},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_manta_idle/0006",
+	"frame": {"x":714,"y":94,"w":90,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":80},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_manta_idle/0007",
+	"frame": {"x":714,"y":94,"w":90,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":80},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_manta_idle/0008",
+	"frame": {"x":92,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_manta_idle/0009",
+	"frame": {"x":92,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_manta_idle/0010",
+	"frame": {"x":92,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_manta_idle/0011",
+	"frame": {"x":92,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_manta_idle/0012",
+	"frame": {"x":92,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_manta_idle/0013",
+	"frame": {"x":92,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_manta_idle/0014",
+	"frame": {"x":92,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_manta_idle/0015",
+	"frame": {"x":92,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_undercurrent_idle/0000",
+	"frame": {"x":358,"y":186,"w":86,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":17,"w":86,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_undercurrent_idle/0001",
+	"frame": {"x":358,"y":186,"w":86,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":17,"w":86,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_undercurrent_idle/0002",
+	"frame": {"x":358,"y":186,"w":86,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":17,"w":86,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_undercurrent_idle/0003",
+	"frame": {"x":358,"y":186,"w":86,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":17,"w":86,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_undercurrent_idle/0004",
+	"frame": {"x":358,"y":186,"w":86,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":17,"w":86,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_undercurrent_idle/0005",
+	"frame": {"x":358,"y":186,"w":86,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":17,"w":86,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_undercurrent_idle/0006",
+	"frame": {"x":358,"y":186,"w":86,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":17,"w":86,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_undercurrent_idle/0007",
+	"frame": {"x":358,"y":186,"w":86,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":17,"w":86,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_undercurrent_idle/0008",
+	"frame": {"x":708,"y":2,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_undercurrent_idle/0009",
+	"frame": {"x":708,"y":2,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_undercurrent_idle/0010",
+	"frame": {"x":708,"y":2,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_undercurrent_idle/0011",
+	"frame": {"x":708,"y":2,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_undercurrent_idle/0012",
+	"frame": {"x":708,"y":2,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_undercurrent_idle/0013",
+	"frame": {"x":708,"y":2,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_undercurrent_idle/0014",
+	"frame": {"x":708,"y":2,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_pr_undercurrent_idle/0015",
+	"frame": {"x":708,"y":2,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_kraken_idle/0000",
+	"frame": {"x":2,"y":186,"w":90,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_kraken_idle/0001",
+	"frame": {"x":2,"y":186,"w":90,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_kraken_idle/0002",
+	"frame": {"x":2,"y":186,"w":90,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_kraken_idle/0003",
+	"frame": {"x":2,"y":186,"w":90,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_kraken_idle/0004",
+	"frame": {"x":2,"y":186,"w":90,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_kraken_idle/0005",
+	"frame": {"x":2,"y":186,"w":90,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_kraken_idle/0006",
+	"frame": {"x":2,"y":186,"w":90,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_kraken_idle/0007",
+	"frame": {"x":2,"y":186,"w":90,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_kraken_idle/0008",
+	"frame": {"x":2,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_kraken_idle/0009",
+	"frame": {"x":2,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_kraken_idle/0010",
+	"frame": {"x":2,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_kraken_idle/0011",
+	"frame": {"x":2,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_kraken_idle/0012",
+	"frame": {"x":2,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_kraken_idle/0013",
+	"frame": {"x":2,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_kraken_idle/0014",
+	"frame": {"x":2,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_kraken_idle/0015",
+	"frame": {"x":2,"y":94,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_lures_idle/0000",
+	"frame": {"x":530,"y":186,"w":88,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":18,"w":88,"h":76},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_lures_idle/0001",
+	"frame": {"x":530,"y":186,"w":88,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":18,"w":88,"h":76},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_lures_idle/0002",
+	"frame": {"x":530,"y":186,"w":88,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":18,"w":88,"h":76},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_lures_idle/0003",
+	"frame": {"x":530,"y":186,"w":88,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":18,"w":88,"h":76},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_lures_idle/0004",
+	"frame": {"x":530,"y":186,"w":88,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":18,"w":88,"h":76},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_lures_idle/0005",
+	"frame": {"x":530,"y":186,"w":88,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":18,"w":88,"h":76},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_lures_idle/0006",
+	"frame": {"x":530,"y":186,"w":88,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":18,"w":88,"h":76},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_lures_idle/0007",
+	"frame": {"x":530,"y":186,"w":88,"h":76},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":1,"y":18,"w":88,"h":76},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_lures_idle/0008",
+	"frame": {"x":362,"y":2,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_lures_idle/0009",
+	"frame": {"x":362,"y":2,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_lures_idle/0010",
+	"frame": {"x":362,"y":2,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_lures_idle/0011",
+	"frame": {"x":362,"y":2,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_lures_idle/0012",
+	"frame": {"x":362,"y":2,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_lures_idle/0013",
+	"frame": {"x":362,"y":2,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_lures_idle/0014",
+	"frame": {"x":362,"y":2,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_lures_idle/0015",
+	"frame": {"x":362,"y":2,"w":86,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":10,"w":86,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_manta_idle/0000",
+	"frame": {"x":624,"y":94,"w":90,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":80},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_manta_idle/0001",
+	"frame": {"x":624,"y":94,"w":90,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":80},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_manta_idle/0002",
+	"frame": {"x":624,"y":94,"w":90,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":80},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_manta_idle/0003",
+	"frame": {"x":624,"y":94,"w":90,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":80},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_manta_idle/0004",
+	"frame": {"x":624,"y":94,"w":90,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":80},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_manta_idle/0005",
+	"frame": {"x":624,"y":94,"w":90,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":80},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_manta_idle/0006",
+	"frame": {"x":624,"y":94,"w":90,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":80},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_manta_idle/0007",
+	"frame": {"x":624,"y":94,"w":90,"h":80},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":17,"w":90,"h":80},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_manta_idle/0008",
+	"frame": {"x":2,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_manta_idle/0009",
+	"frame": {"x":2,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_manta_idle/0010",
+	"frame": {"x":2,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_manta_idle/0011",
+	"frame": {"x":2,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_manta_idle/0012",
+	"frame": {"x":2,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_manta_idle/0013",
+	"frame": {"x":2,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_manta_idle/0014",
+	"frame": {"x":2,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_manta_idle/0015",
+	"frame": {"x":2,"y":2,"w":90,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":10,"w":90,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_undercurrent_idle/0000",
+	"frame": {"x":272,"y":186,"w":86,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":17,"w":86,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_undercurrent_idle/0001",
+	"frame": {"x":272,"y":186,"w":86,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":17,"w":86,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_undercurrent_idle/0002",
+	"frame": {"x":272,"y":186,"w":86,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":17,"w":86,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_undercurrent_idle/0003",
+	"frame": {"x":272,"y":186,"w":86,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":17,"w":86,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_undercurrent_idle/0004",
+	"frame": {"x":272,"y":186,"w":86,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":17,"w":86,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_undercurrent_idle/0005",
+	"frame": {"x":272,"y":186,"w":86,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":17,"w":86,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_undercurrent_idle/0006",
+	"frame": {"x":272,"y":186,"w":86,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":17,"w":86,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_undercurrent_idle/0007",
+	"frame": {"x":272,"y":186,"w":86,"h":78},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":2,"y":17,"w":86,"h":78},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_undercurrent_idle/0008",
+	"frame": {"x":624,"y":2,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_undercurrent_idle/0009",
+	"frame": {"x":624,"y":2,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_undercurrent_idle/0010",
+	"frame": {"x":624,"y":2,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_undercurrent_idle/0011",
+	"frame": {"x":624,"y":2,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_undercurrent_idle/0012",
+	"frame": {"x":624,"y":2,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_undercurrent_idle/0013",
+	"frame": {"x":624,"y":2,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_undercurrent_idle/0014",
+	"frame": {"x":624,"y":2,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+},
+{
+	"filename": "seashadow_sc_undercurrent_idle/0015",
+	"frame": {"x":624,"y":2,"w":84,"h":92},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":3,"y":10,"w":84,"h":92},
+	"sourceSize": {"w":90,"h":134}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "seashadow_02.png",
+	"format": "RGBA8888",
+	"size": {"w":968,"h":266},
+	"scale": "0.7",
+	"smartupdate": "$TexturePacker:SmartUpdate:aeff39d07b82658a65636cb13c21ce46:1/1$"
+}
+}

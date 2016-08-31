@@ -1,0 +1,300 @@
+{"frames": [
+
+{
+	"filename": "HS_blockbroiler_bluefiretires_left/0000",
+	"frame": {"x":2,"y":1711,"w":324,"h":235},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":56,"y":24,"w":324,"h":235},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_bluefiretires_left/0001",
+	"frame": {"x":2,"y":751,"w":326,"h":247},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":17,"w":326,"h":247},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_bluefiretires_left/0002",
+	"frame": {"x":2,"y":998,"w":326,"h":243},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":21,"w":326,"h":243},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_bluefiretires_left/0003",
+	"frame": {"x":2,"y":1474,"w":326,"h":233},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":26,"w":326,"h":233},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_bluefiretires_right/0000",
+	"frame": {"x":964,"y":1474,"w":320,"h":237},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":42,"y":22,"w":320,"h":237},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_bluefiretires_right/0001",
+	"frame": {"x":328,"y":751,"w":322,"h":249},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":42,"y":16,"w":322,"h":249},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_bluefiretires_right/0002",
+	"frame": {"x":970,"y":992,"w":322,"h":243},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":42,"y":22,"w":322,"h":243},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_bluefiretires_right/0003",
+	"frame": {"x":2,"y":1241,"w":322,"h":233},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":42,"y":26,"w":322,"h":233},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_bluefiretires_straight/0000",
+	"frame": {"x":714,"y":506,"w":354,"h":245},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":7,"w":354,"h":245},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_bluefiretires_straight/0001",
+	"frame": {"x":2,"y":267,"w":354,"h":245},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":1,"w":354,"h":245},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_bluefiretires_straight/0002",
+	"frame": {"x":1068,"y":506,"w":356,"h":239},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":6,"w":356,"h":239},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_bluefiretires_straight/0003",
+	"frame": {"x":2,"y":512,"w":354,"h":239},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":10,"w":354,"h":239},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_coalshooters_left/0000",
+	"frame": {"x":324,"y":1241,"w":320,"h":233},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":23,"w":320,"h":233},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_coalshooters_left/0001",
+	"frame": {"x":650,"y":751,"w":320,"h":245},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":17,"w":320,"h":245},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_coalshooters_left/0002",
+	"frame": {"x":970,"y":1235,"w":320,"h":239},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":21,"w":320,"h":239},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_coalshooters_left/0003",
+	"frame": {"x":328,"y":1000,"w":318,"h":239},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":61,"y":26,"w":318,"h":239},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_coalshooters_right/0000",
+	"frame": {"x":646,"y":1476,"w":318,"h":235},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":42,"y":22,"w":318,"h":235},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_coalshooters_right/0001",
+	"frame": {"x":1068,"y":745,"w":328,"h":247},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":32,"y":16,"w":328,"h":247},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_coalshooters_right/0002",
+	"frame": {"x":1290,"y":1472,"w":318,"h":239},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":42,"y":22,"w":318,"h":239},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_coalshooters_right/0003",
+	"frame": {"x":1292,"y":1233,"w":318,"h":239},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":42,"y":26,"w":318,"h":239},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_coalshooters_straight/0000",
+	"frame": {"x":716,"y":257,"w":356,"h":249},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":7,"w":356,"h":249},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_coalshooters_straight/0001",
+	"frame": {"x":2,"y":2,"w":358,"h":265},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":29,"y":0,"w":358,"h":265},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_coalshooters_straight/0002",
+	"frame": {"x":360,"y":2,"w":356,"h":261},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":4,"w":356,"h":261},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_coalshooters_straight/0003",
+	"frame": {"x":716,"y":2,"w":356,"h":255},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":10,"w":356,"h":255},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_speeddemon_left/0000",
+	"frame": {"x":644,"y":1239,"w":320,"h":237},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":24,"w":320,"h":237},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_speeddemon_left/0001",
+	"frame": {"x":650,"y":996,"w":320,"h":243},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":16,"w":320,"h":243},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_speeddemon_left/0002",
+	"frame": {"x":326,"y":1707,"w":320,"h":235},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":21,"w":320,"h":235},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_speeddemon_left/0003",
+	"frame": {"x":964,"y":1711,"w":318,"h":225},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":61,"y":27,"w":318,"h":225},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_speeddemon_right/0000",
+	"frame": {"x":328,"y":1476,"w":318,"h":231},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":42,"y":23,"w":318,"h":231},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_speeddemon_right/0001",
+	"frame": {"x":1292,"y":992,"w":318,"h":241},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":42,"y":17,"w":318,"h":241},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_speeddemon_right/0002",
+	"frame": {"x":646,"y":1711,"w":318,"h":233},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":42,"y":22,"w":318,"h":233},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_speeddemon_right/0003",
+	"frame": {"x":1282,"y":1711,"w":318,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":42,"y":25,"w":318,"h":223},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_speeddemon_straight/0000",
+	"frame": {"x":356,"y":508,"w":354,"h":243},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":8,"w":354,"h":243},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_speeddemon_straight/0001",
+	"frame": {"x":1072,"y":255,"w":354,"h":251},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":0,"w":354,"h":251},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_speeddemon_straight/0002",
+	"frame": {"x":1072,"y":2,"w":356,"h":253},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":30,"y":5,"w":356,"h":253},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "HS_blockbroiler_speeddemon_straight/0003",
+	"frame": {"x":360,"y":263,"w":354,"h":245},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":31,"y":11,"w":354,"h":245},
+	"sourceSize": {"w":424,"h":265}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "HotStreak_Fiesta_BlockBroiler_1.png",
+	"format": "RGBA8888",
+	"size": {"w":1612,"h":1951},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:0e9874d47aef448160393e6dd335c323:1/1$"
+}
+}

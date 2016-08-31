@@ -1,0 +1,396 @@
+{"frames": [
+
+{
+	"filename": "HS_windflares_bluefiretires_left/0000",
+	"frame": {"x":386,"y":66,"w":76,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":4,"w":76,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_bluefiretires_left/0001",
+	"frame": {"x":690,"y":2,"w":76,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":4,"w":76,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_bluefiretires_left/0002",
+	"frame": {"x":386,"y":2,"w":76,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":2,"w":76,"h":64},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_bluefiretires_left/0003",
+	"frame": {"x":310,"y":66,"w":76,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":4,"w":76,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_bluefiretires_right/0000",
+	"frame": {"x":614,"y":2,"w":76,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":3,"w":76,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_bluefiretires_right/0001",
+	"frame": {"x":310,"y":2,"w":76,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":2,"w":76,"h":64},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_bluefiretires_right/0002",
+	"frame": {"x":234,"y":2,"w":76,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":2,"w":76,"h":64},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_bluefiretires_right/0003",
+	"frame": {"x":610,"y":64,"w":74,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":3,"w":74,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_bluefiretires_straight/0000",
+	"frame": {"x":812,"y":128,"w":70,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":1,"w":70,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_bluefiretires_straight/0001",
+	"frame": {"x":680,"y":184,"w":66,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":0,"w":66,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_bluefiretires_straight/0002",
+	"frame": {"x":550,"y":190,"w":64,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":0,"w":64,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_bluefiretires_straight/0003",
+	"frame": {"x":614,"y":184,"w":66,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":1,"w":66,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_coalshooters_left/0000",
+	"frame": {"x":154,"y":128,"w":78,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":4,"w":78,"h":60},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_coalshooters_left/0001",
+	"frame": {"x":2,"y":66,"w":80,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":4,"w":80,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_coalshooters_left/0002",
+	"frame": {"x":2,"y":192,"w":78,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":3,"w":78,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_coalshooters_left/0003",
+	"frame": {"x":234,"y":66,"w":76,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":4,"w":76,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_coalshooters_right/0000",
+	"frame": {"x":232,"y":128,"w":76,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":4,"w":76,"h":60},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_coalshooters_right/0001",
+	"frame": {"x":2,"y":2,"w":80,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":2,"w":80,"h":64},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_coalshooters_right/0002",
+	"frame": {"x":538,"y":2,"w":76,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":3,"w":76,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_coalshooters_right/0003",
+	"frame": {"x":536,"y":64,"w":74,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":4,"w":74,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_coalshooters_straight/0000",
+	"frame": {"x":524,"y":126,"w":70,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":0,"w":70,"h":64},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_coalshooters_straight/0001",
+	"frame": {"x":154,"y":188,"w":70,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":0,"w":70,"h":66},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_coalshooters_straight/0002",
+	"frame": {"x":420,"y":188,"w":64,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":0,"w":64,"h":66},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_coalshooters_straight/0003",
+	"frame": {"x":290,"y":188,"w":66,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":0,"w":66,"h":66},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_roadburners_left/0000",
+	"frame": {"x":158,"y":66,"w":76,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":4,"w":76,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_roadburners_left/0001",
+	"frame": {"x":462,"y":2,"w":76,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":4,"w":76,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_roadburners_left/0002",
+	"frame": {"x":158,"y":2,"w":76,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":2,"w":76,"h":64},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_roadburners_left/0003",
+	"frame": {"x":78,"y":128,"w":76,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":4,"w":76,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_roadburners_right/0000",
+	"frame": {"x":82,"y":66,"w":76,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":3,"w":76,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_roadburners_right/0001",
+	"frame": {"x":2,"y":128,"w":76,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":2,"w":76,"h":64},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_roadburners_right/0002",
+	"frame": {"x":82,"y":2,"w":76,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":2,"w":76,"h":64},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_roadburners_right/0003",
+	"frame": {"x":462,"y":64,"w":74,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":4,"w":74,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_roadburners_straight/0000",
+	"frame": {"x":80,"y":190,"w":70,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":1,"w":70,"h":64},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_roadburners_straight/0001",
+	"frame": {"x":224,"y":188,"w":66,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":0,"w":66,"h":66},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_roadburners_straight/0002",
+	"frame": {"x":356,"y":188,"w":64,"h":66},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":0,"w":64,"h":66},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_roadburners_straight/0003",
+	"frame": {"x":484,"y":190,"w":66,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":0,"w":66,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_speeddemon_left/0000",
+	"frame": {"x":594,"y":126,"w":74,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":5,"w":74,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_speeddemon_left/0001",
+	"frame": {"x":452,"y":128,"w":72,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":4,"w":72,"h":60},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_speeddemon_left/0002",
+	"frame": {"x":766,"y":2,"w":74,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":2,"w":74,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_speeddemon_left/0003",
+	"frame": {"x":740,"y":126,"w":72,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":4,"w":72,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_speeddemon_right/0000",
+	"frame": {"x":380,"y":128,"w":72,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":3,"w":72,"h":60},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_speeddemon_right/0001",
+	"frame": {"x":684,"y":64,"w":72,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":2,"w":72,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_speeddemon_right/0002",
+	"frame": {"x":308,"y":128,"w":72,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":3,"w":72,"h":60},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_speeddemon_right/0003",
+	"frame": {"x":668,"y":126,"w":72,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":4,"w":72,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_speeddemon_straight/0000",
+	"frame": {"x":756,"y":64,"w":70,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":0,"w":70,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_speeddemon_straight/0001",
+	"frame": {"x":812,"y":190,"w":66,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":0,"w":66,"h":60},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_speeddemon_straight/0002",
+	"frame": {"x":826,"y":64,"w":64,"h":64},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":0,"w":64,"h":64},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_windflares_speeddemon_straight/0003",
+	"frame": {"x":746,"y":184,"w":66,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":1,"w":66,"h":60},
+	"sourceSize": {"w":106,"h":66}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "HotStreak_Fiesta_Windflares_1.png",
+	"format": "RGBA8888",
+	"size": {"w":892,"h":256},
+	"scale": "0.25",
+	"smartupdate": "$TexturePacker:SmartUpdate:db9ea3f3050b79256b765b0166f560b3:1/1$"
+}
+}

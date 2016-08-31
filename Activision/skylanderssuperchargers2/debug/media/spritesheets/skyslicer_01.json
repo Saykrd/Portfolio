@@ -1,0 +1,2268 @@
+{"frames": [
+
+{
+	"filename": "skyslicer_doubleedgedhull_screamstream/0000",
+	"frame": {"x":482,"y":424,"w":109,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":109,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgedhull_screamstream/0001",
+	"frame": {"x":482,"y":424,"w":109,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":109,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgedhull_screamstream/0002",
+	"frame": {"x":371,"y":660,"w":111,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":111,"h":49},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgedhull_screamstream/0003",
+	"frame": {"x":371,"y":660,"w":111,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":111,"h":49},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgedhull_screamstream/0004",
+	"frame": {"x":482,"y":630,"w":109,"h":51},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":109,"h":51},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgedhull_screamstream/0005",
+	"frame": {"x":482,"y":630,"w":109,"h":51},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":109,"h":51},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgedhull_screamstream/0006",
+	"frame": {"x":371,"y":501,"w":111,"h":51},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":27,"w":111,"h":51},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgedhull_screamstream/0007",
+	"frame": {"x":371,"y":501,"w":111,"h":51},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":27,"w":111,"h":51},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgedhull_screamstream/0008",
+	"frame": {"x":371,"y":552,"w":109,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":109,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgedhull_screamstream/0009",
+	"frame": {"x":371,"y":552,"w":109,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":109,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgedhull_screamstream/0010",
+	"frame": {"x":375,"y":348,"w":111,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":111,"h":49},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgedhull_screamstream/0011",
+	"frame": {"x":375,"y":348,"w":111,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":111,"h":49},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgedhull_screamstream/0012",
+	"frame": {"x":591,"y":426,"w":109,"h":51},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":109,"h":51},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgedhull_screamstream/0013",
+	"frame": {"x":591,"y":426,"w":109,"h":51},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":109,"h":51},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_screamstream/0000",
+	"frame": {"x":482,"y":424,"w":109,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":109,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_screamstream/0001",
+	"frame": {"x":482,"y":424,"w":109,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":109,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_screamstream/0002",
+	"frame": {"x":371,"y":660,"w":111,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":111,"h":49},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_screamstream/0003",
+	"frame": {"x":371,"y":660,"w":111,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":111,"h":49},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_screamstream/0004",
+	"frame": {"x":482,"y":630,"w":109,"h":51},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":109,"h":51},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_screamstream/0005",
+	"frame": {"x":482,"y":630,"w":109,"h":51},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":109,"h":51},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_screamstream/0006",
+	"frame": {"x":371,"y":501,"w":111,"h":51},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":27,"w":111,"h":51},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_screamstream/0007",
+	"frame": {"x":371,"y":501,"w":111,"h":51},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":27,"w":111,"h":51},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_screamstream/0008",
+	"frame": {"x":371,"y":552,"w":109,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":109,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_screamstream/0009",
+	"frame": {"x":371,"y":552,"w":109,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":109,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_screamstream/0010",
+	"frame": {"x":375,"y":348,"w":111,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":111,"h":49},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_screamstream/0011",
+	"frame": {"x":375,"y":348,"w":111,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":111,"h":49},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_screamstream/0012",
+	"frame": {"x":591,"y":426,"w":109,"h":51},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":109,"h":51},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_screamstream/0013",
+	"frame": {"x":591,"y":426,"w":109,"h":51},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":109,"h":51},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_trijet/0000",
+	"frame": {"x":482,"y":477,"w":107,"h":55},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":28,"w":107,"h":55},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_trijet/0001",
+	"frame": {"x":482,"y":477,"w":107,"h":55},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":28,"w":107,"h":55},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_trijet/0002",
+	"frame": {"x":696,"y":559,"w":107,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":29,"w":107,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_trijet/0003",
+	"frame": {"x":696,"y":559,"w":107,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":29,"w":107,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_trijet/0004",
+	"frame": {"x":373,"y":397,"w":109,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":29,"w":109,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_trijet/0005",
+	"frame": {"x":373,"y":397,"w":109,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":29,"w":109,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_trijet/0006",
+	"frame": {"x":801,"y":667,"w":105,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":28,"w":105,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_trijet/0007",
+	"frame": {"x":801,"y":667,"w":105,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":28,"w":105,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_trijet/0008",
+	"frame": {"x":914,"y":465,"w":103,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":28,"w":103,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_trijet/0009",
+	"frame": {"x":914,"y":465,"w":103,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":28,"w":103,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_trijet/0010",
+	"frame": {"x":371,"y":605,"w":107,"h":55},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":28,"w":107,"h":55},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_trijet/0011",
+	"frame": {"x":371,"y":605,"w":107,"h":55},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":28,"w":107,"h":55},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_trijet/0012",
+	"frame": {"x":696,"y":506,"w":107,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":29,"w":107,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_trijet/0013",
+	"frame": {"x":696,"y":506,"w":107,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":29,"w":107,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_twinjet/0000",
+	"frame": {"x":778,"y":224,"w":111,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":28,"w":111,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_twinjet/0001",
+	"frame": {"x":778,"y":224,"w":111,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":28,"w":111,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_twinjet/0002",
+	"frame": {"x":514,"y":287,"w":113,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":29,"w":113,"h":45},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_twinjet/0003",
+	"frame": {"x":514,"y":287,"w":113,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":29,"w":113,"h":45},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_twinjet/0004",
+	"frame": {"x":482,"y":681,"w":109,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":29,"w":109,"h":45},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_twinjet/0005",
+	"frame": {"x":482,"y":681,"w":109,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":29,"w":109,"h":45},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_twinjet/0006",
+	"frame": {"x":627,"y":287,"w":113,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":27,"w":113,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_twinjet/0007",
+	"frame": {"x":627,"y":287,"w":113,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":27,"w":113,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_twinjet/0008",
+	"frame": {"x":893,"y":181,"w":111,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":27,"w":111,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_twinjet/0009",
+	"frame": {"x":893,"y":181,"w":111,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":27,"w":111,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_twinjet/0010",
+	"frame": {"x":782,"y":179,"w":111,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":111,"h":45},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_twinjet/0011",
+	"frame": {"x":782,"y":179,"w":111,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":111,"h":45},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_twinjet/0012",
+	"frame": {"x":480,"y":585,"w":109,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":29,"w":109,"h":45},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_twinjet/0013",
+	"frame": {"x":480,"y":585,"w":109,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":29,"w":109,"h":45},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_unifusion/0000",
+	"frame": {"x":803,"y":567,"w":107,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":28,"w":107,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_unifusion/0001",
+	"frame": {"x":803,"y":567,"w":107,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":28,"w":107,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_unifusion/0002",
+	"frame": {"x":486,"y":379,"w":111,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":111,"h":45},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_unifusion/0003",
+	"frame": {"x":486,"y":379,"w":111,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":111,"h":45},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_unifusion/0004",
+	"frame": {"x":700,"y":461,"w":107,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":29,"w":107,"h":45},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_unifusion/0005",
+	"frame": {"x":700,"y":461,"w":107,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":29,"w":107,"h":45},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_unifusion/0006",
+	"frame": {"x":597,"y":379,"w":111,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":27,"w":111,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_unifusion/0007",
+	"frame": {"x":597,"y":379,"w":111,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":27,"w":111,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_unifusion/0008",
+	"frame": {"x":698,"y":720,"w":107,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":27,"w":107,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_unifusion/0009",
+	"frame": {"x":698,"y":720,"w":107,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":27,"w":107,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_unifusion/0010",
+	"frame": {"x":603,"y":334,"w":111,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":111,"h":45},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_unifusion/0011",
+	"frame": {"x":603,"y":334,"w":111,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":111,"h":45},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_unifusion/0012",
+	"frame": {"x":591,"y":683,"w":107,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":29,"w":107,"h":45},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_doubleedgehull_unifusion/0013",
+	"frame": {"x":591,"y":683,"w":107,"h":45},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":29,"w":107,"h":45},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_jetvac/0000",
+	"frame": {"x":156,"y":729,"w":23,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":38,"w":23,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_jetvac/0001",
+	"frame": {"x":156,"y":729,"w":23,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":38,"w":23,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_jetvac/0002",
+	"frame": {"x":933,"y":2,"w":25,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":37,"w":25,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_jetvac/0003",
+	"frame": {"x":933,"y":2,"w":25,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":37,"w":25,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_jetvac/0004",
+	"frame": {"x":131,"y":729,"w":25,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":37,"w":25,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_jetvac/0005",
+	"frame": {"x":131,"y":729,"w":25,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":37,"w":25,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_jetvac/0006",
+	"frame": {"x":932,"y":371,"w":23,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":37,"w":23,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_jetvac/0007",
+	"frame": {"x":932,"y":371,"w":23,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":37,"w":23,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_jetvac/0008",
+	"frame": {"x":932,"y":371,"w":23,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":37,"w":23,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_jetvac/0009",
+	"frame": {"x":932,"y":371,"w":23,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":76,"y":37,"w":23,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_jetvac/0010",
+	"frame": {"x":131,"y":729,"w":25,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":37,"w":25,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_jetvac/0011",
+	"frame": {"x":131,"y":729,"w":25,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":37,"w":25,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_jetvac/0012",
+	"frame": {"x":933,"y":2,"w":25,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":37,"w":25,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_jetvac/0013",
+	"frame": {"x":933,"y":2,"w":25,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":37,"w":25,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stealthelf/0000",
+	"frame": {"x":958,"y":2,"w":21,"h":23},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":78,"y":43,"w":21,"h":23},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stealthelf/0001",
+	"frame": {"x":958,"y":2,"w":21,"h":23},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":78,"y":43,"w":21,"h":23},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stealthelf/0002",
+	"frame": {"x":933,"y":31,"w":21,"h":23},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":78,"y":42,"w":21,"h":23},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stealthelf/0003",
+	"frame": {"x":933,"y":31,"w":21,"h":23},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":78,"y":42,"w":21,"h":23},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stealthelf/0004",
+	"frame": {"x":492,"y":295,"w":21,"h":23},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":78,"y":42,"w":21,"h":23},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stealthelf/0005",
+	"frame": {"x":492,"y":295,"w":21,"h":23},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":78,"y":42,"w":21,"h":23},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stealthelf/0006",
+	"frame": {"x":958,"y":2,"w":21,"h":23},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":78,"y":42,"w":21,"h":23},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stealthelf/0007",
+	"frame": {"x":958,"y":2,"w":21,"h":23},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":78,"y":42,"w":21,"h":23},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stealthelf/0008",
+	"frame": {"x":958,"y":2,"w":21,"h":23},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":78,"y":42,"w":21,"h":23},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stealthelf/0009",
+	"frame": {"x":958,"y":2,"w":21,"h":23},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":78,"y":42,"w":21,"h":23},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stealthelf/0010",
+	"frame": {"x":492,"y":295,"w":21,"h":23},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":78,"y":42,"w":21,"h":23},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stealthelf/0011",
+	"frame": {"x":492,"y":295,"w":21,"h":23},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":78,"y":42,"w":21,"h":23},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stealthelf/0012",
+	"frame": {"x":933,"y":31,"w":21,"h":23},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":78,"y":42,"w":21,"h":23},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stealthelf/0013",
+	"frame": {"x":933,"y":31,"w":21,"h":23},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":78,"y":42,"w":21,"h":23},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stormblade/0000",
+	"frame": {"x":972,"y":277,"w":23,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":38,"w":23,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stormblade/0001",
+	"frame": {"x":972,"y":277,"w":23,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":38,"w":23,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stormblade/0002",
+	"frame": {"x":714,"y":334,"w":23,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":38,"w":23,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stormblade/0003",
+	"frame": {"x":714,"y":334,"w":23,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":38,"w":23,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stormblade/0004",
+	"frame": {"x":714,"y":334,"w":23,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":38,"w":23,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stormblade/0005",
+	"frame": {"x":714,"y":334,"w":23,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":38,"w":23,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stormblade/0006",
+	"frame": {"x":754,"y":234,"w":23,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":37,"w":23,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stormblade/0007",
+	"frame": {"x":754,"y":234,"w":23,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":37,"w":23,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stormblade/0008",
+	"frame": {"x":754,"y":234,"w":23,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":37,"w":23,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stormblade/0009",
+	"frame": {"x":754,"y":234,"w":23,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":37,"w":23,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stormblade/0010",
+	"frame": {"x":754,"y":234,"w":23,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":37,"w":23,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stormblade/0011",
+	"frame": {"x":754,"y":234,"w":23,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":37,"w":23,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stormblade/0012",
+	"frame": {"x":714,"y":334,"w":23,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":38,"w":23,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_driver_stormblade/0013",
+	"frame": {"x":714,"y":334,"w":23,"h":29},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":75,"y":38,"w":23,"h":29},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_screamstream/0000",
+	"frame": {"x":589,"y":530,"w":107,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":107,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_screamstream/0001",
+	"frame": {"x":589,"y":530,"w":107,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":107,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_screamstream/0002",
+	"frame": {"x":754,"y":271,"w":109,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":109,"h":49},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_screamstream/0003",
+	"frame": {"x":754,"y":271,"w":109,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":109,"h":49},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_screamstream/0004",
+	"frame": {"x":803,"y":516,"w":107,"h":51},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":107,"h":51},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_screamstream/0005",
+	"frame": {"x":803,"y":516,"w":107,"h":51},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":107,"h":51},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_screamstream/0006",
+	"frame": {"x":373,"y":450,"w":109,"h":51},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":27,"w":109,"h":51},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_screamstream/0007",
+	"frame": {"x":373,"y":450,"w":109,"h":51},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":27,"w":109,"h":51},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_screamstream/0008",
+	"frame": {"x":482,"y":532,"w":107,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":107,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_screamstream/0009",
+	"frame": {"x":482,"y":532,"w":107,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":107,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_screamstream/0010",
+	"frame": {"x":889,"y":228,"w":109,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":109,"h":49},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_screamstream/0011",
+	"frame": {"x":889,"y":228,"w":109,"h":49},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":109,"h":49},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_screamstream/0012",
+	"frame": {"x":807,"y":465,"w":107,"h":51},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":107,"h":51},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_screamstream/0013",
+	"frame": {"x":807,"y":465,"w":107,"h":51},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":107,"h":51},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_trijet/0000",
+	"frame": {"x":696,"y":612,"w":105,"h":55},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":28,"w":105,"h":55},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_trijet/0001",
+	"frame": {"x":696,"y":612,"w":105,"h":55},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":28,"w":105,"h":55},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_trijet/0002",
+	"frame": {"x":801,"y":614,"w":105,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":29,"w":105,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_trijet/0003",
+	"frame": {"x":801,"y":614,"w":105,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":29,"w":105,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_trijet/0004",
+	"frame": {"x":589,"y":477,"w":107,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":29,"w":107,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_trijet/0005",
+	"frame": {"x":589,"y":477,"w":107,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":29,"w":107,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_trijet/0006",
+	"frame": {"x":698,"y":667,"w":103,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":28,"w":103,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_trijet/0007",
+	"frame": {"x":698,"y":667,"w":103,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":28,"w":103,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_trijet/0008",
+	"frame": {"x":910,"y":518,"w":101,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":28,"w":101,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_trijet/0009",
+	"frame": {"x":910,"y":518,"w":101,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":28,"w":101,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_trijet/0010",
+	"frame": {"x":915,"y":126,"w":105,"h":55},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":28,"w":105,"h":55},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_trijet/0011",
+	"frame": {"x":915,"y":126,"w":105,"h":55},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":28,"w":105,"h":55},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_trijet/0012",
+	"frame": {"x":591,"y":630,"w":105,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":29,"w":105,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_trijet/0013",
+	"frame": {"x":591,"y":630,"w":105,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":29,"w":105,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_twinjet/0000",
+	"frame": {"x":708,"y":414,"w":109,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":109,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_twinjet/0001",
+	"frame": {"x":708,"y":414,"w":109,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":109,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_twinjet/0002",
+	"frame": {"x":492,"y":332,"w":111,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":29,"w":111,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_twinjet/0003",
+	"frame": {"x":492,"y":332,"w":111,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":29,"w":111,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_twinjet/0004",
+	"frame": {"x":817,"y":418,"w":107,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":107,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_twinjet/0005",
+	"frame": {"x":817,"y":418,"w":107,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":107,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_twinjet/0006",
+	"frame": {"x":365,"y":709,"w":111,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":28,"w":111,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_twinjet/0007",
+	"frame": {"x":365,"y":709,"w":111,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":28,"w":111,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_twinjet/0008",
+	"frame": {"x":823,"y":371,"w":109,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":28,"w":109,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_twinjet/0009",
+	"frame": {"x":823,"y":371,"w":109,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":28,"w":109,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_twinjet/0010",
+	"frame": {"x":714,"y":367,"w":109,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":28,"w":109,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_twinjet/0011",
+	"frame": {"x":714,"y":367,"w":109,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":28,"w":109,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_twinjet/0012",
+	"frame": {"x":589,"y":583,"w":107,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":29,"w":107,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_twinjet/0013",
+	"frame": {"x":589,"y":583,"w":107,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":29,"w":107,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_unifusion/0000",
+	"frame": {"x":906,"y":665,"w":105,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":29,"w":105,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_unifusion/0001",
+	"frame": {"x":906,"y":665,"w":105,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":29,"w":105,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_unifusion/0002",
+	"frame": {"x":849,"y":324,"w":109,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":109,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_unifusion/0003",
+	"frame": {"x":849,"y":324,"w":109,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":109,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_unifusion/0004",
+	"frame": {"x":906,"y":618,"w":105,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":28,"w":105,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_unifusion/0005",
+	"frame": {"x":906,"y":618,"w":105,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":28,"w":105,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_unifusion/0006",
+	"frame": {"x":740,"y":320,"w":109,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":28,"w":109,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_unifusion/0007",
+	"frame": {"x":740,"y":320,"w":109,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":28,"w":109,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_unifusion/0008",
+	"frame": {"x":910,"y":571,"w":105,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":28,"w":105,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_unifusion/0009",
+	"frame": {"x":910,"y":571,"w":105,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":28,"w":105,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_unifusion/0010",
+	"frame": {"x":863,"y":277,"w":109,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":28,"w":109,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_unifusion/0011",
+	"frame": {"x":863,"y":277,"w":109,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":28,"w":109,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_unifusion/0012",
+	"frame": {"x":805,"y":720,"w":105,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":29,"w":105,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_katarwing_unifusion/0013",
+	"frame": {"x":805,"y":720,"w":105,"h":47},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":29,"w":105,"h":47},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_screamstream/0000",
+	"frame": {"x":2,"y":569,"w":131,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":28,"w":131,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_screamstream/0001",
+	"frame": {"x":2,"y":569,"w":131,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":28,"w":131,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_screamstream/0002",
+	"frame": {"x":2,"y":191,"w":135,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":28,"w":135,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_screamstream/0003",
+	"frame": {"x":2,"y":191,"w":135,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":28,"w":135,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_screamstream/0004",
+	"frame": {"x":2,"y":506,"w":131,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":28,"w":131,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_screamstream/0005",
+	"frame": {"x":2,"y":506,"w":131,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":28,"w":131,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_screamstream/0006",
+	"frame": {"x":272,"y":2,"w":135,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":27,"w":135,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_screamstream/0007",
+	"frame": {"x":272,"y":2,"w":135,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":27,"w":135,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_screamstream/0008",
+	"frame": {"x":2,"y":443,"w":131,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":27,"w":131,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_screamstream/0009",
+	"frame": {"x":2,"y":443,"w":131,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":27,"w":131,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_screamstream/0010",
+	"frame": {"x":405,"y":65,"w":135,"h":61},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":29,"w":135,"h":61},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_screamstream/0011",
+	"frame": {"x":405,"y":65,"w":135,"h":61},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":29,"w":135,"h":61},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_screamstream/0012",
+	"frame": {"x":802,"y":2,"w":131,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":28,"w":131,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_screamstream/0013",
+	"frame": {"x":802,"y":2,"w":131,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":28,"w":131,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_trijet/0000",
+	"frame": {"x":669,"y":65,"w":129,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":28,"w":129,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_trijet/0001",
+	"frame": {"x":669,"y":65,"w":129,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":28,"w":129,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_trijet/0002",
+	"frame": {"x":540,"y":65,"w":129,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":28,"w":129,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_trijet/0003",
+	"frame": {"x":540,"y":65,"w":129,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":28,"w":129,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_trijet/0004",
+	"frame": {"x":2,"y":380,"w":131,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":28,"w":131,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_trijet/0005",
+	"frame": {"x":2,"y":380,"w":131,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":28,"w":131,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_trijet/0006",
+	"frame": {"x":2,"y":695,"w":129,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":27,"w":129,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_trijet/0007",
+	"frame": {"x":2,"y":695,"w":129,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":27,"w":129,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_trijet/0008",
+	"frame": {"x":272,"y":191,"w":125,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":27,"w":125,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_trijet/0009",
+	"frame": {"x":272,"y":191,"w":125,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":24,"y":27,"w":125,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_trijet/0010",
+	"frame": {"x":798,"y":65,"w":129,"h":61},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":29,"w":129,"h":61},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_trijet/0011",
+	"frame": {"x":798,"y":65,"w":129,"h":61},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":29,"w":129,"h":61},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_trijet/0012",
+	"frame": {"x":2,"y":632,"w":129,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":28,"w":129,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_trijet/0013",
+	"frame": {"x":2,"y":632,"w":129,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":20,"y":28,"w":129,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_twinjet/0000",
+	"frame": {"x":272,"y":128,"w":133,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":28,"w":133,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_twinjet/0001",
+	"frame": {"x":272,"y":128,"w":133,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":28,"w":133,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_twinjet/0002",
+	"frame": {"x":137,"y":65,"w":135,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":28,"w":135,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_twinjet/0003",
+	"frame": {"x":137,"y":65,"w":135,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":28,"w":135,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_twinjet/0004",
+	"frame": {"x":2,"y":254,"w":133,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":28,"w":133,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_twinjet/0005",
+	"frame": {"x":2,"y":254,"w":133,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":28,"w":133,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_twinjet/0006",
+	"frame": {"x":2,"y":128,"w":135,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":27,"w":135,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_twinjet/0007",
+	"frame": {"x":2,"y":128,"w":135,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":27,"w":135,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_twinjet/0008",
+	"frame": {"x":407,"y":2,"w":133,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":27,"w":133,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_twinjet/0009",
+	"frame": {"x":407,"y":2,"w":133,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":27,"w":133,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_twinjet/0010",
+	"frame": {"x":137,"y":189,"w":135,"h":61},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":29,"w":135,"h":61},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_twinjet/0011",
+	"frame": {"x":137,"y":189,"w":135,"h":61},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":29,"w":135,"h":61},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_twinjet/0012",
+	"frame": {"x":272,"y":65,"w":133,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":28,"w":133,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_twinjet/0013",
+	"frame": {"x":272,"y":65,"w":133,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":28,"w":133,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_unifusion/0000",
+	"frame": {"x":671,"y":2,"w":131,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":28,"w":131,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_unifusion/0001",
+	"frame": {"x":671,"y":2,"w":131,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":28,"w":131,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_unifusion/0002",
+	"frame": {"x":137,"y":2,"w":135,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":28,"w":135,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_unifusion/0003",
+	"frame": {"x":137,"y":2,"w":135,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":28,"w":135,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_unifusion/0004",
+	"frame": {"x":405,"y":126,"w":131,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":28,"w":131,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_unifusion/0005",
+	"frame": {"x":405,"y":126,"w":131,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":28,"w":131,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_unifusion/0006",
+	"frame": {"x":2,"y":65,"w":135,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":27,"w":135,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_unifusion/0007",
+	"frame": {"x":2,"y":65,"w":135,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":27,"w":135,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_unifusion/0008",
+	"frame": {"x":2,"y":317,"w":131,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":27,"w":131,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_unifusion/0009",
+	"frame": {"x":2,"y":317,"w":131,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":27,"w":131,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_unifusion/0010",
+	"frame": {"x":137,"y":128,"w":135,"h":61},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":29,"w":135,"h":61},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_unifusion/0011",
+	"frame": {"x":137,"y":128,"w":135,"h":61},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":29,"w":135,"h":61},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_unifusion/0012",
+	"frame": {"x":540,"y":2,"w":131,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":28,"w":131,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_unifusion/0013",
+	"frame": {"x":540,"y":2,"w":131,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":18,"y":28,"w":131,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_unifusion/0014",
+	"frame": {"x":2,"y":2,"w":135,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":28,"w":135,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_saiwingshell_unifusion/0015",
+	"frame": {"x":2,"y":2,"w":135,"h":63},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":28,"w":135,"h":63},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_screamstream/0000",
+	"frame": {"x":252,"y":627,"w":119,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":29,"w":119,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_screamstream/0001",
+	"frame": {"x":252,"y":627,"w":119,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":29,"w":119,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_screamstream/0002",
+	"frame": {"x":133,"y":515,"w":121,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":28,"w":121,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_screamstream/0003",
+	"frame": {"x":133,"y":515,"w":121,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":28,"w":121,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_screamstream/0004",
+	"frame": {"x":133,"y":621,"w":119,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":119,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_screamstream/0005",
+	"frame": {"x":133,"y":621,"w":119,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":119,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_screamstream/0006",
+	"frame": {"x":133,"y":462,"w":121,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":27,"w":121,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_screamstream/0007",
+	"frame": {"x":133,"y":462,"w":121,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":27,"w":121,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_screamstream/0008",
+	"frame": {"x":252,"y":574,"w":119,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":119,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_screamstream/0009",
+	"frame": {"x":252,"y":574,"w":119,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":119,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_screamstream/0010",
+	"frame": {"x":133,"y":409,"w":121,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":28,"w":121,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_screamstream/0011",
+	"frame": {"x":133,"y":409,"w":121,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":28,"w":121,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_screamstream/0012",
+	"frame": {"x":254,"y":413,"w":119,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":119,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_screamstream/0013",
+	"frame": {"x":254,"y":413,"w":119,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":119,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_trijet/0000",
+	"frame": {"x":131,"y":674,"w":117,"h":55},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":28,"w":117,"h":55},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_trijet/0001",
+	"frame": {"x":131,"y":674,"w":117,"h":55},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":28,"w":117,"h":55},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_trijet/0002",
+	"frame": {"x":522,"y":234,"w":117,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":29,"w":117,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_trijet/0003",
+	"frame": {"x":522,"y":234,"w":117,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":29,"w":117,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_trijet/0004",
+	"frame": {"x":254,"y":360,"w":119,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":29,"w":119,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_trijet/0005",
+	"frame": {"x":254,"y":360,"w":119,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":29,"w":119,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_trijet/0006",
+	"frame": {"x":639,"y":234,"w":115,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":28,"w":115,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_trijet/0007",
+	"frame": {"x":639,"y":234,"w":115,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":21,"y":28,"w":115,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_trijet/0008",
+	"frame": {"x":379,"y":295,"w":113,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":28,"w":113,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_trijet/0009",
+	"frame": {"x":379,"y":295,"w":113,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":23,"y":28,"w":113,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_trijet/0010",
+	"frame": {"x":254,"y":466,"w":117,"h":55},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":28,"w":117,"h":55},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_trijet/0011",
+	"frame": {"x":254,"y":466,"w":117,"h":55},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":28,"w":117,"h":55},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_trijet/0012",
+	"frame": {"x":397,"y":242,"w":117,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":29,"w":117,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_trijet/0013",
+	"frame": {"x":397,"y":242,"w":117,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":29,"w":117,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_twinjet/0000",
+	"frame": {"x":133,"y":356,"w":121,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":121,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_twinjet/0001",
+	"frame": {"x":133,"y":356,"w":121,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":29,"w":121,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_twinjet/0002",
+	"frame": {"x":659,"y":128,"w":123,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":28,"w":123,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_twinjet/0003",
+	"frame": {"x":659,"y":128,"w":123,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":28,"w":123,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_twinjet/0004",
+	"frame": {"x":256,"y":307,"w":119,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":119,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_twinjet/0005",
+	"frame": {"x":256,"y":307,"w":119,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":119,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_twinjet/0006",
+	"frame": {"x":536,"y":128,"w":123,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":27,"w":123,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_twinjet/0007",
+	"frame": {"x":536,"y":128,"w":123,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":27,"w":123,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_twinjet/0008",
+	"frame": {"x":135,"y":303,"w":121,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":27,"w":121,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_twinjet/0009",
+	"frame": {"x":135,"y":303,"w":121,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":27,"w":121,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_twinjet/0010",
+	"frame": {"x":258,"y":254,"w":121,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":28,"w":121,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_twinjet/0011",
+	"frame": {"x":258,"y":254,"w":121,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":28,"w":121,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_twinjet/0012",
+	"frame": {"x":133,"y":568,"w":119,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":119,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_twinjet/0013",
+	"frame": {"x":133,"y":568,"w":119,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":28,"w":119,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_unifusion/0000",
+	"frame": {"x":405,"y":189,"w":117,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":29,"w":117,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_unifusion/0001",
+	"frame": {"x":405,"y":189,"w":117,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":29,"w":117,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_unifusion/0002",
+	"frame": {"x":137,"y":250,"w":121,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":28,"w":121,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_unifusion/0003",
+	"frame": {"x":137,"y":250,"w":121,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":28,"w":121,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_unifusion/0004",
+	"frame": {"x":798,"y":126,"w":117,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":28,"w":117,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_unifusion/0005",
+	"frame": {"x":798,"y":126,"w":117,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":28,"w":117,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_unifusion/0006",
+	"frame": {"x":657,"y":181,"w":121,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":27,"w":121,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_unifusion/0007",
+	"frame": {"x":657,"y":181,"w":121,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":27,"w":121,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_unifusion/0008",
+	"frame": {"x":248,"y":680,"w":117,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":27,"w":117,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_unifusion/0009",
+	"frame": {"x":248,"y":680,"w":117,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":27,"w":117,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_unifusion/0010",
+	"frame": {"x":536,"y":181,"w":121,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":28,"w":121,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_unifusion/0011",
+	"frame": {"x":536,"y":181,"w":121,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":28,"w":121,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_unifusion/0012",
+	"frame": {"x":254,"y":521,"w":117,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":28,"w":117,"h":53},
+	"sourceSize": {"w":155,"h":125}
+},
+{
+	"filename": "skyslicer_zerofriction_unifusion/0013",
+	"frame": {"x":254,"y":521,"w":117,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":19,"y":28,"w":117,"h":53},
+	"sourceSize": {"w":155,"h":125}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "skyslicer_01.png",
+	"format": "RGBA8888",
+	"size": {"w":1022,"h":769},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:97ffd7bcca7a998a9bb72c404448ed2d:1/1$"
+}
+}

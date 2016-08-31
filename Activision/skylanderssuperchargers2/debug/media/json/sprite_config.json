@@ -1,0 +1,336 @@
+{
+	"images" : [
+		{"name": "sstinger", "image" : "Vehicle1"},
+		{"name": "sslicer", "image" : "Vehicle2"},
+		{"name": "jstream", "image" : "Vehicle3"},
+
+		{"name": "archfront", "image" : "ArchFront"},
+		{"name": "archback", "image" : "ArchBG"},
+
+		{"name": "gearbit", "image" : "Gearbit"},
+		{"name": "racemarker", "image" : "Racemarker"},
+
+		{"name": "ally", "image" : "CagedAlly"}
+	],
+
+	"spritesheets" : [
+		{"name": "SStinger", "sheet" : "SStingerImage", "json" : "SStingerData"},
+		{"name": "SSlicer", "sheet" : "SSlicerImage", "json" : "SSlicerData"},
+		{"name": "JStream", "sheet" : "JStreamImage", "json" : "JStreamData"},
+		{"name": "SStingerFX", "sheet" : "SStingerFXImage", "json" : "SStingerFXData"},
+		{"name": "JetStreamFX", "sheet" : "JetStreamFXImage", "json" : "JetStreamFXData"},
+		{"name": "SkySlicerFX", "sheet" : "SkySlicerFXImage", "json" : "SkySlicerFXData"},
+
+		{"name": "Bomb", "sheet" : "BombImage", "json" : "BombData"},
+		{"name": "MatchFX", "sheet" : "MatchFXImage", "json" : "MatchFXData"},
+		{"name": "BonusFX", "sheet" : "BonusFXImage", "json" : "BonusFXData"},
+		{"name": "AllyFX", "sheet" : "AllyFXImage", "json" : "AllyFXData"},
+		{"name": "Gearbit", "sheet" : "GearbitImage", "json" : "GearbitData"},
+		{"name": "EnemyShips", "sheet" : "EnemiesImage", "json" : "EnemiesData"}
+
+	],
+
+	"frames" : [
+	],
+
+	"animations" : [
+		{"name": "sstinger_hit", "spritesheet":"SStingerFX", "frame" : "stealthstinger_attack_hit_fx", "loop" : false, "duration" : 1160},
+		{"name": "sstinger_projectile", "spritesheet":"SStingerFX", "frame" : "stealthstinger_attack_projectile", "loop" : true, "duration" : 291 },
+		{"name": "sstinger_shoot", "spritesheet":"SStingerFX", "frame" : "stealthstinger_attack_flare", "loop" : false, "duration" : 133 },
+
+		{"name": "sstinger_special_hit", "spritesheet":"SStingerFX", "frame" : "stealthstinger_special_hit_fx", "loop" : false, "duration" : 1160},
+		{"name": "sstinger_special_projectile", "spritesheet":"SStingerFX", "frame" : "stealthstinger_special_projectile", "loop" : true, "duration" : 291 },
+		{"name": "sstinger_special_shoot", "spritesheet":"SStingerFX", "frame" : "stealthstinger_special_flare", "loop" : false, "duration" : 133 },
+
+
+		{"name": "jstream_shoot", "spritesheet":"JetStreamFX", "frame" : "jetstream_attack_flare", "loop" : false, "duration" : 291 },
+		{"name": "jstream_projectile", "spritesheet":"JetStreamFX", "frame" : "jetstream_attack_projectile", "loop" : true, "duration" : 291 },
+		{"name": "jstream_hit", "spritesheet":"JetStreamFX", "frame" : "jetstream_attack_hit_fx", "loop" : false, "duration" : 291 },
+
+		{"name": "jstream_special_start", "spritesheet":"JetStreamFX", "frame" : "jetstream_special_start", "loop" : false, "duration" : 291 },
+		{"name": "jstream_special_loop", "spritesheet":"JetStreamFX", "frame" : "jetstream_special_loop", "loop" : true, "duration" : 291 },
+		{"name": "jstream_special_stop", "spritesheet":"JetStreamFX", "frame" : "jetstream_special_stop", "loop" : false, "duration" : 291 },
+
+		{"name": "sslicer_shoot", "spritesheet":"SkySlicerFX", "frame" : "skyslicer_attack_flare", "loop" : false, "duration" : 291 },
+		{"name": "sslicer_projectile", "spritesheet":"SkySlicerFX", "frame" : "skyslicer_attack_projectile", "loop" : true, "duration" : 291 },
+		{"name": "sslicer_hit", "spritesheet":"SkySlicerFX", "frame" : "skyslicer_attack_hit_fx", "loop" : false, "duration" : 291 },
+
+
+		{"name": "sslicer_special_projectile", "spritesheet":"SkySlicerFX", "frame" : "skyslicer_special_projectile", "loop" : true, "duration" : 291 },
+		
+		{"name": "sslsm1pm1", "spritesheet":"SSlicer", "frame" : "skyslicer_katarwing_screamstream", "loop" : true, "duration" : 1016},
+		{"name": "sslsm1pm2", "spritesheet":"SSlicer", "frame" : "skyslicer_zerofriction_screamstream", "loop" : true, "duration" : 1016},
+		{"name": "sslsm1pm3", "spritesheet":"SSlicer", "frame" : "skyslicer_doubleedgedhull_screamstream", "loop" : true, "duration" : 1016},
+		{"name": "sslsm1pm4", "spritesheet":"SSlicer", "frame" : "skyslicer_saiwingshell_screamstream", "loop" : true, "duration" : 1016},
+
+		{"name": "sslsm2pm1", "spritesheet":"SSlicer", "frame" : "skyslicer_katarwing_unifusion", "loop" : true, "duration" : 1016},
+		{"name": "sslsm2pm2", "spritesheet":"SSlicer", "frame" : "skyslicer_zerofriction_unifusion", "loop" : true, "duration" : 1016},
+		{"name": "sslsm2pm3", "spritesheet":"SSlicer", "frame" : "skyslicer_doubleedgedhull_screamstream", "loop" : true, "duration" : 1016},
+		{"name": "sslsm2pm4", "spritesheet":"SSlicer", "frame" : "skyslicer_saiwingshell_unifusion", "loop" : true, "duration" : 1016},
+
+		{"name": "sslsm3pm1", "spritesheet":"SSlicer", "frame" : "skyslicer_katarwing_twinjet", "loop" : true, "duration" : 1016},
+		{"name": "sslsm3pm2", "spritesheet":"SSlicer", "frame" : "skyslicer_zerofriction_twinjet", "loop" : true, "duration" : 1016},
+		{"name": "sslsm3pm3", "spritesheet":"SSlicer", "frame" : "skyslicer_doubleedgedhull_screamstream", "loop" : true, "duration" : 1016},
+		{"name": "sslsm3pm4", "spritesheet":"SSlicer", "frame" : "skyslicer_saiwingshell_twinjet", "loop" : true, "duration" : 1016},
+
+		{"name": "sslsm4pm1", "spritesheet":"SSlicer", "frame" : "skyslicer_katarwing_trijet", "loop" : true, "duration" : 1016},
+		{"name": "sslsm4pm2", "spritesheet":"SSlicer", "frame" : "skyslicer_zerofriction_trijet", "loop" : true, "duration" : 1016},
+		{"name": "sslsm4pm3", "spritesheet":"SSlicer", "frame" : "skyslicer_doubleedgedhull_screamstream", "loop" : true, "duration" : 1016},
+		{"name": "sslsm4pm4", "spritesheet":"SSlicer", "frame" : "skyslicer_saiwingshell_trijet", "loop" : true, "duration" : 1016},
+
+		{"name": "sslse", "spritesheet":"SSlicer", "frame" : "skyslicer_driver_stealthelf", "loop" : true, "duration" : 1016},
+		{"name": "ssljv", "spritesheet":"SSlicer", "frame" : "skyslicer_driver_jetvac", "loop" : true, "duration" : 1016},
+		{"name": "sslsb", "spritesheet":"SSlicer", "frame" : "skyslicer_driver_stormblade", "loop" : true, "duration" : 1016},
+
+
+
+		{"name": "sssm1pm1", "spritesheet":"SStinger", "frame" : "stealthstinger_wwp_leafcutters", "loop" : true, "duration" : 1016},
+		{"name": "sssm1pm2", "spritesheet":"SStinger", "frame" : "stealthstinger_acorn_leafcutters", "loop" : true, "duration" : 1016},
+		{"name": "sssm1pm3", "spritesheet":"SStinger", "frame" : "stealthstinger_briar_leafcutters", "loop" : true, "duration" : 1016},
+		{"name": "sssm1pm4", "spritesheet":"SStinger", "frame" : "stealthstinger_hardwood_leafcutters", "loop" : true, "duration" : 1016},
+
+		{"name": "sssm2pm1", "spritesheet":"SStinger", "frame" : "stealthstinger_wwp_pineconerotors", "loop" : true, "duration" : 1016},
+		{"name": "sssm2pm2", "spritesheet":"SStinger", "frame" : "stealthstinger_acorn_pineconerotors", "loop" : true, "duration" : 1016},
+		{"name": "sssm2pm3", "spritesheet":"SStinger", "frame" : "stealthstinger_briar_pineconerotors", "loop" : true, "duration" : 1016},
+		{"name": "sssm2pm4", "spritesheet":"SStinger", "frame" : "stealthstinger_hardwood_pineconerotors", "loop" : true, "duration" : 1016},
+
+		{"name": "sssm3pm1", "spritesheet":"SStinger", "frame" : "stealthstinger_wwp_petalpaddles", "loop" : true, "duration" : 1016},
+		{"name": "sssm3pm2", "spritesheet":"SStinger", "frame" : "stealthstinger_acorn_petalpaddles", "loop" : true, "duration" : 1016},
+		{"name": "sssm3pm3", "spritesheet":"SStinger", "frame" : "stealthstinger_briar_petalpaddles", "loop" : true, "duration" : 1016},
+		{"name": "sssm3pm4", "spritesheet":"SStinger", "frame" : "stealthstinger_hardwood_petalpaddles", "loop" : true, "duration" : 1016},
+
+		{"name": "sssm4pm1", "spritesheet":"SStinger", "frame" : "stealthstinger_wwp_lacqueredcoaxial", "loop" : true, "duration" : 1016},
+		{"name": "sssm4pm2", "spritesheet":"SStinger", "frame" : "stealthstinger_acorn_lacqueredcoaxial", "loop" : true, "duration" : 1016},
+		{"name": "sssm4pm3", "spritesheet":"SStinger", "frame" : "stealthstinger_briar_lacqueredcoaxial", "loop" : true, "duration" : 1016},
+		{"name": "sssm4pm4", "spritesheet":"SStinger", "frame" : "stealthstinger_hardwood_lacqueredcoaxial", "loop" : true, "duration" : 1016},
+
+
+
+
+
+
+
+		{"name": "jssm1pm1", "spritesheet":"JStream", "frame" : "jetstream_windslashers_windfrenzies", "loop" : true, "duration" : 1016},
+		{"name": "jssm1pm2", "spritesheet":"JStream", "frame" : "jetstream_bladewings_windfrenzies", "loop" : true, "duration" : 1016},
+		{"name": "jssm1pm3", "spritesheet":"JStream", "frame" : "jetstream_airflex_windfrenzies", "loop" : true, "duration" : 1016},
+		{"name": "jssm1pm4", "spritesheet":"JStream", "frame" : "jetstream_brassfeather_windfrenzies", "loop" : true, "duration" : 1016},
+
+		{"name": "jssm2pm1", "spritesheet":"JStream", "frame" : "jetstream_windslashers_vortex", "loop" : true, "duration" : 1016},
+		{"name": "jssm2pm2", "spritesheet":"JStream", "frame" : "jetstream_bladewings_vortex", "loop" : true, "duration" : 1016},
+		{"name": "jssm2pm3", "spritesheet":"JStream", "frame" : "jetstream_airflex_vortex", "loop" : true, "duration" : 1016},
+		{"name": "jssm2pm4", "spritesheet":"JStream", "frame" : "jetstream_brassfeather_vortex", "loop" : true, "duration" : 1016},
+
+		{"name": "jssm3pm1", "spritesheet":"JStream", "frame" : "jetstream_windslashers_vintage", "loop" : true, "duration" : 1016},
+		{"name": "jssm3pm2", "spritesheet":"JStream", "frame" : "jetstream_bladewings_vintage", "loop" : true, "duration" : 1016},
+		{"name": "jssm3pm3", "spritesheet":"JStream", "frame" : "jetstream_airflex_vintage", "loop" : true, "duration" : 1016},
+		{"name": "jssm3pm4", "spritesheet":"JStream", "frame" : "jetstream_brassfeather_vintage", "loop" : true, "duration" : 1016},
+
+		{"name": "jssm4pm1", "spritesheet":"JStream", "frame" : "jetstream_windslashers_brasslock", "loop" : true, "duration" : 1016},
+		{"name": "jssm4pm2", "spritesheet":"JStream", "frame" : "jetstream_bladewings_brasslock", "loop" : true, "duration" : 1016},
+		{"name": "jssm4pm3", "spritesheet":"JStream", "frame" : "jetstream_airflex_brasslocks", "loop" : true, "duration" : 1016},
+		{"name": "jssm4pm4", "spritesheet":"JStream", "frame" : "jetstream_brassfeather_brasslocks", "loop" : true, "duration" : 1016},
+
+		{"name": "jsse", "spritesheet":"JStream", "frame" : "jetstream_driver_stealthelf", "loop" : true, "duration" : 1016},
+		{"name": "jsjv", "spritesheet":"JStream", "frame" : "jetstream_driver_jetvac", "loop" : true, "duration" : 1016},
+		{"name": "jssb", "spritesheet":"JStream", "frame" : "jetstream_driver_stormblade", "loop" : true, "duration" : 1016},
+
+
+
+		{"name": "bomb_idle", "spritesheet":"Bomb", "frame" : "bomb_idle", "loop" : true, "duration" : 633 },
+		{"name": "bomb_explode", "spritesheet":"Bomb", "frame" : "bomb_explode", "loop" : true, "duration" : 1333 },
+
+		{"name": "match_default", "spritesheet":"MatchFX", "frame" : "match_default_fx", "loop" : false, "duration" : 433 },
+		{"name": "match_attack", "spritesheet":"MatchFX", "frame" : "match_atk_fx", "loop" : false, "duration" : 433 },
+		{"name": "match_engine", "spritesheet":"MatchFX", "frame" : "match_green_fx", "loop" : false, "duration" : 433 },
+		{"name": "match_bonus", "spritesheet":"MatchFX", "frame" : "match_rainbow_fx", "loop" : false, "duration" : 433 },
+		{"name": "match_gearbit", "spritesheet":"MatchFX", "frame" : "match_gearbits_fx", "loop" : false, "duration" : 433 },
+		{"name": "match_treasure", "spritesheet":"MatchFX", "frame" : "match_treasure_fx", "loop" : false, "duration" : 433 },
+		{"name": "match_sattack", "spritesheet":"MatchFX", "frame" : "match_specialatk_fx", "loop" : false, "duration" : 433 },
+
+		{"name": "elixir_get", "spritesheet":"BonusFX", "frame" : "bonus_elixer_get_fx", "loop" : false, "duration" : 433 },
+		{"name": "elixir_use", "spritesheet":"BonusFX", "frame" : "bonus_elixer_overlay", "loop" : true, "duration" : 433 },
+
+		{"name": "shield_get", "spritesheet":"BonusFX", "frame" : "bonus_shield_get_fx", "loop" : false, "duration" : 433 },
+		{"name": "shield_use", "spritesheet":"BonusFX", "frame" : "bonus_shield_overlay", "loop" : true, "duration" : 433 },
+
+		{"name": "shoe_get", "spritesheet":"BonusFX", "frame" : "bonus_shoe_get_fx", "loop" : false, "duration" : 433 },
+		{"name": "shoe_use", "spritesheet":"BonusFX", "frame" : "bonus_shoe_overlay", "loop" : true, "duration" : 433 },
+
+		{"name": "boost_get", "spritesheet":"BonusFX", "frame" : "boost_fx", "loop" : false, "duration" : 433 },
+		{"name": "gearbit_get", "spritesheet":"Gearbit", "frame" : "gearbit_blue_get", "loop" : false, "duration" : 433 },
+		{"name": "gearbit_idle", "spritesheet":"Gearbit", "frame" : "gearbit_blue_idle", "loop" : true, "duration" : 433 },
+
+		{"name": "ally_unlock", "spritesheet":"AllyFX", "frame" : "savefriend_get_fx", "loop" : false, "duration" : 733 },
+
+
+		{"name": "enemyships_explode", "spritesheet":"EnemyShips", "frame" : "enemyships_explode", "loop" : false, "duration" : 866 },
+		{"name": "enemyships_a", "spritesheet":"EnemyShips", "frame" : "enemyshipsA", "loop" : true, "duration" : 800 },
+		{"name": "enemyships_b", "spritesheet":"EnemyShips", "frame" : "enemyshipsB", "loop" : true, "duration" : 800 }
+	],
+
+
+	"displayDefinitions" : {
+		"default": {"type" : "image", "data" : "structure"},
+		"sstinger": {"type" : "anim", "data" : "stealthstinger_idle"},
+		"jsicer": {"type" : "anim", "data" : "skyslicer_idle", "options" : {"offsetY" : -10}},
+		"jstream": {"type" : "anim", "data" : "jetstream_idle", "options" : {"offsetY" : -10}},
+		"ally":  {"type" : "image", "data" : ["AllyBlastDrilla" , "Cage"]},
+		"ally_unlock": {"type" : "anim", "data" : "ally_unlock","options" : {"offsetY" : -60, "offsetX" : -60} },
+
+		"archfront": {"type" : "image", "data" : "archfront"},
+		"archback": {"type" : "image", "data" : "archback"},
+		"racemarker": {"type" : "image", "data" : "racemarker"},
+
+		"blastdrilla":  {"type" : "image", "data" : ["AllyBlastDrilla" , "Cage"]},
+		"boomshift":    {"type" : "image", "data" : ["AllyBoomShift" , "Cage"]},
+		"freedrilla":   {"type" : "image", "data" : ["AllyFreeDrilla" , "Cage"]},
+		"gillgrunt":    {"type" : "image", "data" : ["AllyGillGrunt" , "Cage"]},
+		"grilladrilla": {"type" : "image", "data" : ["AllyGrillaDrilla" , "Cage"]},
+		"hex":          {"type" : "image", "data" : ["AllyHex" , "Cage"]},
+		"hootdrilla":   {"type" : "image", "data" : ["AllyHootDrilla" , "Cage"]},
+		"knightlight":  {"type" : "image", "data" : ["AllyKnightlight" , "Cage"]},
+		"knightmare":   {"type" : "image", "data" : ["AllyKnightmare" , "Cage"]},
+		"magnaloop":    {"type" : "image", "data" : ["AllyMagnaLoop" , "Cage"]},
+		"rattledrilla": {"type" : "image", "data" : ["AllyRattleDrilla" , "Cage"]},
+		"rubbledrilla": {"type" : "image", "data" : ["AllyRubbleDrilla" , "Cage"]},
+		"snapshot":     {"type" : "image", "data" : ["AllySnapshot" , "Cage"]},
+		"spotlight":    {"type" : "image", "data" : ["AllySpotlight" , "Cage"]},
+		"stinkbomb":    {"type" : "image", "data" : ["AllyStinkBomb" , "Cage"]},
+		"trapshadow":   {"type" : "image", "data" : ["AllyTrapshadow" , "Cage"]},
+		"blackout":     {"type" : "image", "data" : ["AllyBlackout" , "Cage"]},
+		"treerex":      {"type" : "image", "data" : ["AllyTreerex" , "Cage"]},
+		"washdrilla":   {"type" : "image", "data" : ["AllyWashdrilla" , "Cage"]},
+
+
+		"match_default": {"type" : "anim", "data" : "match_default"},
+		"match_attack": {"type" : "anim", "data" : "match_attack"},
+		"match_sattack": {"type" : "anim", "data" : "match_sattack"},
+		"match_treasure": {"type" : "anim", "data" : "match_treasure"},
+		"match_gearbit": {"type" : "anim", "data" : "match_gearbit"},
+		"match_bonus": {"type" : "anim", "data" : "match_bonus"},
+		"match_engine": {"type" : "anim", "data" : "match_engine"},
+
+
+		"ssl_sslsm1_sslpm1" : {"type" : "anim", "data" : ["sslsm1pm1"], "behavior" : "pilotedVehicle"},
+		"ssl_sslsm1_sslpm2" : {"type" : "anim", "data" : ["sslsm1pm2"], "behavior" : "pilotedVehicle"},
+		"ssl_sslsm1_sslpm3" : {"type" : "anim", "data" : ["sslsm1pm3"], "behavior" : "pilotedVehicle"},
+		"ssl_sslsm1_sslpm4" : {"type" : "anim", "data" : ["sslsm1pm4"], "behavior" : "pilotedVehicle"},
+
+		"ssl_sslsm2_sslpm1" : {"type" : "anim", "data" : ["sslsm2pm1"], "behavior" : "pilotedVehicle"},
+		"ssl_sslsm2_sslpm2" : {"type" : "anim", "data" : ["sslsm2pm2"], "behavior" : "pilotedVehicle"},
+		"ssl_sslsm2_sslpm3" : {"type" : "anim", "data" : ["sslsm2pm3"], "behavior" : "pilotedVehicle"},
+		"ssl_sslsm2_sslpm4" : {"type" : "anim", "data" : ["sslsm2pm4"], "behavior" : "pilotedVehicle"},
+
+		"ssl_sslsm3_sslpm1" : {"type" : "anim", "data" : ["sslsm3pm1"], "behavior" : "pilotedVehicle"},
+		"ssl_sslsm3_sslpm2" : {"type" : "anim", "data" : ["sslsm3pm2"], "behavior" : "pilotedVehicle"},
+		"ssl_sslsm3_sslpm3" : {"type" : "anim", "data" : ["sslsm3pm3"], "behavior" : "pilotedVehicle"},
+		"ssl_sslsm3_sslpm4" : {"type" : "anim", "data" : ["sslsm3pm4"], "behavior" : "pilotedVehicle"},
+
+		"ssl_sslsm4_sslpm1" : {"type" : "anim", "data" : ["sslsm4pm1"], "behavior" : "pilotedVehicle"},
+		"ssl_sslsm4_sslpm2" : {"type" : "anim", "data" : ["sslsm4pm2"], "behavior" : "pilotedVehicle"},
+		"ssl_sslsm4_sslpm3" : {"type" : "anim", "data" : ["sslsm4pm3"], "behavior" : "pilotedVehicle"},
+		"ssl_sslsm4_sslpm4" : {"type" : "anim", "data" : ["sslsm4pm4"], "behavior" : "pilotedVehicle"},
+
+		"ssl_driver_jv" : {"type" : "anim", "data" : "ssljv"},
+		"ssl_driver_sb" : {"type" : "anim", "data" : "sslsb"},
+		"ssl_driver_se" : {"type" : "anim", "data" : "sslse"},
+
+
+
+
+		"ss_sssm1_sspm1" : {"type" : "anim", "data" : ["sssm1pm1"], "behavior" : "pilotedVehicle",  "options" : {"offsetY" : -20}},
+		"ss_sssm1_sspm2" : {"type" : "anim", "data" : ["sssm1pm2"], "behavior" : "pilotedVehicle",  "options" : {"offsetY" : -20}},
+		"ss_sssm1_sspm3" : {"type" : "anim", "data" : ["sssm1pm3"], "behavior" : "pilotedVehicle",  "options" : {"offsetY" : -20}},
+		"ss_sssm1_sspm4" : {"type" : "anim", "data" : ["sssm1pm4"], "behavior" : "pilotedVehicle",  "options" : {"offsetY" : -20}},
+
+		"ss_sssm2_sspm1" : {"type" : "anim", "data" : ["sssm2pm1"], "behavior" : "pilotedVehicle",  "options" : {"offsetY" : -20}},
+		"ss_sssm2_sspm2" : {"type" : "anim", "data" : ["sssm2pm2"], "behavior" : "pilotedVehicle",  "options" : {"offsetY" : -20}},
+		"ss_sssm2_sspm3" : {"type" : "anim", "data" : ["sssm2pm3"], "behavior" : "pilotedVehicle",  "options" : {"offsetY" : -20}},
+		"ss_sssm2_sspm4" : {"type" : "anim", "data" : ["sssm2pm4"], "behavior" : "pilotedVehicle",  "options" : {"offsetY" : -20}},
+
+		"ss_sssm3_sspm1" : {"type" : "anim", "data" : ["sssm3pm1"], "behavior" : "pilotedVehicle",  "options" : {"offsetY" : -20}},
+		"ss_sssm3_sspm2" : {"type" : "anim", "data" : ["sssm3pm2"], "behavior" : "pilotedVehicle",  "options" : {"offsetY" : -20}},
+		"ss_sssm3_sspm3" : {"type" : "anim", "data" : ["sssm3pm3"], "behavior" : "pilotedVehicle",  "options" : {"offsetY" : -20}},
+		"ss_sssm3_sspm4" : {"type" : "anim", "data" : ["sssm3pm4"], "behavior" : "pilotedVehicle",  "options" : {"offsetY" : -20}},
+
+		"ss_sssm4_sspm1" : {"type" : "anim", "data" : ["sssm4pm1"], "behavior" : "pilotedVehicle",  "options" : {"offsetY" : -20}},
+		"ss_sssm4_sspm2" : {"type" : "anim", "data" : ["sssm4pm2"], "behavior" : "pilotedVehicle",  "options" : {"offsetY" : -20}},
+		"ss_sssm4_sspm3" : {"type" : "anim", "data" : ["sssm4pm3"], "behavior" : "pilotedVehicle",  "options" : {"offsetY" : -20}},
+		"ss_sssm4_sspm4" : {"type" : "anim", "data" : ["sssm4pm4"], "behavior" : "pilotedVehicle",  "options" : {"offsetY" : -20}},
+
+
+
+
+		"js_jssm1_jspm1" : {"type" : "anim", "data" : ["jssm1pm1"], "behavior" : "pilotedVehicle"},
+		"js_jssm1_jspm2" : {"type" : "anim", "data" : ["jssm1pm2"], "behavior" : "pilotedVehicle"},
+		"js_jssm1_jspm3" : {"type" : "anim", "data" : ["jssm1pm3"], "behavior" : "pilotedVehicle"},
+		"js_jssm1_jspm4" : {"type" : "anim", "data" : ["jssm1pm4"], "behavior" : "pilotedVehicle"},
+
+		"js_jssm2_jspm1" : {"type" : "anim", "data" : ["jssm2pm1"], "behavior" : "pilotedVehicle"},
+		"js_jssm2_jspm2" : {"type" : "anim", "data" : ["jssm2pm2"], "behavior" : "pilotedVehicle"},
+		"js_jssm2_jspm3" : {"type" : "anim", "data" : ["jssm2pm3"], "behavior" : "pilotedVehicle"},
+		"js_jssm2_jspm4" : {"type" : "anim", "data" : ["jssm2pm4"], "behavior" : "pilotedVehicle"},
+
+		"js_jssm3_jspm1" : {"type" : "anim", "data" : ["jssm3pm1"], "behavior" : "pilotedVehicle"},
+		"js_jssm3_jspm2" : {"type" : "anim", "data" : ["jssm3pm2"], "behavior" : "pilotedVehicle"},
+		"js_jssm3_jspm3" : {"type" : "anim", "data" : ["jssm3pm3"], "behavior" : "pilotedVehicle"},
+		"js_jssm3_jspm4" : {"type" : "anim", "data" : ["jssm3pm4"], "behavior" : "pilotedVehicle"},
+
+		"js_jssm4_jspm1" : {"type" : "anim", "data" : ["jssm4pm1"], "behavior" : "pilotedVehicle"},
+		"js_jssm4_jspm2" : {"type" : "anim", "data" : ["jssm4pm2"], "behavior" : "pilotedVehicle"},
+		"js_jssm4_jspm3" : {"type" : "anim", "data" : ["jssm4pm3"], "behavior" : "pilotedVehicle"},
+		"js_jssm4_jspm4" : {"type" : "anim", "data" : ["jssm4pm4"], "behavior" : "pilotedVehicle"},
+
+		"js_driver_jv" : {"type" : "anim", "data" : "jsjv"},
+		"js_driver_sb" : {"type" : "anim", "data" : "jssb"},
+		"js_driver_se" : {"type" : "anim", "data" : "jsse"},
+
+
+
+
+
+		"ss_shoot": {"type" : "anim", "data" : "sstinger_shoot", "options" : {"offsetY" : -20}, "behavior" : "removeOnEnd"},
+		"ss_projectile": {"type" : "anim", "data" : "sstinger_projectile", "options" : {"offsetX" : 70}},
+		"ss_hit": {"type" : "anim", "data" : "sstinger_hit", "options" : {"offsetY" : -20}},
+
+		"ss_special_shoot": {"type" : "anim", "data" : "sstinger_special_shoot", "options" : {"offsetY" : -20}, "behavior" : "removeOnEnd"},
+		"ss_special_projectile": {"type" : "anim", "data" : "sstinger_special_projectile", "options" : {"offsetX" : 70}},
+		"ss_special_hit": {"type" : "anim", "data" : "sstinger_special_hit", "options" : {"offsetY" : -20}},
+
+
+		"js_shoot": {"type" : "anim", "data" : "jstream_shoot", "options" : {"offsetY" : 56, "offsetX" : 95}, "behavior" : "removeOnEnd"},
+		"js_projectile": {"type" : "anim", "data" : "jstream_projectile", "options" : {"offsetY" : 0, "offsetX" : 95}},
+		"js_hit": {"type" : "anim", "data" : "jstream_hit"},
+
+		"js_special": {"type" : "anim", "data" : ["jstream_special_start", "jstream_special_loop", "jstream_special_stop"], "options" : {"offsetY" : -50, "offsetX" : 95}, "behavior" : "js_special"},
+
+		"ssl_shoot": {"type" : "anim", "data" : "sslicer_shoot", "options" : {"offsetY" : 0, "offsetX" : 0}, "behavior" : "removeOnEnd"},
+		"ssl_projectile": {"type" : "anim", "data" : "sslicer_projectile", "options" : {"offsetY" : 0, "offsetX" : 95}},
+		"ssl_hit": {"type" : "anim", "data" : "sslicer_hit"},
+
+		"ssl_special": {"type" : "anim", "data" : "sslicer_special_projectile", "options" : {"offsetY" : 0, "offsetX" : 95}, "behavior" : "ssl_special"},
+
+		
+		
+
+
+		"elixir": {"type" : "anim", "data" : ["elixir_get", "elixir_use"], "options" : {"offsetY" : -60, "offsetX" : -30}, "behavior" : "bonus"},
+		"shield": {"type" : "anim", "data" : ["shield_get", "shield_use"], "options" : {"offsetY" : -60, "offsetX" : -30}, "behavior" : "bonus"},
+		"shoe": {"type" : "anim", "data" : ["shoe_get", "shoe_use"], "options" : {"offsetY" : -60, "offsetX" : -30}, "behavior" : "bonus"},
+		"boost": {"type" : "anim", "data" : "boost_get", "options" : {"offsetY" : -60, "offsetX" : -30}},
+
+		"gearbit": {"type" : "anim", "data" : ["gearbit_idle", "gearbit_get"], "options" : {"offsetY" : -60, "offsetX" : -30, "scale" : 0.5}},
+
+
+
+		"bomb": {"type" : "anim", "data" : "bomb_idle", "options" : {"offsetY" : -20}},
+		"bomb_hit": {"type" : "anim", "data" : "bomb_explode", "options" : {"offsetY" : -60, "offsetX" : -60}},
+
+		"enemy_a": {"type" : "anim", "data" : "enemyships_a", "options" : {"offsetY" : -20}},
+		"enemy_b": {"type" : "anim", "data" : "enemyships_b", "options" : {"offsetY" : -20}},
+		"enemy_explode": {"type" : "anim", "data" : "enemyships_explode", "options" : {"offsetY" : -100}}
+
+
+	}
+	
+}

@@ -1,0 +1,492 @@
+{"frames": [
+
+{
+	"filename": "CC_graveraiser_FFengine_left/0000",
+	"frame": {"x":798,"y":1568,"w":248,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":16,"w":248,"h":223},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_FFengine_left/0001",
+	"frame": {"x":546,"y":1345,"w":250,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":17,"w":250,"h":223},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_FFengine_left/0002",
+	"frame": {"x":536,"y":1118,"w":260,"h":227},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":13,"w":260,"h":227},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_FFengine_left/0003",
+	"frame": {"x":276,"y":1118,"w":260,"h":227},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":13,"w":260,"h":227},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_FFengine_left/0004",
+	"frame": {"x":2,"y":860,"w":290,"h":231},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":8,"w":290,"h":231},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_FFengine_left/0005",
+	"frame": {"x":2,"y":629,"w":292,"h":231},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":9,"w":292,"h":231},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_FFengine_left/0006",
+	"frame": {"x":796,"y":1343,"w":248,"h":225},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":15,"w":248,"h":225},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_FFengine_left/0007",
+	"frame": {"x":796,"y":1118,"w":248,"h":225},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":15,"w":248,"h":225},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_FFengine_right/0000",
+	"frame": {"x":1302,"y":1190,"w":242,"h":215},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":109,"y":27,"w":242,"h":215},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_FFengine_right/0001",
+	"frame": {"x":1022,"y":1791,"w":242,"h":217},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":109,"y":26,"w":242,"h":217},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_FFengine_right/0002",
+	"frame": {"x":1046,"y":1560,"w":244,"h":219},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":107,"y":24,"w":244,"h":219},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_FFengine_right/0003",
+	"frame": {"x":1044,"y":1154,"w":244,"h":219},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":107,"y":24,"w":244,"h":219},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_FFengine_right/0004",
+	"frame": {"x":2,"y":1316,"w":274,"h":223},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":77,"y":19,"w":274,"h":223},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_FFengine_right/0005",
+	"frame": {"x":2,"y":1091,"w":274,"h":225},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":77,"y":18,"w":274,"h":225},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_FFengine_right/0006",
+	"frame": {"x":1530,"y":971,"w":242,"h":219},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":109,"y":24,"w":242,"h":219},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_FFengine_right/0007",
+	"frame": {"x":1288,"y":971,"w":242,"h":219},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":109,"y":24,"w":242,"h":219},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_FFengine_straight/0000",
+	"frame": {"x":268,"y":1787,"w":208,"h":221},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":104,"y":16,"w":208,"h":221},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_FFengine_straight/0001",
+	"frame": {"x":1576,"y":189,"w":208,"h":221},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":104,"y":16,"w":208,"h":221},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_FFengine_straight/0002",
+	"frame": {"x":1302,"y":1405,"w":224,"h":225},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":103,"y":12,"w":224,"h":225},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_FFengine_straight/0003",
+	"frame": {"x":1544,"y":1190,"w":224,"h":225},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":103,"y":12,"w":224,"h":225},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_FFengine_straight/0004",
+	"frame": {"x":280,"y":1532,"w":266,"h":221},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":83,"y":16,"w":266,"h":221},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_FFengine_straight/0005",
+	"frame": {"x":2,"y":1758,"w":266,"h":225},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":83,"y":12,"w":266,"h":225},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_FFengine_straight/0006",
+	"frame": {"x":546,"y":1568,"w":252,"h":219},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":18,"w":252,"h":219},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_FFengine_straight/0007",
+	"frame": {"x":770,"y":1791,"w":252,"h":217},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":60,"y":20,"w":252,"h":217},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_coffinclapper_left/0000",
+	"frame": {"x":1278,"y":189,"w":298,"h":185},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":54,"w":298,"h":185},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_coffinclapper_left/0001",
+	"frame": {"x":1004,"y":2,"w":322,"h":185},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":55,"w":322,"h":185},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_coffinclapper_left/0002",
+	"frame": {"x":1478,"y":597,"w":270,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":53,"w":270,"h":187},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_coffinclapper_left/0003",
+	"frame": {"x":1264,"y":1789,"w":264,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":53,"w":264,"h":187},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_coffinclapper_right/0000",
+	"frame": {"x":1216,"y":374,"w":294,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":57,"y":55,"w":294,"h":187},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_coffinclapper_right/0001",
+	"frame": {"x":308,"y":561,"w":316,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":56,"w":316,"h":187},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_coffinclapper_right/0002",
+	"frame": {"x":1416,"y":784,"w":264,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":87,"y":56,"w":264,"h":187},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_coffinclapper_right/0003",
+	"frame": {"x":1526,"y":1602,"w":258,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":93,"y":56,"w":258,"h":187},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_coffinclapper_straight/0000",
+	"frame": {"x":600,"y":748,"w":244,"h":185},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":88,"y":52,"w":244,"h":185},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_coffinclapper_straight/0001",
+	"frame": {"x":1200,"y":561,"w":278,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":50,"w":278,"h":187},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_coffinclapper_straight/0002",
+	"frame": {"x":342,"y":2,"w":340,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":50,"w":340,"h":187},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_coffinclapper_straight/0003",
+	"frame": {"x":292,"y":933,"w":306,"h":185},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":86,"y":52,"w":306,"h":185},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_mummymotif_left/0000",
+	"frame": {"x":980,"y":187,"w":298,"h":185},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":54,"w":298,"h":185},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_mummymotif_left/0001",
+	"frame": {"x":682,"y":2,"w":322,"h":185},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":55,"w":322,"h":185},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_mummymotif_left/0002",
+	"frame": {"x":1510,"y":410,"w":270,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":53,"w":270,"h":187},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_mummymotif_left/0003",
+	"frame": {"x":1152,"y":748,"w":264,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":53,"w":264,"h":187},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_mummymotif_right/0000",
+	"frame": {"x":922,"y":372,"w":294,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":57,"y":55,"w":294,"h":187},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_mummymotif_right/0001",
+	"frame": {"x":342,"y":374,"w":316,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":56,"w":316,"h":187},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_mummymotif_right/0002",
+	"frame": {"x":888,"y":746,"w":264,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":87,"y":56,"w":264,"h":187},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_mummymotif_right/0003",
+	"frame": {"x":1526,"y":1415,"w":258,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":93,"y":56,"w":258,"h":187},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_mummymotif_straight/0000",
+	"frame": {"x":1044,"y":935,"w":244,"h":219},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":88,"y":18,"w":244,"h":219},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_mummymotif_straight/0001",
+	"frame": {"x":2,"y":1539,"w":278,"h":219},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":18,"w":278,"h":219},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_mummymotif_straight/0002",
+	"frame": {"x":2,"y":2,"w":340,"h":221},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":16,"w":340,"h":221},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_mummymotif_straight/0003",
+	"frame": {"x":2,"y":410,"w":306,"h":219},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":86,"y":18,"w":306,"h":219},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_woodgeist_left/0000",
+	"frame": {"x":682,"y":187,"w":298,"h":185},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":54,"y":54,"w":298,"h":185},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_woodgeist_left/0001",
+	"frame": {"x":342,"y":189,"w":322,"h":185},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":55,"w":322,"h":185},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_woodgeist_left/0002",
+	"frame": {"x":276,"y":1345,"w":270,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":53,"w":270,"h":187},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_woodgeist_left/0003",
+	"frame": {"x":658,"y":374,"w":264,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":53,"y":53,"w":264,"h":187},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_woodgeist_right/0000",
+	"frame": {"x":476,"y":1787,"w":294,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":57,"y":55,"w":294,"h":187},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_woodgeist_right/0001",
+	"frame": {"x":1326,"y":2,"w":316,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":35,"y":56,"w":316,"h":187},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_woodgeist_right/0002",
+	"frame": {"x":624,"y":561,"w":264,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":87,"y":56,"w":264,"h":187},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_woodgeist_right/0003",
+	"frame": {"x":1044,"y":1373,"w":258,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":93,"y":56,"w":258,"h":187},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_woodgeist_straight/0000",
+	"frame": {"x":598,"y":933,"w":244,"h":185},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":88,"y":52,"w":244,"h":185},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_woodgeist_straight/0001",
+	"frame": {"x":922,"y":559,"w":278,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":52,"y":50,"w":278,"h":187},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_woodgeist_straight/0002",
+	"frame": {"x":2,"y":223,"w":340,"h":187},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":25,"y":50,"w":340,"h":187},
+	"sourceSize": {"w":424,"h":265}
+},
+{
+	"filename": "CC_graveraiser_woodgeist_straight/0003",
+	"frame": {"x":294,"y":748,"w":306,"h":185},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":86,"y":52,"w":306,"h":185},
+	"sourceSize": {"w":424,"h":265}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "CryptCrusher_Fiesta_GraveRaiser_1.png",
+	"format": "RGBA8888",
+	"size": {"w":1786,"h":2010},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:1c8c8dd65d5883410837529b8e69ca91:1/1$"
+}
+}

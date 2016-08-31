@@ -1,0 +1,100 @@
+{"frames": [
+
+{
+	"filename": "bonus_powerpods_get_fx/0000",
+	"frame": {"x":2,"y":310,"w":192,"h":176},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":229,"y":224,"w":192,"h":176},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_powerpods_get_fx/0001",
+	"frame": {"x":2,"y":310,"w":192,"h":176},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":229,"y":224,"w":192,"h":176},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_powerpods_get_fx/0002",
+	"frame": {"x":352,"y":284,"w":236,"h":216},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":207,"y":200,"w":236,"h":216},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_powerpods_get_fx/0003",
+	"frame": {"x":352,"y":284,"w":236,"h":216},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":207,"y":200,"w":236,"h":216},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_powerpods_get_fx/0004",
+	"frame": {"x":352,"y":2,"w":308,"h":282},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":171,"y":171,"w":308,"h":282},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_powerpods_get_fx/0005",
+	"frame": {"x":352,"y":2,"w":308,"h":282},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":171,"y":171,"w":308,"h":282},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_powerpods_get_fx/0006",
+	"frame": {"x":2,"y":2,"w":350,"h":308},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":149,"y":158,"w":350,"h":308},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_powerpods_get_fx/0007",
+	"frame": {"x":2,"y":2,"w":350,"h":308},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":149,"y":158,"w":350,"h":308},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_powerpods_get_fx/0008",
+	"frame": {"x":2,"y":2,"w":350,"h":308},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":149,"y":158,"w":350,"h":308},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_powerpods_get_fx/0009",
+	"frame": {"x":2,"y":2,"w":350,"h":308},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":149,"y":158,"w":350,"h":308},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_powerpods_get_fx/0010",
+	"frame": {"x":2,"y":486,"w":1,"h":1},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":0,"y":0,"w":1,"h":1},
+	"sourceSize": {"w":660,"h":550}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "Bonus_PowerPods_FX.png",
+	"format": "RGBA8888",
+	"size": {"w":662,"h":502},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:0108ab8074adc7b3cb20a3140845e94d:1/1$"
+}
+}

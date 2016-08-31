@@ -1,0 +1,145 @@
+{
+	"id" : "track001",
+	"name": "Track 001",
+	"preRaceMessage": "QueenTrack1",
+	"laps": 2,
+	"lanes" : 3,
+	"scoring" : [1000000, 1500000, 2000000],
+	"unlocks" : "Track002",
+	"events" : [
+		{"id": "evt000", "event" : "raceBegin" },
+		{"id": "evt001", "event" : "countdown" },
+		{"id": "evt002", "event" : "start" }
+	],
+
+
+	"bgSettings": [
+		{"image" : "SkyBG",      "amount": 2, "spacing" : 0,   "scrollWidth" : 0,  "scrollSpeed" : 0.20, "startX" : 0,   "startY": 0,  "zIndex" :  1},
+		{"image" : "Tree03", "amount": 1, "spacing" : 0,   "scrollWidth" : 0,  "scrollSpeed" : 0.75, "startX" : 300, "startY": 37,  "zIndex" :  9},
+		{"image" : "Tree02", "amount": 2, "spacing" : 500, "scrollWidth" : 0,  "scrollSpeed" : 0.42, "startX" : 100, "startY": 10,  "zIndex" :  8},
+		{"image" : "Building05", "amount": 2, "spacing" : 500, "scrollWidth" : 0,  "scrollSpeed" : 0.35, "startX" : 50,  "startY": 20,  "zIndex" :  7},
+		{"image" : "Rock06", "amount": 2, "spacing" : 600, "scrollWidth" : 0,  "scrollSpeed" : 0.20, "startX" : 100, "startY": 10,  "zIndex" :  6}
+	],
+
+	"numSegments" : 100,
+	"mapImage" : "HUDMap1",
+
+	"colors" : {
+		"LIGHT": { "road": "#D5A55E", "rumble": "#D5A55E", "offroad": "#866138", "lane":"#FFFFFF" },
+		"DARK":  { "road": "#CE974F", "rumble": "#CE974F", "offroad": "#845F34" }
+	},
+
+
+
+	"roadSettings" : {
+		"length"   : {"none" : 0, "short" : 25, "medium": 50, "long": 500},
+		"curve"    : {"none" : 0, "easy"  : 2,  "medium": 4,  "hard": 6},
+		"elevation": {"none" : 0, "low"   : 20, "medium": 40, "high": 60}
+	},
+
+	"roadData": [
+		{ "length": "long" },
+		{ "length": "long" },
+		{ "length": "long" },
+		{ "length": "long" },
+		{ "length": "long" },
+		{ "length": "long" }
+
+
+
+	],
+
+	"elementDefinitions": {
+		"exampleID" : [
+		], 
+
+		"racers" : [
+			{ "type":"racer", "id":"player",   "lane":1, "distance":5},
+			{ "type":"racer", "id":"rival",   "lane":2, "distance":4},
+			{ "type":"racer", "id":"opponent", "class" : "vehicle_jetstream",   "lane":3, "distance":3},
+			{ "type":"racemarker", "distance":20}
+		],
+
+		"ally1" :[
+			{"type": "ally", "class" : "blastdrilla",  "lane": 1, "distance":1}
+		],
+
+		"ally2" :[
+			{"type": "ally", "class" : "boomshift",  "lane": 1, "distance":1}
+		],
+
+		"ally3" :[
+			{"type": "ally", "class" : "freedrilla", "lane": 1, "distance":1}
+		],
+
+		"enemies01" : [
+			{"type": "enemy", "class" : "vehicle_enemy_a" , "distance" :1 }
+		],
+
+
+		"gearbit" : [
+			{"type": "gearbit", "class" : "gearbit" , "amount" : 10, "spacing" : 10, "distance" :1 }
+		]
+
+	},
+
+	"elementPositioning": [
+		{"definition":"racers", "padding" : 0},
+		{"definition":"gearbit", "padding" : 100},
+		{"definition":"enemies01", "padding" : 500},
+		{"definition":"ally1", "padding" : 1000},
+		{"definition":"enemies01", "padding" : 500},
+		{"definition":"ally2", "padding" : 1000},
+		{"definition":"gearbit", "padding" : 400},
+		{"definition":"enemies01", "padding" : 300},
+		{"definition":"ally3", "padding" : 1000},
+		{"definition":"gearbit", "padding" : 100}
+
+	],
+
+	"bgDefinitions" : {
+		"exampleID" : [
+		],
+
+		"arches" :[
+			{"type": "bgElement", "display" : "archfront", "amount" : 80, "z" : 0, "spacing" : 35, "distance":1},
+			{"type": "bgElement", "display" : "archback", "amount" : 80, "z" : 100, "spacing" : 35, "distance":1}
+		]
+	},
+
+	"bgPositioning" : [
+		{"definition":"exampleID", "padding" : 0}
+	],
+
+	"mapNodeList" : [
+		{ "x" : 10.5, "y" : 117},
+		{ "x" : 24.5, "y" : 101},
+		{ "x" : 42.5, "y" : 90},
+		{ "x" : 51.5, "y" : 75},
+		{ "x" : 50.5, "y" : 54},
+		{ "x" : 39.5, "y" : 32},
+		{ "x" : 46.5, "y" : 10},
+		{ "x" : 68.5, "y" : 11},
+		{ "x" : 88.5, "y" : 27},
+		{ "x" : 124.5, "y" : 89},
+		{ "x" : 124.5, "y" : 103},
+		{ "x" : 118.5, "y" : 108},
+		{ "x" : 99.5, "y" : 113},
+		{ "x" : 88.5, "y" : 121},
+		{ "x" : 85.5, "y" : 134},
+		{ "x" : 87.5, "y" : 149},
+		{ "x" : 99.5, "y" : 182},
+		{ "x" : 95.5, "y" : 194},
+		{ "x" : 78.5, "y" : 203},
+		{ "x" : 56.5, "y" : 193},
+		{ "x" : 26.5, "y" : 156},
+		{ "x" : 11.5, "y" : 120}
+	]
+}
+				
+
+
+
+			
+
+

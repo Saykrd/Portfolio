@@ -1,0 +1,586 @@
+{
+	"config": {"parent":"game", "bgColor":"#000000", "width":960, "height":640, "logLevel":3},
+	"strings": {"path":"strings.json"},
+	"version" : "0.4.0",
+
+	"displayWidth":960,
+	"displayHeight":640,
+
+	"bgResourcePath" : "media/level/bg/",
+
+	"loader":
+	[
+		{"name":"LoaderBG", "path":"media/loader/beta_loading_bg.png"},
+		{"name":"LoaderBar", "path":"media/loader/beta_loading_bar.png"},
+		{"name":"LoaderBox", "path":"media/loader/beta_loading_box.png"},
+		{"name":"LoaderBarBG", "path":"media/loader/beta_loading_shape.png"},
+		{"name":"LogoActivision", "path":"media/loader/beta_logo_activision.png"},
+		{"name":"LogoJetMorgan", "path":"media/loader/beta_logo_jetmorgan.png"}
+	],
+
+	"external":
+	[
+		{"name":"TweenMax", "path":"js/TweenMax.min.js"}
+	],
+
+	"browserSupport":
+	[
+		{"type":"MSIE", "minVersion":9},
+		{"type":"Chrome", "minVersion":29},
+		{"type":"Firefox", "minVersion":23},
+		{"type":"Safari", "minVersion":5},
+		{"type":"MobileSafari", "minVersion":6}
+	],
+
+
+
+	"resources":
+	[
+
+		{"name":"GameConfig", "path":"media/json/game_config.json", "autoload":true},
+		{"name":"SpriteConfig", "path":"media/json/sprite_config.json", "autoload":true},
+		{"name":"ScreenConfig", "path":"media/json/screen_config.json", "autoload":true},
+
+		{"name":"Track001", "path":"media/json/track001.json", "autoload":true},
+		{"name":"Track002", "path":"media/json/track002.json", "autoload":true},
+		{"name":"Track003", "path":"media/json/track003.json", "autoload":true},
+		{"name":"TrackDemo", "path":"media/json/trackDemo.json", "autoload":true},
+
+		{"name":"Map000", "path":"media/json/maps/map000.json", "autoload":true},
+		{"name":"Map001", "path":"media/json/maps/map001.json", "autoload":true},
+		{"name":"Map002", "path":"media/json/maps/map002.json", "autoload":true},
+	
+		{"name":"ButtonsImage", "path":"media/spritesheets/buttons/buttons.png", "autoload":true},
+		{"name":"ButtonsData", "path":"media/spritesheets/buttons/buttons.json", "autoload":true},
+
+		{"name":"ScreenBG", "path":"media/backgrounds/title_BG.png", "autoload":true},
+		{"name":"StoryBG", "path":"media/backgrounds/story_BG.png", "autoload":true},
+
+		{"name":"TextBehindFXImage", "path":"media/spritesheets/high_res/bonusfx/Text_Behind_FX.png", "autoload":true},
+		{"name":"TextBehindFXData", "path":"media/spritesheets/high_res/bonusfx/Text_Behind_FX.json", "autoload":true},
+		{"name":"SuperchargeFXImage", "path":"media/spritesheets/high_res/bonusfx/Supercharge_FX.png", "autoload":true},
+		{"name":"SuperchargeFXData", "path":"media/spritesheets/high_res/bonusfx/Supercharge_FX.json", "autoload":true},
+
+
+		{"name":"SShadowTitle", "path":"media/images/titlescreen/title_SEASHADOW.png", "autoload":true},
+		{"name":"DBomberTitle", "path":"media/images/titlescreen/title_DIVEBOMBER.png", "autoload":true},
+		{"name":"RRipperTitle", "path":"media/images/titlescreen/title_REEFRIPPER.png", "autoload":true},
+
+		{"name":"CharacterWelcome", "path":"media/images/storyscreen/story_JAMESPRONG.png", "autoload":true},
+		{"name":"TextBoxWelcome", "path":"media/images/storyscreen/alpha_story_textbox_empty.png", "autoload":true},
+
+		
+		{"name":"DiveClopsSelect", "path":"media/images/vehicleselect/choose_DIVECLOPS.png", "autoload":true},
+		{"name":"NightfallSelect", "path":"media/images/vehicleselect/choose_NIGHTFALL.png", "autoload":true},
+		{"name":"GillGruntSelect", "path":"media/images/vehicleselect/choose_GILLGRUNT.png", "autoload":true},
+		{"name":"WaterIcon", "path":"media/images/vehicleselect/choose_water-icon.png", "autoload":true},
+		{"name":"DarkIcon", "path":"media/images/vehicleselect/choose_dark-icon.png", "autoload":true},
+		{"name":"TextBoxSelect", "path":"media/images/vehicleselect/alpha_select_infobox.png", "autoload":true},
+		{"name":"StarBanner", "path":"media/images/vehicleselect/alpha_select_starbanner.png", "autoload":true},
+		{"name":"SelectGlow", "path":"media/images/vehicleselect/alpha_select_glow.png", "autoload":true,  "category" : "ingame"},
+
+		{"name":"TrackSelectTitle", "path":"media/images/trackselect/beta_title.png", "autoload":true},
+		{"name":"TrackSelectBox", "path":"media/images/trackselect/beta_level_box.png", "autoload":true},
+		{"name":"TrackSelectLock", "path":"media/images/trackselect/map_lock-base.png", "autoload":true},
+		{"name":"TrackSelectGlow", "path":"media/images/trackselect/beta_rays.png", "autoload":true, "category" : "ingame"},
+		{"name":"TrackSelectStarBlack", "path":"media/images/trackselect/beta_star_black.png", "autoload":true},
+		{"name":"TrackSelectStarWhite", "path":"media/images/trackselect/beta_star_white.png", "autoload":true},
+		{"name":"TrackSelectCheck", "path":"media/images/trackselect/beta_Checkmark.png", "autoload":true},
+		{"name":"TrackSelectTrack1", "path":"media/images/trackselect/map_TRACK-1.png", "autoload":true},
+		{"name":"TrackSelectTrack2", "path":"media/images/trackselect/map_TRACK-2.png", "autoload":true},
+		{"name":"TrackSelectTrack3", "path":"media/images/trackselect/map_TRACK-3.png", "autoload":true},
+		{"name":"TrackSelectWatch", "path":"media/images/trackselect/beta_watch.png", "autoload":true},
+
+		{"name":"HTPArrowKeysSmall", "path":"media/images/howtoplay/arrow_keys_small.png", "autoload":true, "category" : "ingame"},
+		{"name":"HTPArrowKeysLarge", "path":"media/images/howtoplay/arrow_keys_large.png", "autoload":true, "category" : "ingame"},
+		{"name":"HTPEKey", "path":"media/images/howtoplay/e_key.png", "autoload":true, "category" : "ingame"},
+		{"name":"HTPBox", "path":"media/images/howtoplay/htp_box.png", "autoload":true, "category" : "ingame"},
+		{"name":"HTPBoxSmall", "path":"media/images/howtoplay/htp_box_small.png", "autoload":true, "category" : "ingame"},
+		{"name":"HTPSpacebar", "path":"media/images/howtoplay/spacebar.png", "autoload":true, "category" : "ingame"},
+		{"name":"HTPTimer", "path":"media/images/howtoplay/timer.png", "autoload":true, "category" : "ingame"},
+		{"name":"HTPIcons1", "path":"media/images/howtoplay/HowToPlay_Icons1.png", "autoload":true, "category" : "ingame"},
+		{"name":"HTPIcons2", "path":"media/images/howtoplay/HowToPlay_Icons2.png", "autoload":true, "category" : "ingame"},
+		{"name":"HTPIcons3", "path":"media/images/howtoplay/HowToPlay_Icons3.png", "autoload":true, "category" : "ingame"},
+		{"name":"HTPIcons4", "path":"media/images/howtoplay/HowToPlay_Icons4.png", "autoload":true, "category" : "ingame"},
+		{"name":"HTPIcons5", "path":"media/images/howtoplay/HowToPlay_Icons5.png", "autoload":true, "category" : "ingame"},
+		{"name":"HTPTitle", "path":"media/images/howtoplay/title.png", "autoload":true, "category" : "ingame"},
+		{"name":"HTPDPadSmall", "path":"media/images/howtoplay/dpad2.png", "autoload":true, "category" : "ingame"},
+		{"name":"HTPDPadLarge", "path":"media/images/howtoplay/dpad1.png", "autoload":true, "category" : "ingame"},
+
+		{"name":"HTPMobileAttack",  "path":"media/images/howtoplay/mobile_howto_attack.png", "autoload":true},
+		{"name":"HTPMobileBox",     "path":"media/images/howtoplay/mobile_howto_box.png", "autoload":true},
+		{"name":"HTPMobileBrake",   "path":"media/images/howtoplay/mobile_howto_brake.png", "autoload":true},
+		{"name":"HTPMobileGas",     "path":"media/images/howtoplay/mobile_howto_gas.png", "autoload":true},
+		{"name":"HTPMobileSpecial", "path":"media/images/howtoplay/mobile_howto_special.png", "autoload":true},
+		{"name":"HTPMobileSwipe",   "path":"media/images/howtoplay/mobile_howto_swipe.png", "autoload":true},
+		{"name":"ReadyScreenBox", "path":"media/images/readyscreen/alpha_ready_box.png", "autoload":true},
+		{"name":"ReadyScreenScoreBG", "path":"media/images/readyscreen/beta_results_time_banner.png", "autoload":true},
+		{"name":"ReadyScreenStarBlack", "path":"media/images/readyscreen/alpha_ready_star_black.png", "autoload":true},
+		{"name":"ReadyScreenStarWhite", "path":"media/images/readyscreen/alpha_ready_star_white.png", "autoload":true},
+
+		{"name":"PauseScreenBox", "path":"media/images/pausescreen/beta_Pause_box.png", "autoload":true},	
+
+		{"name":"UpgradeScreenBarActive", "path":"media/images/upgradescreen/beta_store_bar_available.png", "autoload":true},
+		{"name":"UpgradeScreenBarInactive", "path":"media/images/upgradescreen/beta_store_bar_unavailable.png", "autoload":true},		
+		{"name":"UpgradeScreenCheck", "path":"media/images/upgradescreen/beta_store_Checkmark_sm.png", "autoload":true},		
+		{"name":"UpgradeScreenGearbitSmall", "path":"media/images/upgradescreen/beta_store_Gearbit_sm.png", "autoload":true},
+		{"name":"UpgradeScreenGearbitTop", "path":"media/images/upgradescreen/beta_store_Gearbit_top.png", "autoload":true},		
+		{"name":"UpgradeScreenBox", "path":"media/images/upgradescreen/beta_store_info_box.png", "autoload":true},		
+		{"name":"UpgradeScreenLock", "path":"media/images/upgradescreen/beta_store_lock.png", "autoload":true},	
+		{"name":"UpgradeScreenStatsBar", "path":"media/images/upgradescreen/stats_bar.png", "autoload":true},
+		{"name":"UpgradeScreenStatsAmount", "path":"media/images/upgradescreen/stats_amount.png", "autoload":true},
+
+
+		{"name":"IconSSSM1", "path":"media/images/upgradescreen/seashadow/icons/store_seashadow_icon_s1.png", "autoload":true},
+		{"name":"IconSSSM2", "path":"media/images/upgradescreen/seashadow/icons/store_seashadow_icon_s2.png", "autoload":true},			
+		{"name":"IconSSSM3", "path":"media/images/upgradescreen/seashadow/icons/store_seashadow_icon_s3.png", "autoload":true},			
+		{"name":"IconSSSM4", "path":"media/images/upgradescreen/seashadow/icons/store_seashadow_icon_s4.png", "autoload":true},			
+		{"name":"IconSSPM1", "path":"media/images/upgradescreen/seashadow/icons/store_seashadow_icon_p1.png", "autoload":true},			
+		{"name":"IconSSPM2", "path":"media/images/upgradescreen/seashadow/icons/store_seashadow_icon_p2.png", "autoload":true},			
+		{"name":"IconSSPM3", "path":"media/images/upgradescreen/seashadow/icons/store_seashadow_icon_p3.png", "autoload":true},			
+		{"name":"IconSSPM4", "path":"media/images/upgradescreen/seashadow/icons/store_seashadow_icon_p4.png", "autoload":true},
+
+		{"name":"IconDBSM1", "path":"media/images/upgradescreen/divebomber/icons/store_divebomber_icon_s1.png", "autoload":true},
+		{"name":"IconDBSM2", "path":"media/images/upgradescreen/divebomber/icons/store_divebomber_icon_s2.png", "autoload":true},			
+		{"name":"IconDBSM3", "path":"media/images/upgradescreen/divebomber/icons/store_divebomber_icon_s3.png", "autoload":true},			
+		{"name":"IconDBSM4", "path":"media/images/upgradescreen/divebomber/icons/store_divebomber_icon_s4.png", "autoload":true},			
+		{"name":"IconDBPM1", "path":"media/images/upgradescreen/divebomber/icons/store_divebomber_icon_p1.png", "autoload":true},			
+		{"name":"IconDBPM2", "path":"media/images/upgradescreen/divebomber/icons/store_divebomber_icon_p2.png", "autoload":true},			
+		{"name":"IconDBPM3", "path":"media/images/upgradescreen/divebomber/icons/store_divebomber_icon_p3.png", "autoload":true},			
+		{"name":"IconDBPM4", "path":"media/images/upgradescreen/divebomber/icons/store_divebomber_icon_p4.png", "autoload":true},
+
+		{"name":"IconRRSM1", "path":"media/images/upgradescreen/reefripper/icons/store_reefripper_icon_s1.png", "autoload":true},
+		{"name":"IconRRSM2", "path":"media/images/upgradescreen/reefripper/icons/store_reefripper_icon_s2.png", "autoload":true},			
+		{"name":"IconRRSM3", "path":"media/images/upgradescreen/reefripper/icons/store_reefripper_icon_s3.png", "autoload":true},			
+		{"name":"IconRRSM4", "path":"media/images/upgradescreen/reefripper/icons/store_reefripper_icon_s4.png", "autoload":true},			
+		{"name":"IconRRPM1", "path":"media/images/upgradescreen/reefripper/icons/store_reefripper_icon_p1.png", "autoload":true},			
+		{"name":"IconRRPM2", "path":"media/images/upgradescreen/reefripper/icons/store_reefripper_icon_p2.png", "autoload":true},			
+		{"name":"IconRRPM3", "path":"media/images/upgradescreen/reefripper/icons/store_reefripper_icon_p3.png", "autoload":true},			
+		{"name":"IconRRPM4", "path":"media/images/upgradescreen/reefripper/icons/store_reefripper_icon_p4.png", "autoload":true},
+
+
+		{"name":"DBBase", "path":"media/images/upgradescreen/divebomber/store_divebomber_base.png", "autoload":true},
+		{"name":"SSBase", "path":"media/images/upgradescreen/seashadow/store_seashadow_base.png", "autoload":true},
+		{"name":"RRBase", "path":"media/images/upgradescreen/reefripper/store_reefripper_base.png", "autoload":true},	
+
+		{"name":"SSSM1", "path":"media/images/upgradescreen/seashadow/store_seashadow_s1.png", "autoload":true},					
+		{"name":"SSSM2", "path":"media/images/upgradescreen/seashadow/store_seashadow_s2.png", "autoload":true},
+		{"name":"SSSM3", "path":"media/images/upgradescreen/seashadow/store_seashadow_s3.png", "autoload":true},										
+		{"name":"SSSM4", "path":"media/images/upgradescreen/seashadow/store_seashadow_s4.png", "autoload":true},					
+		{"name":"SSPM1", "path":"media/images/upgradescreen/seashadow/store_seashadow_p1.png", "autoload":true},					
+		{"name":"SSPM2", "path":"media/images/upgradescreen/seashadow/store_seashadow_p2.png", "autoload":true},										
+		{"name":"SSPM3", "path":"media/images/upgradescreen/seashadow/store_seashadow_p3.png", "autoload":true},					
+		{"name":"SSPM4", "path":"media/images/upgradescreen/seashadow/store_seashadow_p4.png", "autoload":true},					
+		
+		{"name":"DBSM1", "path":"media/images/upgradescreen/divebomber/store_divebomber_s1.png", "autoload":true},					
+		{"name":"DBSM2", "path":"media/images/upgradescreen/divebomber/store_divebomber_s2.png", "autoload":true},
+		{"name":"DBSM3", "path":"media/images/upgradescreen/divebomber/store_divebomber_s3.png", "autoload":true},										
+		{"name":"DBSM4", "path":"media/images/upgradescreen/divebomber/store_divebomber_s4.png", "autoload":true},					
+		{"name":"DBPM1", "path":"media/images/upgradescreen/divebomber/store_divebomber_p1.png", "autoload":true},					
+		{"name":"DBPM2", "path":"media/images/upgradescreen/divebomber/store_divebomber_p2.png", "autoload":true},										
+		{"name":"DBPM3", "path":"media/images/upgradescreen/divebomber/store_divebomber_p3.png", "autoload":true},					
+		{"name":"DBPM4", "path":"media/images/upgradescreen/divebomber/store_divebomber_p4.png", "autoload":true},					
+	
+		{"name":"RRSM1", "path":"media/images/upgradescreen/reefripper/store_reefripper_s1.png", "autoload":true},					
+		{"name":"RRSM2", "path":"media/images/upgradescreen/reefripper/store_reefripper_s2.png", "autoload":true},
+		{"name":"RRSM3", "path":"media/images/upgradescreen/reefripper/store_reefripper_s3.png", "autoload":true},										
+		{"name":"RRSM4", "path":"media/images/upgradescreen/reefripper/store_reefripper_s4.png", "autoload":true},					
+		{"name":"RRPM1", "path":"media/images/upgradescreen/reefripper/store_reefripper_p1.png", "autoload":true},					
+		{"name":"RRPM2", "path":"media/images/upgradescreen/reefripper/store_reefripper_p2.png", "autoload":true},										
+		{"name":"RRPM3", "path":"media/images/upgradescreen/reefripper/store_reefripper_p3.png", "autoload":true},					
+		{"name":"RRPM4", "path":"media/images/upgradescreen/reefripper/store_reefripper_p4.png", "autoload":true},					
+
+
+		{"name":"ResultsBG", "path":"media/images/resultsscreen/alpha_results_box.png", "autoload":true},
+		{"name":"ResultsGearBit", "path":"media/images/resultsscreen/alpha_results_gearbit.png", "autoload":true},
+		{"name":"ResultsStarWhite", "path":"media/images/resultsscreen/alpha_results_star_white.png", "autoload":true},
+		{"name":"ResultsStarBlack", "path":"media/images/resultsscreen/alpha_results_star_black.png", "autoload":true},
+		{"name":"ResultsWatch", "path":"media/images/resultsscreen/alpha_results_watch.png", "autoload":true},
+		{"name":"ResultsStarTime", "path":"media/images/resultsscreen/beta_results_time_star.png", "autoload":true},
+		{"name":"ResultsWatch", "path":"media/images/resultsscreen/alpha_results_watch.png", "autoload":true},
+
+		
+		{"name":"EndscreenBar", "path":"media/images/endscreen/beta_final_bar.png", "autoload":true},
+		{"name":"EndScreenGlow", "path":"media/images/endscreen/beta_final_effect.png", "autoload":true},
+		{"name":"EndScreenBannerTop", "path":"media/images/endscreen/end_screen_flag-top.png", "autoload":true},
+		{"name":"EndScreenBannerBottom", "path":"media/images/endscreen/end_screen_flag-bottom.png", "autoload":true},
+		{"name":"EndScreenGlow", "path":"media/images/endscreen/beta_final_effect.png", "autoload":true},
+		{"name":"EndScreenQueen", "path":"media/images/endscreen/end_screen_jamesprong.png", "autoload":true},
+		{"name":"EndScreenDC", "path":"media/images/endscreen/end_screen_diveclops.png", "autoload":true},
+		{"name":"EndScreenNF", "path":"media/images/endscreen/end_screen_nightfall.png", "autoload":true},
+		{"name":"EndScreenGG", "path":"media/images/endscreen/end_screen_gillgrunt.png", "autoload":true},
+
+		
+		{"name":"PConfirmBox", "path":"media/images/purchaseconfirm/store_popup_window.png", "autoload":true},	
+		{"name":"PConfirmRays", "path":"media/images/purchaseconfirm/store_popup_Rays-.png", "autoload":true},
+		{"name":"PConfirmGearbit", "path":"media/images/purchaseconfirm/store_popup_Gearbit.png", "autoload":true},	
+
+		{"name":"PConfirmSSSM1", "path":"media/images/purchaseconfirm/seashadow/mods_seashadow_s1.png", "autoload":true},	
+		{"name":"PConfirmSSSM2", "path":"media/images/purchaseconfirm/seashadow/mods_seashadow_s2.png", "autoload":true},	
+		{"name":"PConfirmSSSM3", "path":"media/images/purchaseconfirm/seashadow/mods_seashadow_s3.png", "autoload":true},	
+		{"name":"PConfirmSSSM4", "path":"media/images/purchaseconfirm/seashadow/mods_seashadow_s4.png", "autoload":true},		
+		{"name":"PConfirmSSPM1", "path":"media/images/purchaseconfirm/seashadow/mods_seashadow_p1.png", "autoload":true},
+		{"name":"PConfirmSSPM2", "path":"media/images/purchaseconfirm/seashadow/mods_seashadow_p2.png", "autoload":true},	
+		{"name":"PConfirmSSPM3", "path":"media/images/purchaseconfirm/seashadow/mods_seashadow_p3.png", "autoload":true},	
+		{"name":"PConfirmSSPM4", "path":"media/images/purchaseconfirm/seashadow/mods_seashadow_p4.png", "autoload":true},	
+
+		{"name":"PConfirmDBSM1", "path":"media/images/purchaseconfirm/divebomber/mods_divebomber_s1.png", "autoload":true},	
+		{"name":"PConfirmDBSM2", "path":"media/images/purchaseconfirm/divebomber/mods_divebomber_s2.png", "autoload":true},	
+		{"name":"PConfirmDBSM3", "path":"media/images/purchaseconfirm/divebomber/mods_divebomber_s3.png", "autoload":true},	
+		{"name":"PConfirmDBSM4", "path":"media/images/purchaseconfirm/divebomber/mods_divebomber_s4.png", "autoload":true},		
+		{"name":"PConfirmDBPM1", "path":"media/images/purchaseconfirm/divebomber/mods_divebomber_p1.png", "autoload":true},
+		{"name":"PConfirmDBPM2", "path":"media/images/purchaseconfirm/divebomber/mods_divebomber_p2.png", "autoload":true},	
+		{"name":"PConfirmDBPM3", "path":"media/images/purchaseconfirm/divebomber/mods_divebomber_p3.png", "autoload":true},	
+		{"name":"PConfirmDBPM4", "path":"media/images/purchaseconfirm/divebomber/mods_divebomber_p4.png", "autoload":true},	
+
+		{"name":"PConfirmRRSM1", "path":"media/images/purchaseconfirm/reefripper/mods_reefripper_s1.png", "autoload":true},	
+		{"name":"PConfirmRRSM2", "path":"media/images/purchaseconfirm/reefripper/mods_reefripper_s2.png", "autoload":true},	
+		{"name":"PConfirmRRSM3", "path":"media/images/purchaseconfirm/reefripper/mods_reefripper_s3.png", "autoload":true},	
+		{"name":"PConfirmRRSM4", "path":"media/images/purchaseconfirm/reefripper/mods_reefripper_s4.png", "autoload":true},		
+		{"name":"PConfirmRRPM1", "path":"media/images/purchaseconfirm/reefripper/mods_reefripper_p1.png", "autoload":true},
+		{"name":"PConfirmRRPM2", "path":"media/images/purchaseconfirm/reefripper/mods_reefripper_p2.png", "autoload":true},	
+		{"name":"PConfirmRRPM3", "path":"media/images/purchaseconfirm/reefripper/mods_reefripper_p3.png", "autoload":true},	
+		{"name":"PConfirmRRPM4", "path":"media/images/purchaseconfirm/reefripper/mods_reefripper_p4.png", "autoload":true},	
+
+		{"name":"HUDDPad", "path":"media/images/hud/dpad.png", "autoload":true, "category" : "ingame"},
+		{"name":"HUDButton", "path":"media/images/hud/greenbutton.png", "autoload":true, "category" : "ingame"},
+		{"name":"HUDTime", "path":"media/images/hud/hud_timer.png", "autoload":false, "category" : "ingame"},
+		{"name":"HUDRadar", "path":"media/images/hud/hud_minimap.png", "autoload":false, "category" : "ingame"},
+		{"name":"HUDMask", "path":"media/images/hud/minimap_mask.png", "autoload":false, "category" : "ingame"},
+		{"name":"HUDProgressBox", "path":"media/images/hud/hud_panel.png", "autoload":false, "category" : "ingame"},
+
+	
+		{"name":"HUDMeterBack", "path":"media/images/hud/character/hud_boostmeter.png", "autoload":false, "category" : "ingame"},
+		{"name":"HUDMeterBase", "path":"media/images/hud/character/hud_hud_frame.png", "autoload":false, "category" : "ingame"},
+		{"name":"HUDDiveClops", "path":"media/images/hud/character/hud_DIVECLOPS.png", "autoload":false, "category" : "ingame"},
+		{"name":"HUDGillGrunt", "path":"media/images/hud/character/hud_GILLGRUNT.png", "autoload":false, "category" : "ingame"},
+		{"name":"HUDNightfall", "path":"media/images/hud/character/hud_NIGHTFALL.png", "autoload":false, "category" : "ingame"},
+
+		{"name":"HUDIconRRYellow", "path":"media/images/hud/hud_RRyellow.png", "autoload":false, "category" : "ingame"},
+		{"name":"HUDIconRRRed", "path":"media/images/hud/hud_RRred.png", "autoload":false, "category" : "ingame"},
+		{"name":"HUDIconRROrange", "path":"media/images/hud/hud_RRorange.png", "autoload":false, "category" : "ingame"},
+
+		{"name":"HUDIconSSDark", "path":"media/images/hud/hud_SSdark.png", "autoload":false, "category" : "ingame"},
+		{"name":"HUDIconSSPink", "path":"media/images/hud/hud_SSpink.png", "autoload":false, "category" : "ingame"},
+		{"name":"HUDIconSSPurple", "path":"media/images/hud/hud_SSpurple.png", "autoload":false, "category" : "ingame"},
+
+		{"name":"HUDIconDBBlue", "path":"media/images/hud/hud_DBblue.png", "autoload":false, "category" : "ingame"},
+		{"name":"HUDIconDBGray", "path":"media/images/hud/hud_DBgray.png", "autoload":false, "category" : "ingame"},
+		{"name":"HUDIconDBGreen", "path":"media/images/hud/hud_DBgreen.png", "autoload":false, "category" : "ingame"},
+
+
+		{"name":"MapIconDClops", "path":"media/images/hud/ingame_icon_DIVECLOPS.png", "autoload":false, "category" : "ingame"},
+		{"name":"MapIconGGrunt", "path":"media/images/hud/ingame_icon_GILLGRUNT.png", "autoload":false, "category" : "ingame"},
+		{"name":"MapIconNightfall", "path":"media/images/hud/ingame_icon_NIGHTFALL.png", "autoload":false, "category" : "ingame"},
+
+		{"name":"CharBox", "path":"media/images/JamesProng.png", "autoload":false, "category" : "ingame"},
+
+		{"name":"TilePassable", "path":"media/level/passable.png", "autoload":false, "category" : "ingame"},
+		{"name":"TileImpassable", "path":"media/level/impassable.png", "autoload":false, "category" : "ingame"},
+		{"name":"TileDestructable", "path":"media/level/destructable.png", "autoload":false, "category" : "ingame"},
+		{"name":"TileObject", "path":"media/level/object_tile.png", "autoload":false, "category" : "ingame"},
+		{"name":"Ship", "path":"media/level/vehicle_divebomber_ns.png", "autoload":false, "category" : "ingame"},
+		{"name":"TileProjectile", "path":"media/level/projectile.png", "autoload":false, "category" : "ingame"},
+		{"name":"TileCollectable", "path":"media/level/collectable.png", "autoload":false, "category" : "ingame"},
+
+		{"name":"Dock1", "path":"media/level/Dock1.png", "autoload":false, "category" : "ingame"},
+		{"name":"Dock2", "path":"media/level/Dock2.png", "autoload":false, "category" : "ingame"},
+		{"name":"Flag", "path":"media/level/icon_flag.png", "autoload":false, "category" : "ingame"},
+
+			
+
+		{"name":"Reticle", "path":"media/level/beta_target02.png", "autoload":false, "category" : "ingame"},
+
+		{"name":"IconDB1", "path":"media/level/icon_DBblue.png", "autoload":false, "category" : "ingame"},
+		{"name":"IconDB2", "path":"media/level/icon_DBgray.png", "autoload":false, "category" : "ingame"},
+		{"name":"IconDB3", "path":"media/level/icon_DBgreen.png", "autoload":false, "category" : "ingame"},
+		{"name":"IconRR1", "path":"media/level/icon_RRyellow.png", "autoload":false, "category" : "ingame"},
+		{"name":"IconRR2", "path":"media/level/icon_RRred.png", "autoload":false, "category" : "ingame"},
+		{"name":"IconRR3", "path":"media/level/icon_RRorange.png", "autoload":false, "category" : "ingame"},
+		{"name":"IconSS1", "path":"media/level/icon_SSdark.png", "autoload":false, "category" : "ingame"},
+		{"name":"IconSS2", "path":"media/level/icon_SSpink.png", "autoload":false, "category" : "ingame"},
+		{"name":"IconSS3", "path":"media/level/icon_SSpurple.png", "autoload":false, "category" : "ingame"},
+
+		{"name":"TileItem1", "path":"media/level/mapobjects_7.png", "autoload":false, "category" : "ingame"},
+		{"name":"TileItem2", "path":"media/level/mapobjects_8.png", "autoload":false, "category" : "ingame"},
+		{"name":"TileItem3", "path":"media/level/mapobjects_9.png", "autoload":false, "category" : "ingame"},
+		{"name":"Gearbit", "path":"media/level/icon_gearbit.png", "autoload":false, "category" : "ingame"},
+
+		{"name":"GearbitImage", "path":"media/spritesheets/high_res/gearbits.png", "autoload":false },		
+		{"name":"GearbitData", "path":"media/spritesheets/high_res/gearbits.json", "autoload":false },
+
+		{"name":"HazardImage", "path":"media/spritesheets/high_res/hazards.png", "autoload":false },		
+		{"name":"HazardData", "path":"media/spritesheets/high_res/hazards.json", "autoload":false },
+		
+
+		{"name":"Tileset000", "path":"media/spritesheets/tilesets/tileset000.png", "autoload":false },	
+		{"name":"DecorImage", "path":"media/level/decor.png", "autoload":false },
+		{"name":"DecorData", "path":"media/level/decor.json", "autoload":false },
+
+		{"name":"DBomber1Image", "path":"media/spritesheets/high_res/divebomber_01.png", "autoload":false },		
+		{"name":"DBomber1Data", "path":"media/spritesheets/high_res/divebomber_01.json", "autoload":false },
+
+		{"name":"DBomber2Image", "path":"media/spritesheets/high_res/divebomber_02.png", "autoload":false },		
+		{"name":"DBomber2Data", "path":"media/spritesheets/high_res/divebomber_02.json", "autoload":false },
+
+		{"name":"RRipper1Image", "path":"media/spritesheets/high_res/reefripper_01.png", "autoload":false },		
+		{"name":"RRipper1Data", "path":"media/spritesheets/high_res/reefripper_01.json", "autoload":false },
+
+		{"name":"RRipper2Image", "path":"media/spritesheets/high_res/reefripper_02.png", "autoload":false },		
+		{"name":"RRipper2Data", "path":"media/spritesheets/high_res/reefripper_02.json", "autoload":false },
+
+
+		{"name":"SShadow1Image", "path":"media/spritesheets/high_res/seashadow_01.png", "autoload":false },		
+		{"name":"SShadow1Data", "path":"media/spritesheets/high_res/seashadow_01.json", "autoload":false },
+
+		{"name":"SShadow2Image", "path":"media/spritesheets/high_res/seashadow_02.png", "autoload":false },		
+		{"name":"SShadow2Data", "path":"media/spritesheets/high_res/seashadow_02.json", "autoload":false },
+
+		{"name":"EnemyImage", "path":"media/spritesheets/high_res/enemy_chompy.png", "autoload":false },		
+		{"name":"EnemyData", "path":"media/spritesheets/high_res/enemy_chompy.json", "autoload":false },
+
+
+		{"name":"ReefRipperFXImage", "path":"media/spritesheets/high_res/reefripper_fx.png", "autoload":false },		
+		{"name":"ReefRipperFXData", "path":"media/spritesheets/high_res/reefripper_fx.json", "autoload":false },
+
+		{"name":"DiveBomberFXImage", "path":"media/spritesheets/high_res/divebomber_fx.png", "autoload":false },		
+		{"name":"DiveBomberFXData", "path":"media/spritesheets/high_res/divebomber_fx.json", "autoload":false },
+
+		{"name":"SeaShadowFXImage", "path":"media/spritesheets/high_res/seashadow_fx.png", "autoload":false },		
+		{"name":"SeaShadowFXData", "path":"media/spritesheets/high_res/seashadow_fx.json", "autoload":false },
+
+
+		{"name":"BonusImage", "path":"media/spritesheets/high_res/bonus.png", "autoload":false },		
+		{"name":"BonusData", "path":"media/spritesheets/high_res/bonus.json", "autoload":false },
+
+		
+
+
+		{"name":"BGMMenu",    "path":"media/sound/bgm/INTER_ActionPack_APA1_intro.mp3", "autoload":true},
+		{"name":"BGMLevel",   "path":"media/sound/bgm/INTER_ActionPack_APA1_02.mp3", "autoload":true},
+		{"name":"BGMStinger", "path":"media/sound/bgm/INTER_ActionPack_APA1_02_stinger_01.mp3", "autoload":true},
+
+		
+		{"name":"SFXBoostPad",           "path":"media/sound/sfx/EVENT_BoostPad_Launch.mp3", "autoload":true},
+		{"name":"SFXGearbitCollect",     "path":"media/sound/sfx/GearBit_SuperCharged_Collect_01.mp3", "autoload":true},
+		{"name":"SFXBonusShoe",          "path":"media/sound/sfx/POWERUP_ActionPack_Air_WingedBoots_Aura_in_01.mp3", "autoload":true},
+		{"name":"SFXBonusShield",        "path":"media/sound/sfx/POWERUP_ActionPack_Earth_Shield_Aura_in_01.mp3", "autoload":true},
+		{"name":"SFXBonusShieldBlock",   "path":"media/sound/sfx/POWERUP_ActionPack_Earth_Shield_Block_Hit_01.mp3", "autoload":true},
+		{"name":"SFXBonusElixir",        "path":"media/sound/sfx/POWERUP_ActionPack_Life_Elixir_Aura_in.mp3", "autoload":true},
+		{"name":"SFXUnlock",           "path":"media/sound/sfx/UI_Key_Snap_01.mp3", "autoload":true},
+		{"name":"SFXOutOfAmmo",          "path":"media/sound/sfx/UI_Fail_Global_01.mp3", "autoload":true},
+		{"name":"SFXDBEngine",          "path":"media/sound/sfx/FX_VEH_WaterTorpedoSub_LoopBase_01.mp3", "autoload":true},
+		{"name":"SFXDBRev",          "path":"media/sound/sfx/FX_VEH_TorpedoSub_RevHigh_01.mp3", "autoload":true},
+		{"name":"SFXSSEngine",          "path":"media/sound/sfx/FX_VEH_DarkMantaSub_EngineLoop1_01.mp3", "autoload":true},
+		{"name":"SFXSSRev",          "path":"media/sound/sfx/FX_VEH_DarkMantaSub_MM_Intro_Start_01.mp3", "autoload":true},
+		{"name":"SFXRREngine",          "path":"media/sound/sfx/FX_VEH_WaterFishSub_Engine1_01.mp3", "autoload":true},
+		{"name":"SFXRRRev",          "path":"media/sound/sfx/FX_VEH_WaterFishSub_MM_Intro_Start_01.mp3", "autoload":true},
+		{"name":"SFXDBShoot",          "path":"media/sound/sfx/FX_DiveBomber_Attack_Primary_Shoot.mp3", "autoload":true},
+		{"name":"SFXDBSpecial",          "path":"media/sound/sfx/FX_DiveBomber_Attack_Secondary_Start.mp3", "autoload":true},
+		{"name":"SFXDBTorpedo",          "path":"media/sound/sfx/FX_DiveBomber_Attack_Primary_Loop.mp3", "autoload":true},
+		{"name":"SFXSSShoot",          "path":"media/sound/sfx/FX_SeaShadow_Attack_Primary_Shoot.mp3", "autoload":true},
+		{"name":"SFXSSSpecial",          "path":"media/sound/sfx/FX_SeaShadow_Attack_Secondary_Shoot.mp3", "autoload":true},
+		{"name":"SFXSSExplosion",          "path":"media/sound/sfx/FX_SeaShadow_Attack_Secondary_Loop.mp3", "autoload":true},
+		{"name":"SFXRRShoot",          "path":"media/sound/sfx/FX_ReefRipper_Attack_Primary_Shoot.mp3", "autoload":true},
+		{"name":"SFXRRSpecial",          "path":"media/sound/sfx/FX_ReefRipper_Attack_Secondary_Shoot.mp3", "autoload":true},
+		{"name":"SFXEnemyShootHit",          "path":"media/sound/sfx/FX_Chompy_Attack_Shoot.mp3", "autoload":true},
+		{"name":"SFXEnemyExplode",          "path":"media/sound/sfx/FX_Chompy_Attack_Explode.mp3", "autoload":true},
+		{"name":"SFXBump",           "path":"media/sound/sfx/FX_ArenaBomberRock_Player_Impact_01.mp3", "autoload":true},
+		{"name":"SFXSlow",              "path":"media/sound/sfx/POWERUP_ActionPack_New_Hourglass_Aura_loop.mp3", "autoload":true},
+
+		{"name":"SUIPieceSelected",        "path":"media/sound/ui/UI_ToyClick_01.mp3", "autoload":true},
+		{"name":"SUICollect",     "path":"media/sound/ui/UI_Results_List_Item_Check_01.mp3", "autoload":true},
+		{"name":"SUIShuffle",   		  "path":"media/sound/ui/EVENT_Skystones_Player_Victory_01.mp3", "autoload":true},
+		{"name":"SUIAlarm",   			  "path":"media/sound/ui/OBJECT_EliteAlarm_Loop.mp3", "autoload":true},
+		{"name":"SUIClick",              "path":"media/sound/ui/Coin_Collect_01.mp3", "autoload":true},
+		{"name":"SUIUnlock",             "path":"media/sound/ui/COM_Pickup_Item.mp3", "autoload":true},
+		{"name":"SUIHint",             "path":"media/sound/ui/UI_Objective_New_01.mp3", "autoload":true},
+		{"name":"SUIBonusGet",             "path":"media/sound/ui/UI_Conversation_Box_Appear_01.mp3", "autoload":true},
+		{"name":"SUISuperCharged",       "path":"media/sound/ui/EVENT_FireWorks_Success.mp3", "autoload":true},
+		{"name":"SUIUpgradeApply",       "path":"media/sound/ui/ProtoVhcl_Custom_Weapon_warp_in.mp3", "autoload":true},	
+		{"name":"SUIPause",              "path":"media/sound/ui/UI_Pause_01.mp3", "autoload":true},
+		{"name":"SUIResume",             "path":"media/sound/ui/UI_Pause_Resume_01.mp3", "autoload":true},
+		{"name":"SUIMouseOver",          "path":"media/sound/ui/UI_Prompt.mp3", "autoload":true},
+		{"name":"SUIPurchaseFail",       "path":"media/sound/ui/UI_Purchase_Fail_01.mp3", "autoload":true},
+		{"name":"SUIPurchaseSuccess",    "path":"media/sound/ui/UI_Purchase_Global_01.mp3", "autoload":true},
+		{"name":"SUIEndScreenWin",       "path":"media/sound/ui/UI_PVP_KO.mp3", "autoload":true},
+		{"name":"SUIResultsStar",        "path":"media/sound/ui/UI_Results_Star_Reward_Fill_01.mp3", "autoload":true},
+		{"name":"SUIStatIncrease",       "path":"media/sound/ui/UI_Skylander_LevelUp_01.mp3", "autoload":true},
+		{"name":"SUIResultsWin",         "path":"media/sound/ui/World_HatBox_Success.mp3", "autoload":true},
+
+		{"name":"VOCount3",        "path":"media/sound/vo/announcer/VO_Announcer_Common_Global_Three.mp3", "autoload":true},
+		{"name":"VOCount2",        "path":"media/sound/vo/announcer/VO_Announcer_Common_Global_Two.mp3", "autoload":true},
+		{"name":"VOCount1",        "path":"media/sound/vo/announcer/VO_Announcer_Common_Global_One.mp3", "autoload":true},
+		{"name":"VOGo",            "path":"media/sound/vo/announcer/VO_Announcer_Common_Global_Go.mp3", "autoload":true},
+		{"name":"VOHighScore",     "path":"media/sound/vo/announcer/VO_Announcer_Common_Global_HighScore.mp3", "autoload":true},
+		{"name":"VOYouWin",        "path":"media/sound/vo/announcer/VO_Announcer_Common_Global_YouWin.mp3", "autoload":true},
+		{"name":"VOYouWon",        "path":"media/sound/vo/announcer/VO_Announcer_Common_Global_YouWon.mp3", "autoload":true},
+		{"name":"VOSuperCharged",  "path":"media/sound/vo/announcer/VO_Announcer_VEH_global_Supercharged.mp3", "autoload":true},		
+		{"name":"VOReady",         "path":"media/sound/vo/announcer/vo_chatter_announcer_multi_all_04.mp3", "autoload":true},		
+		{"name":"VOFailed",        "path":"media/sound/vo/announcer/vo_chatter_announcer_sv_all_07.mp3", "autoload":true},
+		{"name":"VOSelectDC",    "path":"media/sound/vo/announcer/VO_Announcer_Skylander_Selected_Dive_Clops.mp3", "autoload":true},
+		{"name":"VOSelectNF",    "path":"media/sound/vo/announcer/VO_Announcer_Skylander_Selected_Nightfall.mp3", "autoload":true},
+		{"name":"VOSelectGG",    "path":"media/sound/vo/announcer/VO_Announcer_Skylander_Selected_Deep_Dive_Gill_Grunt.mp3", "autoload":true},
+		{"name":"VODB",          "path":"media/sound/vo/announcer/VO_Announcer_TorpedoSub_VEH_MM_Selected.mp3", "autoload":true},
+		{"name":"VODBPM1",       "path":"media/sound/vo/announcer/VO_Announcer_TorpedoSub_VEH_MOD_Primary1_Intro.mp3", "autoload":true},
+		{"name":"VODBPM2",       "path":"media/sound/vo/announcer/VO_Announcer_TorpedoSub_VEH_MOD_Primary2_Intro.mp3", "autoload":true},
+		{"name":"VODBPM3",       "path":"media/sound/vo/announcer/VO_Announcer_TorpedoSub_VEH_MOD_Primary3_Intro.mp3", "autoload":true},
+		{"name":"VODBPM4",       "path":"media/sound/vo/announcer/VO_Announcer_TorpedoSub_VEH_MOD_Primary4_Intro.mp3", "autoload":true},
+		{"name":"VODBSM1",       "path":"media/sound/vo/announcer/VO_Announcer_TorpedoSub_VEH_MOD_Secondary1_Intro.mp3", "autoload":true},
+		{"name":"VODBSM2",       "path":"media/sound/vo/announcer/VO_Announcer_TorpedoSub_VEH_MOD_Secondary2_Intro.mp3", "autoload":true},
+		{"name":"VODBSM3",       "path":"media/sound/vo/announcer/VO_Announcer_TorpedoSub_VEH_MOD_Secondary3_Intro.mp3", "autoload":true},
+		{"name":"VODBSM4",       "path":"media/sound/vo/announcer/VO_Announcer_TorpedoSub_VEH_MOD_Secondary4_Intro.mp3", "autoload":true},				
+		{"name":"VOSS",          "path":"media/sound/vo/announcer/VO_Announcer_DarkMantaSub_VEH_MM_Selected.mp3", "autoload":true},
+		{"name":"VOSSPM1",       "path":"media/sound/vo/announcer/VO_Announcer_DarkMantaSub_VEH_MOD_Primary1_Intro.mp3", "autoload":true},
+		{"name":"VOSSPM2",       "path":"media/sound/vo/announcer/VO_Announcer_DarkMantaSub_VEH_MOD_Primary2_Intro.mp3", "autoload":true},
+		{"name":"VOSSPM3",       "path":"media/sound/vo/announcer/VO_Announcer_DarkMantaSub_VEH_MOD_Primary3_Intro.mp3", "autoload":true},
+		{"name":"VOSSPM4",       "path":"media/sound/vo/announcer/VO_Announcer_DarkMantaSub_VEH_MOD_Primary4_Intro.mp3", "autoload":true},
+		{"name":"VOSSSM1",       "path":"media/sound/vo/announcer/VO_Announcer_DarkMantaSub_VEH_MOD_Secondary1_Intro.mp3", "autoload":true},
+		{"name":"VOSSSM2",       "path":"media/sound/vo/announcer/VO_Announcer_DarkMantaSub_VEH_MOD_Secondary2_Intro.mp3", "autoload":true},
+		{"name":"VOSSSM3",       "path":"media/sound/vo/announcer/VO_Announcer_DarkMantaSub_VEH_MOD_Secondary3_Intro.mp3", "autoload":true},
+		{"name":"VOSSSM4",       "path":"media/sound/vo/announcer/VO_Announcer_DarkMantaSub_VEH_MOD_Secondary4_Intro.mp3", "autoload":true},				
+		{"name":"VORR",          "path":"media/sound/vo/announcer/VO_Announcer_WaterFishSub_VEH_MM_Selected.mp3", "autoload":true},
+		{"name":"VORRPM1",       "path":"media/sound/vo/announcer/VO_Announcer_WaterFishSub_VEH_MOD_Primary1_Intro.mp3", "autoload":true},
+		{"name":"VORRPM2",       "path":"media/sound/vo/announcer/VO_Announcer_WaterFishSub_VEH_MOD_Primary2_Intro.mp3", "autoload":true},
+		{"name":"VORRPM3",       "path":"media/sound/vo/announcer/VO_Announcer_WaterFishSub_VEH_MOD_Primary3_Intro.mp3", "autoload":true},
+		{"name":"VORRPM4",       "path":"media/sound/vo/announcer/VO_Announcer_WaterFishSub_VEH_MOD_Primary4_Intro.mp3", "autoload":true},
+		{"name":"VORRSM1",       "path":"media/sound/vo/announcer/VO_Announcer_WaterFishSub_VEH_MOD_Secondary1_Intro.mp3", "autoload":true},
+		{"name":"VORRSM2",       "path":"media/sound/vo/announcer/VO_Announcer_WaterFishSub_VEH_MOD_Secondary2_Intro.mp3", "autoload":true},
+		{"name":"VORRSM3",       "path":"media/sound/vo/announcer/VO_Announcer_WaterFishSub_VEH_MOD_Secondary3_Intro.mp3", "autoload":true},
+		{"name":"VORRSM4",       "path":"media/sound/vo/announcer/VO_Announcer_WaterFishSub_VEH_MOD_Secondary4_Intro.mp3", "autoload":true},				
+
+
+					
+		{"name":"VOBanterDC",   "path":"media/sound/vo/characters/vo_diveclops_banter_catchphrase_01.mp3", "autoload":true},
+		{"name":"VOBanterNF",   "path":"media/sound/vo/characters/vo_nightfall_banter_catchphrase_01.mp3", "autoload":true},
+		{"name":"VOBanterGG",   "path":"media/sound/vo/characters/vo_gill_grunt_banter_selected_01.mp3", "autoload":true},
+		{"name":"VOHitDC",   "path":"media/sound/vo/characters/vo_diveclops_emote_pain_light_01.mp3", "autoload":true},
+		{"name":"VOHitNF",   "path":"media/sound/vo/characters/vo_nightfall_emote_pain_light_01.mp3", "autoload":true},
+		{"name":"VOHitGG",   "path":"media/sound/vo/characters/vo_gill_grunt_emote_pain_light_01.mp3", "autoload":true},
+		{"name":"VOCrashDC",   "path":"media/sound/vo/characters/vo_diveclops_emote_death_01.mp3", "autoload":true},
+		{"name":"VOCrashNF",   "path":"media/sound/vo/characters/vo_nightfall_emote_death_01.mp3", "autoload":true},
+		{"name":"VOCrashGG",   "path":"media/sound/vo/characters/vo_gill_grunt_emote_tired_01.mp3", "autoload":true}
+
+	],
+
+	"assets":
+	[
+
+		{"type":"Audio", "name":"BGMMenu", "category":"music", "loop":true, "volume":100},
+		{"type":"Audio", "name":"BGMLevel", "category":"music", "loop":true, "volume":100},
+		{"type":"Audio", "name":"BGMStinger", "category":"music", "loop":false, "volume":100},
+
+		{"type":"Audio", "name":"SFXBoostPad",           "category":"sfx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SFXGearbitCollect",     "category":"sfx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SFXBonusShoe",          "category":"sfx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SFXBonusShield",        "category":"sfx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SFXBonusShieldBlock",   "category":"sfx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SFXBonusElixir",        "category":"sfx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SFXBonusJukebox",       "category":"sfx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SFXBonusHourglass",     "category":"sfx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SFXSurfaceIce",         "category":"sfx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SFXSlow",              "category":"sfx", "loop":true, "volume":60},
+		{"type":"Audio", "name":"SFXUnlock",           "category":"sfx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SFXOutOfAmmo",          "category":"sfx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SFXDBEngine",          "category":"sfx", "loop":false, "volume":20},
+		{"type":"Audio", "name":"SFXDBRev",          "category":"sfx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SFXSSEngine",          "category":"sfx", "loop":false, "volume":20},
+		{"type":"Audio", "name":"SFXSSRev",          "category":"sfx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SFXRREngine",          "category":"sfx", "loop":false, "volume":20},
+		{"type":"Audio", "name":"SFXRRRev",          "category":"sfx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SFXDBShoot",           "category":"sfx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SFXDBSpecial",         "category":"sfx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SFXDBTorpedo",         "category":"sfx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SFXSSShoot",           "category":"sfx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SFXSSSpecial",         "category":"sfx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SFXSSExplosion",         "category":"sfx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SFXRRShoot",          "category":"sfx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SFXRRSpecial",        "category":"sfx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SFXEnemyShootHit",     "category":"sfx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SFXEnemyExplode",      "category":"sfx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SFXBump",               "category":"sfx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SFXSlow",              "category":"sfx", "loop":true, "volume":60},
+
+		{"type":"Audio", "name":"SUIClick",           "category":"uifx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SUIHint",           "category":"uifx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SUIShuffle",           "category":"uifx", "loop":false, "volume":100},
+		{"type":"Audio", "name":"SUIAlarm",           "category":"uifx", "loop":false, "volume":100},
+		{"type":"Audio", "name":"SUIPieceSelected",     "category":"uifx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SUICollect",  "category":"uifx", "loop":false, "volume":100},
+		{"type":"Audio", "name":"SUIBonusGet",  "category":"uifx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SUIUnlock",          "category":"uifx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SUISuperCharged",    "category":"uifx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SUIUpgradeApply",    "category":"uifx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SUIPause",           "category":"uifx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SUIResume",          "category":"uifx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SUIMouseOver",       "category":"uifx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SUIPurchaseFail",    "category":"uifx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SUIPurchaseSuccess", "category":"uifx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SUIEndScreenWin",    "category":"uifx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SUIResultsStar",     "category":"uifx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SUIStatIncrease",    "category":"uifx", "loop":false, "volume":60},
+		{"type":"Audio", "name":"SUIResultsWin",      "category":"uifx", "loop":false, "volume":60},
+
+		{"type":"Audio", "name":"VOCount3",          "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOCount2",          "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOCount1",          "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOGo",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOHighScore",       "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOYouWin",          "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOYouWon",          "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOSuperCharged",    "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOReady",           "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOFailed",          "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOSelectDC",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOSelectNF",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOSelectGG",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VODB",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VODBSM1",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VODBSM2",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VODBSM3",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VODBSM4",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VODBPM1",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VODBPM2",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VODBPM3",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VODBPM4",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOSS",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOSSSM1",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOSSSM2",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOSSSM3",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOSSSM4",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOSSPM1",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOSSPM2",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOSSPM3",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOSSPM4",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VORR",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VORRSM1",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VORRSM2",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VORRSM3",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VORRSM4",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VORRPM1",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VORRPM2",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VORRPM3",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VORRPM4",              "category":"vo", "loop":false, "volume":60},
+
+		{"type":"Audio", "name":"VOBanterDC",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOBanterNF",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOBanterGG",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOHitDC",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOHitNF",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOHitGG",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOCrashDC",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOCrashNF",              "category":"vo", "loop":false, "volume":60},
+		{"type":"Audio", "name":"VOCrashGG",              "category":"vo", "loop":false, "volume":60}
+	],
+
+	"controls":
+	[
+		{"input":"M", "value":"mute"},
+		{"input":"P", "value":"pause"},
+
+		{"input":"A", "value":"left"},
+
+		{"input":"INPUT_INPUT", "value":"input"},
+		{"input":"INPUT_MOVE", "value":"move"}
+	]
+}

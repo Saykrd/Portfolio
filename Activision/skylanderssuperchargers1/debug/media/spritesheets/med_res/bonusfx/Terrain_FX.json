@@ -1,0 +1,92 @@
+{"frames": [
+
+{
+	"filename": "Terrain_Dust_FX/0000",
+	"frame": {"x":2,"y":75,"w":82,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":59,"y":80,"w":82,"h":53},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "Terrain_Dust_FX/0001",
+	"frame": {"x":2,"y":75,"w":82,"h":53},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":59,"y":80,"w":82,"h":53},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "Terrain_Dust_FX/0002",
+	"frame": {"x":92,"y":73,"w":102,"h":57},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":49,"y":76,"w":102,"h":57},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "Terrain_Dust_FX/0003",
+	"frame": {"x":92,"y":73,"w":102,"h":57},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":49,"y":76,"w":102,"h":57},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "Terrain_Dust_FX/0004",
+	"frame": {"x":92,"y":2,"w":86,"h":71},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":57,"y":60,"w":86,"h":71},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "Terrain_Dust_FX/0005",
+	"frame": {"x":92,"y":2,"w":86,"h":71},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":57,"y":60,"w":86,"h":71},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "Terrain_Dust_FX/0006",
+	"frame": {"x":2,"y":2,"w":90,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":62,"y":56,"w":90,"h":73},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "Terrain_Dust_FX/0007",
+	"frame": {"x":2,"y":2,"w":90,"h":73},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":62,"y":56,"w":90,"h":73},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "Terrain_Dust_FX/0008",
+	"frame": {"x":178,"y":2,"w":74,"h":67},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":74,"y":63,"w":74,"h":67},
+	"sourceSize": {"w":212,"h":133}
+},
+{
+	"filename": "Terrain_Dust_FX/0009",
+	"frame": {"x":178,"y":2,"w":74,"h":67},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":74,"y":63,"w":74,"h":67},
+	"sourceSize": {"w":212,"h":133}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "Terrain_FX.png",
+	"format": "RGBA8888",
+	"size": {"w":254,"h":132},
+	"scale": "0.5",
+	"smartupdate": "$TexturePacker:SmartUpdate:54e19841822fd3b208375742a31e15cf:1/1$"
+}
+}

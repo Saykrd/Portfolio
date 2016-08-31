@@ -1,0 +1,396 @@
+{"frames": [
+
+{
+	"filename": "bonus_elixir_get_fx/0000",
+	"frame": {"x":864,"y":348,"w":338,"h":424},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":160,"y":85,"w":338,"h":424},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_get_fx/0001",
+	"frame": {"x":864,"y":348,"w":338,"h":424},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":160,"y":85,"w":338,"h":424},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_get_fx/0002",
+	"frame": {"x":2,"y":842,"w":418,"h":424},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":107,"y":87,"w":418,"h":424},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_get_fx/0003",
+	"frame": {"x":2,"y":842,"w":418,"h":424},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":107,"y":87,"w":418,"h":424},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_get_fx/0004",
+	"frame": {"x":2,"y":422,"w":436,"h":420},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":99,"y":92,"w":436,"h":420},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_get_fx/0005",
+	"frame": {"x":2,"y":422,"w":436,"h":420},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":99,"y":92,"w":436,"h":420},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_get_fx/0006",
+	"frame": {"x":2,"y":2,"w":446,"h":420},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":92,"y":92,"w":446,"h":420},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_get_fx/0007",
+	"frame": {"x":2,"y":2,"w":446,"h":420},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":92,"y":92,"w":446,"h":420},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_get_fx/0008",
+	"frame": {"x":420,"y":842,"w":436,"h":396},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":97,"y":112,"w":436,"h":396},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_get_fx/0009",
+	"frame": {"x":420,"y":842,"w":436,"h":396},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":97,"y":112,"w":436,"h":396},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_get_fx/0010",
+	"frame": {"x":438,"y":422,"w":426,"h":392},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":103,"y":116,"w":426,"h":392},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_get_fx/0011",
+	"frame": {"x":438,"y":422,"w":426,"h":392},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":103,"y":116,"w":426,"h":392},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_get_fx/0012",
+	"frame": {"x":856,"y":814,"w":418,"h":388},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":107,"y":120,"w":418,"h":388},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_get_fx/0013",
+	"frame": {"x":856,"y":814,"w":418,"h":388},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":107,"y":120,"w":418,"h":388},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_get_fx/0014",
+	"frame": {"x":1064,"y":1202,"w":386,"h":346},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":155,"y":138,"w":386,"h":346},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_get_fx/0015",
+	"frame": {"x":1064,"y":1202,"w":386,"h":346},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":155,"y":138,"w":386,"h":346},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0000",
+	"frame": {"x":1202,"y":342,"w":322,"h":302},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":189,"y":179,"w":322,"h":302},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0001",
+	"frame": {"x":1202,"y":342,"w":322,"h":302},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":189,"y":179,"w":322,"h":302},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0002",
+	"frame": {"x":1450,"y":952,"w":290,"h":312},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":188,"y":169,"w":290,"h":312},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0003",
+	"frame": {"x":1450,"y":952,"w":290,"h":312},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":188,"y":169,"w":290,"h":312},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0004",
+	"frame": {"x":742,"y":2,"w":294,"h":346},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":187,"y":142,"w":294,"h":346},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0005",
+	"frame": {"x":742,"y":2,"w":294,"h":346},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":187,"y":142,"w":294,"h":346},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0006",
+	"frame": {"x":1740,"y":1188,"w":306,"h":292},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":182,"y":189,"w":306,"h":292},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0007",
+	"frame": {"x":1740,"y":1188,"w":306,"h":292},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":182,"y":189,"w":306,"h":292},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0008",
+	"frame": {"x":1326,"y":2,"w":322,"h":290},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":189,"y":191,"w":322,"h":290},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0009",
+	"frame": {"x":1326,"y":2,"w":322,"h":290},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":189,"y":191,"w":322,"h":290},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0010",
+	"frame": {"x":1450,"y":1264,"w":290,"h":288},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":188,"y":193,"w":290,"h":288},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0011",
+	"frame": {"x":1450,"y":1264,"w":290,"h":288},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":188,"y":193,"w":290,"h":288},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0012",
+	"frame": {"x":1274,"y":644,"w":294,"h":308},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":187,"y":180,"w":294,"h":308},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0013",
+	"frame": {"x":1274,"y":644,"w":294,"h":308},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":187,"y":180,"w":294,"h":308},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0014",
+	"frame": {"x":1740,"y":896,"w":306,"h":292},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":182,"y":189,"w":306,"h":292},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0015",
+	"frame": {"x":1740,"y":896,"w":306,"h":292},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":182,"y":189,"w":306,"h":292},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0016",
+	"frame": {"x":420,"y":1238,"w":322,"h":312},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":189,"y":169,"w":322,"h":312},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0017",
+	"frame": {"x":420,"y":1238,"w":322,"h":312},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":189,"y":169,"w":322,"h":312},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0018",
+	"frame": {"x":1036,"y":2,"w":290,"h":340},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":188,"y":141,"w":290,"h":340},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0019",
+	"frame": {"x":1036,"y":2,"w":290,"h":340},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":188,"y":141,"w":290,"h":340},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0020",
+	"frame": {"x":2,"y":1266,"w":294,"h":276},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":187,"y":212,"w":294,"h":276},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0021",
+	"frame": {"x":2,"y":1266,"w":294,"h":276},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":187,"y":212,"w":294,"h":276},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0022",
+	"frame": {"x":1568,"y":604,"w":306,"h":292},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":182,"y":189,"w":306,"h":292},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0023",
+	"frame": {"x":1568,"y":604,"w":306,"h":292},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":182,"y":189,"w":306,"h":292},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0024",
+	"frame": {"x":742,"y":1238,"w":322,"h":302},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":189,"y":179,"w":322,"h":302},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0025",
+	"frame": {"x":742,"y":1238,"w":322,"h":302},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":189,"y":179,"w":322,"h":302},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0026",
+	"frame": {"x":1648,"y":2,"w":290,"h":290},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":188,"y":191,"w":290,"h":290},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0027",
+	"frame": {"x":1648,"y":2,"w":290,"h":290},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":188,"y":191,"w":290,"h":290},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0028",
+	"frame": {"x":1524,"y":292,"w":290,"h":312},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":188,"y":169,"w":290,"h":312},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0029",
+	"frame": {"x":1524,"y":292,"w":290,"h":312},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":188,"y":169,"w":290,"h":312},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0030",
+	"frame": {"x":448,"y":2,"w":294,"h":346},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":187,"y":142,"w":294,"h":346},
+	"sourceSize": {"w":660,"h":550}
+},
+{
+	"filename": "bonus_elixir_overlay_fx/0031",
+	"frame": {"x":448,"y":2,"w":294,"h":346},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":187,"y":142,"w":294,"h":346},
+	"sourceSize": {"w":660,"h":550}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "Bonus_Elixir_FX.png",
+	"format": "RGBA8888",
+	"size": {"w":2048,"h":1554},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:7e6f466b2767822d0c8740ac7361de4a:1/1$"
+}
+}

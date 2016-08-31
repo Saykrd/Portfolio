@@ -1,0 +1,396 @@
+{"frames": [
+
+{
+	"filename": "HS_volcanicvents_bluefiretires_left/0000",
+	"frame": {"x":232,"y":122,"w":74,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":8,"w":74,"h":56},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_bluefiretires_left/0001",
+	"frame": {"x":390,"y":2,"w":76,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":8,"w":76,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_bluefiretires_left/0002",
+	"frame": {"x":236,"y":178,"w":76,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":8,"w":76,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_bluefiretires_left/0003",
+	"frame": {"x":82,"y":122,"w":76,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":12,"y":8,"w":76,"h":56},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_bluefiretires_right/0000",
+	"frame": {"x":314,"y":2,"w":76,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":6,"w":76,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_bluefiretires_right/0001",
+	"frame": {"x":534,"y":178,"w":74,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":7,"w":74,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_bluefiretires_right/0002",
+	"frame": {"x":614,"y":2,"w":74,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":7,"w":74,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_bluefiretires_right/0003",
+	"frame": {"x":158,"y":122,"w":74,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":8,"w":74,"h":56},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_bluefiretires_straight/0000",
+	"frame": {"x":740,"y":60,"w":72,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":4,"w":72,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_bluefiretires_straight/0001",
+	"frame": {"x":680,"y":178,"w":72,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":3,"w":72,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_bluefiretires_straight/0002",
+	"frame": {"x":668,"y":120,"w":72,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":3,"w":72,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_bluefiretires_straight/0003",
+	"frame": {"x":688,"y":2,"w":72,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":4,"w":72,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_coalshooters_left/0000",
+	"frame": {"x":80,"y":178,"w":80,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":8,"w":80,"h":56},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_coalshooters_left/0001",
+	"frame": {"x":2,"y":2,"w":84,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":8,"w":84,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_coalshooters_left/0002",
+	"frame": {"x":2,"y":120,"w":80,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":7,"w":80,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_coalshooters_left/0003",
+	"frame": {"x":2,"y":178,"w":78,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":8,"w":78,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_coalshooters_right/0000",
+	"frame": {"x":160,"y":178,"w":76,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":6,"w":76,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_coalshooters_right/0001",
+	"frame": {"x":2,"y":60,"w":80,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":8,"y":6,"w":80,"h":60},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_coalshooters_right/0002",
+	"frame": {"x":238,"y":2,"w":76,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":11,"y":7,"w":76,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_coalshooters_right/0003",
+	"frame": {"x":522,"y":120,"w":74,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":8,"w":74,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_coalshooters_straight/0000",
+	"frame": {"x":594,"y":60,"w":74,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":3,"w":74,"h":60},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_coalshooters_straight/0001",
+	"frame": {"x":230,"y":60,"w":74,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":4,"w":74,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_coalshooters_straight/0002",
+	"frame": {"x":156,"y":60,"w":74,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":3,"w":74,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_coalshooters_straight/0003",
+	"frame": {"x":82,"y":60,"w":74,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":3,"w":74,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_roadburners_left/0000",
+	"frame": {"x":460,"y":178,"w":74,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":7,"w":74,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_roadburners_left/0001",
+	"frame": {"x":540,"y":2,"w":74,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":8,"w":74,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_roadburners_left/0002",
+	"frame": {"x":162,"y":2,"w":76,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":13,"y":8,"w":76,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_roadburners_left/0003",
+	"frame": {"x":386,"y":178,"w":74,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":14,"y":8,"w":74,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_roadburners_right/0000",
+	"frame": {"x":466,"y":2,"w":74,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":7,"w":74,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_roadburners_right/0001",
+	"frame": {"x":520,"y":60,"w":74,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":6,"w":74,"h":60},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_roadburners_right/0002",
+	"frame": {"x":86,"y":2,"w":76,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":15,"y":8,"w":76,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_roadburners_right/0003",
+	"frame": {"x":312,"y":178,"w":74,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":8,"w":74,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_roadburners_straight/0000",
+	"frame": {"x":448,"y":60,"w":72,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":3,"w":72,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_roadburners_straight/0001",
+	"frame": {"x":376,"y":60,"w":72,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":3,"w":72,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_roadburners_straight/0002",
+	"frame": {"x":304,"y":60,"w":72,"h":62},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":4,"w":72,"h":62},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_roadburners_straight/0003",
+	"frame": {"x":608,"y":178,"w":72,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":4,"w":72,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_speeddemon_left/0000",
+	"frame": {"x":812,"y":60,"w":72,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":8,"w":72,"h":56},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_speeddemon_left/0001",
+	"frame": {"x":752,"y":174,"w":72,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":7,"w":72,"h":56},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_speeddemon_left/0002",
+	"frame": {"x":740,"y":118,"w":72,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":7,"w":72,"h":56},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_speeddemon_left/0003",
+	"frame": {"x":812,"y":116,"w":72,"h":54},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":7,"w":72,"h":54},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_speeddemon_right/0000",
+	"frame": {"x":450,"y":122,"w":72,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":7,"w":72,"h":56},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_speeddemon_right/0001",
+	"frame": {"x":760,"y":2,"w":70,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":6,"w":70,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_speeddemon_right/0002",
+	"frame": {"x":830,"y":2,"w":70,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":8,"w":70,"h":56},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_speeddemon_right/0003",
+	"frame": {"x":824,"y":170,"w":70,"h":54},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":17,"y":8,"w":70,"h":54},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_speeddemon_straight/0000",
+	"frame": {"x":596,"y":120,"w":72,"h":58},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":4,"w":72,"h":58},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_speeddemon_straight/0001",
+	"frame": {"x":378,"y":122,"w":72,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":4,"w":72,"h":56},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_speeddemon_straight/0002",
+	"frame": {"x":668,"y":60,"w":72,"h":60},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":3,"w":72,"h":60},
+	"sourceSize": {"w":106,"h":66}
+},
+{
+	"filename": "HS_volcanicvents_speeddemon_straight/0003",
+	"frame": {"x":306,"y":122,"w":72,"h":56},
+	"rotated": false,
+	"trimmed": true,
+	"spriteSourceSize": {"x":16,"y":5,"w":72,"h":56},
+	"sourceSize": {"w":106,"h":66}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker ",
+	"version": "1.0",
+	"image": "HotStreak_Fiesta_VolcanicVents_1.png",
+	"format": "RGBA8888",
+	"size": {"w":904,"h":238},
+	"scale": "0.25",
+	"smartupdate": "$TexturePacker:SmartUpdate:64f0f449886a3b007b826289effa1904:1/1$"
+}
+}
