@@ -28797,7 +28797,9 @@ var Avota;
                 this._compressorNode.threshold.value = -50;
                 this._compressorNode.knee.value = 40;
                 this._compressorNode.ratio.value = 12;
-                this._compressorNode.reduction.value = -20;
+                if(typeof this._compressorNode.reduction == "object") {
+                    this._compressorNode.reduction.value = -20;
+                }
                 this._compressorNode.attack.value = 0;
                 this._compressorNode.release.value = 0.25;
                 if(typeof this._audioContext.createGain === 'undefined') {

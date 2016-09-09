@@ -1,7 +1,7 @@
 {
 	"settings" : {
 		"showGrid" : false,
-		"debugHitboxes" : true,
+		"debugHitboxes" : false,
 		"debugSections" : false,
 		"debugHideGraphics" : false,
 		"loadLevelOnStart" : false

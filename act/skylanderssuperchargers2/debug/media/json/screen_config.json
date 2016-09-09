@@ -1,5 +1,5 @@
 {
-	"startScreen" : "EndScreen",
+	"startScreen" : "TitleScreen",
 	"loadingScreen" : "MenuLoadScreen",
 
 	"menus" : {

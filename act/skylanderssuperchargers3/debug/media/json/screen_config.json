@@ -65,7 +65,7 @@
 
 
 		"TitleScreen" : [
-			{"name" :"GameTitle", "type": "text", "params": {"left" :300, "top" : 65, "zIndex" : 7, "lineWidth" : 660, "gradient": [{"position":0, "color":"#FFFFFF"}, {"position":0.15, "color":"#EDD389"}, {"position":1, "color":"#FFFFFF"}],
+			{"name" :"GameTitle", "type": "text", "params": {"left" :600, "top" : 65, "zIndex" : 7, "lineWidth" : 300, "gradient": [{"position":0, "color":"#FFFFFF"}, {"position":0.15, "color":"#EDD389"}, {"position":1, "color":"#FFFFFF"}],
 			 "shadow" : true, "shadowColor":  "#222222", "shadowStrength" : 5, "shadowOffsetX" : 3, "shadowOffsetY" : 3 }},
 			{"name" :"SShadowTitle", "type": "image", "asset" : "SShadowTitle", "params": {"x" : 260, "y" : 150, "zIndex" : 4} },
 			{"name" :"DBomberTitle", "type": "image", "asset" : "DBomberTitle", "params": {"x" : 0, "y" : 200, "zIndex" : 3} },
@@ -82,9 +82,9 @@
 			
 			{"name" :"WelcomeGroup", "type": "group", "params": {"x" : 0, "y" : 0, "zIndex" : 4} },	
 				{"name" :"TextBoxWelcome", "group" : "WelcomeGroup", "type": "image", "asset" : "TextBoxWelcome", "params": {"x" : 375, "y" : 115, "zIndex" : 3} },
-				{"name" :"WelcomeCopy1", "group" : "WelcomeGroup", "type": "text", "params": {"left" :500, "top" : 210, "zIndex" : 4, "lineWidth" : 390}},
-				{"name" :"WelcomeCopy2", "group" : "WelcomeGroup", "type": "text", "params": {"left" :500, "top" : 300, "zIndex" : 4, "lineWidth" : 380}},
-				{"name" :"WelcomeCopy3","group" : "WelcomeGroup",  "type": "text", "params": {"left" :500, "top" : 390, "zIndex" : 4, "lineWidth" : 390}},
+				{"name" :"WelcomeCopy1", "group" : "WelcomeGroup", "type": "text", "params": {"left" :500, "top" : 210, "zIndex" : 4, "lineWidth" : 380}},
+				{"name" :"WelcomeCopy2", "group" : "WelcomeGroup", "type": "text", "params": {"left" :500, "top" : 300, "zIndex" : 4, "lineWidth" : 360}},
+				{"name" :"WelcomeCopy3","group" : "WelcomeGroup",  "type": "text", "params": {"left" :500, "top" : 390, "zIndex" : 4, "lineWidth" : 380}},
 			
 			{"name" :"NextButtonWS", "type": "button", "spritesheetID" : "Buttons", "prefix" : "button_generic", "params": {"x" :580, "y" :550, "zIndex" : 14}}
 		],
@@ -131,7 +131,7 @@
 
 			{"name" :"StarBanner", "type": "image","group": "VSScreenGroup", "asset" : "StarBanner", "params": {"x" :380,  "y" :270, "zIndex" : 5} },
 			{"name" :"StarBannerGlow", "type": "image", "group": "VSScreenGroup","asset" : "StarBanner", "params": {"x" :380,  "y" :270, "zIndex" : 5} },
-			{"name" :"ComboText", "type": "text","group": "VSScreenGroup", "params": {"left" :420, "top" : 440, "zIndex" : 6, "lineWidth" : 138}},
+			{"name" :"ComboText", "type": "text","group": "VSScreenGroup", "params": {"left" :420, "top" : 440, "zIndex" : 6, "lineWidth" : 135}},
 			
 
 			{"name" :"TextBoxSelectChar", "type": "image","group": "VSScreenGroup", "asset" : "TextBoxSelect", "params": {"x" : 80,  "y" :380, "zIndex" : 3} },
@@ -351,7 +351,7 @@
 
 			{"name" :"UpgradeCurrencyGroup", "type": "group", "params": {"x" : 0, "y" : 0, "zIndex" : 8} },
 				{"name" :"UpgradeScreenGearbitTop", "group" : "UpgradeCurrencyGroup", "type": "image", "asset" : "UpgradeScreenGearbitTop", "params": {"x" : 460,  "y" :70, "zIndex" : 2} },
-				{"name" :"CurrencyCopy",   "group" : "UpgradeCurrencyGroup", "type": "text",   "params": {"left" :250, "top" : 90, "zIndex" : 6, "lineWidth" : 300,
+				{"name" :"CurrencyCopy",   "group" : "UpgradeCurrencyGroup", "type": "text",   "params": {"left" :300, "top" : 90, "zIndex" : 6, "lineWidth" : 300,
 					"shadow" : true, "shadowColor":  "#000000", "shadowStrength" : 1, "shadowOffsetX" : 3, "shadowOffsetY" : 3}},
 				{"name" :"CurrencyAmount", "group" : "UpgradeCurrencyGroup", "type": "text",   "params": {"left" :530, "top" : 90, "zIndex" : 6, "lineWidth" : 300, "style": ".upgradeHeader",
 					"shadow" : true, "shadowColor":  "#000000", "shadowStrength" : 1, "shadowOffsetX" : 3, "shadowOffsetY" : 3, "text" : "00,000"}},
